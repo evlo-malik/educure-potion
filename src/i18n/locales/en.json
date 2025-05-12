@@ -1,0 +1,704 @@
+{
+  "profile": {
+    "title": "Account Information",
+    "error": "Error",
+    "success": "Success",
+    "sections": {
+      "name": {
+        "label": "Name",
+        "edit": "Edit",
+        "save": "Save"
+      },
+      "email": {
+        "label": "Email"
+      },
+      "password": {
+        "label": "Password",
+        "change": "Change",
+        "save": "Save",
+        "current": "Current password",
+        "new": "New password",
+        "confirm": "Confirm new password"
+      },
+      "subscription": {
+        "label": "Subscription Plan",
+        "upgrade": "Upgrade Plan",
+        "manage": "Manage Subscription",
+        "new": "New!"
+      },
+      "messages": {
+        "label": "Message Usage",
+        "description": "Track your daily and weekly message limits",
+        "textMessages": "Text Messages",
+        "areaSelection": "Area Selection Messages",
+        "planUsageDaily": "Plan Usage (Daily)",
+        "planUsageWeekly": "Plan Usage (Weekly)",
+        "purchasedMessages": "Purchased Messages",
+        "buyMore": "Buy More",
+        "infinity": "∞"
+      },
+      "account": {
+        "title": "Account Details",
+        "memberSince": "Member Since",
+        "lastLogin": "Last Login",
+        "never": "Never"
+      },
+      "language": {
+        "label": "Language"
+      },
+      "danger": {
+        "title": "Danger Zone",
+        "warning": "Once you delete your account, there is no going back. Please be certain.",
+        "delete": "Delete Account",
+        "confirm": "Confirm Delete",
+        "cancel": "Cancel",
+        "deleting": "Deleting Account..."
+      }
+    },
+    "subscription": {
+      "cancel": {
+        "title": "Are you sure you want to cancel?",
+        "processing": "Cancelling subscription...",
+        "description": "You'll lose access to premium features at the end of your current billing period.",
+        "wait": "Please wait while we process your request.",
+        "keep": "Keep Subscription",
+        "confirm": "Cancel Subscription"
+      }
+    }
+  },
+  "dashboard": {
+    "computerRecommended": {
+      "title": "Computer Recommended",
+      "description": "For the best learning experience and access to all features, we strongly recommend using EduCure AI on a desktop or laptop computer."
+    },
+    "upload": {
+      "title": "Upload Document",
+      "youtube": {
+        "placeholder": "Paste YouTube video URL...",
+        "import": "Import"
+      },
+      "pdf": {
+        "button": "Choose PDF",
+        "dragDrop": "or drag and drop",
+        "maxSize": "Maximum file size: {{size}}MB",
+        "processing": "Processing...",
+        "readingPdf": "Reading PDF content...",
+        "saving": "Saving document..."
+      }
+    },
+    "record": {
+      "title": "Record Live Lecture",
+      "start": "Start Recording",
+      "description": "Record and transcribe your lectures in real-time"
+    },
+    "limits": {
+      "documents": {
+        "title": "Weekly Document Uploads",
+        "unlimited": "Unlimited"
+      },
+      "lectures": {
+        "title": "Monthly Lecture Recordings"
+      }
+    },
+    "documents": {
+      "title": "Your Documents",
+      "empty": {
+        "title": "Untitled Document"
+      },
+      "actions": {
+        "delete": "Delete",
+        "more": "More actions",
+        "rename": "Rename",
+        "moveToSubject": "Move to Subject"
+      },
+      "sections": {
+        "pdf": "PDF & Lecture Documents",
+        "youtube": "YouTube Videos"
+      },
+      "errors": {
+        "moveDocument": "Failed to move document to subject"
+      }
+    },
+    "errors": {
+      "login": "Please log in to upload documents",
+      "youtube": {
+        "url": "Please enter a YouTube URL",
+        "invalid": "Please enter a valid YouTube URL",
+        "import": "Failed to import video transcript. Please try again.",
+        "noTranscript": "This video does not have transcript available. Please try a different video with transcript enabled.",
+        "networkError": "Internet connection issue detected. Please check your connection and try again.",
+        "unexpectedError": "An unexpected error occurred while processing your video. Please try again."
+      },
+      "pdf": {
+        "invalid": "Please upload a valid PDF file. Other file types are not supported.",
+        "size": "File size exceeds the {{size}}MB limit for your plan. Please compress the PDF or upgrade your plan for larger uploads.",
+        "upload": "Failed to upload document. Please try again.",
+        "password": "This PDF is password-protected. Please remove the password protection and try again.",
+        "corrupt": "This PDF file appears to be corrupted or invalid. Please ensure it is a valid PDF and try again.",
+        "storage": "Storage quota exceeded. Please free up some space or upgrade your plan.",
+        "networkError": "Internet connection issue detected. Please check your connection and try again.",
+        "unexpectedError": "An unexpected error occurred while processing your PDF. Please try again.",
+        "empty": "This PDF appears to be empty or contains no extractable text. Please ensure the PDF has text content."
+      },
+      "document": {
+        "deleteFailed": "Failed to delete document"
+      },
+      "limit": "Upload limit reached",
+      "upgrade": "Upgrade your plan"
+    },
+    "subjects": {
+      "title": "Subjects",
+      "add": "Add Subject",
+      "rename": "Rename Subject",
+      "dashboard": "Dashboard",
+      "newPlaceholder": "Enter subject name...",
+      "delete": {
+        "title": "Delete Subject",
+        "message": "Are you sure you want to delete this subject? All documents will be moved to the Dashboard.",
+        "confirm": "Delete",
+        "cancel": "Cancel"
+      },
+      "manage": "Manage your {{subject}} documents and lectures"
+    }
+  },
+  "documentView": {
+    "tabs": {
+      "chat": "Chat",
+      "notes": "Notes",
+      "flashcards": "Flashcards",
+      "test": "Test",
+      "vocalize": "Vocalize"
+    },
+    "selectionMode": {
+      "textActive": "Text Selection Mode Active",
+      "areaActive": "Area Selection Mode Active"
+    },
+    "actions": {
+      "download": "Download",
+      "hideDocument": "Hide Document",
+      "showDocument": "Show Document"
+    },
+    "notes": {
+      "generate": "Generate",
+      "generating": "Generating...",
+      "description": "Create detailed study notes with key points and in-depth explanations"
+    },
+    "flashcards": {
+      "generate": "Generate",
+      "generating": "Generating...",
+      "description": "Create AI-powered flashcards from your document to memorize key concepts",
+      "navigation": {
+        "previous": "Previous Card",
+        "next": "Next Card"
+      },
+      "labels": {
+        "question": "Question",
+        "answer": "Answer"
+      },
+      "placeholders": {
+        "question": "Enter your question here...",
+        "answer": "Enter your answer here..."
+      },
+      "deleteConfirm": {
+        "title": "Delete Flashcard",
+        "message": "Are you sure you want to delete this flashcard? This action cannot be undone."
+      },
+      "clickToFlip": "Click to flip",
+      "actions": {
+        "export": "Export",
+        "new": "Add Flashcard"
+      },
+      "export": {
+        "toCsv": "Export to CSV",
+        "toClipboard": "Copy Text"
+      },
+      "copySuccess": "Flashcards copied to clipboard successfully",
+      "copyError": "Failed to copy flashcards to clipboard",
+      "exportError": "Failed to export flashcards to CSV"
+    },
+    "test": {
+      "generate": "Generate",
+      "generating": "Generating...",
+      "description": "Create interactive tests with multiple choice and true/false questions to check your understanding",
+      "results": {
+        "score": {
+          "perfect": "The GOAT 🐐",
+          "excellent": "Absolute beast mode 💪",
+          "great": "You're him fr 😤",
+          "good": "Mid, but we moving 🚶",
+          "fair": "Gotta lock in 🔒",
+          "poor": "You're cooked lil bro 💀"
+        },
+        "yourAnswer": "Your Answer",
+        "correctAnswer": "Correct Answer"
+      },
+      "buttons": {
+        "submit": "Submit Test",
+        "tryAgain": "Try Again",
+        "generateNew": "Generate New Test"
+      },
+      "options": {
+        "true": "True",
+        "false": "False"
+      },
+      "previousTests": {
+        "title": "Previous Tests",
+        "number": "Test #{{number}}"
+      }
+    },
+    "vocalize": {
+      "beta": "BETA",
+      "generate": "Generate",
+      "generating": "Generating...",
+      "description": "Convert text to natural speech",
+      "voiceStyle": "Voice Style",
+      "styleOptions": {
+        "lecture": {
+          "label": "Lecture",
+          "description": "Professional academic voice for clear explanations"
+        },
+        "news": {
+          "label": "News Anchor",
+          "description": "Professional broadcast style voice"
+        },
+        "soft": {
+          "label": "Soft Voice",
+          "description": "Gentle, soothing voice for comfortable learning"
+        },
+        "asmr": {
+          "label": "ASMR",
+          "description": "Soft, intimate voice for relaxed learning",
+          "pro": "PRO"
+        },
+        "motivational": {
+          "label": "Motivational",
+          "description": "Energetic voice to inspire and engage",
+          "pro": "PRO"
+        },
+        "storytelling": {
+          "label": "Storytelling",
+          "description": "Expressive voice for narrative content",
+          "pro": "PRO"
+        }
+      },
+      "usage": {
+        "standard": "Standard Vocalize",
+        "pro": "PRO Vocalize"
+      },
+      "errors": {
+        "limitReached": "Generation limit reached",
+        "upgradeRequired": "Upgrade your plan",
+        "maxAudioLimit": "Maximum Audio Limit Reached",
+        "deleteExisting": "Delete an existing audio version to generate a new one",
+        "generatingAudio": "Generating Audio Experience...",
+        "creatingStyle": "Creating your style revision",
+        "noAudioYet": "No audio versions generated yet",
+        "generateFirst": "Generate your first audio version above!"
+      },
+      "buttons": {
+        "generateNew": "Generate New Audio in",
+        "savedVersions": "Saved Audio Versions"
+      },
+      "languageAvailability": {
+        "english": "Available in English",
+        "languages29": "Available in 29 languages",
+        "languages60": "Available in 60+ languages"
+      },
+      "voiceLanguage": "Voice Language",
+      "searchLanguage": "Search language...",
+      "noLanguagesFound": "No languages found",
+      "languages": {
+        "Afrikaans": "Afrikaans",
+        "Albanian": "Albanian",
+        "Arabic": "Arabic",
+        "Armenian": "Armenian",
+        "Azerbaijani": "Azerbaijani",
+        "Bahasa Indonesian": "Bahasa Indonesian",
+        "Bengali": "Bengali",
+        "Bosnian": "Bosnian",
+        "Bulgarian": "Bulgarian",
+        "Catalan": "Catalan",
+        "Chinese Cantonese": "Chinese (Cantonese)",
+        "Chinese Mandarin": "Chinese (Mandarin)",
+        "Croatian": "Croatian",
+        "Czech": "Czech",
+        "Danish": "Danish",
+        "Dutch": "Dutch",
+        "English": "English",
+        "Estonian": "Estonian",
+        "Filipino": "Filipino",
+        "Finnish": "Finnish",
+        "French": "French",
+        "Galician": "Galician",
+        "Georgian": "Georgian",
+        "German": "German",
+        "Greek": "Greek",
+        "Hebrew": "Hebrew",
+        "Hindi": "Hindi",
+        "Hungarian": "Hungarian",
+        "Icelandic": "Icelandic",
+        "Irish": "Irish",
+        "Italian": "Italian",
+        "Japanese": "Japanese",
+        "Javanese": "Javanese",
+        "Kannada": "Kannada",
+        "Kazakh": "Kazakh",
+        "Korean": "Korean",
+        "Latvian": "Latvian",
+        "Lithuanian": "Lithuanian",
+        "Macedonian": "Macedonian",
+        "Malay": "Malay",
+        "Maltese": "Maltese",
+        "Marathi": "Marathi",
+        "Mongolian": "Mongolian",
+        "Nepali": "Nepali",
+        "Norwegian Bokmål": "Norwegian Bokmål",
+        "Pashto": "Pashto",
+        "Persian": "Persian",
+        "Polish": "Polish",
+        "Portuguese": "Portuguese",
+        "Romanian": "Romanian",
+        "Russian": "Russian",
+        "Serbian": "Serbian",
+        "Sinhala": "Sinhala",
+        "Slovak": "Slovak",
+        "Slovene": "Slovene",
+        "Somali": "Somali",
+        "Spanish": "Spanish",
+        "Swahili": "Swahili",
+        "Swedish": "Swedish",
+        "Tamil": "Tamil",
+        "Telugu": "Telugu",
+        "Thai": "Thai",
+        "Turkish": "Turkish",
+        "Ukrainian": "Ukrainian",
+        "Urdu": "Urdu",
+        "Uzbek": "Uzbek",
+        "Vietnamese": "Vietnamese",
+        "Welsh": "Welsh",
+        "Zulu": "Zulu"
+      }
+    },
+    "errors": {
+      "failedToLoad": "Failed to load document",
+      "failedToUpdate": "Failed to update document",
+      "tryAgain": "Please try again"
+    },
+    "customInstructions": {
+      "title": "Custom Instructions",
+      "optional": "(Optional)",
+      "placeholder": "Add specific instructions about topics to focus on or areas you want to explore in more detail (e.g. 'Focus on math concepts', 'Emphasize key theories')",
+      "characters": "characters",
+      "priorityNote": "Your instructions will be prioritized during generation",
+      "customLanguage": {
+        "show": "Show Custom Language",
+        "hide": "Hide Custom Language",
+        "placeholder": "Enter custom language, e.g. 'Korean'. (optional)",
+        "defaultNote": "If not specified, the languge selected in 'Profile' settings will be used"
+      }
+    },
+    "testSets": {
+      "title": "Your Test Sets",
+      "of": "of",
+      "sets": "sets",
+      "testSet": "Test",
+      "questions": "questions"
+    },
+    "chat": {
+      "placeholder": {
+        "default": "Ask a question about your document...",
+        "selectedArea": "Ask about the selected area...",
+        "selectedText": "Ask about the selected text..."
+      },
+      "empty": {
+        "title": "Ask me anything about your document!",
+        "subtitle": "I'll help you better understand the content."
+      },
+      "replyingTo": {
+        "selection": "Replying to",
+        "selectedArea": "selected area",
+        "selectedText": "selected text"
+      },
+      "errors": {
+        "characterLimit": "Character limit exceeded. Maximum {{limit}} characters allowed.",
+        "messageLimit": "You can purchase additional messages or upgrade your plan to continue.",
+        "purchaseMore": "Purchase Additional Messages",
+        "allServicesFailed": "All AI services are currently unavailable. Please try again later.",
+        "imageAnalysis": "Sorry, an error occurred while analyzing the image. Please try again.",
+        "eduPlusArea": "Edu+ does not support area selection."
+      },
+      "imageSelection": {
+        "pdfArea": "Selected area from PDF"
+      },
+      "buttons": {
+        "scrollToBottom": "Scroll to bottom"
+      },
+      "explain": {
+        "default": "Please explain the entire document's content in detail."
+      }
+    }
+  },
+  "liveLecture": {
+    "title": "Live Lecture Recorder",
+    "record": {
+      "button": "Record Lecture",
+      "description": "Record and transcribe in real-time"
+    },
+    "upload": {
+      "button": "Upload Lecture Transcript",
+      "description": "Upload .txt file"
+    },
+    "error": {
+      "title": "Error",
+      "fileType": "Please upload a .txt file",
+      "maxLength": "File content exceeds maximum length of {{length}} characters",
+      "readError": "Failed to read file. Please try again",
+      "micPermission": "Microphone access denied. Please grant permission and try again",
+      "noMic": "No microphone found. Please connect a microphone and try again",
+      "micBusy": "Microphone is busy or not working properly. Please check device settings",
+      "micAccess": "Error accessing microphone. Please check device settings",
+      "startRecord": "Failed to start recording. Please try again",
+      "noTranscript": "No transcript available to save",
+      "loginRequired": "Please log in to save recordings",
+      "saveFailed": "Failed to save recording"
+    },
+    "timeWarning": {
+      "title": "Time Warning",
+      "message": "Recording will stop automatically in {{seconds}} seconds"
+    },
+    "recording": {
+      "status": "Recording...",
+      "paused": "Paused",
+      "live": "Live"
+    },
+    "transcript": {
+      "title": "Transcript",
+      "empty": "Start recording to see real-time transcript",
+      "transcribing": "Transcribing..."
+    },
+    "actions": {
+      "reviewEdit": "Review and Edit",
+      "saveDirect": "Save",
+      "downloadAudio": "Download Audio",
+      "reset": "Reset"
+    },
+    "limits": {
+      "title": "Limits",
+      "maxRecording": "Maximum recording time: {{minutes}} minutes",
+      "maxTranscript": "Maximum transcript length: {{length}} characters"
+    },
+    "processing": "Processing your file...",
+    "languageSelect": {
+      "label": "Transcription Language",
+      "languages": {
+        "ar": "Arabic",
+        "da": "Danish",
+        "de": "German",
+        "en": "English",
+        "es": "Spanish",
+        "fil": "Filipino",
+        "fr": "French",
+        "hi": "Hindi",
+        "id": "Indonesian",
+        "it": "Italian",
+        "lt": "Lithuanian",
+        "ms": "Malay",
+        "nl": "Dutch",
+        "pl": "Polish",
+        "pt": "Portuguese",
+        "ru": "Russian",
+        "sv": "Swedish",
+        "tr": "Turkish",
+        "uk": "Ukrainian",
+        "ur": "Urdu",
+        "zh": "Chinese"
+      }
+    },
+    "reviewEdit": {
+      "title": "Review & Edit Transcript",
+      "uploadedTitle": "Edit Uploaded Transcript",
+      "audio": {
+        "play": "Play",
+        "pause": "Pause"
+      },
+      "transcript": {
+        "placeholder": "Edit your transcript here..."
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "save": "Save Changes",
+        "saving": "Saving..."
+      },
+      "savingOverlay": {
+        "title": "Saving transcript...",
+        "message": "Please wait while we save your changes"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Choose Your Learning Journey",
+    "subtitle": "Unlock the full potential of AI-powered learning with our flexible plans",
+    "billing": {
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "savePercent": "Save 40%",
+      "yearlyDiscount": "Save £{{amount}} yearly",
+      "pricePerMonth": "/month"
+    },
+    "messages": {
+      "needMore": "Need more messages?",
+      "purchase": "Purchase additional message credits"
+    },
+    "plans": {
+      "popular": "Most Popular",
+      "features": {
+        "documentProcessing": "Document Processing",
+        "aiFeatures": "AI Features",
+        "chatAnalysis": "Chat & Analysis"
+      }
+    },
+    "planNames": {
+      "cooked": "Cooked",
+      "committed": "Committed",
+      "lockedIn": "Locked In"
+    },
+    "buttons": {
+      "currentPlan": "Current Plan",
+      "freePlan": "Free Plan",
+      "freeTier": "Free Tier",
+      "upgradeNow": "Upgrade Now",
+      "switchPlan": "Switch Plan"
+    },
+    "features": {
+      "cooked": {
+        "docs": [
+          "2 PDFs/YouTube videos per week",
+          "20MB max file size",
+          "1 lecture recording per month"
+        ],
+        "ai": [
+          "Smart summaries, flashcards, notes & tests"
+        ],
+        "chat": [
+          "3 messages/day (£0.02/extra)",
+          "1 area selection/week (£0.05/extra)",
+          "1 standard voice generation/month"
+        ]
+      },
+      "committed": {
+        "docs": [
+          "10 PDFs/YouTube videos per week",
+          "30MB max file size",
+          "10 lecture recordings per month"
+        ],
+        "ai": [
+          "Everything from Cooked + Pro voice styles"
+        ],
+        "chat": [
+          "30 messages/day (£0.02/extra)",
+          "15 area selections/week (£0.05/extra)",
+          "5 standard + 2 pro voice generations/month"
+        ]
+      },
+      "lockedIn": {
+        "docs": [
+          "Unlimited PDFs/YouTube videos",
+          "40MB max file size",
+          "45 lecture recordings per month"
+        ],
+        "ai": [
+          "Everything from Committed + priority access"
+        ],
+        "chat": [
+          "Unlimited messages",
+          "50 area selections/week (£0.05/extra)",
+          "15 standard + 7 pro voice generations/month"
+        ]
+      }
+    },
+    "errors": {
+      "invalidPlan": "Invalid plan selected",
+      "checkoutFailed": "Failed to create checkout session",
+      "planChangeFailed": "Failed to process plan change"
+    }
+  },
+  "support": {
+    "title": "How Can We Help?",
+    "subtitle": "Get the help you need with our comprehensive support resources",
+    "emailSupport": {
+      "title": "Email Support",
+      "description": "Need help? Send us an email and we'll get back to you within 24 hours.",
+      "button": "Contact Support"
+    },
+    "featureRequests": {
+      "title": "Feature Requests",
+      "description": "Have an idea for improving our platform? We'd love to hear it!",
+      "button": "Submit Request"
+    },
+    "feedback": {
+      "title": "Send Feedback",
+      "description": "Share your thoughts and help us improve your experience.",
+      "button": "Submit Feedback"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "questions": {
+        "upload": {
+          "question": "How do I upload documents?",
+          "answer": "You can upload PDF documents by clicking the 'Upload' button on your dashboard or simply drag and drop files into the upload area."
+        },
+        "formats": {
+          "question": "What file formats are supported?",
+          "answer": "Currently, we support PDF files for document analysis and YouTube videos for transcript generation."
+        },
+        "aiAnalysis": {
+          "question": "How does the AI analysis work?",
+          "answer": "Our advanced AI analyzes your documents to create summaries, flashcards, and interactive study materials while maintaining context and accuracy."
+        },
+        "chat": {
+          "question": "How can I use AI chat for learning?",
+          "answer": "Our AI chat allows you to ask questions about your uploaded documents, get explanations of complex concepts, and even analyze selected areas in PDFs. Simply highlight text or select an area and ask your question."
+        }
+      }
+    }
+  },
+  "header": {
+    "tagline": "Transform Your Learning Journey",
+    "buttons": {
+      "pricing": "Pricing",
+      "signIn": "Sign In",
+      "getStarted": "Get Started",
+      "help": "Help",
+      "dashboard": "Dashboard",
+      "upgradeNow": "Upgrade Now",
+      "pro": "Pro"
+    }
+  },
+  "userMenu": {
+    "profile": "Profile",
+    "upgradePlan": "Upgrade Plan",
+    "support": "Support",
+    "feedback": "Feedback",
+    "featureRequest": "Feature Request",
+    "adminPortal": "Admin Portal",
+    "logout": "Logout",
+    "updates": "Latest Updates",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "planStatus": {
+      "cookedMember": "Cooked Member",
+      "committedMember": "Committed Member",
+      "lockedInMember": "Locked In Member"
+    }
+  },
+  "languageModal": {
+    "title": "Select Your Language",
+    "description": "Choose your preferred language for the best experience",
+    "confirm": "Confirm Selection"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "save": "Save"
+  }
+}

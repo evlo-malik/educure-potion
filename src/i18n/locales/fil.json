@@ -1,0 +1,697 @@
+{
+  "profile": {
+    "title": "Impormasyon ng Account",
+    "error": "Error",
+    "success": "Tagumpay",
+    "sections": {
+      "name": {
+        "label": "Pangalan",
+        "edit": "I-edit",
+        "save": "I-save"
+      },
+      "email": {
+        "label": "Email"
+      },
+      "password": {
+        "label": "Password",
+        "change": "Palitan",
+        "save": "I-save",
+        "current": "Kasalukuyang password",
+        "new": "Bagong password",
+        "confirm": "Kumpirmahin ang bagong password"
+      },
+      "subscription": {
+        "label": "Subscription Plan",
+        "upgrade": "I-upgrade ang Plan",
+        "manage": "Pamahalaan ang Subscription",
+        "new": "Bago!"
+      },
+      "messages": {
+        "label": "Paggamit ng Mensahe",
+        "description": "Subaybayan ang iyong pang-araw at lingguhang limitasyon ng mensahe",
+        "textMessages": "Text Messages",
+        "areaSelection": "Area Selection Messages",
+        "planUsageDaily": "Paggamit ng Plan (Araw-araw)",
+        "planUsageWeekly": "Paggamit ng Plan (Linggu-linggo)",
+        "purchasedMessages": "Mga Biniling Mensahe",
+        "buyMore": "Bumili pa",
+        "infinity": "∞"
+      },
+      "account": {
+        "title": "Mga Detalye ng Account",
+        "memberSince": "Miyembro Mula",
+        "lastLogin": "Huling Pag-login",
+        "never": "Hindi pa"
+      },
+      "language": {
+        "label": "Wika"
+      },
+      "danger": {
+        "title": "Danger Zone",
+        "warning": "Kapag natanggal na ang iyong account, hindi na ito maibabalik. Mangyaring tiyakin.",
+        "delete": "Tanggalin ang Account",
+        "confirm": "Kumpirmahin ang Pagtanggal",
+        "cancel": "Kanselahin",
+        "deleting": "Tinatanggal ang Account..."
+      }
+    },
+    "subscription": {
+      "cancel": {
+        "title": "Sigurado ka bang gusto mong kanselahin?",
+        "processing": "Kinakansela ang subscription...",
+        "description": "Mawawalan ka ng access sa premium features sa katapusan ng kasalukuyang billing period.",
+        "wait": "Mangyaring maghintay habang pinoproseso namin ang iyong kahilingan.",
+        "keep": "Panatilihin ang Subscription",
+        "confirm": "Kumpirmahin ang Pagkansela"
+      }
+    }
+  },
+  "dashboard": {
+    "computerRecommended": {
+      "title": "Inirerekomendang Computer",
+      "description": "Para sa pinakamahusay na karanasan sa pag-aaral at access sa lahat ng features, lubos naming inirerekomenda ang paggamit ng EduCure AI sa desktop o laptop computer."
+    },
+    "upload": {
+      "title": "Mag-upload ng Dokumento",
+      "youtube": {
+        "placeholder": "I-paste ang YouTube video URL...",
+        "import": "I-import"
+      },
+      "pdf": {
+        "button": "Pumili ng PDF",
+        "dragDrop": "o i-drag at i-drop",
+        "maxSize": "Maximum na laki ng file: {{size}}MB",
+        "processing": "Pinoproseso...",
+        "readingPdf": "Binabasa ang PDF content...",
+        "saving": "Sine-save ang dokumento..."
+      }
+    },
+    "record": {
+      "title": "I-record ang Live na Lektyur",
+      "start": "Simulan ang Pag-record",
+      "description": "I-record at i-transcribe ang iyong mga lektyur sa real-time"
+    },
+    "limits": {
+      "documents": {
+        "title": "Lingguhang Pag-upload ng Dokumento",
+        "unlimited": "Walang limitasyon"
+      },
+      "lectures": {
+        "title": "Buwanang Pag-record ng Lektyur"
+      }
+    },
+    "documents": {
+      "title": "Iyong mga Dokumento",
+      "sections": {
+        "pdf": "PDF at Lektyur na Dokumento",
+        "youtube": "YouTube Videos"
+      },
+      "empty": {
+        "title": "Walang dokumento pa",
+        "description": "Mag-upload ng iyong unang dokumento para makapagsimula"
+      },
+      "actions": {
+        "edit": "I-edit",
+        "delete": "I-delete",
+        "save": "I-save"
+      }
+    },
+    "errors": {
+      "login": "Mangyaring mag-login upang mag-upload ng mga dokumento",
+      "youtube": {
+        "url": "Mangyaring maglagay ng YouTube URL",
+        "invalid": "Mangyaring maglagay ng wastong YouTube URL",
+        "import": "Hindi ma-import ang transcript ng video. Pakisubukang muli.",
+        "noTranscript": "Ang video na ito ay walang available na transcript. Pakisubukan ang ibang video na may enabled na transcript.",
+        "networkError": "May nadetektang problema sa internet connection. Pakisuri ang iyong koneksyon at subukang muli.",
+        "unexpectedError": "May nangyaring hindi inaasahang error sa pagproseso ng iyong video. Pakisubukang muli."
+      },
+      "pdf": {
+        "invalid": "Mangyaring mag-upload ng wastong PDF file. Hindi sinusuportahan ang ibang uri ng file.",
+        "size": "Ang laki ng file ay lumampas sa {{size}}MB limit ng iyong plan. Pakikompres ang PDF o i-upgrade ang iyong plan para sa mas malalaking uploads.",
+        "upload": "Hindi ma-upload ang dokumento. Pakisubukang muli.",
+        "password": "Ang PDF na ito ay protektado ng password. Pakitanggal ang password protection at subukang muli.",
+        "corrupt": "Ang PDF file na ito ay mukhang nasira o hindi wasto. Pakitiyak na ito ay wastong PDF at subukang muli.",
+        "storage": "Naabot na ang storage quota. Mangyaring maglaan ng espasyo o i-upgrade ang iyong plan.",
+        "networkError": "May nadetektang problema sa internet connection. Pakisuri ang iyong koneksyon at subukang muli.",
+        "unexpectedError": "May nangyaring hindi inaasahang error sa pagproseso ng iyong PDF. Pakisubukang muli."
+      },
+      "document": {
+        "deleteFailed": "Hindi ma-delete ang dokumento"
+      },
+      "limit": "Naabot mo na ang iyong upload limit",
+      "upgrade": "I-upgrade ang iyong plan"
+    },
+    "subjects": {
+      "title": "Mga Asignatura",
+      "add": "Magdagdag ng Asignatura",
+      "delete": {
+        "title": "Burahin ang Asignatura",
+        "message": "Sigurado ka bang gusto mong burahin ang asignaturang ito? Lahat ng dokumento ay ililipat sa Dashboard.",
+        "confirm": "Burahin",
+        "cancel": "Kanselahin"
+      },
+      "manage": "Pamahalaan ang mga dokumento at lektura para sa {{subject}}",
+      "dashboard": "Dashboard"
+    }
+  },
+  "documentView": {
+    "tabs": {
+      "chat": "Chat",
+      "notes": "Mga Tala",
+      "flashcards": "Mga Flashcard",
+      "test": "Pagsusulit"
+    },
+    "selectionMode": {
+      "textActive": "Aktibo ang Mode ng Pagpili ng Teksto",
+      "areaActive": "Aktibo ang Mode ng Pagpili ng Area"
+    },
+    "actions": {
+      "download": "I-download",
+      "hideDocument": "Itago ang Dokumento",
+      "showDocument": "Ipakita ang Dokumento"
+    },
+    "notes": {
+      "generate": "Gumawa",
+      "generating": "Gumagawa...",
+      "description": "Gumawa ng detalyadong mga tala ng pag-aaral na may mga pangunahing punto at malalimang paliwanag"
+    },
+    "flashcards": {
+      "generate": "Gumawa",
+      "generating": "Gumagawa...",
+      "description": "Gumawa ng mga AI-powered na flashcard mula sa iyong dokumento para matandaan ang mga pangunahing konsepto",
+      "navigation": {
+        "previous": "Nakaraang Card",
+        "next": "Susunod na Card"
+      },
+      "labels": {
+        "question": "Tanong",
+        "answer": "Sagot"
+      },
+      "clickToFlip": "I-click para baliktarin",
+      "placeholders": {
+        "question": "Ilagay ang iyong tanong dito...",
+        "answer": "Ilagay ang iyong sagot dito..."
+      },
+      "deleteConfirm": {
+        "title": "Burahin ang Card",
+        "message": "Sigurado ka bang gusto mong burahin ang card na ito? Hindi na ito maibabalik pa."
+      },
+      "actions": {
+        "export": "I-export",
+        "new": "Magdagdag ng Card"
+      },
+      "export": {
+        "toCsv": "I-export sa CSV",
+        "toClipboard": "Kopyahin ang Text"
+      },
+      "copySuccess": "Na-copy na ang mga card sa clipboard",
+      "copyError": "Hindi ma-copy ang mga card sa clipboard",
+      "exportError": "Hindi ma-export ang mga card sa CSV"
+    },
+    "test": {
+      "generate": "Gumawa",
+      "generating": "Gumagawa...",
+      "description": "Gumawa ng interactive na mga pagsusulit na may multiple choice at true/false na mga tanong para suriin ang iyong pag-unawa",
+      "results": {
+        "score": {
+          "perfect": "Ikaw ang GOAT 🐐",
+          "excellent": "Beast mode 💪",
+          "great": "Ang galing mo 😤",
+          "good": "Tuloy lang 🚶",
+          "fair": "Kailangan mag-focus 🔒",
+          "poor": "Bagsak ka ngayon pre 💀"
+        },
+        "yourAnswer": "Iyong Sagot",
+        "correctAnswer": "Tamang Sagot"
+      },
+      "buttons": {
+        "submit": "Ipasa ang Pagsusulit",
+        "tryAgain": "Subukan Muli",
+        "generateNew": "Gumawa ng Bagong Pagsusulit"
+      },
+      "options": {
+        "true": "Tama",
+        "false": "Mali"
+      },
+      "previousTests": {
+        "title": "Mga Nakaraang Pagsusulit",
+        "number": "Pagsusulit #{{number}}"
+      }
+    },
+    "vocalize": {
+      "beta": "BETA",
+      "generate": "Gumawa",
+      "generating": "Gumagawa...",
+      "description": "I-convert ang teksto sa natural na pananalita",
+      "voiceStyle": "Estilo ng Boses",
+      "styleOptions": {
+        "lecture": {
+          "label": "Lektyur",
+          "description": "Propesyonal na akademikong boses para sa malinaw na pagpapaliwanag"
+        },
+        "news": {
+          "label": "Tagapagbalita",
+          "description": "Propesyonal na estilo ng pagbabalita"
+        },
+        "soft": {
+          "label": "Malambing na Boses",
+          "description": "Banayad, kalmadong boses para sa komportableng pag-aaral"
+        },
+        "asmr": {
+          "label": "ASMR",
+          "description": "Malambing, intimate na boses para sa relaxed na pag-aaral",
+          "pro": "PRO"
+        },
+        "motivational": {
+          "label": "Pampamotiba",
+          "description": "Energetic na boses para magbigay inspirasyon at makahikayat",
+          "pro": "PRO"
+        },
+        "storytelling": {
+          "label": "Pagkukwento",
+          "description": "Ekspresibong boses para sa narrative na content",
+          "pro": "PRO"
+        }
+      },
+      "usage": {
+        "standard": "Standard na Boses",
+        "pro": "PRO na Boses"
+      },
+      "errors": {
+        "limitReached": "Naabot na ang limit ng paggawa",
+        "upgradeRequired": "I-upgrade ang iyong plan",
+        "maxAudioLimit": "Naabot na ang Maximum na Audio Limit",
+        "deleteExisting": "Magtanggal ng umiiral na audio version para makagawa ng bago",
+        "generatingAudio": "Gumagawa ng Audio Experience...",
+        "creatingStyle": "Ginagawa ang iyong style revision",
+        "noAudioYet": "Wala pang nagawang audio version",
+        "generateFirst": "Gumawa ng iyong unang audio version sa itaas!"
+      },
+      "buttons": {
+        "generateNew": "Gumawa ng Bagong Audio sa",
+        "savedVersions": "Naka-save na Audio Versions"
+      },
+      "languageAvailability": {
+        "english": "Magagamit sa Ingles",
+        "languages29": "Magagamit sa 29 na wika",
+        "languages60": "Magagamit sa mahigit 60 wika"
+      },
+      "voiceLanguage": "Wika ng Boses",
+      "searchLanguage": "Maghanap ng wika...",
+      "noLanguagesFound": "Walang nahanap na wika",
+      "languages": {
+        "Afrikaans": "Afrikaans",
+        "Albanian": "Albanian",
+        "Arabic": "Arabe",
+        "Armenian": "Armenian",
+        "Azerbaijani": "Azerbaijani",
+        "Bahasa Indonesian": "Bahasa Indonesian",
+        "Bengali": "Bengali",
+        "Bosnian": "Bosnian",
+        "Bulgarian": "Bulgarian",
+        "Catalan": "Catalan",
+        "Chinese Cantonese": "Intsik (Cantonese)",
+        "Chinese Mandarin": "Intsik (Mandarin)",
+        "Croatian": "Croatian",
+        "Czech": "Czech",
+        "Danish": "Danish",
+        "Dutch": "Dutch",
+        "English": "Ingles",
+        "Estonian": "Estonian",
+        "Filipino": "Filipino",
+        "Finnish": "Finnish",
+        "French": "Pranses",
+        "Galician": "Galician",
+        "Georgian": "Georgian",
+        "German": "Aleman",
+        "Greek": "Griyego",
+        "Hebrew": "Hebrew",
+        "Hindi": "Hindi",
+        "Hungarian": "Hungarian",
+        "Icelandic": "Icelandic",
+        "Irish": "Irish",
+        "Italian": "Italyano",
+        "Japanese": "Hapon",
+        "Javanese": "Javanese",
+        "Kannada": "Kannada",
+        "Kazakh": "Kazakh",
+        "Korean": "Koreano",
+        "Latvian": "Latvian",
+        "Lithuanian": "Lithuanian",
+        "Macedonian": "Macedonian",
+        "Malay": "Malay",
+        "Maltese": "Maltese",
+        "Marathi": "Marathi",
+        "Mongolian": "Mongolian",
+        "Nepali": "Nepali",
+        "Norwegian Bokmål": "Norwegian (Bokmål)",
+        "Pashto": "Pashto",
+        "Persian": "Persian",
+        "Polish": "Polish",
+        "Portuguese": "Portuguese",
+        "Romanian": "Romanian",
+        "Russian": "Ruso",
+        "Serbian": "Serbian",
+        "Sinhala": "Sinhala",
+        "Slovak": "Slovak",
+        "Slovene": "Slovene",
+        "Somali": "Somali",
+        "Spanish": "Espanyol",
+        "Swahili": "Swahili",
+        "Swedish": "Swedish",
+        "Tamil": "Tamil",
+        "Telugu": "Telugu",
+        "Thai": "Thai",
+        "Turkish": "Turkish",
+        "Ukrainian": "Ukrainian",
+        "Urdu": "Urdu",
+        "Uzbek": "Uzbek",
+        "Vietnamese": "Vietnamese",
+        "Welsh": "Welsh",
+        "Zulu": "Zulu"
+      }
+    },
+    "errors": {
+      "failedToLoad": "Hindi na-load ang dokumento",
+      "failedToUpdate": "Hindi na-update ang dokumento",
+      "tryAgain": "Pakisubukan muli"
+    },
+    "customInstructions": {
+      "title": "Mga Pasadyang Tagubilin",
+      "optional": "(Opsyonal)",
+      "placeholder": "Magdagdag ng mga tiyak na tagubilin tungkol sa mga paksang nais mong pagtuunan o mga lugar na nais mong siyasatin nang mas detalyado (hal. 'Pagtuon sa mga konsepto ng matematika', 'Bigyang-diin ang mga pangunahing teorya')",
+      "characters": "mga karakter",
+      "priorityNote": "Ang iyong mga tagubilin ay bibigyang-prayoridad sa panahon ng paggawa",
+      "customLanguage": {
+        "show": "Ipakita ang Pasadyang Wika",
+        "hide": "Itago ang Pasadyang Wika",
+        "placeholder": "Maglagay ng pasadyang wika (opsyonal)",
+        "defaultNote": "Kung hindi tinukoy, gagamitin ang wikang pinili sa mga setting ng profile"
+      }
+    },
+    "testSets": {
+      "title": "Iyong mga Set ng Pagsusulit",
+      "of": "ng",
+      "sets": "mga set",
+      "testSet": "Pagsusulit",
+      "questions": "mga tanong"
+    },
+    "chat": {
+      "placeholder": {
+        "default": "Magtanong tungkol sa iyong dokumento...",
+        "selectedArea": "Magtanong tungkol sa napiling lugar...",
+        "selectedText": "Magtanong tungkol sa napiling teksto..."
+      },
+      "empty": {
+        "title": "Magtanong sa akin ng kahit ano tungkol sa iyong dokumento!",
+        "subtitle": "Tutulungan kitang maintindihan nang mas mabuti ang nilalaman."
+      },
+      "replyingTo": {
+        "selection": "Tumutugon sa",
+        "selectedArea": "napiling lugar",
+        "selectedText": "napiling teksto"
+      },
+      "errors": {
+        "characterLimit": "Lumampas sa limitasyon ng karakter. Pinapayagan ang maximum na {{limit}} na karakter.",
+        "messageLimit": "Maaari kang bumili ng karagdagang mensahe o mag-upgrade ng iyong plan para magpatuloy.",
+        "purchaseMore": "Bumili ng karagdagang mensahe",
+        "allServicesFailed": "Kasalukuyang hindi magamit ang lahat ng AI services. Pakisubukan muli mamaya.",
+        "imageAnalysis": "Paumanhin, nagkaroon ng error sa pag-analyze ng larawan. Pakisubukan muli.",
+        "eduPlusArea": "Hindi sinusuportahan ng Edu+ ang pagpili ng lugar."
+      },
+      "imageSelection": {
+        "pdfArea": "Napiling lugar mula sa PDF"
+      },
+      "buttons": {
+        "scrollToBottom": "Mag-scroll pababa"
+      },
+      "explain": {
+        "default": "Pakipaliwanag nang detalyado ang nilalaman ng buong dokumento."
+      }
+    }
+  },
+  "liveLecture": {
+    "title": "Live na Tagapagtala ng Lektyur",
+    "record": {
+      "button": "I-record ang Lektyur",
+      "description": "Mag-record at mag-transcribe sa real-time"
+    },
+    "upload": {
+      "button": "Mag-upload ng Transcript ng Lektyur",
+      "description": "Mag-upload ng .txt file"
+    },
+    "error": {
+      "title": "Error",
+      "fileType": "Mangyaring mag-upload ng .txt file",
+      "maxLength": "Ang nilalaman ng file ay lumampas sa maximum na {{length}} characters",
+      "readError": "Hindi mabasa ang file. Pakisubukang muli",
+      "micPermission": "Hindi pinahintulutan ang access sa mikropono. Mangyaring magbigay ng pahintulot at subukang muli",
+      "noMic": "Walang nahanap na mikropono. Mangyaring magkonekta ng mikropono at subukang muli",
+      "micBusy": "Ang mikropono ay abala o hindi gumagana nang maayos. Pakisuri ang mga setting ng device",
+      "micAccess": "Error sa pag-access ng mikropono. Pakisuri ang mga setting ng device",
+      "startRecord": "Hindi makapagsimula ng recording. Pakisubukang muli",
+      "noTranscript": "Walang transcript na available para i-save",
+      "loginRequired": "Mangyaring mag-log in para mai-save ang mga recording",
+      "saveFailed": "Hindi mai-save ang recording"
+    },
+    "timeWarning": {
+      "title": "Babala sa Oras",
+      "message": "Ang recording ay awtomatikong titigil sa loob ng {{seconds}} segundo"
+    },
+    "recording": {
+      "status": "Nagre-record...",
+      "paused": "Naka-pause",
+      "live": "Live"
+    },
+    "transcript": {
+      "title": "Transcript",
+      "empty": "Magsimula ng recording para makita ang real-time na transcript",
+      "transcribing": "Nagta-transcribe..."
+    },
+    "actions": {
+      "reviewEdit": "Suriin at I-edit",
+      "saveDirect": "I-save",
+      "downloadAudio": "I-download ang Audio",
+      "reset": "I-reset"
+    },
+    "limits": {
+      "title": "Mga Limitasyon",
+      "maxRecording": "Maximum na oras ng recording: {{minutes}} minuto",
+      "maxTranscript": "Maximum na haba ng transcript: {{length}} characters"
+    },
+    "processing": "Pinoproseso ang iyong file...",
+    "languageSelect": {
+      "label": "Wika ng Transkripsyon",
+      "languages": {
+        "ar": "Arabe",
+        "da": "Danish",
+        "de": "Aleman",
+        "en": "Ingles",
+        "es": "Espanyol",
+        "fil": "Filipino",
+        "fr": "Pranses",
+        "hi": "Hindi",
+        "id": "Indonesiano",
+        "it": "Italyano",
+        "lt": "Lithuanian",
+        "ms": "Malay",
+        "nl": "Dutch",
+        "pl": "Polish",
+        "pt": "Portuges",
+        "ru": "Ruso",
+        "sv": "Swedish",
+        "tr": "Turkish",
+        "uk": "Ukrainian",
+        "ur": "Urdu",
+        "zh": "Tsino"
+      }
+    },
+    "reviewEdit": {
+      "title": "Suriin at I-edit ang Transcript",
+      "uploadedTitle": "I-edit ang Na-upload na Transcript",
+      "audio": {
+        "play": "I-play",
+        "pause": "I-pause"
+      },
+      "transcript": {
+        "placeholder": "I-edit ang iyong transcript dito..."
+      },
+      "actions": {
+        "cancel": "Kanselahin",
+        "save": "I-save ang mga Pagbabago",
+        "saving": "Sine-save..."
+      },
+      "savingOverlay": {
+        "title": "Sine-save ang transcript...",
+        "message": "Mangyaring maghintay habang sine-save namin ang iyong mga pagbabago"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Piliin ang Iyong Learning Journey",
+    "subtitle": "I-unlock ang buong potensyal ng AI-powered learning sa pamamagitan ng aming flexible na mga plano",
+    "billing": {
+      "monthly": "Buwanan",
+      "yearly": "Taunan",
+      "savePercent": "Makatipid ng 40%",
+      "yearlyDiscount": "Makatipid ng £{{amount}} kada taon",
+      "pricePerMonth": "/buwan"
+    },
+    "messages": {
+      "needMore": "Kailangan ng mas maraming mensahe?",
+      "purchase": "Bumili ng karagdagang message credits"
+    },
+    "plans": {
+      "popular": "Pinakasikat",
+      "features": {
+        "documentProcessing": "Pagproseso ng Dokumento",
+        "aiFeatures": "Mga AI Feature",
+        "chatAnalysis": "Chat at Pagsusuri"
+      }
+    },
+    "planNames": {
+      "cooked": "Cooked",
+      "committed": "Committed",
+      "lockedIn": "Locked In"
+    },
+    "buttons": {
+      "currentPlan": "Kasalukuyang Plano",
+      "freePlan": "Libreng Plano",
+      "freeTier": "Libreng Tier",
+      "upgradeNow": "Mag-upgrade Ngayon",
+      "switchPlan": "Magpalit ng Plano"
+    },
+    "features": {
+      "cooked": {
+        "docs": [
+          "2 PDF/YouTube video kada linggo",
+          "20MB maximum file size",
+          "1 lecture recording kada buwan"
+        ],
+        "ai": [
+          "Intelligent summaries, flashcards, notes at tests"
+        ],
+        "chat": [
+          "3 mensahe/araw (£0.02/dagdag)",
+          "1 area selection/linggo (£0.05/dagdag)",
+          "1 standard voice generation/buwan"
+        ]
+      },
+      "committed": {
+        "docs": [
+          "10 PDF/YouTube video kada linggo",
+          "30MB maximum file size",
+          "10 lecture recording kada buwan"
+        ],
+        "ai": [
+          "Lahat ng nasa Cooked + Pro voice styles"
+        ],
+        "chat": [
+          "30 mensahe/araw (£0.02/dagdag)",
+          "15 area selection/linggo (£0.05/dagdag)",
+          "5 standard + 2 pro voice generation/buwan"
+        ]
+      },
+      "lockedIn": {
+        "docs": [
+          "Unlimited PDF/YouTube video",
+          "40MB maximum file size",
+          "45 lecture recording kada buwan"
+        ],
+        "ai": [
+          "Lahat ng nasa Committed + priority access"
+        ],
+        "chat": [
+          "Unlimited na mensahe",
+          "50 area selection/linggo (£0.05/dagdag)",
+          "15 standard + 7 pro voice generation/buwan"
+        ]
+      }
+    },
+    "errors": {
+      "invalidPlan": "Hindi wastong plano ang napili",
+      "checkoutFailed": "Hindi masimulan ang checkout session",
+      "planChangeFailed": "Hindi maproseso ang pagpapalit ng plano"
+    }
+  },
+  "support": {
+    "title": "Paano kami makakatulong sa iyo?",
+    "subtitle": "Kumuha ng tulong na kailangan mo sa aming komprehensibong mga mapagkukunan ng suporta",
+    "emailSupport": {
+      "title": "Email Support",
+      "description": "Kailangan ng tulong? Mag-email sa amin at sasagot kami sa loob ng 24 na oras.",
+      "button": "Makipag-ugnayan sa Support"
+    },
+    "featureRequests": {
+      "title": "Mga Kahilingan sa Feature",
+      "description": "May ideya ka para mapabuti ang aming platform? Gusto naming marinig ito!",
+      "button": "Magpadala ng Kahilingan"
+    },
+    "feedback": {
+      "title": "Magpadala ng Feedback",
+      "description": "Ibahagi ang iyong mga saloobin at tulungan kaming mapabuti ang iyong karanasan.",
+      "button": "Magpadala ng Feedback"
+    },
+    "faq": {
+      "title": "Mga Madalas na Katanungan",
+      "questions": {
+        "upload": {
+          "question": "Paano mag-upload ng mga dokumento?",
+          "answer": "Maaari kang mag-upload ng mga PDF dokumento sa pamamagitan ng pag-click sa 'Upload' button sa iyong dashboard o simpleng pag-drag at drop ng mga file sa upload area."
+        },
+        "formats": {
+          "question": "Anong mga file format ang sinusuportahan?",
+          "answer": "Sa kasalukuyan, sinusuportahan namin ang mga PDF file para sa document analysis at YouTube videos para sa transcript generation."
+        },
+        "aiAnalysis": {
+          "question": "Paano gumagana ang AI analysis?",
+          "answer": "Ang aming advanced AI ay nagsusuri ng iyong mga dokumento upang lumikha ng mga buod, flashcard, at interactive na mga materyal sa pag-aaral habang pinapanatili ang konteksto at katumpakan."
+        },
+        "chat": {
+          "question": "Paano ko magagamit ang AI chat para sa pag-aaral?",
+          "answer": "Ang aming AI chat ay nagbibigay-daan sa iyo na magtanong tungkol sa iyong mga na-upload na dokumento, makakuha ng mga paliwanag ng mga kumplikadong konsepto, at maaari ring suriin ang mga napiling lugar sa mga PDF. I-highlight lang ang text o pumili ng area at itanong ang iyong tanong."
+        }
+      }
+    }
+  },
+  "header": {
+    "tagline": "Baguhin ang Iyong Learning Journey",
+    "buttons": {
+      "pricing": "Presyo",
+      "signIn": "Mag-sign In",
+      "getStarted": "Magsimula",
+      "help": "Tulong",
+      "dashboard": "Dashboard",
+      "upgradeNow": "Mag-upgrade Ngayon",
+      "pro": "Pro"
+    }
+  },
+  "userMenu": {
+    "profile": "Profile",
+    "upgradePlan": "I-upgrade ang Plan",
+    "support": "Suporta",
+    "feedback": "Feedback",
+    "featureRequest": "Feature Request",
+    "adminPortal": "Admin Portal",
+    "logout": "Mag-logout",
+    "planStatus": {
+      "cookedMember": "Cooked na miyembro",
+      "committedMember": "Committed na miyembro",
+      "lockedInMember": "Locked In na miyembro"
+    },
+    "updates": "Pinakabagong update",
+    "lightMode": "Light mode",
+    "darkMode": "Dark mode"
+  },
+  "languageModal": {
+    "title": "Piliin ang Iyong Wika",
+    "description": "Piliin ang iyong gustong wika para sa mas magandang karanasan",
+    "confirm": "Kumpirmahin ang Pagpili"
+  },
+  "common": {
+    "cancel": "Kanselahin",
+    "delete": "Burahin",
+    "save": "I-save"
+  }
+} 

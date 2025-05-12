@@ -1,0 +1,707 @@
+{
+  "profile": {
+    "title": "Informații despre cont",
+    "error": "Eroare",
+    "success": "Succes",
+    "sections": {
+      "name": {
+        "label": "Nume",
+        "edit": "Editează",
+        "save": "Salvează"
+      },
+      "email": {
+        "label": "E-mail"
+      },
+      "password": {
+        "label": "Parolă",
+        "change": "Schimbă",
+        "save": "Salvează",
+        "current": "Parola curentă",
+        "new": "Parolă nouă",
+        "confirm": "Confirmă parola nouă"
+      },
+      "subscription": {
+        "label": "Plan de abonament",
+        "upgrade": "Actualizează planul",
+        "manage": "Gestionează abonamentul",
+        "new": "Nou!"
+      },
+      "messages": {
+        "label": "Utilizare mesaje",
+        "description": "Urmărește limitele zilnice și săptămânale de mesaje",
+        "textMessages": "Mesaje text",
+        "areaSelection": "Mesaje cu selecție de zonă",
+        "planUsageDaily": "Utilizare plan (Zilnic)",
+        "planUsageWeekly": "Utilizare plan (Săptămânal)",
+        "purchasedMessages": "Mesaje achiziționate",
+        "buyMore": "Cumpără mai multe",
+        "infinity": "∞"
+      },
+      "account": {
+        "title": "Detalii cont",
+        "memberSince": "Membru din",
+        "lastLogin": "Ultima autentificare",
+        "never": "Niciodată"
+      },
+      "language": {
+        "label": "Limba"
+      },
+      "danger": {
+        "title": "Zonă de pericol",
+        "warning": "Odată ce îți ștergi contul, nu mai poți da înapoi. Te rugăm să fii sigur.",
+        "delete": "Șterge contul",
+        "confirm": "Confirmă ștergerea",
+        "cancel": "Anulează",
+        "deleting": "Se șterge contul..."
+      }
+    },
+    "subscription": {
+      "cancel": {
+        "title": "Ești sigur că vrei să anulezi?",
+        "processing": "Se anulează abonamentul...",
+        "description": "Vei pierde accesul la funcțiile premium la sfârșitul perioadei de facturare curente.",
+        "wait": "Te rugăm să aștepți în timp ce îți procesăm cererea.",
+        "keep": "Păstrează abonamentul",
+        "confirm": "Anulează abonamentul"
+      }
+    }
+  },
+  "dashboard": {
+    "computerRecommended": {
+      "title": "Se recomandă calculator",
+      "description": "Pentru cea mai bună experiență de învățare și acces la toate funcțiile, recomandăm cu tărie să utilizați EduCure AI pe un computer desktop sau laptop."
+    },
+    "upload": {
+      "title": "Încarcă document",
+      "youtube": {
+        "placeholder": "Introdu adresa URL a videoclipului YouTube...",
+        "import": "Importă"
+      },
+      "pdf": {
+        "button": "Alege PDF",
+        "dragDrop": "sau trage și plasează",
+        "maxSize": "Dimensiunea maximă a fișierului: {{size}}MB",
+        "processing": "Se procesează...",
+        "readingPdf": "Se citește conținutul PDF...",
+        "saving": "Se salvează documentul..."
+      }
+    },
+    "record": {
+      "title": "Înregistrează prelegere live",
+      "start": "Începe înregistrarea",
+      "description": "Înregistrează și transcrie prelegerile în timp real"
+    },
+    "limits": {
+      "documents": {
+        "title": "Încărcări de documente săptămânale",
+        "unlimited": "Nelimitat"
+      },
+      "lectures": {
+        "title": "Înregistrări de prelegeri lunare"
+      }
+    },
+    "documents": {
+      "title": "Documentele tale",
+      "sections": {
+        "pdf": "Documente PDF și Prelegeri",
+        "youtube": "Videoclipuri YouTube"
+      },
+      "empty": {
+        "title": "Niciun document încă",
+        "description": "Încarcă primul tău document pentru a începe"
+      },
+      "actions": {
+        "edit": "Editează",
+        "delete": "Șterge",
+        "save": "Salvează"
+      }
+    },
+    "errors": {
+      "login": "Te rugăm să te conectezi pentru a încărca documente",
+      "youtube": {
+        "url": "Te rugăm să introduci un URL YouTube",
+        "invalid": "Te rugăm să introduci un URL YouTube valid",
+        "import": "Nu s-a reușit importarea transcrierii video. Te rugăm să încerci din nou.",
+        "noTranscript": "Acest videoclip nu are transcriere disponibilă. Te rugăm să încerci un alt videoclip cu transcriere activată.",
+        "networkError": "S-a detectat o problemă de conexiune la internet. Verifică conexiunea și încearcă din nou.",
+        "unexpectedError": "A apărut o eroare neașteptată în timpul procesării videoclipului. Te rugăm să încerci din nou."
+      },
+      "pdf": {
+        "invalid": "Te rugăm să încarci un fișier PDF valid. Alte tipuri de fișiere nu sunt acceptate.",
+        "size": "Dimensiunea fișierului depășește limita de {{size}}MB pentru planul tău. Te rugăm să comprimi PDF-ul sau să-ți actualizezi planul pentru încărcări mai mari.",
+        "upload": "Nu s-a reușit încărcarea documentului. Te rugăm să încerci din nou.",
+        "password": "Acest PDF este protejat cu parolă. Te rugăm să elimini protecția prin parolă și să încerci din nou.",
+        "corrupt": "Acest fișier PDF pare a fi corupt sau invalid. Asigură-te că este un PDF valid și încearcă din nou.",
+        "storage": "Cota de stocare a fost depășită. Eliberează spațiu sau actualizează-ți planul.",
+        "networkError": "S-a detectat o problemă de conexiune la internet. Verifică conexiunea și încearcă din nou.",
+        "unexpectedError": "A apărut o eroare neașteptată în timpul procesării PDF-ului. Te rugăm să încerci din nou."
+      },
+      "document": {
+        "deleteFailed": "Nu s-a reușit ștergerea documentului"
+      },
+      "limit": "Ați atins limita de încărcare",
+      "upgrade": "Actualizați-vă planul"
+    },
+    "subjects": {
+      "title": "Materii",
+      "add": "Adăugați materie",
+      "delete": {
+        "title": "Ștergeți materia",
+        "message": "Sigur doriți să ștergeți această materie? Toate documentele vor fi mutate în Tabloul de bord.",
+        "confirm": "Ștergeți",
+        "cancel": "Anulați"
+      },
+      "manage": "Gestionați documentele și cursurile pentru {{subject}}",
+      "dashboard": "Tablou de bord"
+    }
+  },
+  "documentView": {
+    "tabs": {
+      "chat": "Chat",
+      "notes": "Note",
+      "flashcards": "Carduri",
+      "test": "Test"
+    },
+    "selectionMode": {
+      "textActive": "Mod de selecție text activ",
+      "areaActive": "Mod de selecție zonă activ"
+    },
+    "actions": {
+      "download": "Descărcare",
+      "hideDocument": "Ascunde documentul",
+      "showDocument": "Arată documentul"
+    },
+    "notes": {
+      "generate": "Generează",
+      "generating": "Se generează...",
+      "description": "Creează notițe de studiu detaliate cu puncte cheie și explicații aprofundate"
+    },
+    "flashcards": {
+      "generate": "Generează",
+      "generating": "Se generează...",
+      "description": "Creează fișe de studiu cu tehnologie AI din documentul tău pentru a memora concepte cheie",
+      "navigation": {
+        "previous": "Fișa anterioară",
+        "next": "Fișa următoare"
+      },
+      "labels": {
+        "question": "Întrebare",
+        "answer": "Răspuns"
+      },
+      "clickToFlip": "Click pentru a roti",
+      "placeholders": {
+        "question": "Introduceți întrebarea dvs. aici...",
+        "answer": "Introduceți răspunsul dvs. aici..."
+      },
+      "deleteConfirm": {
+        "title": "Ștergeți cardul",
+        "message": "Sigur doriți să ștergeți acest card? Această acțiune nu poate fi anulată."
+      },
+      "actions": {
+        "export": "Exportați",
+        "new": "Adăugați card"
+      },
+      "export": {
+        "toCsv": "Exportați în CSV",
+        "toClipboard": "Copiați textul"
+      },
+      "copySuccess": "Cardurile au fost copiate în clipboard",
+      "copyError": "Nu s-au putut copia cardurile în clipboard",
+      "exportError": "Nu s-au putut exporta cardurile în CSV"
+    },
+    "test": {
+      "generate": "Generează",
+      "generating": "Se generează...",
+      "description": "Creează teste interactive cu întrebări cu alegere multiplă și adevărat/fals pentru a-ți verifica înțelegerea",
+      "results": {
+        "score": {
+          "perfect": "Ești GOAT 🐐",
+          "excellent": "Mod bestie activat 💪",
+          "great": "Ești fantastic 😤",
+          "good": "Continuă așa 🚶",
+          "fair": "Trebuie să te concentrezi 🔒",
+          "poor": "Nu a mers de data asta frate 💀"
+        },
+        "yourAnswer": "Răspunsul tău",
+        "correctAnswer": "Răspuns corect"
+      },
+      "buttons": {
+        "submit": "Trimite testul",
+        "tryAgain": "Încearcă din nou",
+        "generateNew": "Generează un test nou"
+      },
+      "options": {
+        "true": "Adevărat",
+        "false": "Fals"
+      },
+      "previousTests": {
+        "title": "Teste anterioare",
+        "number": "Test nr. {{number}}"
+      }
+    },
+    "vocalize": {
+      "beta": "BETA",
+      "generate": "Generează",
+      "generating": "Se generează...",
+      "description": "Convertește textul în vorbire naturală",
+      "voiceStyle": "Stil de voce",
+      "styleOptions": {
+        "lecture": {
+          "label": "Prelegere",
+          "description": "Voce academică profesională pentru explicații clare"
+        },
+        "news": {
+          "label": "Prezentator de știri",
+          "description": "Voce profesională de difuzare"
+        },
+        "soft": {
+          "label": "Voce blândă",
+          "description": "Voce blândă și liniștitoare pentru o învățare confortabilă"
+        },
+        "asmr": {
+          "label": "ASMR",
+          "description": "Voce blândă, intimă pentru o învățare relaxată",
+          "pro": "PRO"
+        },
+        "motivational": {
+          "label": "Motivațional",
+          "description": "Voce energică pentru a inspira și a implica",
+          "pro": "PRO"
+        },
+        "storytelling": {
+          "label": "Povestire",
+          "description": "Voce expresivă pentru conținut narativ",
+          "pro": "PRO"
+        }
+      },
+      "usage": {
+        "standard": "Vocalize standard",
+        "pro": "Vocalize PRO"
+      },
+      "errors": {
+        "limitReached": "S-a atins limita de generare",
+        "upgradeRequired": "Actualizează-ți planul",
+        "maxAudioLimit": "S-a atins limita maximă de audio",
+        "deleteExisting": "Șterge o versiune audio existentă pentru a genera una nouă",
+        "generatingAudio": "Se generează experiența audio...",
+        "creatingStyle": "Se creează stilul tău revizuit",
+        "noAudioYet": "Nu există încă versiuni audio generate",
+        "generateFirst": "Generează prima ta versiune audio mai sus!"
+      },
+      "buttons": {
+        "generateNew": "Generează audio nou în",
+        "savedVersions": "Versiuni audio salvate"
+      },
+      "languageAvailability": {
+        "english": "Disponibil în engleză",
+        "languages29": "Disponibil în 29 de limbi",
+        "languages60": "Disponibil în peste 60 de limbi"
+      },
+      "voiceLanguage": "Limba vocii",
+      "searchLanguage": "Caută limba...",
+      "noLanguagesFound": "Nu s-au găsit limbi",
+      "languages": {
+        "Afrikaans": "Afrikaans",
+        "Albanian": "Albaneză",
+        "Arabic": "Arabă",
+        "Armenian": "Armeană",
+        "Azerbaijani": "Azeră",
+        "Bahasa Indonesian": "Indoneziană (Bahasa)",
+        "Bengali": "Bengaleză",
+        "Bosnian": "Bosniacă",
+        "Bulgarian": "Bulgară",
+        "Catalan": "Catalană",
+        "Chinese Cantonese": "Chineză (Cantoneză)",
+        "Chinese Mandarin": "Chineză (Mandarină)",
+        "Croatian": "Croată",
+        "Czech": "Cehă",
+        "Danish": "Daneză",
+        "Dutch": "Olandeză",
+        "English": "Engleză",
+        "Estonian": "Estonă",
+        "Filipino": "Filipineză",
+        "Finnish": "Finlandeză",
+        "French": "Franceză",
+        "Galician": "Galegă",
+        "Georgian": "Georgiană",
+        "German": "Germană",
+        "Greek": "Greacă",
+        "Hebrew": "Ebraică",
+        "Hindi": "Hindi",
+        "Hungarian": "Maghiară",
+        "Icelandic": "Islandeză",
+        "Irish": "Irlandeză",
+        "Italian": "Italiană",
+        "Japanese": "Japoneză",
+        "Javanese": "Java",
+        "Kannada": "Kannada",
+        "Kazakh": "Kazahă",
+        "Korean": "Coreeană",
+        "Latvian": "Letonă",
+        "Lithuanian": "Lituaniană",
+        "Macedonian": "Macedoneană",
+        "Malay": "Malay",
+        "Maltese": "Malteză",
+        "Marathi": "Marathi",
+        "Mongolian": "Mongolă",
+        "Nepali": "Nepaleză",
+        "Norwegian Bokmål": "Norvegiană Bokmål",
+        "Pashto": "Paștună",
+        "Persian": "Persană",
+        "Polish": "Poloneză",
+        "Portuguese": "Portugheză",
+        "Romanian": "Română",
+        "Russian": "Rusă",
+        "Serbian": "Sârbă",
+        "Sinhala": "Singhaleză",
+        "Slovak": "Slovacă",
+        "Slovene": "Slovenă",
+        "Somali": "Somaleză",
+        "Spanish": "Spaniolă",
+        "Swahili": "Swahili",
+        "Swedish": "Suedeză",
+        "Tamil": "Tamil",
+        "Telugu": "Telugu",
+        "Thai": "Thailandeză",
+        "Turkish": "Turcă",
+        "Ukrainian": "Ucraineană",
+        "Urdu": "Urdu",
+        "Uzbek": "Uzbecă",
+        "Vietnamese": "Vietnameză",
+        "Welsh": "Galică",
+        "Zulu": "Zulu"
+      }
+    },
+    "errors": {
+      "failedToLoad": "Nu s-a reușit încărcarea documentului",
+      "failedToUpdate": "Nu s-a reușit actualizarea documentului",
+      "tryAgain": "Te rugăm să încerci din nou"
+    },
+    "customInstructions": {
+      "title": "Instrucțiuni Personalizate",
+      "optional": "(Opțional)",
+      "placeholder": "Adăugați instrucțiuni specifice despre subiectele pe care doriți să vă concentrați sau domeniile pe care doriți să le explorați mai detaliat (de ex. 'Focus pe concepte matematice', 'Evidențierea teoriilor principale')",
+      "characters": "caractere",
+      "priorityNote": "Instrucțiunile dvs. vor avea prioritate în timpul generării",
+      "customLanguage": {
+        "show": "Afișează Limba Personalizată",
+        "hide": "Ascunde Limba Personalizată",
+        "placeholder": "Introduceți limba personalizată (opțional)",
+        "defaultNote": "Dacă nu este specificată, se va utiliza limba selectată în setările profilului"
+      }
+    },
+    "testSets": {
+      "title": "Seturile tale de teste",
+      "of": "din",
+      "sets": "seturi",
+      "testSet": "Test",
+      "questions": "întrebări"
+    },
+    "chat": {
+      "placeholder": {
+        "default": "Pune o întrebare despre documentul tău...",
+        "selectedArea": "Întreabă despre zona selectată...",
+        "selectedText": "Întreabă despre textul selectat..."
+      },
+      "empty": {
+        "title": "Întreabă-mă orice despre documentul tău!",
+        "subtitle": "Te voi ajuta să înțelegi mai bine conținutul."
+      },
+      "replyingTo": {
+        "selection": "Se răspunde la",
+        "selectedArea": "zona selectată",
+        "selectedText": "textul selectat"
+      },
+      "errors": {
+        "characterLimit": "S-a depășit limita de caractere. Sunt permise maximum {{limit}} caractere.",
+        "messageLimit": "Poți achiziționa mesaje suplimentare sau îți poți actualiza planul pentru a continua.",
+        "purchaseMore": "Achiziționează mesaje suplimentare",
+        "allServicesFailed": "Toate serviciile AI sunt indisponibile momentan. Te rugăm să încerci mai târziu.",
+        "imageAnalysis": "Ne pare rău, a apărut o eroare în timpul analizei imaginii. Te rugăm să încerci din nou.",
+        "eduPlusArea": "Edu+ nu suportă selecția de zonă."
+      },
+      "imageSelection": {
+        "pdfArea": "Zonă selectată din PDF"
+      },
+      "buttons": {
+        "scrollToBottom": "Derulează la sfârșit"
+      },
+      "explain": {
+        "default": "Te rugăm să explici conținutul întregului document în detaliu."
+      }
+    }
+  },
+  "liveLecture": {
+    "title": "Înregistrare prelegere live",
+    "record": {
+      "button": "Înregistrează prelegerea",
+      "description": "Înregistrează și transcrie în timp real"
+    },
+    "upload": {
+      "button": "Încarcă transcrierea prelegerii",
+      "description": "Încarcă fișier .txt"
+    },
+    "error": {
+      "title": "Eroare",
+      "fileType": "Te rugăm să încarci un fișier .txt",
+      "maxLength": "Conținutul fișierului depășește lungimea maximă de {{length}} caractere",
+      "readError": "Nu s-a reușit citirea fișierului. Te rugăm să încerci din nou",
+      "micPermission": "Acces la microfon refuzat. Te rugăm să acorzi permisiunea și să încerci din nou",
+      "noMic": "Nu s-a găsit niciun microfon. Conectează un microfon și încearcă din nou",
+      "micBusy": "Microfonul este ocupat sau nu funcționează corespunzător. Verifică setările dispozitivului",
+      "micAccess": "Eroare la accesarea microfonului. Verifică setările dispozitivului",
+      "startRecord": "Nu s-a reușit pornirea înregistrării. Te rugăm să încerci din nou",
+      "noTranscript": "Nu există nicio transcriere de salvat",
+      "loginRequired": "Te rugăm să te conectezi pentru a salva înregistrările",
+      "saveFailed": "Nu s-a reușit salvarea înregistrării"
+    },
+    "timeWarning": {
+      "title": "Avertisment de timp",
+      "message": "Înregistrarea se va opri automat în {{seconds}} secunde"
+    },
+    "recording": {
+      "status": "Se înregistrează...",
+      "paused": "Pus pe pauză",
+      "live": "Live"
+    },
+    "transcript": {
+      "title": "Transcriere",
+      "empty": "Începe înregistrarea pentru a vedea transcrierea în timp real",
+      "transcribing": "Se transcrie..."
+    },
+    "actions": {
+      "reviewEdit": "Revizuiește și editează",
+      "saveDirect": "Salvează",
+      "downloadAudio": "Descarcă audio",
+      "reset": "Resetează"
+    },
+    "limits": {
+      "title": "Limite",
+      "maxRecording": "Timp maxim de înregistrare: {{minutes}} minute",
+      "maxTranscript": "Lungime maximă a transcrierii: {{length}} caractere"
+    },
+    "processing": "Se procesează fișierul tău...",
+    "languageSelect": {
+      "label": "Limba de transcriere",
+      "languages": {
+        "ar": "Arabă",
+        "da": "Daneză",
+        "de": "Germană",
+        "en": "Engleză",
+        "es": "Spaniolă",
+        "fil": "Filipineză",
+        "fr": "Franceză",
+        "hi": "Hindi",
+        "id": "Indoneziană",
+        "it": "Italiană",
+        "lt": "Lituaniană",
+        "ms": "Malay",
+        "nl": "Olandeză",
+        "pl": "Poloneză",
+        "pt": "Portugheză",
+        "ru": "Rusă",
+        "sv": "Suedeză",
+        "tr": "Turcă",
+        "uk": "Ucraineană",
+        "ur": "Urdu",
+        "zh": "Chineză"
+      }
+    },
+    "reviewEdit": {
+      "title": "Revizuiește și editează transcrierea",
+      "uploadedTitle": "Editează transcrierea încărcată",
+      "audio": {
+        "play": "Redă",
+        "pause": "Pauză"
+      },
+      "transcript": {
+        "placeholder": "Editează-ți transcrierea aici..."
+      },
+      "actions": {
+        "cancel": "Anulează",
+        "save": "Salvează modificările",
+        "saving": "Se salvează..."
+      },
+      "savingOverlay": {
+        "title": "Se salvează transcrierea...",
+        "message": "Te rugăm să aștepți în timp ce îți salvăm modificările"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Alege-ți parcursul de învățare",
+    "subtitle": "Dezvăluie potențialul maxim al învățării asistate de AI cu planurile noastre flexibile",
+    "billing": {
+      "monthly": "Lunar",
+      "yearly": "Anual",
+      "savePercent": "Economisește 40%",
+      "yearlyDiscount": "Economisește £{{amount}} pe an",
+      "pricePerMonth": "/lună"
+    },
+    "messages": {
+      "needMore": "Ai nevoie de mai multe mesaje?",
+      "purchase": "Achiziționează credite suplimentare de mesaje"
+    },
+    "plans": {
+      "popular": "Cel mai popular",
+      "features": {
+        "documentProcessing": "Procesare documente",
+        "aiFeatures": "Funcționalități AI",
+        "chatAnalysis": "Chat & analiză"
+      }
+    },
+    "planNames": {
+      "cooked": "Cooked",
+      "committed": "Committed",
+      "lockedIn": "Locked In"
+    },
+    "buttons": {
+      "currentPlan": "Planul curent",
+      "freePlan": "Plan gratuit",
+      "freeTier": "Nivel gratuit",
+      "upgradeNow": "Actualizează acum",
+      "switchPlan": "Schimbă planul"
+    },
+    "features": {
+      "cooked": {
+        "docs": [
+          "2 PDF-uri/videoclipuri YouTube pe săptămână",
+          "Dimensiune maximă fișier 20MB",
+          "1 înregistrare de prelegere pe lună"
+        ],
+        "ai": [
+          "Rezumate inteligente, fișe de studiu, notițe și teste"
+        ],
+        "chat": [
+          "3 mesaje/zi (0,02£/extra)",
+          "1 selecție de zonă/săptămână (0,05£/extra)",
+          "1 generare vocală standard/lună"
+        ]
+      },
+      "committed": {
+        "docs": [
+          "10 PDF-uri/videoclipuri YouTube pe săptămână",
+          "Dimensiune maximă fișier 30MB",
+          "10 înregistrări de prelegere pe lună"
+        ],
+        "ai": [
+          "Totul din Cooked + stiluri vocale Pro"
+        ],
+        "chat": [
+          "30 mesaje/zi (0,02£/extra)",
+          "15 selecții de zonă/săptămână (0,05£/extra)",
+          "5 generări vocale standard + 2 pro/lună"
+        ]
+      },
+      "lockedIn": {
+        "docs": [
+          "PDF-uri/videoclipuri YouTube nelimitate",
+          "Dimensiune maximă fișier 40MB",
+          "45 înregistrări de prelegere pe lună"
+        ],
+        "ai": [
+          "Totul din Committed + acces prioritar"
+        ],
+        "chat": [
+          "Mesaje nelimitate",
+          "50 selecții de zonă/săptămână (0,05£/extra)",
+          "15 generări vocale standard + 7 pro/lună"
+        ]
+      }
+    },
+    "errors": {
+      "invalidPlan": "Plan invalid selectat",
+      "checkoutFailed": "Nu s-a reușit crearea sesiunii de plată",
+      "planChangeFailed": "Nu s-a reușit procesarea schimbării de plan"
+    }
+  },
+  "support": {
+    "title": "Cum te putem ajuta?",
+    "subtitle": "Obține ajutorul de care ai nevoie cu resursele noastre cuprinzătoare de asistență",
+    "emailSupport": {
+      "title": "Asistență prin email",
+      "description": "Ai nevoie de ajutor? Trimite-ne un email și îți vom răspunde în decurs de 24 de ore.",
+      "button": "Contactează asistența"
+    },
+    "featureRequests": {
+      "title": "Cereri de funcționalități",
+      "description": "Ai o idee pentru îmbunătățirea platformei noastre? Ne-ar plăcea să o auzim!",
+      "button": "Trimite cererea"
+    },
+    "feedback": {
+      "title": "Trimite feedback",
+      "description": "Împărtășește-ne gândurile tale și ajută-ne să îți îmbunătățim experiența.",
+      "button": "Trimite feedback"
+    },
+    "faq": {
+      "title": "Întrebări frecvente",
+      "questions": {
+        "upload": {
+          "question": "Cum încarc documente?",
+          "answer": "Poți încărca documente PDF făcând clic pe butonul 'Încarcă' de pe tabloul de bord sau pur și simplu trăgând fișierele în zona de încărcare."
+        },
+        "formats": {
+          "question": "Ce formate de fișiere sunt acceptate?",
+          "answer": "În prezent, acceptăm fișiere PDF pentru analiză de documente și videoclipuri YouTube pentru generarea de transcrieri."
+        },
+        "aiAnalysis": {
+          "question": "Cum funcționează analiza AI?",
+          "answer": "AI-ul nostru avansat îți analizează documentele pentru a crea rezumate, fișe de studiu și materiale de învățare interactive, menținând contextul și acuratețea."
+        },
+        "chat": {
+          "question": "Cum pot utiliza chatul AI pentru învățare?",
+          "answer": "Chatul nostru AI îți permite să pui întrebări despre documentele încărcate, să obții explicații ale conceptelor complexe și chiar să analizezi zone selectate din PDF-uri. Pur și simplu evidențiază textul sau selectează o zonă și pune întrebarea ta."
+        }
+      }
+    }
+  },
+  "header": {
+    "tagline": "Transformă-ți parcursul de învățare",
+    "buttons": {
+      "pricing": "Prețuri",
+      "signIn": "Conectează-te",
+      "getStarted": "Începe",
+      "help": "Ajutor",
+      "dashboard": "Tablou de bord",
+      "upgradeNow": "Actualizează acum",
+      "pro": "Pro"
+    }
+  },
+  "userMenu": {
+    "profile": "Profil",
+    "upgradePlan": "Upgrade abonament",
+    "support": "Asistență",
+    "feedback": "Feedback",
+    "featureRequest": "Cere funcționalități",
+    "adminPortal": "Portal administrator",
+    "logout": "Deconectare",
+    "updates": "Cele mai recente actualizări",
+    "lightMode": "Mod luminos",
+    "darkMode": "Mod întunecat",
+    "planStatus": {
+      "cookedMember": "Membru Cooked",
+      "committedMember": "Membru Committed",
+      "lockedInMember": "Membru Locked In"
+    }
+  },
+  "languageModal": {
+    "title": "Alegeți limba",
+    "description": "Selectați limba preferată pentru o experiență mai bună",
+    "confirm": "Confirmați selecția"
+  },
+  "settings": {
+    "lightMode": "Mod luminos",
+    "darkMode": "Mod întunecat",
+    "updates": "Ultimele actualizări",
+    "planStatus": {
+      "cookedMember": "Membru Cooked",
+      "committedMember": "Membru Committed",
+      "lockedInMember": "Membru Locked In"
+    }
+  },
+  "common": {
+    "cancel": "Anulați",
+    "delete": "Ștergeți",
+    "save": "Salvați"
+  }
+}

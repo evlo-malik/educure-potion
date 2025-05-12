@@ -1,0 +1,76 @@
+/* Mobile-first responsive styles */
+@layer utilities {
+  .mobile-container {
+    @apply px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto;
+  }
+
+  .mobile-card {
+    @apply bg-white rounded-lg shadow-sm p-4 sm:p-6 md:p-8;
+  }
+
+  .mobile-text {
+    @apply text-sm sm:text-base;
+  }
+
+  .mobile-heading {
+    @apply text-xl sm:text-2xl md:text-3xl font-bold;
+  }
+
+  .mobile-button {
+    @apply w-full sm:w-auto;
+  }
+
+  .mobile-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6;
+  }
+
+  .mobile-menu {
+    @apply fixed inset-0 z-50 transform transition-transform duration-300 ease-in-out;
+  }
+
+  .mobile-menu-open {
+    @apply translate-x-0;
+  }
+
+  .mobile-menu-closed {
+    @apply -translate-x-full;
+  }
+
+  .mobile-overlay {
+    @apply fixed inset-0 bg-black bg-opacity-50 z-40;
+  }
+}
+
+/* Responsive typography */
+@responsive {
+  .text-mobile {
+    font-size: clamp(0.875rem, 4vw, 1rem);
+  }
+
+  .text-mobile-lg {
+    font-size: clamp(1rem, 5vw, 1.25rem);
+  }
+
+  .text-mobile-xl {
+    font-size: clamp(1.25rem, 6vw, 1.5rem);
+  }
+}
+
+/* Touch-friendly interactions */
+@media (hover: none) {
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px];
+  }
+
+  .touch-padding {
+    @apply p-4;
+  }
+}
+
+/* Safe area insets for modern mobile browsers */
+.safe-area-inset {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}

@@ -1,0 +1,707 @@
+{
+  "profile": {
+    "title": "Account Informatie",
+    "error": "Fout",
+    "success": "Succes",
+    "sections": {
+      "name": {
+        "label": "Naam",
+        "edit": "Bewerken",
+        "save": "Opslaan"
+      },
+      "email": {
+        "label": "E-mail"
+      },
+      "password": {
+        "label": "Wachtwoord",
+        "change": "Wijzigen",
+        "save": "Opslaan",
+        "current": "Huidig wachtwoord",
+        "new": "Nieuw wachtwoord",
+        "confirm": "Bevestig nieuw wachtwoord"
+      },
+      "subscription": {
+        "label": "Abonnementsplan",
+        "upgrade": "Plan Upgraden",
+        "manage": "Abonnement Beheren",
+        "new": "Nieuw!"
+      },
+      "messages": {
+        "label": "Berichtgebruik",
+        "description": "Volg je dagelijkse en wekelijkse berichtlimieten",
+        "textMessages": "Tekstberichten",
+        "areaSelection": "Gebiedsselectie Berichten",
+        "planUsageDaily": "Plangebruik (Dagelijks)",
+        "planUsageWeekly": "Plangebruik (Wekelijks)",
+        "purchasedMessages": "Gekochte Berichten",
+        "buyMore": "Meer Kopen",
+        "infinity": "∞"
+      },
+      "account": {
+        "title": "Account Details",
+        "memberSince": "Lid Sinds",
+        "lastLogin": "Laatste Inlog",
+        "never": "Nooit"
+      },
+      "language": {
+        "label": "Taal"
+      },
+      "danger": {
+        "title": "Gevarenzone",
+        "warning": "Zodra je je account verwijdert, is er geen weg terug. Wees er zeker van.",
+        "delete": "Account Verwijderen",
+        "confirm": "Verwijderen Bevestigen",
+        "cancel": "Annuleren",
+        "deleting": "Account wordt verwijderd..."
+      }
+    },
+    "subscription": {
+      "cancel": {
+        "title": "Weet je zeker dat je wilt annuleren?",
+        "processing": "Abonnement wordt geannuleerd...",
+        "description": "Je verliest toegang tot premium functies aan het einde van je huidige factureringsperiode.",
+        "wait": "Even geduld terwijl we je verzoek verwerken.",
+        "keep": "Abonnement Behouden",
+        "confirm": "Annulering Bevestigen"
+      }
+    }
+  },
+  "dashboard": {
+    "computerRecommended": {
+      "title": "Computer Aanbevolen",
+      "description": "Voor de beste leerervaring en toegang tot alle functies raden we ten zeerste aan om EduCure AI op een desktop of laptop computer te gebruiken."
+    },
+    "upload": {
+      "title": "Documenten Uploaden",
+      "youtube": {
+        "placeholder": "Plak YouTube video URL...",
+        "import": "Importeren"
+      },
+      "pdf": {
+        "button": "PDF Kiezen",
+        "dragDrop": "of sleep en laat los",
+        "maxSize": "Maximale bestandsgrootte: {{size}}MB",
+        "processing": "Verwerken...",
+        "readingPdf": "PDF-inhoud lezen...",
+        "saving": "Document opslaan..."
+      }
+    },
+    "record": {
+      "title": "Live College Opnemen",
+      "start": "Start Opname",
+      "description": "Neem je colleges op en transcribeer ze in real-time"
+    },
+    "limits": {
+      "documents": {
+        "title": "Wekelijkse Document Uploads",
+        "unlimited": "Onbeperkt"
+      },
+      "lectures": {
+        "title": "Maandelijkse College Opnames"
+      }
+    },
+    "documents": {
+      "title": "Jouw Documenten",
+      "sections": {
+        "pdf": "PDF en College Documenten",
+        "youtube": "YouTube Videos"
+      },
+      "empty": {
+        "title": "Nog geen documenten",
+        "description": "Upload je eerste document om te beginnen"
+      },
+      "actions": {
+        "edit": "Bewerken",
+        "delete": "Verwijderen",
+        "save": "Opslaan"
+      }
+    },
+    "errors": {
+      "login": "Log in om documenten te uploaden",
+      "youtube": {
+        "url": "Voer een YouTube URL in",
+        "invalid": "Voer een geldige YouTube URL in",
+        "import": "Kan videotranscriptie niet importeren. Probeer het opnieuw.",
+        "noTranscript": "Deze video heeft geen beschikbare transcriptie. Probeer een andere video met ingeschakelde transcriptie.",
+        "networkError": "Internetverbindingsprobleem gedetecteerd. Controleer uw verbinding en probeer het opnieuw.",
+        "unexpectedError": "Er is een onverwachte fout opgetreden bij het verwerken van uw video. Probeer het opnieuw."
+      },
+      "pdf": {
+        "invalid": "Upload een geldig PDF-bestand. Andere bestandstypen worden niet ondersteund.",
+        "size": "Bestandsgrootte overschrijdt de {{size}}MB limiet van uw abonnement. Comprimeer de PDF of upgrade uw abonnement voor grotere uploads.",
+        "upload": "Kan document niet uploaden. Probeer het opnieuw.",
+        "password": "Deze PDF is beveiligd met een wachtwoord. Verwijder de wachtwoordbeveiliging en probeer het opnieuw.",
+        "corrupt": "Dit PDF-bestand lijkt beschadigd of ongeldig te zijn. Zorg ervoor dat het een geldige PDF is en probeer het opnieuw.",
+        "storage": "Opslagquota overschreden. Maak ruimte vrij of upgrade uw abonnement.",
+        "networkError": "Internetverbindingsprobleem gedetecteerd. Controleer uw verbinding en probeer het opnieuw.",
+        "unexpectedError": "Er is een onverwachte fout opgetreden bij het verwerken van uw PDF. Probeer het opnieuw."
+      },
+      "document": {
+        "deleteFailed": "Kan document niet verwijderen"
+      },
+      "limit": "U heeft uw uploadlimiet bereikt",
+      "upgrade": "Upgrade uw abonnement"
+    },
+    "subjects": {
+      "title": "Vakken",
+      "add": "Vak toevoegen",
+      "delete": {
+        "title": "Vak verwijderen",
+        "message": "Weet u zeker dat u dit vak wilt verwijderen? Alle documenten worden verplaatst naar het Dashboard.",
+        "confirm": "Verwijderen",
+        "cancel": "Annuleren"
+      },
+      "manage": "Beheer documenten en colleges voor {{subject}}",
+      "dashboard": "Dashboard"
+    }
+  },
+  "documentView": {
+    "tabs": {
+      "chat": "Chat",
+      "notes": "Notities",
+      "flashcards": "Flashcards",
+      "test": "Toets"
+    },
+    "selectionMode": {
+      "textActive": "Tekstselectiemodus actief",
+      "areaActive": "Gebiedselectiemodus actief"
+    },
+    "actions": {
+      "download": "Downloaden",
+      "hideDocument": "Document Verbergen",
+      "showDocument": "Document Tonen"
+    },
+    "notes": {
+      "generate": "Genereren",
+      "generating": "Genereren...",
+      "description": "Maak gedetailleerde studienotities met kernpunten en diepgaande uitleg"
+    },
+    "flashcards": {
+      "generate": "Genereren",
+      "generating": "Genereren...",
+      "description": "Maak AI-gestuurde flashcards van je document om kernconcepten te onthouden",
+      "navigation": {
+        "previous": "Vorige Kaart",
+        "next": "Volgende Kaart"
+      },
+      "labels": {
+        "question": "Vraag",
+        "answer": "Antwoord"
+      },
+      "clickToFlip": "Klik om te draaien",
+      "placeholders": {
+        "question": "Voer hier uw vraag in...",
+        "answer": "Voer hier uw antwoord in..."
+      },
+      "deleteConfirm": {
+        "title": "Kaart verwijderen",
+        "message": "Weet u zeker dat u deze kaart wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt."
+      },
+      "actions": {
+        "export": "Exporteren",
+        "new": "Kaart toevoegen"
+      },
+      "export": {
+        "toCsv": "Exporteren naar CSV",
+        "toClipboard": "Tekst kopiëren"
+      },
+      "copySuccess": "Kaarten gekopieerd naar klembord",
+      "copyError": "Kan kaarten niet kopiëren naar klembord",
+      "exportError": "Kan kaarten niet exporteren naar CSV"
+    },
+    "test": {
+      "generate": "Genereren",
+      "generating": "Genereren...",
+      "description": "Maak interactieve tests met meerkeuzevragen en waar/onwaar vragen om je begrip te testen",
+      "results": {
+        "score": {
+          "perfect": "Je bent de GOAT 🐐",
+          "excellent": "Beast mode aan 💪",
+          "great": "Je rockt 😤",
+          "good": "Gewoon doorgaan 🚶",
+          "fair": "Focus nodig 🔒",
+          "poor": "Deze keer gefaald broer 💀"
+        },
+        "yourAnswer": "Jouw Antwoord",
+        "correctAnswer": "Juiste Antwoord"
+      },
+      "buttons": {
+        "submit": "Test Indienen",
+        "tryAgain": "Opnieuw Proberen",
+        "generateNew": "Nieuwe Test Genereren"
+      },
+      "options": {
+        "true": "Waar",
+        "false": "Onwaar"
+      },
+      "previousTests": {
+        "title": "Vorige Tests",
+        "number": "Test #{{number}}"
+      }
+    },
+    "vocalize": {
+      "beta": "BETA",
+      "generate": "Genereer",
+      "generating": "Genereren...",
+      "description": "Zet tekst om naar natuurlijke spraak",
+      "voiceStyle": "Stemstijl",
+      "styleOptions": {
+        "lecture": {
+          "label": "College",
+          "description": "Professionele academische stem voor duidelijke uitleg"
+        },
+        "news": {
+          "label": "Nieuwslezer",
+          "description": "Professionele omroepstem"
+        },
+        "soft": {
+          "label": "Zachte Stem",
+          "description": "Zachte, kalmerende stem voor comfortabel leren"
+        },
+        "asmr": {
+          "label": "ASMR",
+          "description": "Zachte, intieme stem voor ontspannen leren",
+          "pro": "PRO"
+        },
+        "motivational": {
+          "label": "Motiverend",
+          "description": "Energieke stem om te inspireren en te betrekken",
+          "pro": "PRO"
+        },
+        "storytelling": {
+          "label": "Vertelstijl",
+          "description": "Expressieve stem voor verhalende inhoud",
+          "pro": "PRO"
+        }
+      },
+      "usage": {
+        "standard": "Standaard Vocalisatie",
+        "pro": "PRO Vocalisatie"
+      },
+      "errors": {
+        "limitReached": "Generatielimiet bereikt",
+        "upgradeRequired": "Upgrade je abonnement",
+        "maxAudioLimit": "Maximale Audiolimiet Bereikt",
+        "deleteExisting": "Verwijder een bestaande audioversie om een nieuwe te genereren",
+        "generatingAudio": "Audio-ervaring Genereren...",
+        "creatingStyle": "Je stijlrevisie maken",
+        "noAudioYet": "Nog geen audioversies gegenereerd",
+        "generateFirst": "Genereer je eerste audioversie hierboven!"
+      },
+      "buttons": {
+        "generateNew": "Genereer Nieuwe Audio in",
+        "savedVersions": "Opgeslagen Audioversies"
+      },
+      "languageAvailability": {
+        "english": "Beschikbaar in het Engels",
+        "languages29": "Beschikbaar in 29 talen",
+        "languages60": "Beschikbaar in meer dan 60 talen"
+      },
+      "voiceLanguage": "Stemtaal",
+      "searchLanguage": "Zoek taal...",
+      "noLanguagesFound": "Geen talen gevonden",
+      "languages": {
+        "Afrikaans": "Afrikaans",
+        "Albanian": "Albanees",
+        "Arabic": "Arabisch",
+        "Armenian": "Armeens",
+        "Azerbaijani": "Azerbeidzjaans",
+        "Bahasa Indonesian": "Indonesisch",
+        "Bengali": "Bengaals",
+        "Bosnian": "Bosnisch",
+        "Bulgarian": "Bulgaars",
+        "Catalan": "Catalaans",
+        "Chinese Cantonese": "Chinees (Kantonees)",
+        "Chinese Mandarin": "Chinees (Mandarijn)",
+        "Croatian": "Kroatisch",
+        "Czech": "Tsjechisch",
+        "Danish": "Deens",
+        "Dutch": "Nederlands",
+        "English": "Engels",
+        "Estonian": "Estisch",
+        "Filipino": "Filipijns",
+        "Finnish": "Fins",
+        "French": "Frans",
+        "Galician": "Galicisch",
+        "Georgian": "Georgisch",
+        "German": "Duits",
+        "Greek": "Grieks",
+        "Hebrew": "Hebreeuws",
+        "Hindi": "Hindi",
+        "Hungarian": "Hongaars",
+        "Icelandic": "IJslands",
+        "Irish": "Iers",
+        "Italian": "Italiaans",
+        "Japanese": "Japans",
+        "Javanese": "Javaans",
+        "Kannada": "Kannada",
+        "Kazakh": "Kazachs",
+        "Korean": "Koreaans",
+        "Latvian": "Lets",
+        "Lithuanian": "Litouws",
+        "Macedonian": "Macedonisch",
+        "Malay": "Maleis",
+        "Maltese": "Maltees",
+        "Marathi": "Marathi",
+        "Mongolian": "Mongools",
+        "Nepali": "Nepalees",
+        "Norwegian Bokmål": "Noors (Bokmål)",
+        "Pashto": "Pasjtoe",
+        "Persian": "Perzisch",
+        "Polish": "Pools",
+        "Portuguese": "Portugees",
+        "Romanian": "Roemeens",
+        "Russian": "Russisch",
+        "Serbian": "Servisch",
+        "Sinhala": "Singalees",
+        "Slovak": "Slowaaks",
+        "Slovene": "Sloveens",
+        "Somali": "Somalisch",
+        "Spanish": "Spaans",
+        "Swahili": "Swahili",
+        "Swedish": "Zweeds",
+        "Tamil": "Tamil",
+        "Telugu": "Telugu",
+        "Thai": "Thais",
+        "Turkish": "Turks",
+        "Ukrainian": "Oekraïens",
+        "Urdu": "Urdu",
+        "Uzbek": "Oezbeeks",
+        "Vietnamese": "Vietnamees",
+        "Welsh": "Welsh",
+        "Zulu": "Zoeloe"
+      }
+    },
+    "errors": {
+      "failedToLoad": "Kon document niet laden",
+      "failedToUpdate": "Kon document niet bijwerken",
+      "tryAgain": "Probeer het opnieuw"
+    },
+    "customInstructions": {
+      "title": "Aangepaste Instructies",
+      "optional": "(Optioneel)",
+      "placeholder": "Voeg specifieke instructies toe over onderwerpen waarop u wilt focussen of gebieden die u gedetailleerder wilt verkennen (bijv. 'Focus op wiskundige concepten', 'Benadruk hoofdtheorieën')",
+      "characters": "tekens",
+      "priorityNote": "Uw instructies krijgen voorrang tijdens het genereren",
+      "customLanguage": {
+        "show": "Toon Aangepaste Taal",
+        "hide": "Verberg Aangepaste Taal",
+        "placeholder": "Voer aangepaste taal in (optioneel)",
+        "defaultNote": "Indien niet gespecificeerd, wordt de taal gebruikt die in de profielinstellingen is geselecteerd"
+      }
+    },
+    "testSets": {
+      "title": "Jouw Test Sets",
+      "of": "van",
+      "sets": "sets",
+      "testSet": "Test",
+      "questions": "vragen"
+    },
+    "chat": {
+      "placeholder": {
+        "default": "Stel een vraag over uw document...",
+        "selectedArea": "Vraag over het geselecteerde gebied...",
+        "selectedText": "Vraag over de geselecteerde tekst..."
+      },
+      "empty": {
+        "title": "Vraag me alles over uw document!",
+        "subtitle": "Ik help u de inhoud beter te begrijpen."
+      },
+      "replyingTo": {
+        "selection": "Antwoord op",
+        "selectedArea": "geselecteerd gebied",
+        "selectedText": "geselecteerde tekst"
+      },
+      "errors": {
+        "characterLimit": "Tekenlimiet overschreden. Maximaal {{limit}} tekens toegestaan.",
+        "messageLimit": "U kunt extra berichten kopen of uw abonnement upgraden om door te gaan.",
+        "purchaseMore": "Koop extra berichten",
+        "allServicesFailed": "Alle AI-diensten zijn momenteel niet beschikbaar. Probeer het later opnieuw.",
+        "imageAnalysis": "Sorry, er is een fout opgetreden bij het analyseren van de afbeelding. Probeer het opnieuw.",
+        "eduPlusArea": "Edu+ ondersteunt geen gebiedsselectie."
+      },
+      "imageSelection": {
+        "pdfArea": "Geselecteerd gebied uit PDF"
+      },
+      "buttons": {
+        "scrollToBottom": "Naar beneden scrollen"
+      },
+      "explain": {
+        "default": "Leg de inhoud van het hele document gedetailleerd uit."
+      }
+    }
+  },
+  "liveLecture": {
+    "title": "Live College Recorder",
+    "record": {
+      "button": "College opnemen",
+      "description": "Real-time opnemen en transcriberen"
+    },
+    "upload": {
+      "button": "College transcript uploaden",
+      "description": "Upload .txt bestand"
+    },
+    "error": {
+      "title": "Fout",
+      "fileType": "Upload alstublieft een .txt bestand",
+      "maxLength": "Bestandsinhoud overschrijdt de maximale lengte van {{length}} tekens",
+      "readError": "Kan bestand niet lezen. Probeer het opnieuw",
+      "micPermission": "Microfoontoegang geweigerd. Geef toestemming en probeer het opnieuw",
+      "noMic": "Geen microfoon gevonden. Sluit een microfoon aan en probeer het opnieuw",
+      "micBusy": "Microfoon is bezet of werkt niet correct. Controleer apparaatinstellingen",
+      "micAccess": "Fout bij microfoontoegang. Controleer apparaatinstellingen",
+      "startRecord": "Kan opname niet starten. Probeer het opnieuw",
+      "noTranscript": "Geen transcript beschikbaar om op te slaan",
+      "loginRequired": "Log in om opnames op te slaan",
+      "saveFailed": "Kon opname niet opslaan"
+    },
+    "timeWarning": {
+      "title": "Tijdwaarschuwing",
+      "message": "Opname stopt automatisch in {{seconds}} seconden"
+    },
+    "recording": {
+      "status": "Opnemen...",
+      "paused": "Gepauzeerd",
+      "live": "Live"
+    },
+    "transcript": {
+      "title": "Transcript",
+      "empty": "Start opname om real-time transcript te zien",
+      "transcribing": "Transcriberen..."
+    },
+    "actions": {
+      "reviewEdit": "Bekijken en bewerken",
+      "saveDirect": "Opslaan",
+      "downloadAudio": "Audio downloaden",
+      "reset": "Resetten"
+    },
+    "limits": {
+      "title": "Limieten",
+      "maxRecording": "Maximale opnametijd: {{minutes}} minuten",
+      "maxTranscript": "Maximale transcriptlengte: {{length}} tekens"
+    },
+    "processing": "Uw bestand wordt verwerkt...",
+    "languageSelect": {
+      "label": "Transcriptietaal",
+      "languages": {
+        "ar": "Arabisch",
+        "da": "Deens",
+        "de": "Duits",
+        "en": "Engels",
+        "es": "Spaans",
+        "fil": "Filipijns",
+        "fr": "Frans",
+        "hi": "Hindi",
+        "id": "Indonesisch",
+        "it": "Italiaans",
+        "lt": "Litouws",
+        "ms": "Maleis",
+        "nl": "Nederlands",
+        "pl": "Pools",
+        "pt": "Portugees",
+        "ru": "Russisch",
+        "sv": "Zweeds",
+        "tr": "Turks",
+        "uk": "Oekraïens",
+        "ur": "Urdu",
+        "zh": "Chinees"
+      }
+    },
+    "reviewEdit": {
+      "title": "Transcriptie Bekijken en Bewerken",
+      "uploadedTitle": "Geüploade Transcriptie Bewerken",
+      "audio": {
+        "play": "Afspelen",
+        "pause": "Pauzeren"
+      },
+      "transcript": {
+        "placeholder": "Bewerk je transcriptie hier..."
+      },
+      "actions": {
+        "cancel": "Annuleren",
+        "save": "Wijzigingen Opslaan",
+        "saving": "Opslaan..."
+      },
+      "savingOverlay": {
+        "title": "Transcriptie opslaan...",
+        "message": "Even geduld terwijl we je wijzigingen opslaan"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Kies Jouw Leertraject",
+    "subtitle": "Ontgrendel het volledige potentieel van AI-gestuurd leren met onze flexibele plannen",
+    "billing": {
+      "monthly": "Maandelijks",
+      "yearly": "Jaarlijks",
+      "savePercent": "Bespaar 40%",
+      "yearlyDiscount": "Bespaar £{{amount}} per jaar",
+      "pricePerMonth": "/maand"
+    },
+    "messages": {
+      "needMore": "Meer berichten nodig?",
+      "purchase": "Koop extra berichtenkrediet"
+    },
+    "plans": {
+      "popular": "Meest Populair",
+      "features": {
+        "documentProcessing": "Documentverwerking",
+        "aiFeatures": "AI-functies",
+        "chatAnalysis": "Chat en Analyse"
+      }
+    },
+    "planNames": {
+      "cooked": "Cooked",
+      "committed": "Committed",
+      "lockedIn": "Locked In"
+    },
+    "buttons": {
+      "currentPlan": "Huidig Plan",
+      "freePlan": "Gratis Plan",
+      "freeTier": "Gratis Niveau",
+      "upgradeNow": "Nu Upgraden",
+      "switchPlan": "Verander Plan"
+    },
+    "features": {
+      "cooked": {
+        "docs": [
+          "2 PDF's/YouTube-video's per week",
+          "Maximale bestandsgrootte 20MB",
+          "1 collegeopname per maand"
+        ],
+        "ai": [
+          "Intelligente samenvattingen, flashcards, notities en tests"
+        ],
+        "chat": [
+          "3 berichten/dag (£0.02/extra)",
+          "1 gebiedsselectie/week (£0.05/extra)",
+          "1 standaard stemgeneratie/maand"
+        ]
+      },
+      "committed": {
+        "docs": [
+          "10 PDF's/YouTube-video's per week",
+          "Maximale bestandsgrootte 30MB",
+          "10 collegeopnames per maand"
+        ],
+        "ai": [
+          "Alles van Cooked + Pro stemstijlen"
+        ],
+        "chat": [
+          "30 berichten/dag (£0.02/extra)",
+          "15 gebiedsselecties/week (£0.05/extra)",
+          "5 standaard + 2 pro stemgeneraties/maand"
+        ]
+      },
+      "lockedIn": {
+        "docs": [
+          "Onbeperkte PDF's/YouTube-video's",
+          "Maximale bestandsgrootte 40MB",
+          "45 collegeopnames per maand"
+        ],
+        "ai": [
+          "Alles van Committed + prioriteitstoegang"
+        ],
+        "chat": [
+          "Onbeperkte berichten",
+          "50 gebiedsselecties/week (£0.05/extra)",
+          "15 standaard + 7 pro stemgeneraties/maand"
+        ]
+      }
+    },
+    "errors": {
+      "invalidPlan": "Ongeldig plan geselecteerd",
+      "checkoutFailed": "Kon geen betalingssessie aanmaken",
+      "planChangeFailed": "Kon planwijziging niet verwerken"
+    }
+  },
+  "support": {
+    "title": "Hoe kunnen we helpen?",
+    "subtitle": "Krijg de hulp die je nodig hebt met onze uitgebreide ondersteuningsbronnen",
+    "emailSupport": {
+      "title": "E-mail Ondersteuning",
+      "description": "Hulp nodig? Stuur ons een e-mail en we reageren binnen 24 uur.",
+      "button": "Contact Opnemen"
+    },
+    "featureRequests": {
+      "title": "Functieverzoeken",
+      "description": "Heb je een idee om ons platform te verbeteren? We horen het graag!",
+      "button": "Verzoek Indienen"
+    },
+    "feedback": {
+      "title": "Feedback Versturen",
+      "description": "Deel je gedachten en help ons je ervaring te verbeteren.",
+      "button": "Feedback Versturen"
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "questions": {
+        "upload": {
+          "question": "Hoe upload ik documenten?",
+          "answer": "Je kunt PDF-documenten uploaden door op de 'Upload' knop in je dashboard te klikken of door bestanden simpelweg naar het uploadgebied te slepen."
+        },
+        "formats": {
+          "question": "Welke bestandsformaten worden ondersteund?",
+          "answer": "Momenteel ondersteunen we PDF-bestanden voor documentanalyse en YouTube-video's voor transcriptiegeneratie."
+        },
+        "aiAnalysis": {
+          "question": "Hoe werkt de AI-analyse?",
+          "answer": "Onze geavanceerde AI analyseert je documenten om samenvattingen, flashcards en interactief studiemateriaal te maken, waarbij context en nauwkeurigheid behouden blijven."
+        },
+        "chat": {
+          "question": "Hoe kan ik de AI-chat gebruiken om te leren?",
+          "answer": "Onze AI-chat stelt je in staat om vragen te stellen over je geüploade documenten, uitleg te krijgen over complexe concepten en zelfs geselecteerde gebieden in PDF's te analyseren. Markeer gewoon tekst of selecteer een gebied en stel je vraag."
+        }
+      }
+    }
+  },
+  "header": {
+    "tagline": "Transformeer Je Leerreis",
+    "buttons": {
+      "pricing": "Prijzen",
+      "signIn": "Inloggen",
+      "getStarted": "Aan de slag",
+      "help": "Help",
+      "dashboard": "Dashboard",
+      "upgradeNow": "Nu upgraden",
+      "pro": "Pro"
+    }
+  },
+  "userMenu": {
+    "profile": "Profiel",
+    "upgradePlan": "Abonnement upgraden",
+    "support": "Ondersteuning",
+    "feedback": "Feedback",
+    "featureRequest": "Functieverzoek",
+    "adminPortal": "Beheerdersportaal",
+    "logout": "Uitloggen",
+    "planStatus": {
+      "cookedMember": "Cooked lid",
+      "committedMember": "Committed lid",
+      "lockedInMember": "Locked In lid"
+    },
+    "updates": "Laatste updates",
+    "lightMode": "Lichte modus",
+    "darkMode": "Donkere modus"
+  },
+  "settings": {
+    "lightMode": "Lichte modus",
+    "darkMode": "Donkere modus",
+    "updates": "Laatste updates",
+    "planStatus": {
+      "cookedMember": "Cooked lid",
+      "committedMember": "Committed lid",
+      "lockedInMember": "Locked In lid"
+    }
+  },
+  "languageModal": {
+    "title": "Kies uw taal",
+    "description": "Selecteer uw voorkeurstaal voor de beste ervaring",
+    "confirm": "Selectie bevestigen"
+  },
+  "common": {
+    "cancel": "Annuleren",
+    "delete": "Verwijderen",
+    "save": "Opslaan"
+  }
+} 

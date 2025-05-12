@@ -1,0 +1,708 @@
+{
+  "profile": {
+    "title": "Informações da Conta",
+    "error": "Erro",
+    "success": "Sucesso",
+    "sections": {
+      "name": {
+        "label": "Nome",
+        "edit": "Editar",
+        "save": "Salvar"
+      },
+      "email": {
+        "label": "Email"
+      },
+      "password": {
+        "label": "Senha",
+        "change": "Alterar",
+        "save": "Salvar",
+        "current": "Senha atual",
+        "new": "Nova senha",
+        "confirm": "Confirmar nova senha"
+      },
+      "subscription": {
+        "label": "Plano de Assinatura",
+        "upgrade": "Atualizar Plano",
+        "manage": "Gerenciar Assinatura",
+        "new": "Novo!"
+      },
+      "messages": {
+        "label": "Uso de Mensagens",
+        "description": "Acompanhe seus limites de mensagens diárias e semanais",
+        "textMessages": "Mensagens de Texto",
+        "areaSelection": "Mensagens de Seleção de Área",
+        "planUsageDaily": "Uso do Plano (Diário)",
+        "planUsageWeekly": "Uso do Plano (Semanal)",
+        "purchasedMessages": "Mensagens Compradas",
+        "buyMore": "Comprar Mais",
+        "infinity": "∞"
+      },
+      "account": {
+        "title": "Detalhes da Conta",
+        "memberSince": "Membro Desde",
+        "lastLogin": "Último Acesso",
+        "never": "Nunca"
+      },
+      "language": {
+        "label": "Idioma"
+      },
+      "danger": {
+        "title": "Zona de Perigo",
+        "warning": "Uma vez excluída a conta, não há como voltar atrás. Por favor, tenha certeza.",
+        "delete": "Excluir Conta",
+        "confirm": "Confirmar Exclusão",
+        "cancel": "Cancelar",
+        "deleting": "Excluindo conta..."
+      }
+    },
+    "subscription": {
+      "cancel": {
+        "title": "Tem certeza que deseja cancelar?",
+        "processing": "Cancelando assinatura...",
+        "description": "Você perderá acesso aos recursos premium ao final do período de faturamento atual.",
+        "wait": "Aguarde enquanto processamos sua solicitação.",
+        "keep": "Manter Assinatura",
+        "confirm": "Cancelar Assinatura"
+      }
+    }
+  },
+  "dashboard": {
+    "computerRecommended": {
+      "title": "Computador Recomendado",
+      "description": "Para a melhor experiência de aprendizado e acesso a todos os recursos, recomendamos fortemente usar o EduCure AI em um computador desktop ou notebook."
+    },
+    "upload": {
+      "title": "Carregar Documento",
+      "youtube": {
+        "placeholder": "Cole a URL do vídeo do YouTube...",
+        "import": "Importar"
+      },
+      "pdf": {
+        "button": "Selecionar PDF",
+        "dragDrop": "ou arraste e solte",
+        "maxSize": "Tamanho máximo do arquivo: {{size}}MB",
+        "processing": "Processando...",
+        "readingPdf": "Lendo conteúdo do PDF...",
+        "saving": "Salvando documento..."
+      }
+    },
+    "record": {
+      "title": "Gravar Aula ao Vivo",
+      "start": "Iniciar Gravação",
+      "description": "Grave e transcreva suas aulas em tempo real"
+    },
+    "limits": {
+      "documents": {
+        "title": "Uploads de Documentos Semanais",
+        "unlimited": "Ilimitado"
+      },
+      "lectures": {
+        "title": "Gravações de Aulas Mensais"
+      }
+    },
+    "documents": {
+      "title": "Seus Documentos",
+      "sections": {
+        "pdf": "Documentos PDF e Aulas",
+        "youtube": "Vídeos do YouTube"
+      },
+      "empty": {
+        "title": "Ainda não há documentos",
+        "description": "Carregue seu primeiro documento para começar"
+      },
+      "actions": {
+        "edit": "Editar",
+        "delete": "Excluir",
+        "save": "Salvar"
+      }
+    },
+    "errors": {
+      "login": "Por favor, faça login para enviar documentos",
+      "youtube": {
+        "url": "Por favor, insira um URL do YouTube",
+        "invalid": "Por favor, insira um URL válido do YouTube",
+        "import": "Falha ao importar a transcrição do vídeo. Por favor, tente novamente.",
+        "noTranscript": "Este vídeo não tem transcrição disponível. Por favor, tente outro vídeo com transcrição ativada.",
+        "networkError": "Problema de conexão com a internet detectado. Por favor, verifique sua conexão e tente novamente.",
+        "unexpectedError": "Ocorreu um erro inesperado ao processar seu vídeo. Por favor, tente novamente."
+      },
+      "pdf": {
+        "invalid": "Por favor, envie um arquivo PDF válido. Outros tipos de arquivo não são suportados.",
+        "size": "O tamanho do arquivo excede o limite de {{size}}MB do seu plano. Por favor, comprima o PDF ou atualize seu plano para uploads maiores.",
+        "upload": "Falha ao enviar documento. Por favor, tente novamente.",
+        "password": "Este PDF está protegido por senha. Por favor, remova a proteção por senha e tente novamente.",
+        "corrupt": "Este arquivo PDF parece estar corrompido ou inválido. Por favor, certifique-se de que é um PDF válido e tente novamente.",
+        "storage": "Cota de armazenamento excedida. Por favor, libere espaço ou atualize seu plano.",
+        "networkError": "Problema de conexão com a internet detectado. Por favor, verifique sua conexão e tente novamente.",
+        "unexpectedError": "Ocorreu um erro inesperado ao processar seu PDF. Por favor, tente novamente."
+      },
+      "document": {
+        "deleteFailed": "Falha ao excluir documento"
+      },
+      "limit": "Você atingiu seu limite de upload",
+      "upgrade": "Atualize seu plano"
+    },
+    "subjects": {
+      "title": "Disciplinas",
+      "add": "Adicionar disciplina",
+      "delete": {
+        "title": "Excluir disciplina",
+        "message": "Tem certeza que deseja excluir esta disciplina? Todos os documentos serão movidos para o Painel.",
+        "confirm": "Excluir",
+        "cancel": "Cancelar"
+      },
+      "manage": "Gerenciar documentos e aulas para {{subject}}",
+      "dashboard": "Painel"
+    }
+  },
+  "documentView": {
+    "tabs": {
+      "chat": "Chat",
+      "notes": "Notas",
+      "flashcards": "Flashcards",
+      "test": "Teste",
+      "vocalize": "Vocalizar"
+    },
+    "selectionMode": {
+      "textActive": "Modo de seleção de texto ativo",
+      "areaActive": "Modo de seleção de área ativo"
+    },
+    "actions": {
+      "download": "Baixar",
+      "hideDocument": "Ocultar documento",
+      "showDocument": "Mostrar documento"
+    },
+    "notes": {
+      "generate": "Gerar",
+      "generating": "Gerando...",
+      "description": "Crie notas de estudo detalhadas com pontos-chave e explicações aprofundadas"
+    },
+    "flashcards": {
+      "generate": "Gerar",
+      "generating": "Gerando...",
+      "description": "Crie cartões com IA para memorizar conceitos-chave do seu documento",
+      "navigation": {
+        "previous": "Cartão anterior",
+        "next": "Próximo cartão"
+      },
+      "labels": {
+        "question": "Pergunta",
+        "answer": "Resposta"
+      },
+      "clickToFlip": "Clique para virar",
+      "placeholders": {
+        "question": "Digite sua pergunta aqui...",
+        "answer": "Digite sua resposta aqui..."
+      },
+      "deleteConfirm": {
+        "title": "Excluir cartão",
+        "message": "Tem certeza que deseja excluir este cartão? Esta ação não pode ser desfeita."
+      },
+      "actions": {
+        "export": "Exportar",
+        "new": "Adicionar cartão"
+      },
+      "export": {
+        "toCsv": "Exportar para CSV",
+        "toClipboard": "Copiar texto"
+      },
+      "copySuccess": "Cartões copiados para a área de transferência",
+      "copyError": "Falha ao copiar cartões para a área de transferência",
+      "exportError": "Falha ao exportar cartões para CSV"
+    },
+    "test": {
+      "generate": "Gerar",
+      "generating": "Gerando...",
+      "description": "Crie um teste interativo com questões de múltipla escolha e verdadeiro/falso para avaliar sua compreensão",
+      "results": {
+        "score": {
+          "perfect": "Você é o GOAT 🐐",
+          "excellent": "Modo fera ativado 💪",
+          "great": "Você está arrasando 😤",
+          "good": "Continua assim 🚶",
+          "fair": "Precisa focar 🔒",
+          "poor": "Não foi dessa vez irmão 💀"
+        },
+        "yourAnswer": "Sua resposta",
+        "correctAnswer": "Resposta correta"
+      },
+      "buttons": {
+        "submit": "Enviar teste",
+        "tryAgain": "Tentar novamente",
+        "generateNew": "Gerar novo teste"
+      },
+      "options": {
+        "true": "Verdadeiro",
+        "false": "Falso"
+      },
+      "previousTests": {
+        "title": "Testes anteriores",
+        "number": "Teste #{{number}}"
+      }
+    },
+    "vocalize": {
+      "beta": "BETA",
+      "generate": "Gerar",
+      "generating": "Gerando...",
+      "description": "Converter texto em fala natural",
+      "voiceStyle": "Estilo de Voz",
+      "styleOptions": {
+        "lecture": {
+          "label": "Palestra",
+          "description": "Voz acadêmica profissional para explicações claras"
+        },
+        "news": {
+          "label": "Apresentador",
+          "description": "Voz profissional estilo transmissão"
+        },
+        "soft": {
+          "label": "Voz Suave",
+          "description": "Voz gentil e calmante para aprendizado confortável"
+        },
+        "asmr": {
+          "label": "ASMR",
+          "description": "Voz suave e íntima para aprendizado relaxado",
+          "pro": "PRO"
+        },
+        "motivational": {
+          "label": "Motivacional",
+          "description": "Voz energética para inspirar e engajar",
+          "pro": "PRO"
+        },
+        "storytelling": {
+          "label": "Narrativa",
+          "description": "Voz expressiva para conteúdo narrativo",
+          "pro": "PRO"
+        }
+      },
+      "usage": {
+        "standard": "Vocalização Padrão",
+        "pro": "Vocalização PRO"
+      },
+      "errors": {
+        "limitReached": "Limite de geração atingido",
+        "upgradeRequired": "Atualize seu plano",
+        "maxAudioLimit": "Limite Máximo de Áudio Atingido",
+        "deleteExisting": "Exclua uma versão de áudio existente para gerar uma nova",
+        "generatingAudio": "Gerando Experiência de Áudio...",
+        "creatingStyle": "Criando sua revisão de estilo",
+        "noAudioYet": "Nenhuma versão de áudio gerada ainda",
+        "generateFirst": "Gere sua primeira versão de áudio acima!"
+      },
+      "buttons": {
+        "generateNew": "Gerar Novo Áudio em",
+        "savedVersions": "Versões de Áudio Salvas"
+      },
+      "languageAvailability": {
+        "english": "Disponível em inglês",
+        "languages29": "Disponível em 29 idiomas",
+        "languages60": "Disponível em mais de 60 idiomas"
+      },
+      "voiceLanguage": "Idioma da Voz",
+      "searchLanguage": "Pesquisar idioma...",
+      "noLanguagesFound": "Nenhum idioma encontrado",
+      "languages": {
+        "Afrikaans": "Africâner",
+        "Albanian": "Albanês",
+        "Arabic": "Árabe",
+        "Armenian": "Armênio",
+        "Azerbaijani": "Azerbaijano",
+        "Bahasa Indonesian": "Indonésio",
+        "Bengali": "Bengali",
+        "Bosnian": "Bósnio",
+        "Bulgarian": "Búlgaro",
+        "Catalan": "Catalão",
+        "Chinese Cantonese": "Chinês (Cantonês)",
+        "Chinese Mandarin": "Chinês (Mandarim)",
+        "Croatian": "Croata",
+        "Czech": "Tcheco",
+        "Danish": "Dinamarquês",
+        "Dutch": "Holandês",
+        "English": "Inglês",
+        "Estonian": "Estoniano",
+        "Filipino": "Filipino",
+        "Finnish": "Finlandês",
+        "French": "Francês",
+        "Galician": "Galego",
+        "Georgian": "Georgiano",
+        "German": "Alemão",
+        "Greek": "Grego",
+        "Hebrew": "Hebraico",
+        "Hindi": "Hindi",
+        "Hungarian": "Húngaro",
+        "Icelandic": "Islandês",
+        "Irish": "Irlandês",
+        "Italian": "Italiano",
+        "Japanese": "Japonês",
+        "Javanese": "Javanês",
+        "Kannada": "Canarês",
+        "Kazakh": "Cazaque",
+        "Korean": "Coreano",
+        "Latvian": "Letão",
+        "Lithuanian": "Lituano",
+        "Macedonian": "Macedônio",
+        "Malay": "Malaio",
+        "Maltese": "Maltês",
+        "Marathi": "Marati",
+        "Mongolian": "Mongol",
+        "Nepali": "Nepalês",
+        "Norwegian Bokmål": "Norueguês (Bokmål)",
+        "Pashto": "Pachto",
+        "Persian": "Persa",
+        "Polish": "Polonês",
+        "Portuguese": "Português",
+        "Romanian": "Romeno",
+        "Russian": "Russo",
+        "Serbian": "Sérvio",
+        "Sinhala": "Cingalês",
+        "Slovak": "Eslovaco",
+        "Slovene": "Esloveno",
+        "Somali": "Somali",
+        "Spanish": "Espanhol",
+        "Swahili": "Suaíli",
+        "Swedish": "Sueco",
+        "Tamil": "Tâmil",
+        "Telugu": "Telugu",
+        "Thai": "Tailandês",
+        "Turkish": "Turco",
+        "Ukrainian": "Ucraniano",
+        "Urdu": "Urdu",
+        "Uzbek": "Uzbeque",
+        "Vietnamese": "Vietnamita",
+        "Welsh": "Galês",
+        "Zulu": "Zulu"
+      }
+    },
+    "errors": {
+      "failedToLoad": "Falha ao carregar documento",
+      "failedToUpdate": "Falha ao atualizar documento",
+      "tryAgain": "Por favor, tente novamente"
+    },
+    "customInstructions": {
+      "title": "Instruções Personalizadas",
+      "optional": "(Opcional)",
+      "placeholder": "Adicione instruções específicas sobre tópicos para focar ou áreas que deseja explorar em mais detalhes (por exemplo, 'Foco em conceitos matemáticos', 'Enfatizar teorias principais')",
+      "characters": "caracteres",
+      "priorityNote": "Suas instruções terão prioridade durante a geração",
+      "customLanguage": {
+        "show": "Mostrar Idioma Personalizado",
+        "hide": "Ocultar Idioma Personalizado",
+        "placeholder": "Digite o idioma personalizado (opcional)",
+        "defaultNote": "Se não especificado, será usado o idioma selecionado nas configurações do perfil"
+      }
+    },
+    "testSets": {
+      "title": "Seus conjuntos de testes",
+      "of": "de",
+      "sets": "conjuntos",
+      "testSet": "Teste",
+      "questions": "questões"
+    },
+    "chat": {
+      "placeholder": {
+        "default": "Faça uma pergunta sobre seu documento...",
+        "selectedArea": "Pergunte sobre a área selecionada...",
+        "selectedText": "Pergunte sobre o texto selecionado..."
+      },
+      "empty": {
+        "title": "Pergunte-me qualquer coisa sobre seu documento!",
+        "subtitle": "Vou ajudá-lo a entender melhor o conteúdo."
+      },
+      "replyingTo": {
+        "selection": "Respondendo a",
+        "selectedArea": "área selecionada",
+        "selectedText": "texto selecionado"
+      },
+      "errors": {
+        "characterLimit": "Limite de caracteres excedido. Máximo de {{limit}} caracteres permitidos.",
+        "messageLimit": "Você pode comprar mensagens adicionais ou atualizar seu plano para continuar.",
+        "purchaseMore": "Comprar mensagens adicionais",
+        "allServicesFailed": "Todos os serviços de IA estão indisponíveis no momento. Por favor, tente novamente mais tarde.",
+        "imageAnalysis": "Desculpe, ocorreu um erro ao analisar a imagem. Por favor, tente novamente.",
+        "eduPlusArea": "Edu+ não suporta seleção de área."
+      },
+      "imageSelection": {
+        "pdfArea": "Área selecionada do PDF"
+      },
+      "buttons": {
+        "scrollToBottom": "Rolar para baixo"
+      },
+      "explain": {
+        "default": "Por favor, explique detalhadamente o conteúdo de todo o documento."
+      }
+    }
+  },
+  "liveLecture": {
+    "title": "Gravador de Aula ao Vivo",
+    "record": {
+      "button": "Gravar Aula",
+      "description": "Grave e transcreva em tempo real"
+    },
+    "upload": {
+      "button": "Enviar Transcrição da Aula",
+      "description": "Enviar arquivo .txt"
+    },
+    "error": {
+      "title": "Erro",
+      "fileType": "Por favor, envie um arquivo .txt",
+      "maxLength": "O conteúdo do arquivo excede o comprimento máximo de {{length}} caracteres",
+      "readError": "Falha ao ler o arquivo. Por favor, tente novamente",
+      "micPermission": "Acesso ao microfone negado. Por favor, conceda permissão e tente novamente",
+      "noMic": "Nenhum microfone encontrado. Por favor, conecte um microfone e tente novamente",
+      "micBusy": "O microfone está ocupado ou não está funcionando corretamente. Por favor, verifique as configurações do dispositivo",
+      "micAccess": "Erro ao acessar o microfone. Por favor, verifique as configurações do dispositivo",
+      "startRecord": "Falha ao iniciar a gravação. Por favor, tente novamente",
+      "noTranscript": "Nenhuma transcrição disponível para salvar",
+      "loginRequired": "Por favor, faça login para salvar as gravações",
+      "saveFailed": "Falha ao salvar a gravação"
+    },
+    "timeWarning": {
+      "title": "Aviso de Tempo",
+      "message": "A gravação será interrompida automaticamente em {{seconds}} segundos"
+    },
+    "recording": {
+      "status": "Gravando...",
+      "paused": "Pausado",
+      "live": "Ao vivo"
+    },
+    "transcript": {
+      "title": "Transcrição",
+      "empty": "Inicie a gravação para ver a transcrição em tempo real",
+      "transcribing": "Transcrevendo..."
+    },
+    "actions": {
+      "reviewEdit": "Revisar e Editar",
+      "saveDirect": "Salvar",
+      "downloadAudio": "Baixar Áudio",
+      "reset": "Reiniciar"
+    },
+    "limits": {
+      "title": "Limites",
+      "maxRecording": "Tempo máximo de gravação: {{minutes}} minutos",
+      "maxTranscript": "Comprimento máximo da transcrição: {{length}} caracteres"
+    },
+    "processing": "Processando seu arquivo...",
+    "languageSelect": {
+      "label": "Idioma de transcrição",
+      "languages": {
+        "ar": "Árabe",
+        "da": "Dinamarquês",
+        "de": "Alemão",
+        "en": "Inglês",
+        "es": "Espanhol",
+        "fil": "Filipino",
+        "fr": "Francês",
+        "hi": "Hindi",
+        "id": "Indonésio",
+        "it": "Italiano",
+        "lt": "Lituano",
+        "ms": "Malaio",
+        "nl": "Holandês",
+        "pl": "Polonês",
+        "pt": "Português",
+        "ru": "Russo",
+        "sv": "Sueco",
+        "tr": "Turco",
+        "uk": "Ucraniano",
+        "ur": "Urdu",
+        "zh": "Chinês"
+      }
+    },
+    "reviewEdit": {
+      "title": "Revisar e Editar Transcrição",
+      "uploadedTitle": "Editar Transcrição Carregada",
+      "audio": {
+        "play": "Reproduzir",
+        "pause": "Pausar"
+      },
+      "transcript": {
+        "placeholder": "Edite sua transcrição aqui..."
+      },
+      "actions": {
+        "cancel": "Cancelar",
+        "save": "Salvar Alterações",
+        "saving": "Salvando..."
+      },
+      "savingOverlay": {
+        "title": "Salvando transcrição...",
+        "message": "Por favor, aguarde enquanto salvamos suas alterações"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Escolha Sua Jornada de Aprendizado",
+    "subtitle": "Desbloqueie todo o potencial do aprendizado com IA através de nossos planos flexíveis",
+    "billing": {
+      "monthly": "Mensal",
+      "yearly": "Anual",
+      "savePercent": "Economize 40%",
+      "yearlyDiscount": "Economize £{{amount}} por ano",
+      "pricePerMonth": "/mês"
+    },
+    "messages": {
+      "needMore": "Precisa de mais mensagens?",
+      "purchase": "Comprar créditos adicionais de mensagens"
+    },
+    "plans": {
+      "popular": "Mais Popular",
+      "features": {
+        "documentProcessing": "Processamento de Documentos",
+        "aiFeatures": "Recursos de IA",
+        "chatAnalysis": "Chat e Análise"
+      }
+    },
+    "planNames": {
+      "cooked": "Cooked",
+      "committed": "Committed",
+      "lockedIn": "Locked In"
+    },
+    "buttons": {
+      "currentPlan": "Plano Atual",
+      "freePlan": "Plano Gratuito",
+      "freeTier": "Versão Gratuita",
+      "upgradeNow": "Atualizar Agora",
+      "switchPlan": "Trocar Plano"
+    },
+    "features": {
+      "cooked": {
+        "docs": [
+          "2 PDFs/vídeos do YouTube por semana",
+          "Tamanho máximo de arquivo 20MB",
+          "1 gravação de aula por mês"
+        ],
+        "ai": [
+          "Resumos inteligentes, flashcards, notas e testes"
+        ],
+        "chat": [
+          "3 mensagens/dia (£0.02/adicional)",
+          "1 seleção de área/semana (£0.05/adicional)",
+          "1 geração de voz padrão/mês"
+        ]
+      },
+      "committed": {
+        "docs": [
+          "10 PDFs/vídeos do YouTube por semana",
+          "Tamanho máximo de arquivo 30MB",
+          "10 gravações de aula por mês"
+        ],
+        "ai": [
+          "Tudo do Cooked + estilos de voz Pro"
+        ],
+        "chat": [
+          "30 mensagens/dia (£0.02/adicional)",
+          "15 seleções de área/semana (£0.05/adicional)",
+          "5 gerações de voz padrão + 2 pro/mês"
+        ]
+      },
+      "lockedIn": {
+        "docs": [
+          "PDFs/vídeos do YouTube ilimitados",
+          "Tamanho máximo de arquivo 40MB",
+          "45 gravações de aula por mês"
+        ],
+        "ai": [
+          "Tudo do Committed + acesso prioritário"
+        ],
+        "chat": [
+          "Mensagens ilimitadas",
+          "50 seleções de área/semana (£0.05/adicional)",
+          "15 gerações de voz padrão + 7 pro/mês"
+        ]
+      }
+    },
+    "errors": {
+      "invalidPlan": "Plano selecionado inválido",
+      "checkoutFailed": "Falha ao criar sessão de pagamento",
+      "planChangeFailed": "Falha ao processar mudança de plano"
+    }
+  },
+  "support": {
+    "title": "Como podemos ajudar?",
+    "subtitle": "Obtenha a ajuda necessária com nossos recursos abrangentes de suporte",
+    "emailSupport": {
+      "title": "Suporte por Email",
+      "description": "Precisa de ajuda? Envie-nos um email e responderemos em 24 horas.",
+      "button": "Contatar Suporte"
+    },
+    "featureRequests": {
+      "title": "Solicitações de Recursos",
+      "description": "Tem uma ideia para melhorar nossa plataforma? Adoraríamos ouvir!",
+      "button": "Enviar Solicitação"
+    },
+    "feedback": {
+      "title": "Enviar Feedback",
+      "description": "Compartilhe suas opiniões e nos ajude a melhorar sua experiência.",
+      "button": "Enviar Feedback"
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "questions": {
+        "upload": {
+          "question": "Como faço para carregar documentos?",
+          "answer": "Você pode carregar documentos PDF clicando no botão 'Carregar' em seu painel ou simplesmente arrastando e soltando arquivos na área de upload."
+        },
+        "formats": {
+          "question": "Quais formatos de arquivo são suportados?",
+          "answer": "Atualmente, suportamos arquivos PDF para análise de documentos e vídeos do YouTube para geração de transcrição."
+        },
+        "aiAnalysis": {
+          "question": "Como funciona a análise de IA?",
+          "answer": "Nossa IA avançada analisa seus documentos para criar resumos, flashcards e materiais de estudo interativos, mantendo o contexto e a precisão."
+        },
+        "chat": {
+          "question": "Como posso usar o chat de IA para aprender?",
+          "answer": "Nosso chat de IA permite que você faça perguntas sobre seus documentos carregados, obtenha explicações de conceitos complexos e até analise áreas selecionadas em PDFs. Basta destacar o texto ou selecionar uma área e fazer sua pergunta."
+        }
+      }
+    }
+  },
+  "header": {
+    "tagline": "Transforme Sua Jornada de Aprendizado",
+    "buttons": {
+      "pricing": "Preços",
+      "signIn": "Entrar",
+      "getStarted": "Começar",
+      "help": "Ajuda",
+      "dashboard": "Painel",
+      "upgradeNow": "Atualizar agora",
+      "pro": "Pro"
+    }
+  },
+  "userMenu": {
+    "profile": "Perfil",
+    "upgradePlan": "Atualizar plano",
+    "support": "Suporte",
+    "feedback": "Feedback",
+    "featureRequest": "Solicitar recurso",
+    "adminPortal": "Portal do administrador",
+    "logout": "Sair",
+    "planStatus": {
+      "cookedMember": "Membro Cooked",
+      "committedMember": "Membro Committed",
+      "lockedInMember": "Membro Locked In"
+    },
+    "updates": "Últimas atualizações",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo escuro"
+  },
+  "settings": {
+    "lightMode": "Modo claro",
+    "darkMode": "Modo escuro",
+    "updates": "Últimas atualizações",
+    "planStatus": {
+      "cookedMember": "Membro Cooked",
+      "committedMember": "Membro Committed",
+      "lockedInMember": "Membro Locked In"
+    }
+  },
+  "languageModal": {
+    "title": "Escolha seu idioma",
+    "description": "Selecione seu idioma preferido para uma melhor experiência",
+    "confirm": "Confirmar seleção"
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "delete": "Excluir",
+    "save": "Salvar"
+  }
+} 

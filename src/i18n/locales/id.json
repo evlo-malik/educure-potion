@@ -1,0 +1,707 @@
+{
+  "profile": {
+    "title": "Informasi Akun",
+    "error": "Kesalahan",
+    "success": "Berhasil",
+    "sections": {
+      "name": {
+        "label": "Nama",
+        "edit": "Ubah",
+        "save": "Simpan"
+      },
+      "email": {
+        "label": "Email"
+      },
+      "password": {
+        "label": "Kata Sandi",
+        "change": "Ubah",
+        "save": "Simpan",
+        "current": "Kata sandi saat ini",
+        "new": "Kata sandi baru",
+        "confirm": "Konfirmasi kata sandi baru"
+      },
+      "subscription": {
+        "label": "Paket Langganan",
+        "upgrade": "Tingkatkan Paket",
+        "manage": "Kelola Langganan",
+        "new": "Baru!"
+      },
+      "messages": {
+        "label": "Penggunaan Pesan",
+        "description": "Pantau batas pesan harian dan mingguan Anda",
+        "textMessages": "Pesan Teks",
+        "areaSelection": "Pesan Pemilihan Area",
+        "planUsageDaily": "Penggunaan Paket (Harian)",
+        "planUsageWeekly": "Penggunaan Paket (Mingguan)",
+        "purchasedMessages": "Pesan yang Dibeli",
+        "buyMore": "Beli Lagi",
+        "infinity": "∞"
+      },
+      "account": {
+        "title": "Detail Akun",
+        "memberSince": "Anggota Sejak",
+        "lastLogin": "Login Terakhir",
+        "never": "Tidak Pernah"
+      },
+      "language": {
+        "label": "Bahasa"
+      },
+      "danger": {
+        "title": "Zona Berbahaya",
+        "warning": "Setelah Anda menghapus akun, tidak ada jalan kembali. Harap pastikan.",
+        "delete": "Hapus Akun",
+        "confirm": "Konfirmasi Hapus",
+        "cancel": "Batal",
+        "deleting": "Menghapus Akun..."
+      }
+    },
+    "subscription": {
+      "cancel": {
+        "title": "Apakah Anda yakin ingin membatalkan?",
+        "processing": "Membatalkan langganan...",
+        "description": "Anda akan kehilangan akses ke fitur premium pada akhir periode penagihan saat ini.",
+        "wait": "Mohon tunggu sementara kami memproses permintaan Anda.",
+        "keep": "Pertahankan Langganan",
+        "confirm": "Batalkan Langganan"
+      }
+    }
+  },
+  "dashboard": {
+    "computerRecommended": {
+      "title": "Komputer Direkomendasikan",
+      "description": "Untuk pengalaman belajar terbaik dan akses ke semua fitur, kami sangat menyarankan menggunakan EduCure AI di komputer desktop atau laptop."
+    },
+    "upload": {
+      "title": "Unggah Dokumen",
+      "youtube": {
+        "placeholder": "Tempel URL video YouTube...",
+        "import": "Impor"
+      },
+      "pdf": {
+        "button": "Pilih PDF",
+        "dragDrop": "atau seret dan lepaskan",
+        "maxSize": "Ukuran file maksimum: {{size}}MB",
+        "processing": "Memproses...",
+        "readingPdf": "Membaca konten PDF...",
+        "saving": "Menyimpan dokumen..."
+      }
+    },
+    "record": {
+      "title": "Rekam Kuliah Langsung",
+      "start": "Mulai Perekaman",
+      "description": "Rekam dan transkripsikan kuliah Anda secara real-time"
+    },
+    "limits": {
+      "documents": {
+        "title": "Unggahan Dokumen Mingguan",
+        "unlimited": "Tidak terbatas"
+      },
+      "lectures": {
+        "title": "Perekaman Kuliah Bulanan"
+      }
+    },
+    "documents": {
+      "title": "Dokumen Anda",
+      "sections": {
+        "pdf": "Dokumen PDF dan Kuliah",
+        "youtube": "Video YouTube"
+      },
+      "empty": {
+        "title": "Belum ada dokumen",
+        "description": "Unggah dokumen pertama Anda untuk memulai"
+      },
+      "actions": {
+        "edit": "Edit",
+        "delete": "Hapus",
+        "save": "Simpan"
+      }
+    },
+    "errors": {
+      "login": "Silakan masuk untuk mengunggah dokumen",
+      "youtube": {
+        "url": "Silakan masukkan URL YouTube",
+        "invalid": "Silakan masukkan URL YouTube yang valid",
+        "import": "Gagal mengimpor transkrip video. Silakan coba lagi.",
+        "noTranscript": "Video ini tidak memiliki transkrip yang tersedia. Silakan coba video lain dengan transkrip yang diaktifkan.",
+        "networkError": "Terdeteksi masalah koneksi internet. Silakan periksa koneksi Anda dan coba lagi.",
+        "unexpectedError": "Terjadi kesalahan yang tidak terduga saat memproses video Anda. Silakan coba lagi."
+      },
+      "pdf": {
+        "invalid": "Silakan unggah file PDF yang valid. Jenis file lain tidak didukung.",
+        "size": "Ukuran file melebihi batas {{size}}MB untuk paket Anda. Silakan kompres PDF atau tingkatkan paket Anda untuk unggahan yang lebih besar.",
+        "upload": "Gagal mengunggah dokumen. Silakan coba lagi.",
+        "password": "PDF ini dilindungi kata sandi. Silakan hapus perlindungan kata sandi dan coba lagi.",
+        "corrupt": "File PDF ini tampaknya rusak atau tidak valid. Pastikan ini adalah PDF yang valid dan coba lagi.",
+        "storage": "Kuota penyimpanan terlampaui. Silakan bebaskan ruang atau tingkatkan paket Anda.",
+        "networkError": "Terdeteksi masalah koneksi internet. Silakan periksa koneksi Anda dan coba lagi.",
+        "unexpectedError": "Terjadi kesalahan yang tidak terduga saat memproses PDF Anda. Silakan coba lagi."
+      },
+      "document": {
+        "deleteFailed": "Gagal menghapus dokumen"
+      },
+      "limit": "Anda telah mencapai batas unggah",
+      "upgrade": "Tingkatkan paket Anda"
+    },
+    "subjects": {
+      "title": "Mata Pelajaran",
+      "add": "Tambah Mata Pelajaran",
+      "delete": {
+        "title": "Hapus Mata Pelajaran",
+        "message": "Apakah Anda yakin ingin menghapus mata pelajaran ini? Semua dokumen akan dipindahkan ke Dasbor.",
+        "confirm": "Hapus",
+        "cancel": "Batal"
+      },
+      "manage": "Kelola dokumen dan kuliah untuk {{subject}}",
+      "dashboard": "Dasbor"
+    }
+  },
+  "documentView": {
+    "tabs": {
+      "chat": "Obrolan",
+      "notes": "Catatan",
+      "flashcards": "Kartu Flash",
+      "test": "Tes"
+    },
+    "selectionMode": {
+      "textActive": "Mode Pilih Teks Aktif",
+      "areaActive": "Mode Pilih Area Aktif"
+    },
+    "actions": {
+      "download": "Unduh",
+      "hideDocument": "Sembunyikan Dokumen",
+      "showDocument": "Tampilkan Dokumen"
+    },
+    "notes": {
+      "generate": "Buat",
+      "generating": "Membuat...",
+      "description": "Buat catatan belajar terperinci dengan poin-poin utama dan penjelasan mendalam"
+    },
+    "flashcards": {
+      "generate": "Buat",
+      "generating": "Membuat...",
+      "description": "Buat kartu berbasis AI dari dokumen Anda untuk mengingat konsep-konsep utama",
+      "navigation": {
+        "previous": "Kartu Sebelumnya",
+        "next": "Kartu Berikutnya"
+      },
+      "labels": {
+        "question": "Pertanyaan",
+        "answer": "Jawaban"
+      },
+      "clickToFlip": "Klik untuk membalik",
+      "placeholders": {
+        "question": "Masukkan pertanyaan Anda di sini...",
+        "answer": "Masukkan jawaban Anda di sini..."
+      },
+      "deleteConfirm": {
+        "title": "Hapus Kartu",
+        "message": "Apakah Anda yakin ingin menghapus kartu ini? Tindakan ini tidak dapat dibatalkan."
+      },
+      "actions": {
+        "export": "Ekspor",
+        "new": "Tambah Kartu"
+      },
+      "export": {
+        "toCsv": "Ekspor ke CSV",
+        "toClipboard": "Salin Teks"
+      },
+      "copySuccess": "Kartu berhasil disalin ke clipboard",
+      "copyError": "Gagal menyalin kartu ke clipboard",
+      "exportError": "Gagal mengekspor kartu ke CSV"
+    },
+    "test": {
+      "generate": "Buat",
+      "generating": "Membuat...",
+      "description": "Buat tes interaktif dengan pertanyaan pilihan ganda dan benar/salah untuk memeriksa pemahaman Anda",
+      "results": {
+        "score": {
+          "perfect": "Kamu GOAT 🐐",
+          "excellent": "Beast mode aktif 💪",
+          "great": "Kamu hebat 😤",
+          "good": "Terus maju 🚶",
+          "fair": "Perlu fokus 🔒",
+          "poor": "Gagal kali ini bro 💀"
+        },
+        "yourAnswer": "Jawaban Anda",
+        "correctAnswer": "Jawaban Benar"
+      },
+      "buttons": {
+        "submit": "Kirim Tes",
+        "tryAgain": "Coba Lagi",
+        "generateNew": "Buat Tes Baru"
+      },
+      "options": {
+        "true": "Benar",
+        "false": "Salah"
+      },
+      "previousTests": {
+        "title": "Tes Sebelumnya",
+        "number": "Tes #{{number}}"
+      }
+    },
+    "vocalize": {
+      "beta": "BETA",
+      "generate": "Buat",
+      "generating": "Membuat...",
+      "description": "Ubah teks menjadi ucapan alami",
+      "voiceStyle": "Gaya Suara",
+      "styleOptions": {
+        "lecture": {
+          "label": "Kuliah",
+          "description": "Suara akademis profesional untuk penjelasan yang jelas"
+        },
+        "news": {
+          "label": "Pembaca Berita",
+          "description": "Suara profesional gaya siaran"
+        },
+        "soft": {
+          "label": "Suara Lembut",
+          "description": "Suara lembut, menenangkan untuk pembelajaran yang nyaman"
+        },
+        "asmr": {
+          "label": "ASMR",
+          "description": "Suara lembut, intim untuk pembelajaran yang santai",
+          "pro": "PRO"
+        },
+        "motivational": {
+          "label": "Motivasi",
+          "description": "Suara energik untuk menginspirasi dan melibatkan",
+          "pro": "PRO"
+        },
+        "storytelling": {
+          "label": "Bercerita",
+          "description": "Suara ekspresif untuk konten naratif",
+          "pro": "PRO"
+        }
+      },
+      "usage": {
+        "standard": "Vokalisasi Standar",
+        "pro": "Vokalisasi PRO"
+      },
+      "errors": {
+        "limitReached": "Batas pembuatan tercapai",
+        "upgradeRequired": "Tingkatkan paket Anda",
+        "maxAudioLimit": "Batas Audio Maksimum Tercapai",
+        "deleteExisting": "Hapus versi audio yang ada untuk membuat yang baru",
+        "generatingAudio": "Membuat Pengalaman Audio...",
+        "creatingStyle": "Membuat revisi gaya Anda",
+        "noAudioYet": "Belum ada versi audio dibuat",
+        "generateFirst": "Buat versi audio pertama Anda di atas!"
+      },
+      "buttons": {
+        "generateNew": "Buat Audio Baru dalam",
+        "savedVersions": "Versi Audio Tersimpan"
+      },
+      "languageAvailability": {
+        "english": "Tersedia dalam bahasa Inggris",
+        "languages29": "Tersedia dalam 29 bahasa",
+        "languages60": "Tersedia dalam lebih dari 60 bahasa"
+      },
+      "voiceLanguage": "Bahasa Suara",
+      "searchLanguage": "Cari bahasa...",
+      "noLanguagesFound": "Tidak ada bahasa ditemukan",
+      "languages": {
+        "Afrikaans": "Afrikaans",
+        "Albanian": "Albania",
+        "Arabic": "Arab",
+        "Armenian": "Armenia",
+        "Azerbaijani": "Azerbaijan",
+        "Bahasa Indonesian": "Bahasa Indonesia",
+        "Bengali": "Bengali",
+        "Bosnian": "Bosnia",
+        "Bulgarian": "Bulgaria",
+        "Catalan": "Katalan",
+        "Chinese Cantonese": "Tionghoa (Kanton)",
+        "Chinese Mandarin": "Tionghoa (Mandarin)",
+        "Croatian": "Kroasia",
+        "Czech": "Ceko",
+        "Danish": "Denmark",
+        "Dutch": "Belanda",
+        "English": "Inggris",
+        "Estonian": "Estonia",
+        "Filipino": "Filipino",
+        "Finnish": "Finlandia",
+        "French": "Prancis",
+        "Galician": "Galisia",
+        "Georgian": "Georgia",
+        "German": "Jerman",
+        "Greek": "Yunani",
+        "Hebrew": "Ibrani",
+        "Hindi": "Hindi",
+        "Hungarian": "Hungaria",
+        "Icelandic": "Islandia",
+        "Irish": "Irlandia",
+        "Italian": "Italia",
+        "Japanese": "Jepang",
+        "Javanese": "Jawa",
+        "Kannada": "Kannada",
+        "Kazakh": "Kazakh",
+        "Korean": "Korea",
+        "Latvian": "Latvia",
+        "Lithuanian": "Lithuania",
+        "Macedonian": "Makedonia",
+        "Malay": "Melayu",
+        "Maltese": "Malta",
+        "Marathi": "Marathi",
+        "Mongolian": "Mongolia",
+        "Nepali": "Nepal",
+        "Norwegian Bokmål": "Norwegia (Bokmål)",
+        "Pashto": "Pashto",
+        "Persian": "Persia",
+        "Polish": "Polandia",
+        "Portuguese": "Portugis",
+        "Romanian": "Rumania",
+        "Russian": "Rusia",
+        "Serbian": "Serbia",
+        "Sinhala": "Sinhala",
+        "Slovak": "Slovakia",
+        "Slovene": "Slovenia",
+        "Somali": "Somalia",
+        "Spanish": "Spanyol",
+        "Swahili": "Swahili",
+        "Swedish": "Swedia",
+        "Tamil": "Tamil",
+        "Telugu": "Telugu",
+        "Thai": "Thailand",
+        "Turkish": "Turki",
+        "Ukrainian": "Ukraina",
+        "Urdu": "Urdu",
+        "Uzbek": "Uzbek",
+        "Vietnamese": "Vietnam",
+        "Welsh": "Wales",
+        "Zulu": "Zulu"
+      }
+    },
+    "errors": {
+      "failedToLoad": "Gagal memuat dokumen",
+      "failedToUpdate": "Gagal memperbarui dokumen",
+      "tryAgain": "Silakan coba lagi"
+    },
+    "customInstructions": {
+      "title": "Instruksi Kustom",
+      "optional": "(Opsional)",
+      "placeholder": "Tambahkan instruksi spesifik tentang topik yang ingin difokuskan atau area yang ingin dieksplorasi lebih detail (mis. 'Fokus pada konsep matematika', 'Tekankan teori utama')",
+      "characters": "karakter",
+      "priorityNote": "Instruksi Anda akan diprioritaskan selama pembuatan",
+      "customLanguage": {
+        "show": "Tampilkan Bahasa Kustom",
+        "hide": "Sembunyikan Bahasa Kustom",
+        "placeholder": "Masukkan bahasa kustom (opsional)",
+        "defaultNote": "Jika tidak ditentukan, bahasa yang dipilih di pengaturan profil akan digunakan"
+      }
+    },
+    "testSets": {
+      "title": "Set Tes Anda",
+      "of": "dari",
+      "sets": "set",
+      "testSet": "Tes",
+      "questions": "pertanyaan"
+    },
+    "chat": {
+      "placeholder": {
+        "default": "Ajukan pertanyaan tentang dokumen Anda...",
+        "selectedArea": "Tanya tentang area yang dipilih...",
+        "selectedText": "Tanya tentang teks yang dipilih..."
+      },
+      "empty": {
+        "title": "Tanyakan apa saja tentang dokumen Anda!",
+        "subtitle": "Saya akan membantu Anda memahami konten dengan lebih baik."
+      },
+      "replyingTo": {
+        "selection": "Membalas ke",
+        "selectedArea": "area yang dipilih",
+        "selectedText": "teks yang dipilih"
+      },
+      "errors": {
+        "characterLimit": "Batas karakter terlampaui. Maksimal {{limit}} karakter diizinkan.",
+        "messageLimit": "Anda dapat membeli pesan tambahan atau meningkatkan paket Anda untuk melanjutkan.",
+        "purchaseMore": "Beli pesan tambahan",
+        "allServicesFailed": "Semua layanan AI sedang tidak tersedia. Silakan coba lagi nanti.",
+        "imageAnalysis": "Maaf, terjadi kesalahan saat menganalisis gambar. Silakan coba lagi.",
+        "eduPlusArea": "Edu+ tidak mendukung pemilihan area."
+      },
+      "imageSelection": {
+        "pdfArea": "Area yang dipilih dari PDF"
+      },
+      "buttons": {
+        "scrollToBottom": "Gulir ke bawah"
+      },
+      "explain": {
+        "default": "Mohon jelaskan isi seluruh dokumen secara detail."
+      }
+    }
+  },
+  "liveLecture": {
+    "title": "Perekam Kuliah Langsung",
+    "record": {
+      "button": "Rekam Kuliah",
+      "description": "Rekam dan transkripsi secara real-time"
+    },
+    "upload": {
+      "button": "Unggah Transkrip Kuliah",
+      "description": "Unggah file .txt"
+    },
+    "error": {
+      "title": "Kesalahan",
+      "fileType": "Mohon unggah file .txt",
+      "maxLength": "Konten file melebihi panjang maksimum {{length}} karakter",
+      "readError": "Gagal membaca file. Silakan coba lagi",
+      "micPermission": "Akses mikrofon ditolak. Mohon berikan izin dan coba lagi",
+      "noMic": "Tidak ada mikrofon ditemukan. Mohon hubungkan mikrofon dan coba lagi",
+      "micBusy": "Mikrofon sedang sibuk atau tidak berfungsi dengan baik. Mohon periksa pengaturan perangkat",
+      "micAccess": "Kesalahan mengakses mikrofon. Mohon periksa pengaturan perangkat",
+      "startRecord": "Gagal memulai perekaman. Silakan coba lagi",
+      "noTranscript": "Tidak ada transkrip yang tersedia untuk disimpan",
+      "loginRequired": "Mohon masuk untuk menyimpan rekaman",
+      "saveFailed": "Gagal menyimpan rekaman"
+    },
+    "timeWarning": {
+      "title": "Peringatan Waktu",
+      "message": "Perekaman akan berhenti secara otomatis dalam {{seconds}} detik"
+    },
+    "recording": {
+      "status": "Merekam...",
+      "paused": "Dijeda",
+      "live": "Langsung"
+    },
+    "transcript": {
+      "title": "Transkrip",
+      "empty": "Mulai rekaman untuk melihat transkrip real-time",
+      "transcribing": "Mentranskrip..."
+    },
+    "actions": {
+      "reviewEdit": "Tinjau & Edit",
+      "saveDirect": "Simpan",
+      "downloadAudio": "Unduh Audio",
+      "reset": "Reset"
+    },
+    "limits": {
+      "title": "Batasan",
+      "maxRecording": "Waktu rekaman maksimum: {{minutes}} menit",
+      "maxTranscript": "Panjang transkrip maksimum: {{length}} karakter"
+    },
+    "processing": "Memproses file Anda...",
+    "languageSelect": {
+      "label": "Bahasa Transkripsi",
+      "languages": {
+        "ar": "Arab",
+        "da": "Denmark",
+        "de": "Jerman",
+        "en": "Inggris",
+        "es": "Spanyol",
+        "fil": "Filipino",
+        "fr": "Prancis",
+        "hi": "Hindi",
+        "id": "Indonesia",
+        "it": "Italia",
+        "lt": "Lithuania",
+        "ms": "Melayu",
+        "nl": "Belanda",
+        "pl": "Polandia",
+        "pt": "Portugis",
+        "ru": "Rusia",
+        "sv": "Swedia",
+        "tr": "Turki",
+        "uk": "Ukraina",
+        "ur": "Urdu",
+        "zh": "Mandarin"
+      }
+    },
+    "reviewEdit": {
+      "title": "Tinjau & Edit Transkrip",
+      "uploadedTitle": "Edit Transkrip yang Diunggah",
+      "audio": {
+        "play": "Putar",
+        "pause": "Jeda"
+      },
+      "transcript": {
+        "placeholder": "Edit transkrip Anda di sini..."
+      },
+      "actions": {
+        "cancel": "Batal",
+        "save": "Simpan Perubahan",
+        "saving": "Menyimpan..."
+      },
+      "savingOverlay": {
+        "title": "Menyimpan transkrip...",
+        "message": "Mohon tunggu sementara kami menyimpan perubahan Anda"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Pilih Perjalanan Belajar Anda",
+    "subtitle": "Buka potensi penuh pembelajaran berbasis AI dengan paket fleksibel kami",
+    "billing": {
+      "monthly": "Bulanan",
+      "yearly": "Tahunan",
+      "savePercent": "Hemat 40%",
+      "yearlyDiscount": "Hemat £{{amount}} per tahun",
+      "pricePerMonth": "/bulan"
+    },
+    "messages": {
+      "needMore": "Butuh lebih banyak pesan?",
+      "purchase": "Beli kredit pesan tambahan"
+    },
+    "plans": {
+      "popular": "Paling Populer",
+      "features": {
+        "documentProcessing": "Pemrosesan Dokumen",
+        "aiFeatures": "Fitur AI",
+        "chatAnalysis": "Chat dan Analisis"
+      }
+    },
+    "planNames": {
+      "cooked": "Cooked",
+      "committed": "Committed",
+      "lockedIn": "Locked In"
+    },
+    "buttons": {
+      "currentPlan": "Paket Saat Ini",
+      "freePlan": "Paket Gratis",
+      "freeTier": "Versi Gratis",
+      "upgradeNow": "Tingkatkan Sekarang",
+      "switchPlan": "Ganti Paket"
+    },
+    "features": {
+      "cooked": {
+        "docs": [
+          "2 PDF/video YouTube per minggu",
+          "Ukuran file maksimal 20MB",
+          "1 rekaman kuliah per bulan"
+        ],
+        "ai": [
+          "Ringkasan pintar, kartu flash, catatan & tes"
+        ],
+        "chat": [
+          "3 pesan/hari (£0.02/tambahan)",
+          "1 pemilihan area/minggu (£0.05/tambahan)",
+          "1 generasi suara standar/bulan"
+        ]
+      },
+      "committed": {
+        "docs": [
+          "10 PDF/video YouTube per minggu",
+          "Ukuran file maksimal 30MB",
+          "10 rekaman kuliah per bulan"
+        ],
+        "ai": [
+          "Semua fitur Cooked + gaya suara Pro"
+        ],
+        "chat": [
+          "30 pesan/hari (£0.02/tambahan)",
+          "15 pemilihan area/minggu (£0.05/tambahan)",
+          "5 generasi suara standar + 2 pro/bulan"
+        ]
+      },
+      "lockedIn": {
+        "docs": [
+          "PDF/video YouTube tak terbatas",
+          "Ukuran file maksimal 40MB",
+          "45 rekaman kuliah per bulan"
+        ],
+        "ai": [
+          "Semua fitur Committed + akses prioritas"
+        ],
+        "chat": [
+          "Pesan tak terbatas",
+          "50 pemilihan area/minggu (£0.05/tambahan)",
+          "15 generasi suara standar + 7 pro/bulan"
+        ]
+      }
+    },
+    "errors": {
+      "invalidPlan": "Paket yang dipilih tidak valid",
+      "checkoutFailed": "Gagal membuat sesi pembayaran",
+      "planChangeFailed": "Gagal memproses perubahan paket"
+    }
+  },
+  "support": {
+    "title": "Bagaimana Kami Dapat Membantu?",
+    "subtitle": "Dapatkan bantuan yang Anda butuhkan dengan sumber daya dukungan komprehensif kami",
+    "emailSupport": {
+      "title": "Dukungan Email",
+      "description": "Butuh bantuan? Kirim email kepada kami dan kami akan membalas dalam 24 jam.",
+      "button": "Hubungi Dukungan"
+    },
+    "featureRequests": {
+      "title": "Permintaan Fitur",
+      "description": "Punya ide untuk meningkatkan platform kami? Kami ingin mendengarnya!",
+      "button": "Kirim Permintaan"
+    },
+    "feedback": {
+      "title": "Kirim Umpan Balik",
+      "description": "Bagikan pemikiran Anda dan bantu kami meningkatkan pengalaman Anda.",
+      "button": "Kirim Umpan Balik"
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "questions": {
+        "upload": {
+          "question": "Bagaimana cara mengunggah dokumen?",
+          "answer": "Anda dapat mengunggah dokumen PDF dengan mengklik tombol 'Unggah' di dasbor Anda atau cukup seret dan lepas file ke area unggahan."
+        },
+        "formats": {
+          "question": "Format file apa yang didukung?",
+          "answer": "Saat ini, kami mendukung file PDF untuk analisis dokumen dan video YouTube untuk pembuatan transkrip."
+        },
+        "aiAnalysis": {
+          "question": "Bagaimana analisis AI bekerja?",
+          "answer": "AI canggih kami menganalisis dokumen Anda untuk membuat ringkasan, kartu flash, dan materi belajar interaktif sambil mempertahankan konteks dan akurasi."
+        },
+        "chat": {
+          "question": "Bagaimana saya bisa menggunakan obrolan AI untuk belajar?",
+          "answer": "Obrolan AI kami memungkinkan Anda mengajukan pertanyaan tentang dokumen yang diunggah, mendapatkan penjelasan konsep kompleks, dan bahkan menganalisis area yang dipilih dalam PDF. Cukup sorot teks atau pilih area dan ajukan pertanyaan Anda."
+        }
+      }
+    }
+  },
+  "header": {
+    "tagline": "Ubah Perjalanan Belajar Anda",
+    "buttons": {
+      "pricing": "Harga",
+      "signIn": "Masuk",
+      "getStarted": "Mulai",
+      "help": "Bantuan",
+      "dashboard": "Dasbor",
+      "upgradeNow": "Tingkatkan sekarang",
+      "pro": "Pro"
+    }
+  },
+  "userMenu": {
+    "profile": "Profil",
+    "upgradePlan": "Tingkatkan paket",
+    "support": "Dukungan",
+    "feedback": "Umpan balik",
+    "featureRequest": "Permintaan fitur",
+    "adminPortal": "Portal admin",
+    "logout": "Keluar",
+    "planStatus": {
+      "cookedMember": "Anggota Cooked",
+      "committedMember": "Anggota Committed",
+      "lockedInMember": "Anggota Locked In"
+    },
+    "updates": "Pembaruan terbaru",
+    "lightMode": "Mode terang",
+    "darkMode": "Mode gelap"
+  },
+  "settings": {
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "updates": "Pembaruan Terbaru",
+    "planStatus": {
+      "cookedMember": "Anggota Cooked",
+      "committedMember": "Anggota Committed",
+      "lockedInMember": "Anggota Locked In"
+    }
+  },
+  "languageModal": {
+    "title": "Pilih Bahasa Anda",
+    "description": "Pilih bahasa yang Anda sukai untuk pengalaman terbaik",
+    "confirm": "Konfirmasi Pilihan"
+  },
+  "common": {
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "save": "Simpan"
+  }
+} 

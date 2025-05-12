@@ -1,0 +1,698 @@
+{
+  "profile": {
+    "title": "Kontoinformationen",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "sections": {
+      "name": {
+        "label": "Name",
+        "edit": "Bearbeiten",
+        "save": "Speichern"
+      },
+      "email": {
+        "label": "E-Mail"
+      },
+      "password": {
+        "label": "Passwort",
+        "change": "Ändern",
+        "save": "Speichern",
+        "current": "Aktuelles Passwort",
+        "new": "Neues Passwort",
+        "confirm": "Neues Passwort bestätigen"
+      },
+      "subscription": {
+        "label": "Abonnementplan",
+        "upgrade": "Plan Upgraden",
+        "manage": "Abonnement Verwalten",
+        "new": "Neu!"
+      },
+      "messages": {
+        "label": "Nachrichtennutzung",
+        "description": "Verfolgen Sie Ihre täglichen und wöchentlichen Nachrichtenlimits",
+        "textMessages": "Textnachrichten",
+        "areaSelection": "Bereichsauswahl-Nachrichten",
+        "planUsageDaily": "Plannutzung (Täglich)",
+        "planUsageWeekly": "Plannutzung (Wöchentlich)",
+        "purchasedMessages": "Gekaufte Nachrichten",
+        "buyMore": "Mehr Kaufen",
+        "infinity": "∞"
+      },
+      "account": {
+        "title": "Kontodetails",
+        "memberSince": "Mitglied Seit",
+        "lastLogin": "Letzter Login",
+        "never": "Nie"
+      },
+      "language": {
+        "label": "Sprache"
+      },
+      "danger": {
+        "title": "Gefahrenzone",
+        "warning": "Sobald Sie Ihr Konto löschen, gibt es kein Zurück mehr. Bitte stellen Sie sicher.",
+        "delete": "Konto Löschen",
+        "confirm": "Löschen Bestätigen",
+        "cancel": "Abbrechen",
+        "deleting": "Konto wird gelöscht..."
+      }
+    },
+    "subscription": {
+      "cancel": {
+        "title": "Sind Sie sicher, dass Sie kündigen möchten?",
+        "processing": "Abonnement wird gekündigt...",
+        "description": "Sie verlieren den Zugriff auf Premium-Funktionen am Ende Ihres aktuellen Abrechnungszeitraums.",
+        "wait": "Bitte warten Sie, während wir Ihre Anfrage bearbeiten.",
+        "keep": "Abonnement Behalten",
+        "confirm": "Abonnement Kündigen"
+      }
+    }
+  },
+  "dashboard": {
+    "computerRecommended": {
+      "title": "Computer Empfohlen",
+      "description": "Für die beste Lernerfahrung und Zugriff auf alle Funktionen empfehlen wir dringend, EduCure AI auf einem Desktop-Computer oder Laptop zu verwenden."
+    },
+    "upload": {
+      "title": "Dokument Hochladen",
+      "youtube": {
+        "placeholder": "YouTube-Video-URL einfügen...",
+        "import": "Importieren"
+      },
+      "pdf": {
+        "button": "PDF auswählen",
+        "dragDrop": "oder per Drag & Drop",
+        "maxSize": "Maximale Dateigröße: {{size}}MB",
+        "processing": "Verarbeitung läuft...",
+        "readingPdf": "PDF-Inhalt wird gelesen...",
+        "saving": "Dokument wird gespeichert..."
+      }
+    },
+    "record": {
+      "title": "Live-Vorlesung Aufzeichnen",
+      "start": "Aufnahme Starten",
+      "description": "Zeichnen Sie Ihre Vorlesungen in Echtzeit auf und transkribieren Sie sie"
+    },
+    "limits": {
+      "documents": {
+        "title": "Wöchentliche Dokument-Uploads",
+        "unlimited": "Unbegrenzt"
+      },
+      "lectures": {
+        "title": "Monatliche Vorlesungsaufzeichnungen"
+      }
+    },
+    "documents": {
+      "title": "Ihre Dokumente",
+      "sections": {
+        "pdf": "PDF-Dokumente und Vorlesungen",
+        "youtube": "YouTube-Videos"
+      },
+      "empty": {
+        "title": "Noch keine Dokumente",
+        "description": "Laden Sie Ihr erstes Dokument hoch, um zu beginnen"
+      },
+      "actions": {
+        "edit": "Bearbeiten",
+        "delete": "Löschen",
+        "save": "Speichern"
+      }
+    },
+    "errors": {
+      "login": "Bitte melden Sie sich an, um Dokumente hochzuladen",
+      "youtube": {
+        "url": "Bitte geben Sie eine YouTube-URL ein",
+        "invalid": "Bitte geben Sie eine gültige YouTube-URL ein",
+        "import": "Videountertitel konnten nicht importiert werden. Bitte versuchen Sie es erneut.",
+        "noTranscript": "Für dieses Video ist keine Transkription verfügbar. Bitte versuchen Sie es mit einem anderen Video mit aktivierter Transkription.",
+        "networkError": "Internetverbindungsproblem erkannt. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+        "unexpectedError": "Bei der Verarbeitung Ihres Videos ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie es erneut."
+      },
+      "pdf": {
+        "invalid": "Bitte laden Sie eine gültige PDF-Datei hoch. Andere Dateiformate werden nicht unterstützt.",
+        "size": "Die Dateigröße überschreitet das {{size}}MB-Limit Ihres Tarifs. Bitte komprimieren Sie die PDF oder aktualisieren Sie Ihren Tarif für größere Uploads.",
+        "upload": "Dokument konnte nicht hochgeladen werden. Bitte versuchen Sie es erneut.",
+        "password": "Diese PDF ist passwortgeschützt. Bitte entfernen Sie den Passwortschutz und versuchen Sie es erneut.",
+        "corrupt": "Diese PDF-Datei scheint beschädigt oder ungültig zu sein. Bitte stellen Sie sicher, dass es sich um eine gültige PDF handelt und versuchen Sie es erneut.",
+        "storage": "Speicherquote überschritten. Bitte schaffen Sie Platz oder aktualisieren Sie Ihren Tarif.",
+        "networkError": "Internetverbindungsproblem erkannt. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+        "unexpectedError": "Bei der Verarbeitung Ihrer PDF ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie es erneut."
+      },
+      "document": {
+        "deleteFailed": "Dokument konnte nicht gelöscht werden"
+      },
+      "limit": "Upload-Limit erreicht",
+      "upgrade": "Aktualisieren Sie Ihren Tarif"
+    },
+    "subjects": {
+      "title": "Fächer",
+      "add": "Fach hinzufügen",
+      "delete": {
+        "title": "Fach löschen",
+        "message": "Sind Sie sicher, dass Sie dieses Fach löschen möchten? Alle Dokumente werden ins Dashboard verschoben.",
+        "confirm": "Löschen",
+        "cancel": "Abbrechen"
+      },
+      "manage": "Dokumente und Vorlesungen für {{subject}} verwalten",
+      "dashboard": "Dashboard"
+    }
+  },
+  "documentView": {
+    "tabs": {
+      "chat": "Chat",
+      "notes": "Notizen",
+      "flashcards": "Karteikarten",
+      "test": "Test",
+      "vocalize": "Vertonen"
+    },
+    "selectionMode": {
+      "textActive": "Textauswahlmodus aktiv",
+      "areaActive": "Bereichsauswahlmodus aktiv"
+    },
+    "actions": {
+      "download": "Herunterladen",
+      "hideDocument": "Dokument ausblenden",
+      "showDocument": "Dokument anzeigen"
+    },
+    "notes": {
+      "generate": "Generieren",
+      "generating": "Generiere...",
+      "description": "Erstellen Sie detaillierte Studiennotizen mit Kernpunkten und ausführlichen Erklärungen"
+    },
+    "flashcards": {
+      "generate": "Generieren",
+      "generating": "Generiere...",
+      "description": "Erstellen Sie KI-gestützte Karteikarten, um Schlüsselkonzepte aus Ihrem Dokument zu memorieren",
+      "navigation": {
+        "previous": "Vorherige Karte",
+        "next": "Nächste Karte"
+      },
+      "labels": {
+        "question": "Frage",
+        "answer": "Antwort"
+      },
+      "clickToFlip": "Klicken zum Umdrehen",
+      "placeholders": {
+        "question": "Geben Sie hier Ihre Frage ein...",
+        "answer": "Geben Sie hier Ihre Antwort ein..."
+      },
+      "deleteConfirm": {
+        "title": "Karte löschen",
+        "message": "Sind Sie sicher, dass Sie diese Karte löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
+      },
+      "actions": {
+        "export": "Exportieren",
+        "new": "Karte hinzufügen"
+      },
+      "export": {
+        "toCsv": "Als CSV exportieren",
+        "toClipboard": "Text kopieren"
+      },
+      "copySuccess": "Karten wurden in die Zwischenablage kopiert",
+      "copyError": "Karten konnten nicht in die Zwischenablage kopiert werden",
+      "exportError": "Karten konnten nicht als CSV exportiert werden"
+    },
+    "test": {
+      "generate": "Generieren",
+      "generating": "Generiere...",
+      "description": "Erstellen Sie einen interaktiven Test mit Multiple-Choice- und Wahr/Falsch-Fragen, um Ihr Verständnis zu überprüfen",
+      "results": {
+        "score": {
+          "perfect": "Absoluter GOAT 🐐",
+          "excellent": "Beast Mode aktiviert 💪",
+          "great": "Du rockst das 😤",
+          "good": "Mittelprächtig, aber es geht voran 🚶",
+          "fair": "Konzentrier dich 🔒",
+          "poor": "Das war nix, Bruder 💀"
+        },
+        "yourAnswer": "Deine Antwort",
+        "correctAnswer": "Richtige Antwort"
+      },
+      "buttons": {
+        "submit": "Test abgeben",
+        "tryAgain": "Erneut versuchen",
+        "generateNew": "Neuen Test generieren"
+      },
+      "options": {
+        "true": "Wahr",
+        "false": "Falsch"
+      },
+      "previousTests": {
+        "title": "Vorherige Tests",
+        "number": "Test #{{number}}"
+      }
+    },
+    "vocalize": {
+      "beta": "BETA",
+      "generate": "Generieren",
+      "generating": "Generiere...",
+      "description": "Text in natürliche Sprache umwandeln",
+      "voiceStyle": "Sprachstil",
+      "styleOptions": {
+        "lecture": {
+          "label": "Vorlesung",
+          "description": "Professionelle akademische Stimme für klare Erklärungen"
+        },
+        "news": {
+          "label": "Nachrichtensprecher",
+          "description": "Professionelle Rundfunkstimme"
+        },
+        "soft": {
+          "label": "Sanfte Stimme",
+          "description": "Sanfte, beruhigende Stimme für angenehmes Lernen"
+        },
+        "asmr": {
+          "label": "ASMR",
+          "description": "Sanfte, intime Stimme für entspanntes Lernen",
+          "pro": "PRO"
+        },
+        "motivational": {
+          "label": "Motivierend",
+          "description": "Energische Stimme zum Inspirieren und Motivieren",
+          "pro": "PRO"
+        },
+        "storytelling": {
+          "label": "Erzählung",
+          "description": "Ausdrucksstarke Stimme für erzählerische Inhalte",
+          "pro": "PRO"
+        }
+      },
+      "usage": {
+        "standard": "Standard Vokalisierung",
+        "pro": "PRO Vokalisierung"
+      },
+      "errors": {
+        "limitReached": "Generierungslimit erreicht",
+        "upgradeRequired": "Upgrade deinen Plan",
+        "maxAudioLimit": "Maximales Audiolimit erreicht",
+        "deleteExisting": "Lösche eine bestehende Audioversion, um eine neue zu generieren",
+        "generatingAudio": "Generiere Audioerlebnis...",
+        "creatingStyle": "Erstelle deine Stilüberarbeitung",
+        "noAudioYet": "Noch keine Audioversionen generiert",
+        "generateFirst": "Generiere deine erste Audioversion oben!"
+      },
+      "buttons": {
+        "generateNew": "Neues Audio generieren in",
+        "savedVersions": "Gespeicherte Audioversionen"
+      },
+      "languageAvailability": {
+        "english": "Verfügbar auf Englisch",
+        "languages29": "Verfügbar in 29 Sprachen",
+        "languages60": "Verfügbar in über 60 Sprachen"
+      },
+      "voiceLanguage": "Sprachauswahl",
+      "searchLanguage": "Sprache suchen...",
+      "noLanguagesFound": "Keine Sprachen gefunden",
+      "languages": {
+        "Afrikaans": "Afrikaans",
+        "Albanian": "Albanisch",
+        "Arabic": "Arabisch",
+        "Armenian": "Armenisch",
+        "Azerbaijani": "Aserbaidschanisch",
+        "Bahasa Indonesian": "Indonesisch",
+        "Bengali": "Bengalisch",
+        "Bosnian": "Bosnisch",
+        "Bulgarian": "Bulgarisch",
+        "Catalan": "Katalanisch",
+        "Chinese Cantonese": "Chinesisch (Kantonesisch)",
+        "Chinese Mandarin": "Chinesisch (Mandarin)",
+        "Croatian": "Kroatisch",
+        "Czech": "Tschechisch",
+        "Danish": "Dänisch",
+        "Dutch": "Niederländisch",
+        "English": "Englisch",
+        "Estonian": "Estnisch",
+        "Filipino": "Filipino",
+        "Finnish": "Finnisch",
+        "French": "Französisch",
+        "Galician": "Galicisch",
+        "Georgian": "Georgisch",
+        "German": "Deutsch",
+        "Greek": "Griechisch",
+        "Hebrew": "Hebräisch",
+        "Hindi": "Hindi",
+        "Hungarian": "Ungarisch",
+        "Icelandic": "Isländisch",
+        "Irish": "Irisch",
+        "Italian": "Italienisch",
+        "Japanese": "Japanisch",
+        "Javanese": "Javanisch",
+        "Kannada": "Kannada",
+        "Kazakh": "Kasachisch",
+        "Korean": "Koreanisch",
+        "Latvian": "Lettisch",
+        "Lithuanian": "Litauisch",
+        "Macedonian": "Mazedonisch",
+        "Malay": "Malaiisch",
+        "Maltese": "Maltesisch",
+        "Marathi": "Marathi",
+        "Mongolian": "Mongolisch",
+        "Nepali": "Nepalesisch",
+        "Norwegian Bokmål": "Norwegisch (Bokmål)",
+        "Pashto": "Paschtu",
+        "Persian": "Persisch",
+        "Polish": "Polnisch",
+        "Portuguese": "Portugiesisch",
+        "Romanian": "Rumänisch",
+        "Russian": "Russisch",
+        "Serbian": "Serbisch",
+        "Sinhala": "Singhalesisch",
+        "Slovak": "Slowakisch",
+        "Slovene": "Slowenisch",
+        "Somali": "Somali",
+        "Spanish": "Spanisch",
+        "Swahili": "Suaheli",
+        "Swedish": "Schwedisch",
+        "Tamil": "Tamil",
+        "Telugu": "Telugu",
+        "Thai": "Thailändisch",
+        "Turkish": "Türkisch",
+        "Ukrainian": "Ukrainisch",
+        "Urdu": "Urdu",
+        "Uzbek": "Usbekisch",
+        "Vietnamese": "Vietnamesisch",
+        "Welsh": "Walisisch",
+        "Zulu": "Zulu"
+      }
+    },
+    "errors": {
+      "failedToLoad": "Dokument konnte nicht geladen werden",
+      "failedToUpdate": "Dokument konnte nicht aktualisiert werden",
+      "tryAgain": "Bitte versuchen Sie es erneut"
+    },
+    "customInstructions": {
+      "title": "Benutzerdefinierte Anweisungen",
+      "optional": "(Optional)",
+      "placeholder": "Fügen Sie spezifische Anweisungen zu Themen hinzu, auf die Sie sich konzentrieren möchten, oder Bereiche, die Sie detaillierter erkunden möchten (z.B. 'Fokus auf mathematische Konzepte', 'Haupttheorien hervorheben')",
+      "characters": "Zeichen",
+      "priorityNote": "Ihre Anweisungen werden bei der Generierung priorisiert",
+      "customLanguage": {
+        "show": "Benutzerdefinierte Sprache anzeigen",
+        "hide": "Benutzerdefinierte Sprache ausblenden",
+        "placeholder": "Benutzerdefinierte Sprache eingeben (optional)",
+        "defaultNote": "Wenn keine Sprache angegeben wird, wird die in den Profileinstellungen ausgewählte Sprache verwendet"
+      }
+    },
+    "testSets": {
+      "title": "Ihre Testsets",
+      "of": "von",
+      "sets": "Sets",
+      "testSet": "Test",
+      "questions": "Fragen"
+    },
+    "chat": {
+      "placeholder": {
+        "default": "Stellen Sie eine Frage zu Ihrem Dokument...",
+        "selectedArea": "Fragen Sie zum ausgewählten Bereich...",
+        "selectedText": "Fragen Sie zum ausgewählten Text..."
+      },
+      "empty": {
+        "title": "Fragen Sie mich alles zu Ihrem Dokument!",
+        "subtitle": "Ich helfe Ihnen, den Inhalt besser zu verstehen."
+      },
+      "replyingTo": {
+        "selection": "Antwort auf",
+        "selectedArea": "ausgewählten Bereich",
+        "selectedText": "ausgewählten Text"
+      },
+      "errors": {
+        "characterLimit": "Zeichenlimit überschritten. Maximal {{limit}} Zeichen erlaubt.",
+        "messageLimit": "Sie können zusätzliche Nachrichten kaufen oder Ihren Plan upgraden, um fortzufahren.",
+        "purchaseMore": "Weitere Nachrichten kaufen",
+        "allServicesFailed": "Alle KI-Dienste sind derzeit nicht verfügbar. Bitte versuchen Sie es später erneut.",
+        "imageAnalysis": "Entschuldigung, bei der Bildanalyse ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+        "eduPlusArea": "Edu+ unterstützt keine Bereichsauswahl."
+      },
+      "imageSelection": {
+        "pdfArea": "Ausgewählter Bereich aus PDF"
+      },
+      "buttons": {
+        "scrollToBottom": "Nach unten scrollen"
+      },
+      "explain": {
+        "default": "Bitte erklären Sie den gesamten Dokumentinhalt detailliert."
+      }
+    }
+  },
+  "liveLecture": {
+    "title": "Live-Vorlesung Aufzeichnung",
+    "record": {
+      "button": "Vorlesung aufzeichnen",
+      "description": "Echtzeit-Aufnahme und Transkription"
+    },
+    "upload": {
+      "button": "Vorlesungstranskript hochladen",
+      "description": ".txt Datei hochladen"
+    },
+    "error": {
+      "title": "Fehler",
+      "fileType": "Bitte laden Sie eine .txt Datei hoch",
+      "maxLength": "Dateiinhalt überschreitet die maximale Länge von {{length}} Zeichen",
+      "readError": "Datei konnte nicht gelesen werden. Bitte versuchen Sie es erneut",
+      "micPermission": "Mikrofonzugriff wurde verweigert. Bitte gewähren Sie die Berechtigung und versuchen Sie es erneut",
+      "noMic": "Kein Mikrofon gefunden. Bitte schließen Sie ein Mikrofon an und versuchen Sie es erneut",
+      "micBusy": "Mikrofon ist beschäftigt oder funktioniert nicht richtig. Bitte überprüfen Sie die Geräteeinstellungen",
+      "micAccess": "Fehler beim Zugriff auf das Mikrofon. Bitte überprüfen Sie die Geräteeinstellungen",
+      "startRecord": "Aufnahme konnte nicht gestartet werden. Bitte versuchen Sie es erneut",
+      "noTranscript": "Kein Transkript zum Speichern verfügbar",
+      "loginRequired": "Bitte melden Sie sich an, um Aufnahmen zu speichern",
+      "saveFailed": "Speichern der Aufnahme fehlgeschlagen"
+    },
+    "timeWarning": {
+      "title": "Zeitwarnung",
+      "message": "Die Aufnahme wird in {{seconds}} Sekunden automatisch beendet"
+    },
+    "recording": {
+      "status": "Aufnahme läuft...",
+      "paused": "Pausiert",
+      "live": "Live"
+    },
+    "transcript": {
+      "title": "Transkript",
+      "empty": "Starten Sie die Aufnahme, um das Echtzeit-Transkript zu sehen",
+      "transcribing": "Transkription läuft..."
+    },
+    "actions": {
+      "reviewEdit": "Überprüfen & Bearbeiten",
+      "saveDirect": "Speichern",
+      "downloadAudio": "Audio herunterladen",
+      "reset": "Zurücksetzen"
+    },
+    "limits": {
+      "title": "Beschränkungen",
+      "maxRecording": "Maximale Aufnahmezeit: {{minutes}} Minuten",
+      "maxTranscript": "Maximale Transkriptlänge: {{length}} Zeichen"
+    },
+    "processing": "Ihre Datei wird verarbeitet...",
+    "languageSelect": {
+      "label": "Transkriptionssprache",
+      "languages": {
+        "ar": "Arabisch",
+        "da": "Dänisch",
+        "de": "Deutsch",
+        "en": "Englisch",
+        "es": "Spanisch",
+        "fil": "Philippinisch",
+        "fr": "Französisch",
+        "hi": "Hindi",
+        "id": "Indonesisch",
+        "it": "Italienisch",
+        "lt": "Litauisch",
+        "ms": "Malaysisch",
+        "nl": "Niederländisch",
+        "pl": "Polnisch",
+        "pt": "Portugiesisch",
+        "ru": "Russisch",
+        "sv": "Schwedisch",
+        "tr": "Türkisch",
+        "uk": "Ukrainisch",
+        "ur": "Urdu",
+        "zh": "Chinesisch"
+      }
+    },
+    "reviewEdit": {
+      "title": "Transkript Überprüfen und Bearbeiten",
+      "uploadedTitle": "Hochgeladenes Transkript Bearbeiten",
+      "audio": {
+        "play": "Abspielen",
+        "pause": "Pause"
+      },
+      "transcript": {
+        "placeholder": "Bearbeiten Sie Ihr Transkript hier..."
+      },
+      "actions": {
+        "cancel": "Abbrechen",
+        "save": "Änderungen Speichern",
+        "saving": "Wird gespeichert..."
+      },
+      "savingOverlay": {
+        "title": "Transkript wird gespeichert...",
+        "message": "Bitte warten Sie, während wir Ihre Änderungen speichern"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Wählen Sie Ihren Lernweg",
+    "subtitle": "Nutzen Sie das volle Potenzial des KI-gestützten Lernens mit unseren flexiblen Plänen",
+    "billing": {
+      "monthly": "Monatlich",
+      "yearly": "Jährlich",
+      "savePercent": "40% sparen",
+      "yearlyDiscount": "£{{amount}} pro Jahr sparen",
+      "pricePerMonth": "/Monat"
+    },
+    "messages": {
+      "needMore": "Mehr Nachrichten benötigt?",
+      "purchase": "Zusätzliche Nachrichtenguthaben kaufen"
+    },
+    "plans": {
+      "popular": "Am Beliebtesten",
+      "features": {
+        "documentProcessing": "Dokumentenverarbeitung",
+        "aiFeatures": "KI-Funktionen",
+        "chatAnalysis": "Chat und Analyse"
+      }
+    },
+    "planNames": {
+      "cooked": "Cooked",
+      "committed": "Committed",
+      "lockedIn": "Locked In"
+    },
+    "buttons": {
+      "currentPlan": "Aktueller Plan",
+      "freePlan": "Kostenloser Plan",
+      "freeTier": "Kostenlose Version",
+      "upgradeNow": "Jetzt Upgraden",
+      "switchPlan": "Plan Wechseln"
+    },
+    "features": {
+      "cooked": {
+        "docs": [
+          "2 PDF/YouTube-Videos pro Woche",
+          "Maximale Dateigröße 20MB",
+          "1 Vorlesungsaufzeichnung pro Monat"
+        ],
+        "ai": [
+          "Intelligente Zusammenfassungen, Karteikarten, Notizen und Tests"
+        ],
+        "chat": [
+          "3 Nachrichten/Tag (£0.02/zusätzl.)",
+          "1 Bereichsauswahl/Woche (£0.05/zusätzl.)",
+          "1 Standard-Sprachgenerierung/Monat"
+        ]
+      },
+      "committed": {
+        "docs": [
+          "10 PDF/YouTube-Videos pro Woche",
+          "Maximale Dateigröße 30MB",
+          "10 Vorlesungsaufzeichnungen pro Monat"
+        ],
+        "ai": [
+          "Alles aus Cooked + Pro-Sprachstile"
+        ],
+        "chat": [
+          "30 Nachrichten/Tag (£0.02/zusätzl.)",
+          "15 Bereichsauswahlen/Woche (£0.05/zusätzl.)",
+          "5 Standard + 2 Pro-Sprachgenerierungen/Monat"
+        ]
+      },
+      "lockedIn": {
+        "docs": [
+          "Unbegrenzte PDF/YouTube-Videos",
+          "Maximale Dateigröße 40MB",
+          "45 Vorlesungsaufzeichnungen pro Monat"
+        ],
+        "ai": [
+          "Alles aus Committed + Prioritätszugang"
+        ],
+        "chat": [
+          "Unbegrenzte Nachrichten",
+          "50 Bereichsauswahlen/Woche (£0.05/zusätzl.)",
+          "15 Standard + 7 Pro-Sprachgenerierungen/Monat"
+        ]
+      }
+    },
+    "errors": {
+      "invalidPlan": "Ungültiger Plan ausgewählt",
+      "checkoutFailed": "Erstellung der Checkout-Sitzung fehlgeschlagen",
+      "planChangeFailed": "Planänderung fehlgeschlagen"
+    }
+  },
+  "support": {
+    "title": "Wie können wir helfen?",
+    "subtitle": "Erhalten Sie die benötigte Hilfe mit unseren umfassenden Support-Ressourcen",
+    "emailSupport": {
+      "title": "E-Mail-Support",
+      "description": "Brauchen Sie Hilfe? Senden Sie uns eine E-Mail und wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+      "button": "Support kontaktieren"
+    },
+    "featureRequests": {
+      "title": "Funktionsanfragen",
+      "description": "Haben Sie eine Idee zur Verbesserung unserer Plattform? Wir würden sie gerne hören!",
+      "button": "Anfrage einreichen"
+    },
+    "feedback": {
+      "title": "Feedback senden",
+      "description": "Teilen Sie Ihre Gedanken mit uns und helfen Sie uns, Ihre Erfahrung zu verbessern.",
+      "button": "Feedback senden"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "questions": {
+        "upload": {
+          "question": "Wie lade ich Dokumente hoch?",
+          "answer": "Sie können PDF-Dokumente hochladen, indem Sie auf die Schaltfläche 'Hochladen' in Ihrem Dashboard klicken oder einfach Dateien in den Upload-Bereich ziehen."
+        },
+        "formats": {
+          "question": "Welche Dateiformate werden unterstützt?",
+          "answer": "Derzeit unterstützen wir PDF-Dateien für Dokumentenanalyse und YouTube-Videos für Transkriptionsgenerierung."
+        },
+        "aiAnalysis": {
+          "question": "Wie funktioniert die KI-Analyse?",
+          "answer": "Unsere fortschrittliche KI analysiert Ihre Dokumente, um Zusammenfassungen, Karteikarten und interaktive Lernmaterialien zu erstellen, während Kontext und Genauigkeit erhalten bleiben."
+        },
+        "chat": {
+          "question": "Wie kann ich den KI-Chat zum Lernen nutzen?",
+          "answer": "Unser KI-Chat ermöglicht es Ihnen, Fragen zu Ihren hochgeladenen Dokumenten zu stellen, Erklärungen zu komplexen Konzepten zu erhalten und sogar ausgewählte Bereiche in PDFs zu analysieren. Markieren Sie einfach Text oder wählen Sie einen Bereich aus und stellen Sie Ihre Frage."
+        }
+      }
+    }
+  },
+  "header": {
+    "tagline": "Transformiere Deine Lernreise",
+    "buttons": {
+      "pricing": "Preise",
+      "signIn": "Anmelden",
+      "getStarted": "Loslegen",
+      "help": "Hilfe",
+      "dashboard": "Dashboard",
+      "upgradeNow": "Jetzt Upgraden",
+      "pro": "Pro"
+    }
+  },
+  "userMenu": {
+    "profile": "Profil",
+    "upgradePlan": "Abo Upgraden",
+    "support": "Support",
+    "feedback": "Feedback",
+    "featureRequest": "Funktionsanfrage",
+    "adminPortal": "Admin-Portal",
+    "logout": "Abmelden",
+    "planStatus": {
+      "cookedMember": "Cooked Mitglied",
+      "committedMember": "Committed Mitglied",
+      "lockedInMember": "Locked In Mitglied"
+    },
+    "updates": "Neueste Updates",
+    "lightMode": "Heller Modus",
+    "darkMode": "Dunkler Modus"
+  },
+  "languageModal": {
+    "title": "Wählen Sie Ihre Sprache",
+    "description": "Wählen Sie Ihre bevorzugte Sprache für ein besseres Erlebnis",
+    "confirm": "Auswahl bestätigen"
+  },
+  "common": {
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "save": "Speichern"
+  }
+} 

@@ -1,0 +1,54 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return request.auth.uid == userId;
+    }
+
+    // PDF documents
+    match /documents/{userId}/{docId}/{fileName} {
+      allow read: if true;
+      allow write: if isSignedIn() && isOwner(userId) 
+        && request.resource.size < 40 * 1024 * 1024  // 40MB max
+        && request.resource.contentType.matches('application/pdf');
+      allow delete: if isSignedIn() && isOwner(userId);
+    }
+
+    // Audio files (vocalize)
+    match /audio/{userId}/{docId}/{fileName} {
+      allow read: if true;
+      allow write: if isSignedIn() && isOwner(userId)
+        && request.resource.size < 20 * 1024 * 1024  // 20MB max
+        && request.resource.contentType.matches('audio/.*');
+      allow delete: if isSignedIn() && isOwner(userId);
+    }
+
+    // Lecture recordings
+    match /audio/{userId}/{fileName} {
+      allow read: if true;
+      allow write: if isSignedIn() && isOwner(userId)
+        && request.resource.size < 100 * 1024 * 1024  // 100MB max
+        && request.resource.contentType.matches('audio/.*');
+      allow delete: if isSignedIn() && isOwner(userId);
+    }
+
+    // Lecture recordings with nested paths
+    match /audio/{userId}/{docId}/{fileName} {
+      allow read: if true;
+      allow write: if isSignedIn() && isOwner(userId)
+        && request.resource.size < 100 * 1024 * 1024  // 100MB max
+        && request.resource.contentType.matches('audio/.*');
+      allow delete: if isSignedIn() && isOwner(userId);
+    }
+
+    // Deny all other access
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

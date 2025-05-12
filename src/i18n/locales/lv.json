@@ -1,0 +1,706 @@
+{
+  "profile": {
+    "title": "Konta informācija",
+    "error": "Kļūda",
+    "success": "Veiksmīgi",
+    "sections": {
+      "name": {
+        "label": "Vārds",
+        "edit": "Rediģēt",
+        "save": "Saglabāt"
+      },
+      "email": {
+        "label": "E-pasts"
+      },
+      "password": {
+        "label": "Parole",
+        "change": "Mainīt",
+        "save": "Saglabāt",
+        "current": "Pašreizējā parole",
+        "new": "Jaunā parole",
+        "confirm": "Apstiprināt jauno paroli"
+      },
+      "subscription": {
+        "label": "Abonēšanas plāns",
+        "upgrade": "Uzlabot plānu",
+        "manage": "Pārvaldīt abonementu",
+        "new": "Jauns!"
+      },
+      "messages": {
+        "label": "Ziņojumu lietojums",
+        "description": "Sekojiet līdzi saviem dienas un nedēļas ziņojumu limitiem",
+        "textMessages": "Īsziņas",
+        "areaSelection": "Apgabalu atlases ziņojumi",
+        "planUsageDaily": "Plāna lietojums (Dienas)",
+        "planUsageWeekly": "Plāna lietojums (Nedēļas)",
+        "purchasedMessages": "Iegādātie ziņojumi",
+        "buyMore": "Pirkt vairāk",
+        "infinity": "∞"
+      },
+      "account": {
+        "title": "Konta detaļas",
+        "memberSince": "Dalībnieks kopš",
+        "lastLogin": "Pēdējā pieteikšanās",
+        "never": "Nekad"
+      },
+      "language": {
+        "label": "Valoda"
+      },
+      "danger": {
+        "title": "Bīstamības zona",
+        "warning": "Kad jūs izdzēsīsiet savu kontu, atpakaļceļa vairs nebūs. Lūdzu, pārliecinieties.",
+        "delete": "Dzēst kontu",
+        "confirm": "Apstiprināt dzēšanu",
+        "cancel": "Atcelt",
+        "deleting": "Dzēš kontu..."
+      }
+    },
+    "subscription": {
+      "cancel": {
+        "title": "Vai tiešām vēlaties atcelt?",
+        "processing": "Atceļ abonementu...",
+        "description": "Jūs zaudēsiet piekļuvi premium funkcijām jūsu pašreizējā norēķinu perioda beigās.",
+        "wait": "Lūdzu, uzgaidiet, kamēr mēs apstrādājam jūsu pieprasījumu.",
+        "keep": "Patērēt abonementu",
+        "confirm": "Atcelt abonementu"
+      }
+    }
+  },
+  "dashboard": {
+    "computerRecommended": {
+      "title": "Ieteicams dators",
+      "description": "Lai iegūtu labāko mācību pieredzi un piekļuvi visām funkcijām, mēs ļoti iesakām izmantot EduCure AI galddatorā vai klēpjdatorā."
+    },
+    "upload": {
+      "title": "Augšupielādēt dokumentu",
+      "youtube": {
+        "placeholder": "Ielīmējiet YouTube video URL...",
+        "import": "Importēt"
+      },
+      "pdf": {
+        "button": "Izvēlieties PDF",
+        "dragDrop": "vai velciet un nometiet",
+        "maxSize": "Maksimālais faila lielums: {{size}}MB",
+        "processing": "Apstrādā...",
+        "readingPdf": "Lasu PDF saturu...",
+        "saving": "Saglabā dokumentu..."
+      }
+    },
+    "record": {
+      "title": "Ierakstīt tiešraides lekciju",
+      "start": "Sākt ierakstīšanu",
+      "description": "Ierakstiet un transkribējiet savas lekcijas reāllaikā"
+    },
+    "limits": {
+      "documents": {
+        "title": "Nedēļas dokumentu augšupielādes",
+        "unlimited": "Neierobežots"
+      },
+      "lectures": {
+        "title": "Mēneša lekciju ieraksti"
+      }
+    },
+    "documents": {
+      "title": "Jūsu dokumenti",
+      "empty": {
+        "title": "Nenosaukts dokuments"
+      },
+      "actions": {
+        "delete": "Dzēst",
+        "more": "Vairāk darbību",
+        "rename": "Pārdēvēt",
+        "moveToSubject": "Pārvietot uz priekšmetu"
+      },
+      "sections": {
+        "pdf": "PDF un lekciju dokumenti",
+        "youtube": "YouTube video"
+      },
+      "errors": {
+        "moveDocument": "Neizdevās pārvietot dokumentu uz priekšmetu"
+      }
+    },
+    "errors": {
+      "login": "Lūdzu, piesakieties, lai augšupielādētu dokumentus",
+      "youtube": {
+        "url": "Lūdzu, ievadiet YouTube URL",
+        "invalid": "Lūdzu, ievadiet derīgu YouTube URL",
+        "import": "Neizdevās importēt video transkriptu. Lūdzu, mēģiniet vēlreiz.",
+        "noTranscript": "Šim videoklipam nav pieejams transkripts. Lūdzu, mēģiniet citu video ar iespējotu transkriptu.",
+        "networkError": "Konstatēta interneta savienojuma problēma. Lūdzu, pārbaudiet savienojumu un mēģiniet vēlreiz.",
+        "unexpectedError": "Apstrādājot jūsu video, radās neparedzēta kļūda. Lūdzu, mēģiniet vēlreiz."
+      },
+      "pdf": {
+        "invalid": "Lūdzu, augšupielādējiet derīgu PDF failu. Citi failu tipi netiek atbalstīti.",
+        "size": "Faila lielums pārsniedz {{size}}MB limitu jūsu plānam. Lūdzu, saspiest PDF vai uzlabojiet savu plānu lielākām augšupielādēm.",
+        "upload": "Neizdevās augšupielādēt dokumentu. Lūdzu, mēģiniet vēlreiz.",
+        "password": "Šis PDF ir aizsargāts ar paroli. Lūdzu, noņemiet paroles aizsardzību un mēģiniet vēlreiz.",
+        "corrupt": "Šis PDF fails, šķiet, ir bojāts vai nederīgs. Lūdzu, pārliecinieties, vai tas ir derīgs PDF, un mēģiniet vēlreiz.",
+        "storage": "Krātuves kvota pārsniegta. Lūdzu, atbrīvojiet vietu vai uzlabojiet savu plānu.",
+        "networkError": "Konstatēta interneta savienojuma problēma. Lūdzu, pārbaudiet savienojumu un mēģiniet vēlreiz.",
+        "unexpectedError": "Apstrādājot jūsu PDF, radās neparedzēta kļūda. Lūdzu, mēģiniet vēlreiz.",
+        "empty": "Šis PDF, šķiet, ir tukšs vai nesatur izvelkamu tekstu. Lūdzu, pārliecinieties, vai PDF ir teksta saturs."
+      },
+      "document": {
+        "deleteFailed": "Neizdevās izdzēst dokumentu"
+      },
+      "limit": "Augšupielādes limits sasniegts",
+      "upgrade": "Uzlabojiet savu plānu"
+    },
+    "subjects": {
+      "title": "Priekšmeti",
+      "add": "Pievienot priekšmetu",
+      "rename": "Pārdēvēt priekšmetu",
+      "dashboard": "Informācijas panelis",
+      "newPlaceholder": "Ievadiet priekšmeta nosaukumu...",
+      "delete": {
+        "title": "Dzēst priekšmetu",
+        "message": "Vai tiešām vēlaties dzēst šo priekšmetu? Visi dokumenti tiks pārvietoti uz informācijas paneli.",
+        "confirm": "Dzēst",
+        "cancel": "Atcelt"
+      },
+      "manage": "Pārvaldiet savus {{subject}} dokumentus un lekcijas"
+    }
+  },
+  "documentView": {
+    "tabs": {
+      "chat": "Tērzēšana",
+      "notes": "Piezīmes",
+      "flashcards": "Zibatmiņas kartītes",
+      "test": "Tests",
+      "vocalize": "Vokalizēt"
+    },
+    "selectionMode": {
+      "textActive": "Teksta atlases režīms aktīvs",
+      "areaActive": "Apgabala atlases režīms aktīvs"
+    },
+    "actions": {
+      "download": "Lejupielādēt",
+      "hideDocument": "Slēpt dokumentu",
+      "showDocument": "Rādīt dokumentu"
+    },
+    "notes": {
+      "generate": "Ģenerēt",
+      "generating": "Ģenerē...",
+      "description": "Izveidojiet detalizētas mācību piezīmes ar galvenajiem punktiem un padziļinātiem skaidrojumiem"
+    },
+    "flashcards": {
+      "generate": "Ģenerēt",
+      "generating": "Ģenerē...",
+      "description": "Izveidojiet AI darbināmas zibatmiņas kartītes no sava dokumenta, lai iegaumētu galvenās koncepcijas",
+      "navigation": {
+        "previous": "Iepriekšējā kartīte",
+        "next": "Nākamā kartīte"
+      },
+      "labels": {
+        "question": "Jautājums",
+        "answer": "Atbilde"
+      },
+      "placeholders": {
+        "question": "Ievadiet savu jautājumu šeit...",
+        "answer": "Ievadiet savu atbildi šeit..."
+      },
+      "deleteConfirm": {
+        "title": "Dzēst zibatmiņas kartīti",
+        "message": "Vai tiešām vēlaties dzēst šo zibatmiņas kartīti? Šo darbību nevar atsaukt.",
+        "confirm": "Dzēst",
+        "cancel": "Atcelt"
+      },
+      "clickToFlip": "Noklikšķiniet, lai apgrieztu",
+      "actions": {
+        "export": "Eksportēt",
+        "new": "Pievienot zibatmiņas kartīti"
+      },
+      "export": {
+        "toCsv": "Eksportēt uz CSV",
+        "toClipboard": "Kopēt tekstu"
+      },
+      "copySuccess": "Zibatmiņas kartītes veiksmīgi nokopētas starpliktuvē",
+      "copyError": "Neizdevās nokopēt zibatmiņas kartītes starpliktuvē",
+      "exportError": "Neizdevās eksportēt zibatmiņas kartītes uz CSV"
+    },
+    "test": {
+      "generate": "Ģenerēt",
+      "generating": "Ģenerē...",
+      "description": "Izveidojiet interaktīvus testus ar atbilžu variantiem un patiesi/nepatiesi jautājumiem, lai pārbaudītu savu izpratni",
+      "results": {
+        "score": {
+          "perfect": "Vislabākais 🐐",
+          "excellent": "Absolūts zvēra režīms 💪",
+          "great": "Tu esi viņš fr 😤",
+          "good": "Vidēji, bet mēs kustamies 🚶",
+          "fair": "Jāieslēdzas 🔒",
+          "poor": "Tu esi beigts, mazais brāli 💀"
+        },
+        "yourAnswer": "Jūsu atbilde",
+        "correctAnswer": "Pareizā atbilde"
+      },
+      "buttons": {
+        "submit": "Iesniegt testu",
+        "tryAgain": "Mēģināt vēlreiz",
+        "generateNew": "Ģenerēt jaunu testu"
+      },
+      "options": {
+        "true": "Patiess",
+        "false": "Nepatiess"
+      },
+      "previousTests": {
+        "title": "Iepriekšējie testi",
+        "number": "Tests #{{number}}"
+      }
+    },
+    "vocalize": {
+      "beta": "BETA",
+      "generate": "Ģenerēt",
+      "generating": "Ģenerē...",
+      "description": "Pārveidojiet tekstu dabiskā runā",
+      "voiceStyle": "Balss stils",
+      "styleOptions": {
+        "lecture": {
+          "label": "Lekcija",
+          "description": "Profesionāla akadēmiskā balss skaidriem paskaidrojumiem"
+        },
+        "news": {
+          "label": "Ziņu diktors",
+          "description": "Profesionāls apraides stila balss"
+        },
+        "soft": {
+          "label": "Maiga balss",
+          "description": "Maiga, nomierinoša balss ērtai mācīšanai"
+        },
+        "asmr": {
+          "label": "ASMR",
+          "description": "Maiga, intīma balss relaksētai mācīšanai",
+          "pro": "PRO"
+        },
+        "motivational": {
+          "label": "Motivējoša",
+          "description": "Enerģiska balss, kas iedvesmo un iesaista",
+          "pro": "PRO"
+        },
+        "storytelling": {
+          "label": "Stāstniecība",
+          "description": "Izteiksmīga balss stāstījuma saturam",
+          "pro": "PRO"
+        }
+      },
+      "usage": {
+        "standard": "Standarta vokalizācija",
+        "pro": "PRO vokalizācija"
+      },
+      "errors": {
+        "limitReached": "Ģenerēšanas limits sasniegts",
+        "upgradeRequired": "Nepieciešams uzlabot savu plānu",
+        "maxAudioLimit": "Maksimālais audio limits sasniegts",
+        "deleteExisting": "Dzēsiet esošo audio versiju, lai ģenerētu jaunu",
+        "generatingAudio": "Ģenerē audio pieredzi...",
+        "creatingStyle": "Veido jūsu stila pārskatīšanu",
+        "noAudioYet": "Audio versijas vēl nav ģenerētas",
+        "generateFirst": "Ģenerējiet savu pirmo audio versiju augšā!"
+      },
+      "buttons": {
+        "generateNew": "Ģenerēt jaunu audio pēc",
+        "savedVersions": "Saglabātās audio versijas"
+      },
+      "languageAvailability": {
+        "english": "Pieejams angļu valodā",
+        "languages29": "Pieejams 29 valodās",
+        "languages60": "Pieejams 60+ valodās"
+      },
+      "voiceLanguage": "Balss valoda",
+      "searchLanguage": "Meklēt valodu...",
+      "noLanguagesFound": "Valodas nav atrastas",
+      "languages": {
+        "Afrikaans": "Afrikāņu",
+        "Albanian": "Albāņu",
+        "Arabic": "Arābu",
+        "Armenian": "Armēņu",
+        "Azerbaijani": "Azerbaidžāņu",
+        "Bahasa Indonesian": "Indonēziešu",
+        "Bengali": "Bengāļu",
+        "Bosnian": "Bosniešu",
+        "Bulgarian": "Bulgāru",
+        "Catalan": "Katalāņu",
+        "Chinese Cantonese": "Ķīniešu (Kantonas)",
+        "Chinese Mandarin": "Ķīniešu (Mandrīnu)",
+        "Croatian": "Horvātu",
+        "Czech": "Čehu",
+        "Danish": "Dāņu",
+        "Dutch": "Holandiešu",
+        "English": "Angļu",
+        "Estonian": "Igauņu",
+        "Filipino": "Filipīņu",
+        "Finnish": "Somu",
+        "French": "Franču",
+        "Galician": "Galīciešu",
+        "Georgian": "Gruzīņu",
+        "German": "Vācu",
+        "Greek": "Grieķu",
+        "Hebrew": "Ivrits",
+        "Hindi": "Hindi",
+        "Hungarian": "Ungāru",
+        "Icelandic": "Islandiešu",
+        "Irish": "Īru",
+        "Italian": "Itāļu",
+        "Japanese": "Japāņu",
+        "Javanese": "Javiešu",
+        "Kannada": "Kannadu",
+        "Kazakh": "Kazahu",
+        "Korean": "Korejiešu",
+        "Latvian": "Latviešu",
+        "Lithuanian": "Lietuviešu",
+        "Macedonian": "Maķedoniešu",
+        "Malay": "Malajiešu",
+        "Maltese": "Maltiešu",
+        "Marathi": "Marathi",
+        "Mongolian": "Mongoļu",
+        "Nepali": "Nepāliešu",
+        "Norwegian Bokmål": "Norvēģu Bukmols",
+        "Pashto": "Puštu",
+        "Persian": "Persiešu",
+        "Polish": "Poļu",
+        "Portuguese": "Portugāļu",
+        "Romanian": "Rumāņu",
+        "Russian": "Krievu",
+        "Serbian": "Serbu",
+        "Sinhala": "Sinhāļu",
+        "Slovak": "Slovāku",
+        "Slovene": "Slovēņu",
+        "Somali": "Somāļu",
+        "Spanish": "Spāņu",
+        "Swahili": "Svahili",
+        "Swedish": "Zviedru",
+        "Tamil": "Tamilu",
+        "Telugu": "Telugu",
+        "Thai": "Taju",
+        "Turkish": "Turku",
+        "Ukrainian": "Ukraiņu",
+        "Urdu": "Urdu",
+        "Uzbek": "Uzbeku",
+        "Vietnamese": "Vjetnamiešu",
+        "Welsh": "Velsiešu",
+        "Zulu": "Zulu"
+      }
+    },
+    "errors": {
+      "failedToLoad": "Neizdevās ielādēt dokumentu",
+      "failedToUpdate": "Neizdevās atjaunināt dokumentu",
+      "tryAgain": "Lūdzu, mēģiniet vēlreiz"
+    },
+    "customInstructions": {
+      "title": "Pielāgotas instrukcijas",
+      "optional": "(Nav obligāti)",
+      "placeholder": "Pievienojiet konkrētas instrukcijas par tēmām, uz kurām koncentrēties, vai apgabaliem, kurus vēlaties sīkāk izpētīt (piemēram, 'Koncentrējieties uz matemātikas jēdzieniem', 'Uzsveriet galvenās teorijas')",
+      "characters": "rakstzīmes",
+      "priorityNote": "Jūsu instrukcijas tiks prioritizētas ģenerēšanas laikā",
+      "customLanguage": {
+        "show": "Rādīt pielāgoto valodu",
+        "hide": "Slēpt pielāgoto valodu",
+        "placeholder": "Ievadiet pielāgoto valodu, piemēram, 'Korejiešu'. (nav obligāti)",
+        "defaultNote": "Ja nav norādīts, tiks izmantota valoda, kas atlasīta 'Profila' iestatījumos"
+      }
+    },
+    "testSets": {
+      "title": "Jūsu testu komplekti",
+      "of": "no",
+      "sets": "komplekti",
+      "testSet": "Tests",
+      "questions": "jautājumi"
+    },
+    "chat": {
+      "placeholder": {
+        "default": "Uzdodiet jautājumu par savu dokumentu...",
+        "selectedArea": "Uzdodiet jautājumu par atlasīto apgabalu...",
+        "selectedText": "Uzdodiet jautājumu par atlasīto tekstu..."
+      },
+      "empty": {
+        "title": "Uzdodiet man jebko par savu dokumentu!",
+        "subtitle": "Es palīdzēšu jums labāk izprast saturu."
+      },
+      "replyingTo": {
+        "selection": "Atbild uz",
+        "selectedArea": "atlasīto apgabalu",
+        "selectedText": "atlasīto tekstu"
+      },
+      "errors": {
+        "characterLimit": "Rakstzīmju limits pārsniegts. Maksimālais atļautais rakstzīmju skaits ir {{limit}}.",
+        "messageLimit": "Lai turpinātu, varat iegādāties papildu ziņojumus vai uzlabot savu plānu.",
+        "purchaseMore": "Iegādāties papildu ziņojumus",
+        "allServicesFailed": "Visi AI pakalpojumi šobrīd nav pieejami. Lūdzu, mēģiniet vēlreiz vēlāk.",
+        "imageAnalysis": "Atvainojiet, analizējot attēlu, radās kļūda. Lūdzu, mēģiniet vēlreiz.",
+        "eduPlusArea": "Edu+ neatbalsta apgabalu atlasi."
+      },
+      "imageSelection": {
+        "pdfArea": "Atlasītais apgabals no PDF"
+      },
+      "buttons": {
+        "scrollToBottom": "Ritiniet līdz apakšai"
+      },
+      "explain": {
+        "default": "Lūdzu, detalizēti izskaidrojiet visa dokumenta saturu."
+      }
+    }
+  },
+  "liveLecture": {
+    "title": "Tiešraides lekcijas ierakstītājs",
+    "record": {
+      "button": "Ierakstīt lekciju",
+      "description": "Ierakstiet un transkribējiet reāllaikā"
+    },
+    "upload": {
+      "button": "Augšupielādēt lekcijas transkriptu",
+      "description": "Augšupielādēt .txt failu"
+    },
+    "error": {
+      "title": "Kļūda",
+      "fileType": "Lūdzu, augšupielādējiet .txt failu",
+      "maxLength": "Faila saturs pārsniedz maksimālo garumu {{length}} rakstzīmes",
+      "readError": "Neizdevās nolasīt failu. Lūdzu, mēģiniet vēlreiz",
+      "micPermission": "Mikrofona piekļuve liegta. Lūdzu, piešķiriet atļauju un mēģiniet vēlreiz",
+      "noMic": "Mikrofons nav atrasts. Lūdzu, pievienojiet mikrofonu un mēģiniet vēlreiz",
+      "micBusy": "Mikrofons ir aizņemts vai nedarbojas pareizi. Lūdzu, pārbaudiet ierīces iestatījumus",
+      "micAccess": "Kļūda, piekļūstot mikrofonam. Lūdzu, pārbaudiet ierīces iestatījumus",
+      "startRecord": "Neizdevās sākt ierakstīšanu. Lūdzu, mēģiniet vēlreiz",
+      "noTranscript": "Nav pieejams transkripts, ko saglabāt",
+      "loginRequired": "Lūdzu, piesakieties, lai saglabātu ierakstus",
+      "saveFailed": "Neizdevās saglabāt ierakstu"
+    },
+    "timeWarning": {
+      "title": "Laika brīdinājums",
+      "message": "Ierakstīšana automātiski apstāsies pēc {{seconds}} sekundēm"
+    },
+    "recording": {
+      "status": "Ieraksta...",
+      "paused": "Pauzēts",
+      "live": "Tiešraide"
+    },
+    "transcript": {
+      "title": "Transkripts",
+      "empty": "Sāciet ierakstīšanu, lai redzētu reāllaika transkriptu",
+      "transcribing": "Transkribē..."
+    },
+    "actions": {
+      "reviewEdit": "Pārskatīt un rediģēt",
+      "saveDirect": "Saglabāt",
+      "downloadAudio": "Lejupielādēt audio",
+      "reset": "Atiestatīt"
+    },
+    "limits": {
+      "title": "Limiti",
+      "maxRecording": "Maksimālais ieraksta laiks: {{minutes}} minūtes",
+      "maxTranscript": "Maksimālais transkripta garums: {{length}} rakstzīmes"
+    },
+    "processing": "Apstrādā jūsu failu...",
+    "languageSelect": {
+      "label": "Transkripcijas valoda",
+      "languages": {
+        "ar": "Arābu",
+        "da": "Dāņu",
+        "de": "Vācu",
+        "en": "Angļu",
+        "es": "Spāņu",
+        "fil": "Filipīņu",
+        "fr": "Franču",
+        "hi": "Hindi",
+        "id": "Indonēziešu",
+        "it": "Itāļu",
+        "lt": "Lietuviešu",
+        "ms": "Malajiešu",
+        "nl": "Holandiešu",
+        "pl": "Poļu",
+        "pt": "Portugāļu",
+        "ru": "Krievu",
+        "sv": "Zviedru",
+        "tr": "Turku",
+        "uk": "Ukraiņu",
+        "ur": "Urdu",
+        "zh": "Ķīniešu"
+      }
+    },
+    "reviewEdit": {
+      "title": "Pārskatīt un rediģēt transkriptu",
+      "uploadedTitle": "Rediģēt augšupielādēto transkriptu",
+      "audio": {
+        "play": "Atskaņot",
+        "pause": "Pauzēt"
+      },
+      "transcript": {
+        "placeholder": "Rediģējiet savu transkriptu šeit..."
+      },
+      "actions": {
+        "cancel": "Atcelt",
+        "save": "Saglabāt izmaiņas",
+        "saving": "Saglabā..."
+      },
+      "savingOverlay": {
+        "title": "Saglabā transkriptu...",
+        "message": "Lūdzu, uzgaidiet, kamēr mēs saglabājam jūsu izmaiņas"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Izvēlieties savu mācību ceļojumu",
+    "subtitle": "Atraisiet pilnu AI darbinātu mācību potenciālu ar mūsu elastīgajiem plāniem",
+    "billing": {
+      "monthly": "Mēnesī",
+      "yearly": "Gada",
+      "savePercent": "Ietaupiet 40%",
+      "yearlyDiscount": "Ietaupiet £{{amount}} gadā",
+      "pricePerMonth": "/mēnesī"
+    },
+    "messages": {
+      "needMore": "Vajag vairāk ziņojumu?",
+      "purchase": "Iegādāties papildu ziņojumu kredītus"
+    },
+    "plans": {
+      "popular": "Populārākais",
+      "features": {
+        "documentProcessing": "Dokumentu apstrāde",
+        "aiFeatures": "AI funkcijas",
+        "chatAnalysis": "Tērzēšana un analīze"
+      }
+    },
+    "planNames": {
+      "cooked": "Cooked",
+      "committed": "Committed",
+      "lockedIn": "Locked In"
+    },
+    "buttons": {
+      "currentPlan": "Pašreizējais plāns",
+      "freePlan": "Bezmaksas plāns",
+      "freeTier": "Bezmaksas līmenis",
+      "upgradeNow": "Uzlabot tagad",
+      "switchPlan": "Mainīt plānu"
+    },
+    "features": {
+      "cooked": {
+        "docs": [
+          "2 PDF/YouTube video nedēļā",
+          "20MB maksimālais faila lielums",
+          "1 lekcijas ieraksts mēnesī"
+        ],
+        "ai": [
+          "Gudri kopsavilkumi, zibatmiņas kartītes, piezīmes un testi"
+        ],
+        "chat": [
+          "3 ziņojumi dienā (£0,02/papildus)",
+          "1 apgabala atlase nedēļā (£0,05/papildus)",
+          "1 standarta balss ģenerēšana mēnesī"
+        ]
+      },
+      "committed": {
+        "docs": [
+          "10 PDF/YouTube video nedēļā",
+          "30MB maksimālais faila lielums",
+          "10 lekciju ieraksti mēnesī"
+        ],
+        "ai": [
+          "Viss no Cooked + Pro balss stiliem"
+        ],
+        "chat": [
+          "30 ziņojumi dienā (£0,02/papildus)",
+          "15 apgabala atlases nedēļā (£0,05/papildus)",
+          "5 standarta + 2 pro balss ģenerēšanas mēnesī"
+        ]
+      },
+      "lockedIn": {
+        "docs": [
+          "Neierobežots PDF/YouTube video skaits",
+          "40MB maksimālais faila lielums",
+          "45 lekciju ieraksti mēnesī"
+        ],
+        "ai": [
+          "Viss no Committed + prioritātes piekļuve"
+        ],
+        "chat": [
+          "Neierobežots ziņojumu skaits",
+          "50 apgabala atlases nedēļā (£0,05/papildus)",
+          "15 standarta + 7 pro balss ģenerēšanas mēnesī"
+        ]
+      }
+    },
+    "errors": {
+      "invalidPlan": "Nederīgs plāns atlasīts",
+      "checkoutFailed": "Neizdevās izveidot norēķinu sesiju",
+      "planChangeFailed": "Neizdevās apstrādāt plāna maiņu"
+    }
+  },
+  "support": {
+    "title": "Kā mēs varam palīdzēt?",
+    "subtitle": "Saņemiet nepieciešamo palīdzību ar mūsu visaptverošajiem atbalsta resursiem",
+    "emailSupport": {
+      "title": "E-pasta atbalsts",
+      "description": "Vajadzīga palīdzība? Nosūtiet mums e-pastu, un mēs ar jums sazināsimies 24 stundu laikā.",
+      "button": "Sazināties ar atbalstu"
+    },
+    "featureRequests": {
+      "title": "Funkciju pieprasījumi",
+      "description": "Vai jums ir ideja, kā uzlabot mūsu platformu? Mēs labprāt to dzirdētu!",
+      "button": "Iesniegt pieprasījumu"
+    },
+    "feedback": {
+      "title": "Nosūtīt atsauksmes",
+      "description": "Dalieties ar savām domām un palīdziet mums uzlabot jūsu pieredzi.",
+      "button": "Iesniegt atsauksmes"
+    },
+    "faq": {
+      "title": "Bieži uzdotie jautājumi",
+      "questions": {
+        "upload": {
+          "question": "Kā augšupielādēt dokumentus?",
+          "answer": "Jūs varat augšupielādēt PDF dokumentus, noklikšķinot uz pogas 'Augšupielādēt' informācijas panelī vai vienkārši velkot un nometot failus augšupielādes zonā."
+        },
+        "formats": {
+          "question": "Kādi failu formāti tiek atbalstīti?",
+          "answer": "Pašlaik mēs atbalstām PDF failus dokumentu analīzei un YouTube video transkriptu ģenerēšanai."
+        },
+        "aiAnalysis": {
+          "question": "Kā darbojas AI analīze?",
+          "answer": "Mūsu uzlabotais AI analizē jūsu dokumentus, lai izveidotu kopsavilkumus, zibatmiņas kartītes un interaktīvus mācību materiālus, vienlaikus saglabājot kontekstu un precizitāti."
+        },
+        "chat": {
+          "question": "Kā es varu izmantot AI tērzēšanu mācībām?",
+          "answer": "Mūsu AI tērzēšana ļauj uzdot jautājumus par jūsu augšupielādētajiem dokumentiem, saņemt sarežģītu jēdzienu skaidrojumus un pat analizēt atlasītos apgabalus PDF failos. Vienkārši iezīmējiet tekstu vai atlasiet apgabalu un uzdodiet savu jautājumu."
+        }
+      }
+    }
+  },
+  "header": {
+    "tagline": "Pārveidojiet savu mācību ceļojumu",
+    "buttons": {
+      "pricing": "Cenas",
+      "signIn": "Pieteikties",
+      "getStarted": "Sākt darbu",
+      "help": "Palīdzība",
+      "dashboard": "Informācijas panelis",
+      "upgradeNow": "Uzlabot tagad",
+      "pro": "Pro"
+    }
+  },
+  "userMenu": {
+    "profile": "Profils",
+    "upgradePlan": "Uzlabot plānu",
+    "support": "Atbalsts",
+    "feedback": "Atsauksmes",
+    "featureRequest": "Funkciju pieprasījums",
+    "adminPortal": "Admin portāls",
+    "logout": "Izrakstīties",
+    "updates": "Jaunākie atjauninājumi",
+    "lightMode": "Gaišais režīms",
+    "darkMode": "Tumšais režīms",
+    "planStatus": {
+      "cookedMember": "Cooked dalībnieks",
+      "committedMember": "Committed dalībnieks",
+      "lockedInMember": "Locked In dalībnieks"
+    }
+  },
+  "languageModal": {
+    "title": "Izvēlieties savu valodu",
+    "description": "Izvēlieties vēlamo valodu, lai iegūtu labāko pieredzi",
+    "confirm": "Apstiprināt izvēli"
+  },
+  "common": {
+    "cancel": "Atcelt",
+    "delete": "Dzēst",
+    "save": "Saglabāt"
+  }
+}

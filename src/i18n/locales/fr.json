@@ -1,0 +1,708 @@
+{
+  "profile": {
+    "title": "Informations du Compte",
+    "error": "Erreur",
+    "success": "Succès",
+    "sections": {
+      "name": {
+        "label": "Nom",
+        "edit": "Modifier",
+        "save": "Enregistrer"
+      },
+      "email": {
+        "label": "E-mail"
+      },
+      "password": {
+        "label": "Mot de passe",
+        "change": "Modifier",
+        "save": "Enregistrer",
+        "current": "Mot de passe actuel",
+        "new": "Nouveau mot de passe",
+        "confirm": "Confirmer le nouveau mot de passe"
+      },
+      "subscription": {
+        "label": "Plan d'Abonnement",
+        "upgrade": "Améliorer le Plan",
+        "manage": "Gérer l'Abonnement",
+        "new": "Nouveau !"
+      },
+      "messages": {
+        "label": "Utilisation des Messages",
+        "description": "Suivez vos limites de messages quotidiennes et hebdomadaires",
+        "textMessages": "Messages Texte",
+        "areaSelection": "Messages de Sélection de Zone",
+        "planUsageDaily": "Utilisation du Plan (Quotidien)",
+        "planUsageWeekly": "Utilisation du Plan (Hebdomadaire)",
+        "purchasedMessages": "Messages Achetés",
+        "buyMore": "Acheter Plus",
+        "infinity": "∞"
+      },
+      "account": {
+        "title": "Détails du Compte",
+        "memberSince": "Membre Depuis",
+        "lastLogin": "Dernière Connexion",
+        "never": "Jamais"
+      },
+      "language": {
+        "label": "Langue"
+      },
+      "danger": {
+        "title": "Zone Dangereuse",
+        "warning": "Une fois que vous supprimez votre compte, il n'y a pas de retour en arrière. Veuillez vous en assurer.",
+        "delete": "Supprimer le Compte",
+        "confirm": "Confirmer la Suppression",
+        "cancel": "Annuler",
+        "deleting": "Suppression du Compte..."
+      }
+    },
+    "subscription": {
+      "cancel": {
+        "title": "Êtes-vous sûr de vouloir annuler ?",
+        "processing": "Annulation de l'abonnement...",
+        "description": "Vous perdrez l'accès aux fonctionnalités premium à la fin de votre période de facturation actuelle.",
+        "wait": "Veuillez patienter pendant que nous traitons votre demande.",
+        "keep": "Conserver l'Abonnement",
+        "confirm": "Annuler l'Abonnement"
+      }
+    }
+  },
+  "dashboard": {
+    "computerRecommended": {
+      "title": "Ordinateur Recommandé",
+      "description": "Pour une meilleure expérience d'apprentissage et l'accès à toutes les fonctionnalités, nous recommandons fortement d'utiliser EduCure AI sur un ordinateur de bureau ou portable."
+    },
+    "upload": {
+      "title": "Télécharger un Document",
+      "youtube": {
+        "placeholder": "Coller l'URL de la vidéo YouTube...",
+        "import": "Importer"
+      },
+      "pdf": {
+        "button": "Sélectionner un PDF",
+        "dragDrop": "ou glisser-déposer",
+        "maxSize": "Taille maximale du fichier : {{size}}MB",
+        "processing": "Traitement en cours...",
+        "readingPdf": "Lecture du contenu PDF...",
+        "saving": "Enregistrement du document..."
+      }
+    },
+    "record": {
+      "title": "Enregistrer un Cours en Direct",
+      "start": "Démarrer l'Enregistrement",
+      "description": "Enregistrez et transcrivez vos cours en temps réel"
+    },
+    "limits": {
+      "documents": {
+        "title": "Téléchargements Hebdomadaires",
+        "unlimited": "Illimité"
+      },
+      "lectures": {
+        "title": "Enregistrements Mensuels de Cours"
+      }
+    },
+    "documents": {
+      "title": "Vos Documents",
+      "sections": {
+        "pdf": "Documents PDF et Cours",
+        "youtube": "Vidéos YouTube"
+      },
+      "empty": {
+        "title": "Aucun document pour l'instant",
+        "description": "Téléchargez votre premier document pour commencer"
+      },
+      "actions": {
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "save": "Enregistrer"
+      }
+    },
+    "errors": {
+      "login": "Veuillez vous connecter pour télécharger des documents",
+      "youtube": {
+        "url": "Veuillez entrer une URL YouTube",
+        "invalid": "Veuillez entrer une URL YouTube valide",
+        "import": "Impossible d'importer la transcription de la vidéo. Veuillez réessayer.",
+        "noTranscript": "Cette vidéo n'a pas de transcription disponible. Veuillez essayer une autre vidéo avec la transcription activée.",
+        "networkError": "Problème de connexion Internet détecté. Veuillez vérifier votre connexion et réessayer.",
+        "unexpectedError": "Une erreur inattendue s'est produite lors du traitement de votre vidéo. Veuillez réessayer."
+      },
+      "pdf": {
+        "invalid": "Veuillez télécharger un fichier PDF valide. Les autres types de fichiers ne sont pas pris en charge.",
+        "size": "La taille du fichier dépasse la limite de {{size}}MB de votre forfait. Veuillez compresser le PDF ou mettre à niveau votre forfait pour des téléchargements plus volumineux.",
+        "upload": "Impossible de télécharger le document. Veuillez réessayer.",
+        "password": "Ce PDF est protégé par mot de passe. Veuillez supprimer la protection par mot de passe et réessayer.",
+        "corrupt": "Ce fichier PDF semble être corrompu ou invalide. Veuillez vous assurer qu'il s'agit d'un PDF valide et réessayer.",
+        "storage": "Quota de stockage dépassé. Veuillez libérer de l'espace ou mettre à niveau votre forfait.",
+        "networkError": "Problème de connexion Internet détecté. Veuillez vérifier votre connexion et réessayer.",
+        "unexpectedError": "Une erreur inattendue s'est produite lors du traitement de votre PDF. Veuillez réessayer."
+      },
+      "document": {
+        "deleteFailed": "Impossible de supprimer le document"
+      },
+      "limit": "Vous avez atteint votre limite de téléchargements",
+      "upgrade": "Mettez à niveau votre forfait"
+    },
+    "subjects": {
+      "title": "Matières",
+      "add": "Ajouter une matière",
+      "delete": {
+        "title": "Supprimer la matière",
+        "message": "Êtes-vous sûr de vouloir supprimer cette matière ? Tous les documents seront déplacés vers le Tableau de bord.",
+        "confirm": "Supprimer",
+        "cancel": "Annuler"
+      },
+      "manage": "Gérer les documents et les cours pour {{subject}}",
+      "dashboard": "Tableau de bord"
+    }
+  },
+  "documentView": {
+    "tabs": {
+      "chat": "Chat",
+      "notes": "Notes",
+      "flashcards": "Cartes",
+      "test": "Test",
+      "vocalize": "Vocaliser"
+    },
+    "selectionMode": {
+      "textActive": "Mode de sélection de texte actif",
+      "areaActive": "Mode de sélection de zone actif"
+    },
+    "actions": {
+      "download": "Télécharger",
+      "hideDocument": "Masquer le document",
+      "showDocument": "Afficher le document"
+    },
+    "notes": {
+      "generate": "Générer",
+      "generating": "Génération...",
+      "description": "Créez des notes d'étude détaillées avec des points clés et des explications approfondies"
+    },
+    "flashcards": {
+      "generate": "Générer",
+      "generating": "Génération...",
+      "description": "Créez des cartes avec l'IA pour mémoriser les concepts clés de votre document",
+      "navigation": {
+        "previous": "Carte précédente",
+        "next": "Carte suivante"
+      },
+      "labels": {
+        "question": "Question",
+        "answer": "Réponse"
+      },
+      "clickToFlip": "Cliquez pour retourner",
+      "placeholders": {
+        "question": "Saisissez votre question ici...",
+        "answer": "Saisissez votre réponse ici..."
+      },
+      "deleteConfirm": {
+        "title": "Supprimer la carte",
+        "message": "Êtes-vous sûr de vouloir supprimer cette carte ? Cette action ne peut pas être annulée."
+      },
+      "actions": {
+        "export": "Exporter",
+        "new": "Ajouter une carte"
+      },
+      "export": {
+        "toCsv": "Exporter en CSV",
+        "toClipboard": "Copier le texte"
+      },
+      "copySuccess": "Les cartes ont été copiées dans le presse-papiers",
+      "copyError": "Impossible de copier les cartes dans le presse-papiers",
+      "exportError": "Impossible d'exporter les cartes en CSV"
+    },
+    "test": {
+      "generate": "Générer",
+      "generating": "Génération...",
+      "description": "Créez un test interactif avec des questions à choix multiples et vrai/faux pour évaluer votre compréhension",
+      "results": {
+        "score": {
+          "perfect": "Le GOAT absolu 🐐",
+          "excellent": "Mode bête activé 💪",
+          "great": "T'es au top 😤",
+          "good": "Moyen, mais on avance 🚶",
+          "fair": "Faut se concentrer 🔒",
+          "poor": "T'es cuit mon pote 💀"
+        },
+        "yourAnswer": "Votre réponse",
+        "correctAnswer": "Bonne réponse"
+      },
+      "buttons": {
+        "submit": "Soumettre le test",
+        "tryAgain": "Réessayer",
+        "generateNew": "Générer un nouveau test"
+      },
+      "options": {
+        "true": "Vrai",
+        "false": "Faux"
+      },
+      "previousTests": {
+        "title": "Tests précédents",
+        "number": "Test #{{number}}"
+      }
+    },
+    "vocalize": {
+      "beta": "BÊTA",
+      "generate": "Générer",
+      "generating": "Génération...",
+      "description": "Convertir le texte en parole naturelle",
+      "voiceStyle": "Style de Voix",
+      "styleOptions": {
+        "lecture": {
+          "label": "Conférence",
+          "description": "Voix académique professionnelle pour des explications claires"
+        },
+        "news": {
+          "label": "Présentateur",
+          "description": "Voix professionnelle style présentateur"
+        },
+        "soft": {
+          "label": "Voix Douce",
+          "description": "Voix douce et apaisante pour un apprentissage confortable"
+        },
+        "asmr": {
+          "label": "ASMR",
+          "description": "Voix douce et intime pour un apprentissage détendu",
+          "pro": "PRO"
+        },
+        "motivational": {
+          "label": "Motivationnel",
+          "description": "Voix énergique pour inspirer et engager",
+          "pro": "PRO"
+        },
+        "storytelling": {
+          "label": "Narration",
+          "description": "Voix expressive pour le contenu narratif",
+          "pro": "PRO"
+        }
+      },
+      "usage": {
+        "standard": "Vocalisation Standard",
+        "pro": "Vocalisation PRO"
+      },
+      "errors": {
+        "limitReached": "Limite de génération atteinte",
+        "upgradeRequired": "Améliorez votre forfait",
+        "maxAudioLimit": "Limite maximale d'audio atteinte",
+        "deleteExisting": "Supprimez une version audio existante pour en générer une nouvelle",
+        "generatingAudio": "Génération de l'expérience audio...",
+        "creatingStyle": "Création de votre révision de style",
+        "noAudioYet": "Aucune version audio générée pour le moment",
+        "generateFirst": "Générez votre première version audio ci-dessus !"
+      },
+      "buttons": {
+        "generateNew": "Générer un nouvel audio en",
+        "savedVersions": "Versions audio enregistrées"
+      },
+      "languageAvailability": {
+        "english": "Disponible en anglais",
+        "languages29": "Disponible en 29 langues",
+        "languages60": "Disponible en plus de 60 langues"
+      },
+      "voiceLanguage": "Langue de la voix",
+      "searchLanguage": "Rechercher une langue...",
+      "noLanguagesFound": "Aucune langue trouvée",
+      "languages": {
+        "Afrikaans": "Afrikaans",
+        "Albanian": "Albanais",
+        "Arabic": "Arabe",
+        "Armenian": "Arménien",
+        "Azerbaijani": "Azerbaïdjanais",
+        "Bahasa Indonesian": "Indonésien",
+        "Bengali": "Bengali",
+        "Bosnian": "Bosniaque",
+        "Bulgarian": "Bulgare",
+        "Catalan": "Catalan",
+        "Chinese Cantonese": "Chinois (Cantonais)",
+        "Chinese Mandarin": "Chinois (Mandarin)",
+        "Croatian": "Croate",
+        "Czech": "Tchèque",
+        "Danish": "Danois",
+        "Dutch": "Néerlandais",
+        "English": "Anglais",
+        "Estonian": "Estonien",
+        "Filipino": "Filipino",
+        "Finnish": "Finnois",
+        "French": "Français",
+        "Galician": "Galicien",
+        "Georgian": "Géorgien",
+        "German": "Allemand",
+        "Greek": "Grec",
+        "Hebrew": "Hébreu",
+        "Hindi": "Hindi",
+        "Hungarian": "Hongrois",
+        "Icelandic": "Islandais",
+        "Irish": "Irlandais",
+        "Italian": "Italien",
+        "Japanese": "Japonais",
+        "Javanese": "Javanais",
+        "Kannada": "Kannada",
+        "Kazakh": "Kazakh",
+        "Korean": "Coréen",
+        "Latvian": "Letton",
+        "Lithuanian": "Lituanien",
+        "Macedonian": "Macédonien",
+        "Malay": "Malais",
+        "Maltese": "Maltais",
+        "Marathi": "Marathi",
+        "Mongolian": "Mongol",
+        "Nepali": "Népalais",
+        "Norwegian Bokmål": "Norvégien (Bokmål)",
+        "Pashto": "Pachto",
+        "Persian": "Persan",
+        "Polish": "Polonais",
+        "Portuguese": "Portugais",
+        "Romanian": "Roumain",
+        "Russian": "Russe",
+        "Serbian": "Serbe",
+        "Sinhala": "Cingalais",
+        "Slovak": "Slovaque",
+        "Slovene": "Slovène",
+        "Somali": "Somali",
+        "Spanish": "Espagnol",
+        "Swahili": "Swahili",
+        "Swedish": "Suédois",
+        "Tamil": "Tamoul",
+        "Telugu": "Telugu",
+        "Thai": "Thaï",
+        "Turkish": "Turc",
+        "Ukrainian": "Ukrainien",
+        "Urdu": "Ourdou",
+        "Uzbek": "Ouzbek",
+        "Vietnamese": "Vietnamien",
+        "Welsh": "Gallois",
+        "Zulu": "Zoulou"
+      }
+    },
+    "errors": {
+      "failedToLoad": "Échec du chargement du document",
+      "failedToUpdate": "Échec de la mise à jour du document",
+      "tryAgain": "Veuillez réessayer"
+    },
+    "customInstructions": {
+      "title": "Instructions Personnalisées",
+      "optional": "(Optionnel)",
+      "placeholder": "Ajoutez des instructions spécifiques sur les sujets à aborder ou les domaines que vous souhaitez explorer plus en détail (par exemple, 'Focus sur les concepts mathématiques', 'Souligner les théories principales')",
+      "characters": "caractères",
+      "priorityNote": "Vos instructions seront prioritaires lors de la génération",
+      "customLanguage": {
+        "show": "Afficher la Langue Personnalisée",
+        "hide": "Masquer la Langue Personnalisée",
+        "placeholder": "Entrez la langue personnalisée (optionnel)",
+        "defaultNote": "Si non spécifié, la langue sélectionnée dans les paramètres du profil sera utilisée"
+      }
+    },
+    "testSets": {
+      "title": "Vos ensembles de tests",
+      "of": "sur",
+      "sets": "ensembles",
+      "testSet": "Test",
+      "questions": "questions"
+    },
+    "chat": {
+      "placeholder": {
+        "default": "Posez une question sur votre document...",
+        "selectedArea": "Posez une question sur la zone sélectionnée...",
+        "selectedText": "Posez une question sur le texte sélectionné..."
+      },
+      "empty": {
+        "title": "Posez-moi n'importe quelle question sur votre document !",
+        "subtitle": "Je vous aiderai à mieux comprendre le contenu."
+      },
+      "replyingTo": {
+        "selection": "Réponse à",
+        "selectedArea": "zone sélectionnée",
+        "selectedText": "texte sélectionné"
+      },
+      "errors": {
+        "characterLimit": "Limite de caractères dépassée. Maximum {{limit}} caractères autorisés.",
+        "messageLimit": "Vous pouvez acheter des messages supplémentaires ou mettre à niveau votre forfait pour continuer.",
+        "purchaseMore": "Acheter plus de messages",
+        "allServicesFailed": "Tous les services d'IA sont actuellement indisponibles. Veuillez réessayer plus tard.",
+        "imageAnalysis": "Désolé, une erreur s'est produite lors de l'analyse de l'image. Veuillez réessayer.",
+        "eduPlusArea": "Edu+ ne prend pas en charge la sélection de zone."
+      },
+      "imageSelection": {
+        "pdfArea": "Zone sélectionnée du PDF"
+      },
+      "buttons": {
+        "scrollToBottom": "Défiler vers le bas"
+      },
+      "explain": {
+        "default": "Veuillez expliquer en détail le contenu de l'ensemble du document."
+      }
+    }
+  },
+  "liveLecture": {
+    "title": "Enregistrement de Cours en Direct",
+    "record": {
+      "button": "Enregistrer le Cours",
+      "description": "Enregistrer et transcrire en temps réel"
+    },
+    "upload": {
+      "button": "Télécharger la Transcription du Cours",
+      "description": "Télécharger un fichier .txt"
+    },
+    "error": {
+      "title": "Erreur",
+      "fileType": "Veuillez télécharger un fichier .txt",
+      "maxLength": "Le contenu du fichier dépasse la longueur maximale de {{length}} caractères",
+      "readError": "Impossible de lire le fichier. Veuillez réessayer",
+      "micPermission": "L'accès au microphone a été refusé. Veuillez accorder la permission et réessayer",
+      "noMic": "Aucun microphone trouvé. Veuillez connecter un microphone et réessayer",
+      "micBusy": "Le microphone est occupé ou ne fonctionne pas correctement. Veuillez vérifier les paramètres de l'appareil",
+      "micAccess": "Erreur lors de l'accès au microphone. Veuillez vérifier les paramètres de l'appareil",
+      "startRecord": "Impossible de démarrer l'enregistrement. Veuillez réessayer",
+      "noTranscript": "Aucune transcription disponible à sauvegarder",
+      "loginRequired": "Veuillez vous connecter pour sauvegarder les enregistrements",
+      "saveFailed": "Échec de la sauvegarde de l'enregistrement"
+    },
+    "timeWarning": {
+      "title": "Avertissement de Temps",
+      "message": "L'enregistrement s'arrêtera automatiquement dans {{seconds}} secondes"
+    },
+    "recording": {
+      "status": "Enregistrement en cours...",
+      "paused": "En pause",
+      "live": "En direct"
+    },
+    "transcript": {
+      "title": "Transcription",
+      "empty": "Commencez l'enregistrement pour voir la transcription en temps réel",
+      "transcribing": "Transcription en cours..."
+    },
+    "actions": {
+      "reviewEdit": "Réviser et Modifier",
+      "saveDirect": "Sauvegarder",
+      "downloadAudio": "Télécharger l'Audio",
+      "reset": "Réinitialiser"
+    },
+    "limits": {
+      "title": "Limites",
+      "maxRecording": "Durée maximale d'enregistrement : {{minutes}} minutes",
+      "maxTranscript": "Longueur maximale de transcription : {{length}} caractères"
+    },
+    "processing": "Traitement de votre fichier en cours...",
+    "languageSelect": {
+      "label": "Langue de transcription",
+      "languages": {
+        "ar": "Arabe",
+        "da": "Danois",
+        "de": "Allemand",
+        "en": "Anglais",
+        "es": "Espagnol",
+        "fil": "Philippin",
+        "fr": "Français",
+        "hi": "Hindi",
+        "id": "Indonésien",
+        "it": "Italien",
+        "lt": "Lituanien",
+        "ms": "Malais",
+        "nl": "Néerlandais",
+        "pl": "Polonais",
+        "pt": "Portugais",
+        "ru": "Russe",
+        "sv": "Suédois",
+        "tr": "Turc",
+        "uk": "Ukrainien",
+        "ur": "Ourdou",
+        "zh": "Chinois"
+      }
+    },
+    "reviewEdit": {
+      "title": "Examiner et Modifier la Transcription",
+      "uploadedTitle": "Modifier la Transcription Téléchargée",
+      "audio": {
+        "play": "Lecture",
+        "pause": "Pause"
+      },
+      "transcript": {
+        "placeholder": "Modifiez votre transcription ici..."
+      },
+      "actions": {
+        "cancel": "Annuler",
+        "save": "Enregistrer les Modifications",
+        "saving": "Enregistrement..."
+      },
+      "savingOverlay": {
+        "title": "Enregistrement de la transcription...",
+        "message": "Veuillez patienter pendant que nous enregistrons vos modifications"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Choisissez Votre Parcours d'Apprentissage",
+    "subtitle": "Libérez tout le potentiel de l'apprentissage assisté par l'IA avec nos forfaits flexibles",
+    "billing": {
+      "monthly": "Mensuel",
+      "yearly": "Annuel",
+      "savePercent": "Économisez 40%",
+      "yearlyDiscount": "Économisez £{{amount}} par an",
+      "pricePerMonth": "/mois"
+    },
+    "messages": {
+      "needMore": "Besoin de plus de messages ?",
+      "purchase": "Acheter des crédits de messages supplémentaires"
+    },
+    "plans": {
+      "popular": "Le Plus Populaire",
+      "features": {
+        "documentProcessing": "Traitement de Documents",
+        "aiFeatures": "Fonctionnalités IA",
+        "chatAnalysis": "Chat et Analyse"
+      }
+    },
+    "planNames": {
+      "cooked": "Cooked",
+      "committed": "Committed",
+      "lockedIn": "Locked In"
+    },
+    "buttons": {
+      "currentPlan": "Forfait Actuel",
+      "freePlan": "Forfait Gratuit",
+      "freeTier": "Version Gratuite",
+      "upgradeNow": "Améliorer Maintenant",
+      "switchPlan": "Changer de Forfait"
+    },
+    "features": {
+      "cooked": {
+        "docs": [
+          "2 PDF/vidéos YouTube par semaine",
+          "Taille maximale de fichier 20MB",
+          "1 enregistrement de cours par mois"
+        ],
+        "ai": [
+          "Résumés intelligents, flashcards, notes et tests"
+        ],
+        "chat": [
+          "3 messages/jour (£0.02/suppl.)",
+          "1 sélection de zone/semaine (£0.05/suppl.)",
+          "1 génération vocale standard/mois"
+        ]
+      },
+      "committed": {
+        "docs": [
+          "10 PDF/vidéos YouTube par semaine",
+          "Taille maximale de fichier 30MB",
+          "10 enregistrements de cours par mois"
+        ],
+        "ai": [
+          "Tout de Cooked + styles vocaux Pro"
+        ],
+        "chat": [
+          "30 messages/jour (£0.02/suppl.)",
+          "15 sélections de zone/semaine (£0.05/suppl.)",
+          "5 générations vocales standard + 2 pro/mois"
+        ]
+      },
+      "lockedIn": {
+        "docs": [
+          "PDF/vidéos YouTube illimités",
+          "Taille maximale de fichier 40MB",
+          "45 enregistrements de cours par mois"
+        ],
+        "ai": [
+          "Tout de Committed + accès prioritaire"
+        ],
+        "chat": [
+          "Messages illimités",
+          "50 sélections de zone/semaine (£0.05/suppl.)",
+          "15 générations vocales standard + 7 pro/mois"
+        ]
+      }
+    },
+    "errors": {
+      "invalidPlan": "Forfait sélectionné invalide",
+      "checkoutFailed": "Échec de la création de la session de paiement",
+      "planChangeFailed": "Échec du changement de forfait"
+    }
+  },
+  "support": {
+    "title": "Comment pouvons-nous vous aider ?",
+    "subtitle": "Obtenez l'aide dont vous avez besoin avec nos ressources d'assistance complètes",
+    "emailSupport": {
+      "title": "Support par Email",
+      "description": "Besoin d'aide ? Envoyez-nous un email et nous vous répondrons sous 24 heures.",
+      "button": "Contacter le Support"
+    },
+    "featureRequests": {
+      "title": "Demandes de Fonctionnalités",
+      "description": "Vous avez une idée pour améliorer notre plateforme ? Nous aimerions l'entendre !",
+      "button": "Soumettre une Demande"
+    },
+    "feedback": {
+      "title": "Envoyer un Retour",
+      "description": "Partagez vos réflexions et aidez-nous à améliorer votre expérience.",
+      "button": "Envoyer un Retour"
+    },
+    "faq": {
+      "title": "Questions Fréquentes",
+      "questions": {
+        "upload": {
+          "question": "Comment télécharger des documents ?",
+          "answer": "Vous pouvez télécharger des documents PDF en cliquant sur le bouton 'Télécharger' sur votre tableau de bord ou simplement en glissant-déposant les fichiers dans la zone de téléchargement."
+        },
+        "formats": {
+          "question": "Quels formats de fichiers sont pris en charge ?",
+          "answer": "Actuellement, nous prenons en charge les fichiers PDF pour l'analyse de documents et les vidéos YouTube pour la génération de transcriptions."
+        },
+        "aiAnalysis": {
+          "question": "Comment fonctionne l'analyse par IA ?",
+          "answer": "Notre IA avancée analyse vos documents pour créer des résumés, des cartes mémoire et des supports d'étude interactifs tout en maintenant le contexte et la précision."
+        },
+        "chat": {
+          "question": "Comment utiliser le chat IA pour apprendre ?",
+          "answer": "Notre chat IA vous permet de poser des questions sur vos documents téléchargés, d'obtenir des explications sur des concepts complexes et même d'analyser des zones sélectionnées dans les PDF. Surlignez simplement du texte ou sélectionnez une zone et posez votre question."
+        }
+      }
+    }
+  },
+  "header": {
+    "tagline": "Transformez Votre Parcours d'Apprentissage",
+    "buttons": {
+      "pricing": "Tarifs",
+      "signIn": "Se Connecter",
+      "getStarted": "Commencer",
+      "help": "Aide",
+      "dashboard": "Tableau de Bord",
+      "upgradeNow": "Mettre à Niveau",
+      "pro": "Pro"
+    }
+  },
+  "userMenu": {
+    "profile": "Profil",
+    "upgradePlan": "Mettre à Niveau l'Abonnement",
+    "support": "Support",
+    "feedback": "Retour d'Expérience",
+    "featureRequest": "Demande de Fonctionnalité",
+    "adminPortal": "Portail Administrateur",
+    "logout": "Se Déconnecter",
+    "planStatus": {
+      "cookedMember": "Membre Cooked",
+      "committedMember": "Membre Committed",
+      "lockedInMember": "Membre Locked In"
+    },
+    "updates": "Dernières mises à jour",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre"
+  },
+  "languageModal": {
+    "title": "Choisissez votre langue",
+    "description": "Sélectionnez votre langue préférée pour une meilleure expérience",
+    "confirm": "Confirmer la sélection"
+  },
+  "settings": {
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre",
+    "updates": "Dernières mises à jour",
+    "planStatus": {
+      "cookedMember": "Membre Cooked",
+      "committedMember": "Membre Committed",
+      "lockedInMember": "Membre Locked In"
+    }
+  },
+  "common": {
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "save": "Enregistrer"
+  }
+} 

@@ -1,0 +1,707 @@
+{
+  "profile": {
+    "title": "Paskyros Informacija",
+    "error": "Klaida",
+    "success": "Sėkmingai",
+    "sections": {
+      "name": {
+        "label": "Vardas",
+        "edit": "Redaguoti",
+        "save": "Išsaugoti"
+      },
+      "email": {
+        "label": "El. paštas"
+      },
+      "password": {
+        "label": "Slaptažodis",
+        "change": "Keisti",
+        "save": "Išsaugoti",
+        "current": "Dabartinis slaptažodis",
+        "new": "Naujas slaptažodis",
+        "confirm": "Patvirtinti naują slaptažodį"
+      },
+      "subscription": {
+        "label": "Prenumeratos Planas",
+        "upgrade": "Atnaujinti Planą",
+        "manage": "Valdyti Prenumeratą",
+        "new": "Naujas!"
+      },
+      "messages": {
+        "label": "Žinučių Naudojimas",
+        "description": "Sekite dienos ir savaitės žinučių limitus",
+        "textMessages": "Tekstinės Žinutės",
+        "areaSelection": "Srities Pasirinkimo Žinutės",
+        "planUsageDaily": "Plano Naudojimas (Dienos)",
+        "planUsageWeekly": "Plano Naudojimas (Savaitės)",
+        "purchasedMessages": "Nupirktos Žinutės",
+        "buyMore": "Pirkti Daugiau",
+        "infinity": "∞"
+      },
+      "account": {
+        "title": "Paskyros Detalės",
+        "memberSince": "Narys Nuo",
+        "lastLogin": "Paskutinis Prisijungimas",
+        "never": "Niekada"
+      },
+      "language": {
+        "label": "Kalba"
+      },
+      "danger": {
+        "title": "Pavojinga Zona",
+        "warning": "Ištrinus paskyrą, jos atkurti nebus galima. Prašome įsitikinti.",
+        "delete": "Ištrinti Paskyrą",
+        "confirm": "Patvirtinti Ištrynimą",
+        "cancel": "Atšaukti",
+        "deleting": "Trinama Paskyra..."
+      }
+    },
+    "subscription": {
+      "cancel": {
+        "title": "Ar tikrai norite atšaukti?",
+        "processing": "Atšaukiama prenumerata...",
+        "description": "Prarasite prieigą prie premium funkcijų dabartinio periodo pabaigoje.",
+        "wait": "Palaukite, kol apdorosime jūsų užklausą.",
+        "keep": "Išlaikyti Prenumeratą",
+        "confirm": "Atšaukti Prenumeratą"
+      }
+    }
+  },
+  "dashboard": {
+    "computerRecommended": {
+      "title": "Rekomenduojamas Kompiuteris",
+      "description": "Geriausiai mokymosi patirčiai ir visų funkcijų prieinamumui užtikrinti, mes primygtinai rekomenduojame naudoti EduCure AI staliniame arba nešiojamame kompiuteryje."
+    },
+    "upload": {
+      "title": "Įkelti Dokumentą",
+      "youtube": {
+        "placeholder": "Įklijuokite YouTube vaizdo įrašo URL...",
+        "import": "Importuoti"
+      },
+      "pdf": {
+        "button": "Pasirinkti PDF",
+        "dragDrop": "arba nutempkite ir paleiskite",
+        "maxSize": "Maksimalus failo dydis: {{size}}MB",
+        "processing": "Apdorojama...",
+        "readingPdf": "Skaitomas PDF turinys...",
+        "saving": "Dokumentas išsaugomas..."
+      }
+    },
+    "record": {
+      "title": "Įrašyti Tiesioginę Paskaitą",
+      "start": "Pradėti Įrašymą",
+      "description": "Įrašykite ir transkribuokite savo paskaitas realiu laiku"
+    },
+    "limits": {
+      "documents": {
+        "title": "Savaitiniai Dokumentų Įkėlimai",
+        "unlimited": "Neribota"
+      },
+      "lectures": {
+        "title": "Mėnesiniai Paskaitų Įrašai"
+      }
+    },
+    "documents": {
+      "title": "Jūsų Dokumentai",
+      "sections": {
+        "pdf": "PDF Dokumentai ir Paskaitos",
+        "youtube": "YouTube Vaizdo Įrašai"
+      },
+      "empty": {
+        "title": "Nėra dokumentų",
+        "description": "Įkelkite savo pirmą dokumentą, kad pradėtumėte"
+      },
+      "actions": {
+        "edit": "Redaguoti",
+        "delete": "Ištrinti",
+        "save": "Išsaugoti"
+      }
+    },
+    "errors": {
+      "login": "Prisijunkite, kad galėtumėte įkelti dokumentus",
+      "youtube": {
+        "url": "Įveskite YouTube URL",
+        "invalid": "Įveskite galiojantį YouTube URL",
+        "import": "Nepavyko importuoti vaizdo įrašo transkripcijos. Bandykite dar kartą.",
+        "noTranscript": "Šis vaizdo įrašas neturi prieinamos transkripcijos. Bandykite kitą vaizdo įrašą su įjungta transkripcija.",
+        "networkError": "Aptikta interneto ryšio problema. Patikrinkite ryšį ir bandykite dar kartą.",
+        "unexpectedError": "Apdorojant jūsų vaizdo įrašą įvyko netikėta klaida. Bandykite dar kartą."
+      },
+      "pdf": {
+        "invalid": "Įkelkite galiojantį PDF failą. Kiti failų tipai nepalaikomi.",
+        "size": "Failo dydis viršija jūsų plano {{size}}MB limitą. Suspauskite PDF arba atnaujinkite planą didesniam įkėlimui.",
+        "upload": "Nepavyko įkelti dokumento. Bandykite dar kartą.",
+        "password": "Šis PDF yra apsaugotas slaptažodžiu. Pašalinkite slaptažodžio apsaugą ir bandykite dar kartą.",
+        "corrupt": "Šis PDF failas atrodo sugadintas arba negaliojantis. Įsitikinkite, kad tai galiojantis PDF ir bandykite dar kartą.",
+        "storage": "Viršyta saugyklos kvota. Atlaisvinkite vietos arba atnaujinkite planą.",
+        "networkError": "Aptikta interneto ryšio problema. Patikrinkite ryšį ir bandykite dar kartą.",
+        "unexpectedError": "Apdorojant jūsų PDF įvyko netikėta klaida. Bandykite dar kartą."
+      },
+      "document": {
+        "deleteFailed": "Nepavyko ištrinti dokumento"
+      },
+      "limit": "Pasiektas įkėlimo limitas",
+      "upgrade": "Atnaujinkite savo planą"
+    },
+    "subjects": {
+      "title": "Dalykai",
+      "add": "Pridėti dalyką",
+      "delete": {
+        "title": "Ištrinti dalyką",
+        "message": "Ar tikrai norite ištrinti šį dalyką? Visi dokumentai bus perkelti į Prietaisų skydelį.",
+        "confirm": "Ištrinti",
+        "cancel": "Atšaukti"
+      },
+      "manage": "Tvarkyti {{subject}} dokumentus ir paskaitas",
+      "dashboard": "Prietaisų skydelis"
+    }
+  },
+  "documentView": {
+    "tabs": {
+      "chat": "Pokalbis",
+      "notes": "Užrašai",
+      "flashcards": "Kortelės",
+      "test": "Testas"
+    },
+    "selectionMode": {
+      "textActive": "Teksto žymėjimo režimas aktyvus",
+      "areaActive": "Srities žymėjimo režimas aktyvus"
+    },
+    "actions": {
+      "download": "Atsisiųsti",
+      "hideDocument": "Slėpti Dokumentą",
+      "showDocument": "Rodyti Dokumentą"
+    },
+    "notes": {
+      "generate": "Generuoti",
+      "generating": "Generuojama...",
+      "description": "Kurkite išsamius mokymosi užrašus su pagrindiniais punktais ir detaliais paaiškinimais"
+    },
+    "flashcards": {
+      "generate": "Generuoti",
+      "generating": "Generuojama...",
+      "description": "Kurkite AI pagrindu veikiančias mokymosi korteles iš jūsų dokumento pagrindinėms sąvokoms įsiminti",
+      "navigation": {
+        "previous": "Ankstesnė Kortelė",
+        "next": "Kita Kortelė"
+      },
+      "labels": {
+        "question": "Klausimas",
+        "answer": "Atsakymas"
+      },
+      "clickToFlip": "Spustelėkite, kad apverstumėte",
+      "placeholders": {
+        "question": "Įveskite savo klausimą čia...",
+        "answer": "Įveskite savo atsakymą čia..."
+      },
+      "deleteConfirm": {
+        "title": "Ištrinti kortelę",
+        "message": "Ar tikrai norite ištrinti šią kortelę? Šio veiksmo negalima bus atšaukti."
+      },
+      "actions": {
+        "export": "Eksportuoti",
+        "new": "Pridėti kortelę"
+      },
+      "export": {
+        "toCsv": "Eksportuoti į CSV",
+        "toClipboard": "Kopijuoti tekstą"
+      },
+      "copySuccess": "Kortelės nukopijuotos į iškarpinę",
+      "copyError": "Nepavyko nukopijuoti kortelių į iškarpinę",
+      "exportError": "Nepavyko eksportuoti kortelių į CSV"
+    },
+    "test": {
+      "generate": "Generuoti",
+      "generating": "Generuojama...",
+      "description": "Kurkite interaktyvius testus su pasirenkamais ir tiesa/netiesa klausimais, kad patikrintumėte savo supratimą",
+      "results": {
+        "score": {
+          "perfect": "Tu esi GOAT 🐐",
+          "excellent": "Žvėries režimas 💪",
+          "great": "Tu nuostabus 😤",
+          "good": "Tęsk toliau 🚶",
+          "fair": "Reikia susikaupti 🔒",
+          "poor": "Šį kartą nepavyko bro 💀"
+        },
+        "yourAnswer": "Jūsų Atsakymas",
+        "correctAnswer": "Teisingas Atsakymas"
+      },
+      "buttons": {
+        "submit": "Pateikti Testą",
+        "tryAgain": "Bandyti Dar Kartą",
+        "generateNew": "Generuoti Naują Testą"
+      },
+      "options": {
+        "true": "Tiesa",
+        "false": "Netiesa"
+      },
+      "previousTests": {
+        "title": "Ankstesni Testai",
+        "number": "Testas #{{number}}"
+      }
+    },
+    "vocalize": {
+      "beta": "BETA",
+      "generate": "Generuoti",
+      "generating": "Generuojama...",
+      "description": "Konvertuoti tekstą į natūralią kalbą",
+      "voiceStyle": "Balso Stilius",
+      "styleOptions": {
+        "lecture": {
+          "label": "Paskaita",
+          "description": "Profesionalus akademinis balsas aiškiems paaiškinimams"
+        },
+        "news": {
+          "label": "Žinių Pranešėjas",
+          "description": "Profesionalus transliavimo stiliaus balsas"
+        },
+        "soft": {
+          "label": "Švelnus Balsas",
+          "description": "Švelnus, raminantis balsas patogiam mokymuisi"
+        },
+        "asmr": {
+          "label": "ASMR",
+          "description": "Švelnus, intymus balsas atpalaiduojančiam mokymuisi",
+          "pro": "PRO"
+        },
+        "motivational": {
+          "label": "Motyvuojantis",
+          "description": "Energingas balsas įkvėpti ir įtraukti",
+          "pro": "PRO"
+        },
+        "storytelling": {
+          "label": "Pasakojimas",
+          "description": "Išraiškingas balsas pasakojamam turiniui",
+          "pro": "PRO"
+        }
+      },
+      "usage": {
+        "standard": "Standartinis Vokalizavimas",
+        "pro": "PRO Vokalizavimas"
+      },
+      "errors": {
+        "limitReached": "Pasiektas generavimo limitas",
+        "upgradeRequired": "Atnaujinkite savo planą",
+        "maxAudioLimit": "Pasiektas Maksimalus Garso Limitas",
+        "deleteExisting": "Ištrinkite esamą garso versiją, kad sugeneruotumėte naują",
+        "generatingAudio": "Generuojama Garso Patirtis...",
+        "creatingStyle": "Kuriama jūsų stiliaus peržiūra",
+        "noAudioYet": "Dar nesugeneruota garso versijų",
+        "generateFirst": "Sugeneruokite savo pirmą garso versiją aukščiau!"
+      },
+      "buttons": {
+        "generateNew": "Generuoti Naują Garsą",
+        "savedVersions": "Išsaugotos Garso Versijos"
+      },
+      "languageAvailability": {
+        "english": "Prieinama anglų kalba",
+        "languages29": "Prieinama 29 kalbomis",
+        "languages60": "Prieinama daugiau nei 60 kalbų"
+      },
+      "voiceLanguage": "Balso kalba",
+      "searchLanguage": "Ieškoti kalbos...",
+      "noLanguagesFound": "Kalbų nerasta",
+      "languages": {
+        "Afrikaans": "Afrikanų",
+        "Albanian": "Albanų",
+        "Arabic": "Arabų",
+        "Armenian": "Armėnų",
+        "Azerbaijani": "Azerbaidžaniečių",
+        "Bahasa Indonesian": "Indoneziečių",
+        "Bengali": "Bengalų",
+        "Bosnian": "Bosnių",
+        "Bulgarian": "Bulgarų",
+        "Catalan": "Katalonų",
+        "Chinese Cantonese": "Kinų (Kantonų)",
+        "Chinese Mandarin": "Kinų (Mandarinų)",
+        "Croatian": "Kroatų",
+        "Czech": "Čekų",
+        "Danish": "Danų",
+        "Dutch": "Olandų",
+        "English": "Anglų",
+        "Estonian": "Estų",
+        "Filipino": "Filipiniečių",
+        "Finnish": "Suomių",
+        "French": "Prancūzų",
+        "Galician": "Galisų",
+        "Georgian": "Gruzinų",
+        "German": "Vokiečių",
+        "Greek": "Graikų",
+        "Hebrew": "Hebrajų",
+        "Hindi": "Hindi",
+        "Hungarian": "Vengrų",
+        "Icelandic": "Islandų",
+        "Irish": "Airių",
+        "Italian": "Italų",
+        "Japanese": "Japonų",
+        "Javanese": "Javiečių",
+        "Kannada": "Kanadų",
+        "Kazakh": "Kazachų",
+        "Korean": "Korėjiečių",
+        "Latvian": "Latvių",
+        "Lithuanian": "Lietuvių",
+        "Macedonian": "Makedonų",
+        "Malay": "Malajų",
+        "Maltese": "Maltiečių",
+        "Marathi": "Maratų",
+        "Mongolian": "Mongolų",
+        "Nepali": "Nepaliečių",
+        "Norwegian Bokmål": "Norvegų (Bukmolas)",
+        "Pashto": "Puštūnų",
+        "Persian": "Persų",
+        "Polish": "Lenkų",
+        "Portuguese": "Portugalų",
+        "Romanian": "Rumunų",
+        "Russian": "Rusų",
+        "Serbian": "Serbų",
+        "Sinhala": "Sinhalų",
+        "Slovak": "Slovakų",
+        "Slovene": "Slovėnų",
+        "Somali": "Somalių",
+        "Spanish": "Ispanų",
+        "Swahili": "Svahilių",
+        "Swedish": "Švedų",
+        "Tamil": "Tamilų",
+        "Telugu": "Telugu",
+        "Thai": "Tajų",
+        "Turkish": "Turkų",
+        "Ukrainian": "Ukrainiečių",
+        "Urdu": "Urdu",
+        "Uzbek": "Uzbekų",
+        "Vietnamese": "Vietnamiečių",
+        "Welsh": "Valų",
+        "Zulu": "Zulų"
+      }
+    },
+    "errors": {
+      "failedToLoad": "Nepavyko įkelti dokumento",
+      "failedToUpdate": "Nepavyko atnaujinti dokumento",
+      "tryAgain": "Bandykite dar kartą"
+    },
+    "customInstructions": {
+      "title": "Pasirinktinės Instrukcijos",
+      "optional": "(Neprivaloma)",
+      "placeholder": "Pridėkite konkrečias instrukcijas apie temas, į kurias norite sutelkti dėmesį, arba sritis, kurias norite išsamiau išnagrinėti (pvz., 'Dėmesys matematikos koncepcijoms', 'Pabrėžti pagrindines teorijas')",
+      "characters": "simboliai",
+      "priorityNote": "Jūsų instrukcijos bus prioritetinės generavimo metu",
+      "customLanguage": {
+        "show": "Rodyti Pasirinktinę Kalbą",
+        "hide": "Slėpti Pasirinktinę Kalbą",
+        "placeholder": "Įveskite pasirinktinę kalbą (neprivaloma)",
+        "defaultNote": "Jei nenurodyta, bus naudojama profilio nustatymuose pasirinkta kalba"
+      }
+    },
+    "testSets": {
+      "title": "Jūsų Testų Rinkiniai",
+      "of": "iš",
+      "sets": "rinkinių",
+      "testSet": "Testas",
+      "questions": "klausimai"
+    },
+    "chat": {
+      "placeholder": {
+        "default": "Užduokite klausimą apie savo dokumentą...",
+        "selectedArea": "Klauskite apie pasirinktą sritį...",
+        "selectedText": "Klauskite apie pasirinktą tekstą..."
+      },
+      "empty": {
+        "title": "Klauskite manęs bet ko apie savo dokumentą!",
+        "subtitle": "Padėsiu jums geriau suprasti turinį."
+      },
+      "replyingTo": {
+        "selection": "Atsakymas į",
+        "selectedArea": "pasirinktą sritį",
+        "selectedText": "pasirinktą tekstą"
+      },
+      "errors": {
+        "characterLimit": "Viršytas simbolių limitas. Maksimalus leistinas kiekis yra {{limit}} simbolių.",
+        "messageLimit": "Galite įsigyti papildomų žinučių arba atnaujinti savo planą, kad galėtumėte tęsti.",
+        "purchaseMore": "Įsigyti papildomų žinučių",
+        "allServicesFailed": "Šiuo metu visi DI servisai nepasiekiami. Prašome bandyti vėliau.",
+        "imageAnalysis": "Atsiprašome, įvyko klaida analizuojant vaizdą. Prašome bandyti dar kartą.",
+        "eduPlusArea": "Edu+ nepalaiko srities pasirinkimo."
+      },
+      "imageSelection": {
+        "pdfArea": "Pasirinkta sritis iš PDF"
+      },
+      "buttons": {
+        "scrollToBottom": "Slinkti žemyn"
+      },
+      "explain": {
+        "default": "Prašome išsamiai paaiškinti viso dokumento turinį."
+      }
+    }
+  },
+  "liveLecture": {
+    "title": "Tiesioginių Paskaitų Įrašymo Įrankis",
+    "record": {
+      "button": "Įrašyti paskaitą",
+      "description": "Įrašyti ir transkribuoti realiu laiku"
+    },
+    "upload": {
+      "button": "Įkelti paskaitos transkripciją",
+      "description": "Įkelti .txt failą"
+    },
+    "error": {
+      "title": "Klaida",
+      "fileType": "Prašome įkelti .txt failą",
+      "maxLength": "Failo turinys viršija maksimalų {{length}} simbolių limitą",
+      "readError": "Nepavyko perskaityti failo. Bandykite dar kartą",
+      "micPermission": "Mikrofono prieiga atmesta. Suteikite leidimą ir bandykite dar kartą",
+      "noMic": "Mikrofonas nerastas. Prijunkite mikrofoną ir bandykite dar kartą",
+      "micBusy": "Mikrofonas užimtas arba neveikia tinkamai. Patikrinkite įrenginio nustatymus",
+      "micAccess": "Klaida bandant pasiekti mikrofoną. Patikrinkite įrenginio nustatymus",
+      "startRecord": "Nepavyko pradėti įrašymo. Bandykite dar kartą",
+      "noTranscript": "Nėra transkripcijos išsaugojimui",
+      "loginRequired": "Prisijunkite, kad galėtumėte išsaugoti įrašus",
+      "saveFailed": "Nepavyko išsaugoti įrašo"
+    },
+    "timeWarning": {
+      "title": "Laiko įspėjimas",
+      "message": "Įrašymas automatiškai sustos po {{seconds}} sekundžių"
+    },
+    "recording": {
+      "status": "Įrašoma...",
+      "paused": "Pristabdyta",
+      "live": "Tiesiogiai"
+    },
+    "transcript": {
+      "title": "Transkripcija",
+      "empty": "Pradėkite įrašymą, kad matytumėte realaus laiko transkripciją",
+      "transcribing": "Transkribuojama..."
+    },
+    "actions": {
+      "reviewEdit": "Peržiūrėti ir redaguoti",
+      "saveDirect": "Išsaugoti",
+      "downloadAudio": "Atsisiųsti garso įrašą",
+      "reset": "Atstatyti"
+    },
+    "limits": {
+      "title": "Limitai",
+      "maxRecording": "Maksimalus įrašymo laikas: {{minutes}} minučių",
+      "maxTranscript": "Maksimalus transkripcijos ilgis: {{length}} simbolių"
+    },
+    "processing": "Jūsų failas apdorojamas...",
+    "languageSelect": {
+      "label": "Transkripcijos kalba",
+      "languages": {
+        "ar": "Arabų",
+        "da": "Danų",
+        "de": "Vokiečių",
+        "en": "Anglų",
+        "es": "Ispanų",
+        "fil": "Filipiniečių",
+        "fr": "Prancūzų",
+        "hi": "Hindi",
+        "id": "Indoneziečių",
+        "it": "Italų",
+        "lt": "Lietuvių",
+        "ms": "Malajų",
+        "nl": "Olandų",
+        "pl": "Lenkų",
+        "pt": "Portugalų",
+        "ru": "Rusų",
+        "sv": "Švedų",
+        "tr": "Turkų",
+        "uk": "Ukrainiečių",
+        "ur": "Urdu",
+        "zh": "Kinų"
+      }
+    },
+    "reviewEdit": {
+      "title": "Peržiūrėti ir Redaguoti Transkripciją",
+      "uploadedTitle": "Redaguoti Įkeltą Transkripciją",
+      "audio": {
+        "play": "Groti",
+        "pause": "Pauzė"
+      },
+      "transcript": {
+        "placeholder": "Redaguokite savo transkripciją čia..."
+      },
+      "actions": {
+        "cancel": "Atšaukti",
+        "save": "Išsaugoti Pakeitimus",
+        "saving": "Išsaugoma..."
+      },
+      "savingOverlay": {
+        "title": "Išsaugoma transkripcija...",
+        "message": "Palaukite, kol išsaugosime jūsų pakeitimus"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Pasirinkite Savo Mokymosi Kelionę",
+    "subtitle": "Atrakinkite visą dirbtinio intelekto mokymosi potencialą su mūsų lanksčiais planais",
+    "billing": {
+      "monthly": "Kas mėnesį",
+      "yearly": "Kas metus",
+      "savePercent": "Sutaupykite 40%",
+      "yearlyDiscount": "Sutaupykite £{{amount}} per metus",
+      "pricePerMonth": "/mėn"
+    },
+    "messages": {
+      "needMore": "Reikia daugiau žinučių?",
+      "purchase": "Pirkti papildomus žinučių kreditus"
+    },
+    "plans": {
+      "popular": "Populiariausias",
+      "features": {
+        "documentProcessing": "Dokumentų Apdorojimas",
+        "aiFeatures": "AI Funkcijos",
+        "chatAnalysis": "Pokalbiai ir Analizė"
+      }
+    },
+    "planNames": {
+      "cooked": "Cooked",
+      "committed": "Committed",
+      "lockedIn": "Locked In"
+    },
+    "buttons": {
+      "currentPlan": "Dabartinis Planas",
+      "freePlan": "Nemokamas Planas",
+      "freeTier": "Nemokama Versija",
+      "upgradeNow": "Atnaujinti Dabar",
+      "switchPlan": "Keisti Planą"
+    },
+    "features": {
+      "cooked": {
+        "docs": [
+          "2 PDF/YouTube video per savaitę",
+          "Maksimalus failo dydis 20MB",
+          "1 paskaitos įrašas per mėnesį"
+        ],
+        "ai": [
+          "Išmanios santraukos, kortelės, užrašai ir testai"
+        ],
+        "chat": [
+          "3 žinutės/dieną (£0.02/papildoma)",
+          "1 srities pasirinkimas/savaitę (£0.05/papildomas)",
+          "1 standartinis balso generavimas/mėnesį"
+        ]
+      },
+      "committed": {
+        "docs": [
+          "10 PDF/YouTube video per savaitę",
+          "Maksimalus failo dydis 30MB",
+          "10 paskaitų įrašų per mėnesį"
+        ],
+        "ai": [
+          "Viskas iš Cooked + Pro balso stiliai"
+        ],
+        "chat": [
+          "30 žinučių/dieną (£0.02/papildoma)",
+          "15 sričių pasirinkimų/savaitę (£0.05/papildomas)",
+          "5 standartiniai + 2 pro balso generavimai/mėnesį"
+        ]
+      },
+      "lockedIn": {
+        "docs": [
+          "Neriboti PDF/YouTube video",
+          "Maksimalus failo dydis 40MB",
+          "45 paskaitų įrašai per mėnesį"
+        ],
+        "ai": [
+          "Viskas iš Committed + prioritetinė prieiga"
+        ],
+        "chat": [
+          "Neribotos žinutės",
+          "50 sričių pasirinkimų/savaitę (£0.05/papildomas)",
+          "15 standartinių + 7 pro balso generavimai/mėnesį"
+        ]
+      }
+    },
+    "errors": {
+      "invalidPlan": "Pasirinktas neteisingas planas",
+      "checkoutFailed": "Nepavyko sukurti apmokėjimo sesijos",
+      "planChangeFailed": "Nepavyko apdoroti plano pakeitimo"
+    }
+  },
+  "support": {
+    "title": "Kaip galime jums padėti?",
+    "subtitle": "Gaukite reikiamą pagalbą su mūsų išsamiais pagalbos ištekliais",
+    "emailSupport": {
+      "title": "El. pašto Pagalba",
+      "description": "Reikia pagalbos? Parašykite mums el. laišką ir mes atsakysime per 24 valandas.",
+      "button": "Susisiekti su Pagalba"
+    },
+    "featureRequests": {
+      "title": "Funkcijų Prašymai",
+      "description": "Turite idėją, kaip patobulinti mūsų platformą? Norėtume ją išgirsti!",
+      "button": "Siųsti Prašymą"
+    },
+    "feedback": {
+      "title": "Siųsti Atsiliepimą",
+      "description": "Pasidalinkite savo mintimis ir padėkite mums pagerinti jūsų patirtį.",
+      "button": "Siųsti Atsiliepimą"
+    },
+    "faq": {
+      "title": "Dažnai Užduodami Klausimai",
+      "questions": {
+        "upload": {
+          "question": "Kaip įkelti dokumentus?",
+          "answer": "Galite įkelti PDF dokumentus spustelėdami mygtuką 'Įkelti' savo valdymo skydelyje arba tiesiog nutempdami ir numesdami failus į įkėlimo zoną."
+        },
+        "formats": {
+          "question": "Kokie failų formatai palaikomi?",
+          "answer": "Šiuo metu palaikome PDF failus dokumentų analizei ir YouTube vaizdo įrašus transkripcijų generavimui."
+        },
+        "aiAnalysis": {
+          "question": "Kaip veikia AI analizė?",
+          "answer": "Mūsų pažangi AI analizuoja jūsų dokumentus, kad sukurtų santraukas, atminties korteles ir interaktyvią mokymosi medžiagą, išlaikydama kontekstą ir tikslumą."
+        },
+        "chat": {
+          "question": "Kaip galiu naudoti AI pokalbį mokymuisi?",
+          "answer": "Mūsų AI pokalbis leidžia jums užduoti klausimus apie įkeltus dokumentus, gauti sudėtingų koncepcijų paaiškinimus ir net analizuoti pasirinktas sritis PDF failuose. Tiesiog pažymėkite tekstą arba pasirinkite sritį ir užduokite savo klausimą."
+        }
+      }
+    }
+  },
+  "header": {
+    "tagline": "Transformuokite Savo Mokymosi Kelionę",
+    "buttons": {
+      "pricing": "Kainos",
+      "signIn": "Prisijungti",
+      "getStarted": "Pradėti",
+      "help": "Pagalba",
+      "dashboard": "Valdymo skydelis",
+      "upgradeNow": "Atnaujinti dabar",
+      "pro": "Pro"
+    }
+  },
+  "userMenu": {
+    "profile": "Profilis",
+    "upgradePlan": "Atnaujinti planą",
+    "support": "Pagalba",
+    "feedback": "Atsiliepimai",
+    "featureRequest": "Funkcijų prašymai",
+    "adminPortal": "Administratoriaus portalas",
+    "logout": "Atsijungti",
+    "planStatus": {
+      "cookedMember": "Cooked narys",
+      "committedMember": "Committed narys",
+      "lockedInMember": "Locked In narys"
+    },
+    "updates": "Naujausi atnaujinimai",
+    "lightMode": "Šviesus režimas",
+    "darkMode": "Tamsus režimas"
+  },
+  "settings": {
+    "lightMode": "Šviesus režimas",
+    "darkMode": "Tamsus režimas",
+    "updates": "Naujausi atnaujinimai",
+    "planStatus": {
+      "cookedMember": "Cooked narys",
+      "committedMember": "Committed narys",
+      "lockedInMember": "Locked In narys"
+    }
+  },
+  "languageModal": {
+    "title": "Pasirinkite kalbą",
+    "description": "Pasirinkite pageidaujamą kalbą geresnei patirčiai",
+    "confirm": "Patvirtinti pasirinkimą"
+  },
+  "common": {
+    "cancel": "Atšaukti",
+    "delete": "Ištrinti",
+    "save": "Išsaugoti"
+  }
+} 

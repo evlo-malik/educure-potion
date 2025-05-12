@@ -1,0 +1,700 @@
+{
+  "profile": {
+    "title": "Thông tin Tài khoản",
+    "error": "Lỗi",
+    "success": "Thành công",
+    "sections": {
+      "name": {
+        "label": "Tên",
+        "edit": "Chỉnh sửa",
+        "save": "Lưu"
+      },
+      "email": {
+        "label": "Email"
+      },
+      "password": {
+        "label": "Mật khẩu",
+        "change": "Thay đổi",
+        "save": "Lưu",
+        "current": "Mật khẩu hiện tại",
+        "new": "Mật khẩu mới",
+        "confirm": "Xác nhận mật khẩu mới"
+      },
+      "subscription": {
+        "label": "Gói Đăng ký",
+        "upgrade": "Nâng cấp Gói",
+        "manage": "Quản lý Đăng ký",
+        "new": "Mới!"
+      },
+      "messages": {
+        "label": "Sử dụng Tin nhắn",
+        "description": "Theo dõi giới hạn tin nhắn hàng ngày và hàng tuần của bạn",
+        "textMessages": "Tin nhắn Văn bản",
+        "areaSelection": "Tin nhắn Chọn Khu vực",
+        "planUsageDaily": "Sử dụng Gói (Hàng ngày)",
+        "planUsageWeekly": "Sử dụng Gói (Hàng tuần)",
+        "purchasedMessages": "Tin nhắn đã Mua",
+        "buyMore": "Mua thêm",
+        "infinity": "∞"
+      },
+      "account": {
+        "title": "Chi tiết Tài khoản",
+        "memberSince": "Thành viên từ",
+        "lastLogin": "Đăng nhập lần cuối",
+        "never": "Chưa bao giờ"
+      },
+      "language": {
+        "label": "Ngôn ngữ"
+      },
+      "danger": {
+        "title": "Khu vực Nguy hiểm",
+        "warning": "Một khi bạn xóa tài khoản, sẽ không thể quay lại. Xin hãy chắc chắn.",
+        "delete": "Xóa Tài khoản",
+        "confirm": "Xác nhận Xóa",
+        "cancel": "Hủy",
+        "deleting": "Đang xóa Tài khoản..."
+      }
+    },
+    "subscription": {
+      "cancel": {
+        "title": "Bạn có chắc chắn muốn hủy?",
+        "processing": "Đang hủy đăng ký...",
+        "description": "Bạn sẽ mất quyền truy cập vào các tính năng cao cấp khi kết thúc chu kỳ thanh toán hiện tại.",
+        "wait": "Vui lòng đợi trong khi chúng tôi xử lý yêu cầu của bạn.",
+        "keep": "Giữ Đăng ký",
+        "confirm": "Hủy Đăng ký"
+      }
+    }
+  },
+  "dashboard": {
+    "computerRecommended": {
+      "title": "Khuyên dùng Máy tính",
+      "description": "Để có trải nghiệm học tập tốt nhất và truy cập vào tất cả các tính năng, chúng tôi đặc biệt khuyên bạn nên sử dụng EduCure AI trên máy tính để bàn hoặc máy tính xách tay."
+    },
+    "upload": {
+      "title": "Tải lên Tài liệu",
+      "youtube": {
+        "placeholder": "Dán URL video YouTube...",
+        "import": "Nhập"
+      },
+      "pdf": {
+        "button": "Chọn PDF",
+        "dragDrop": "hoặc kéo và thả",
+        "maxSize": "Kích thước tệp tối đa: {{size}}MB",
+        "processing": "Đang xử lý...",
+        "readingPdf": "Đang đọc nội dung PDF...",
+        "saving": "Đang lưu tài liệu..."
+      }
+    },
+    "record": {
+      "title": "Ghi âm Bài giảng Trực tiếp",
+      "start": "Bắt đầu Ghi âm",
+      "description": "Ghi âm và phiên âm bài giảng của bạn trong thời gian thực"
+    },
+    "limits": {
+      "documents": {
+        "title": "Tải lên Tài liệu Hàng tuần",
+        "unlimited": "Không giới hạn"
+      },
+      "lectures": {
+        "title": "Ghi âm Bài giảng Hàng tháng"
+      }
+    },
+    "documents": {
+      "title": "Tài liệu của Bạn",
+      "sections": {
+        "pdf": "Tài liệu và Bài giảng PDF",
+        "youtube": "Video YouTube"
+      },
+      "empty": {
+        "title": "Chưa có tài liệu nào",
+        "description": "Tải lên tài liệu đầu tiên của bạn để bắt đầu"
+      },
+      "actions": {
+        "edit": "Chỉnh sửa",
+        "delete": "Xóa",
+        "save": "Lưu"
+      }
+    },
+    "errors": {
+      "login": "Vui lòng đăng nhập để tải lên tài liệu",
+      "youtube": {
+        "url": "Vui lòng nhập URL YouTube",
+        "invalid": "Vui lòng nhập URL YouTube hợp lệ",
+        "import": "Không nhập được bản ghi video. Vui lòng thử lại.",
+        "noTranscript": "Video này không có bản ghi. Vui lòng thử video khác có bật bản ghi.",
+        "networkError": "Phát hiện sự cố kết nối Internet. Vui lòng kiểm tra kết nối của bạn và thử lại.",
+        "unexpectedError": "Đã xảy ra lỗi không mong muốn khi xử lý video của bạn. Vui lòng thử lại."
+      },
+      "pdf": {
+        "invalid": "Vui lòng tải lên tệp PDF hợp lệ. Các loại tệp khác không được hỗ trợ.",
+        "size": "Kích thước tệp vượt quá giới hạn {{size}}MB cho gói của bạn. Vui lòng nén PDF hoặc nâng cấp gói để tải lên lớn hơn.",
+        "upload": "Không tải lên được tài liệu. Vui lòng thử lại.",
+        "password": "PDF này được bảo vệ bằng mật khẩu. Vui lòng xóa bảo vệ mật khẩu và thử lại.",
+        "corrupt": "Tệp PDF này có vẻ bị hỏng hoặc không hợp lệ. Vui lòng đảm bảo đó là PDF hợp lệ và thử lại.",
+        "storage": "Vượt quá hạn ngạch lưu trữ. Vui lòng giải phóng một số dung lượng hoặc nâng cấp gói của bạn.",
+        "networkError": "Phát hiện sự cố kết nối Internet. Vui lòng kiểm tra kết nối của bạn và thử lại.",
+        "unexpectedError": "Đã xảy ra lỗi không mong muốn khi xử lý PDF của bạn. Vui lòng thử lại.",
+        "empty": "PDF này có vẻ trống hoặc không chứa văn bản có thể trích xuất. Vui lòng đảm bảo PDF có nội dung văn bản."
+      },
+      "document": {
+        "deleteFailed": "Không xóa được tài liệu"
+      },
+      "limit": "Đã đạt đến giới hạn tải lên",
+      "upgrade": "Nâng cấp gói của bạn"
+    },
+    "subjects": {
+      "title": "Môn học",
+      "add": "Thêm Môn học",
+      "dashboard": "Bảng điều khiển",
+      "delete": {
+        "title": "Xóa Môn học",
+        "message": "Bạn có chắc chắn muốn xóa môn học này không? Tất cả tài liệu sẽ được chuyển đến Bảng điều khiển.",
+        "confirm": "Xóa",
+        "cancel": "Hủy"
+      },
+      "manage": "Quản lý tài liệu và bài giảng {{subject}} của bạn"
+    }
+  },
+  "documentView": {
+    "tabs": {
+      "chat": "Trò chuyện",
+      "notes": "Ghi chú",
+      "flashcards": "Thẻ ghi nhớ",
+      "test": "Bài kiểm tra",
+      "vocalize": "Nghe đọc"
+    },
+    "selectionMode": {
+      "textActive": "Chế độ Chọn Văn bản Đang hoạt động",
+      "areaActive": "Chế độ Chọn Khu vực Đang hoạt động"
+    },
+    "actions": {
+      "download": "Tải xuống",
+      "hideDocument": "Ẩn Tài liệu",
+      "showDocument": "Hiện Tài liệu"
+    },
+    "notes": {
+      "generate": "Tạo",
+      "generating": "Đang tạo...",
+      "description": "Tạo ghi chú học tập chi tiết với các điểm chính và giải thích chuyên sâu"
+    },
+    "flashcards": {
+      "generate": "Tạo",
+      "generating": "Đang tạo...",
+      "description": "Tạo thẻ ghi nhớ hỗ trợ AI từ tài liệu của bạn để ghi nhớ các khái niệm chính",
+      "navigation": {
+        "previous": "Thẻ trước",
+        "next": "Thẻ kế tiếp"
+      },
+      "labels": {
+        "question": "Câu hỏi",
+        "answer": "Câu trả lời"
+      },
+      "placeholders": {
+        "question": "Nhập câu hỏi của bạn vào đây...",
+        "answer": "Nhập câu trả lời của bạn vào đây..."
+      },
+      "deleteConfirm": {
+        "title": "Xóa Thẻ ghi nhớ",
+        "message": "Bạn có chắc chắn muốn xóa thẻ ghi nhớ này không? Hành động này không thể hoàn tác."
+      },
+      "clickToFlip": "Nhấp để lật",
+      "actions": {
+        "export": "Xuất",
+        "new": "Thêm Thẻ ghi nhớ"
+      },
+      "export": {
+        "toCsv": "Xuất ra CSV",
+        "toClipboard": "Sao chép Văn bản"
+      },
+      "copySuccess": "Đã sao chép thẻ ghi nhớ vào clipboard thành công",
+      "copyError": "Không sao chép được thẻ ghi nhớ vào clipboard",
+      "exportError": "Không xuất được thẻ ghi nhớ ra CSV"
+    },
+    "test": {
+      "generate": "Tạo",
+      "generating": "Đang tạo...",
+      "description": "Tạo các bài kiểm tra tương tác với các câu hỏi trắc nghiệm và đúng/sai để kiểm tra sự hiểu biết của bạn",
+      "results": {
+        "score": {
+          "perfect": "Tuyệt vời 🐐",
+          "excellent": "Chế độ thú dữ tuyệt đối 💪",
+          "great": "Bạn thật sự đỉnh 😤",
+          "good": "Tạm ổn, nhưng chúng ta đang tiến lên 🚶",
+          "fair": "Phải tập trung hơn 🔒",
+          "poor": "Bạn tồi quá 💀"
+        },
+        "yourAnswer": "Câu trả lời của Bạn",
+        "correctAnswer": "Câu trả lời Đúng"
+      },
+      "buttons": {
+        "submit": "Nộp Bài kiểm tra",
+        "tryAgain": "Thử Lại",
+        "generateNew": "Tạo Bài kiểm tra Mới"
+      },
+      "options": {
+        "true": "Đúng",
+        "false": "Sai"
+      },
+      "previousTests": {
+        "title": "Bài kiểm tra Trước đây",
+        "number": "Bài kiểm tra #{{number}}"
+      }
+    },
+    "vocalize": {
+      "beta": "BETA",
+      "generate": "Tạo",
+      "generating": "Đang tạo...",
+      "description": "Chuyển đổi văn bản thành giọng nói tự nhiên",
+      "voiceStyle": "Kiểu Giọng nói",
+      "styleOptions": {
+        "lecture": {
+          "label": "Bài giảng",
+          "description": "Giọng nói học thuật chuyên nghiệp để giải thích rõ ràng"
+        },
+        "news": {
+          "label": "Người dẫn tin tức",
+          "description": "Giọng nói theo phong cách phát sóng chuyên nghiệp"
+        },
+        "soft": {
+          "label": "Giọng nói Nhẹ nhàng",
+          "description": "Giọng nói nhẹ nhàng, êm dịu để học tập thoải mái"
+        },
+        "asmr": {
+          "label": "ASMR",
+          "description": "Giọng nói nhẹ nhàng, thân mật để học tập thư giãn",
+          "pro": "PRO"
+        },
+        "motivational": {
+          "label": "Truyền động lực",
+          "description": "Giọng nói tràn đầy năng lượng để truyền cảm hứng và thu hút",
+          "pro": "PRO"
+        },
+        "storytelling": {
+          "label": "Kể chuyện",
+          "description": "Giọng nói biểu cảm cho nội dung tường thuật",
+          "pro": "PRO"
+        }
+      },
+      "usage": {
+        "standard": "Nghe đọc Tiêu chuẩn",
+        "pro": "Nghe đọc PRO"
+      },
+      "errors": {
+        "limitReached": "Đã đạt đến giới hạn tạo",
+        "upgradeRequired": "Yêu cầu nâng cấp gói",
+        "maxAudioLimit": "Đã đạt đến Giới hạn Âm thanh Tối đa",
+        "deleteExisting": "Xóa phiên bản âm thanh hiện có để tạo phiên bản mới",
+        "generatingAudio": "Đang tạo Trải nghiệm Âm thanh...",
+        "creatingStyle": "Đang tạo bản sửa đổi kiểu của bạn",
+        "noAudioYet": "Chưa có phiên bản âm thanh nào được tạo",
+        "generateFirst": "Tạo phiên bản âm thanh đầu tiên của bạn ở trên!"
+      },
+      "buttons": {
+        "generateNew": "Tạo Âm thanh Mới trong",
+        "savedVersions": "Các Phiên bản Âm thanh đã Lưu"
+      },
+      "languageAvailability": {
+        "english": "Có sẵn bằng tiếng Anh",
+        "languages29": "Có sẵn trong 29 ngôn ngữ",
+        "languages60": "Có sẵn trong hơn 60 ngôn ngữ"
+      },
+      "voiceLanguage": "Ngôn ngữ Giọng nói",
+      "searchLanguage": "Tìm kiếm ngôn ngữ...",
+      "noLanguagesFound": "Không tìm thấy ngôn ngữ nào",
+      "languages": {
+        "Afrikaans": "Afrikaans",
+        "Albanian": "Albania",
+        "Arabic": "Ả Rập",
+        "Armenian": "Armenia",
+        "Azerbaijani": "Azerbaijan",
+        "Bahasa Indonesian": "Bahasa Indonesia",
+        "Bengali": "Bengali",
+        "Bosnian": "Bosnia",
+        "Bulgarian": "Bulgaria",
+        "Catalan": "Catalan",
+        "Chinese Cantonese": "Tiếng Trung (Quảng Đông)",
+        "Chinese Mandarin": "Tiếng Trung (Phổ Thông)",
+        "Croatian": "Croatia",
+        "Czech": "Séc",
+        "Danish": "Đan Mạch",
+        "Dutch": "Hà Lan",
+        "English": "Tiếng Anh",
+        "Estonian": "Estonia",
+        "Filipino": "Filipino",
+        "Finnish": "Phần Lan",
+        "French": "Pháp",
+        "Galician": "Galician",
+        "Georgian": "Georgia",
+        "German": "Đức",
+        "Greek": "Hy Lạp",
+        "Hebrew": "Do Thái",
+        "Hindi": "Hindi",
+        "Hungarian": "Hungary",
+        "Icelandic": "Iceland",
+        "Irish": "Ireland",
+        "Italian": "Ý",
+        "Japanese": "Nhật Bản",
+        "Javanese": "Javan",
+        "Kannada": "Kannada",
+        "Kazakh": "Kazakhstan",
+        "Korean": "Hàn Quốc",
+        "Latvian": "Latvia",
+        "Lithuanian": "Lithuania",
+        "Macedonian": "Macedonia",
+        "Malay": "Malay",
+        "Maltese": "Malta",
+        "Marathi": "Marathi",
+        "Mongolian": "Mông Cổ",
+        "Nepali": "Nepal",
+        "Norwegian Bokmål": "Na Uy Bokmål",
+        "Pashto": "Pashto",
+        "Persian": "Ba Tư",
+        "Polish": "Ba Lan",
+        "Portuguese": "Bồ Đào Nha",
+        "Romanian": "Romania",
+        "Russian": "Nga",
+        "Serbian": "Serbia",
+        "Sinhala": "Sinhala",
+        "Slovak": "Slovakia",
+        "Slovene": "Slovenia",
+        "Somali": "Somali",
+        "Spanish": "Tây Ban Nha",
+        "Swahili": "Swahili",
+        "Swedish": "Thụy Điển",
+        "Tamil": "Tamil",
+        "Telugu": "Telugu",
+        "Thai": "Thái",
+        "Turkish": "Thổ Nhĩ Kỳ",
+        "Ukrainian": "Ukraina",
+        "Urdu": "Urdu",
+        "Uzbek": "Uzbekistan",
+        "Vietnamese": "Tiếng Việt",
+        "Welsh": "Wales",
+        "Zulu": "Zulu"
+      }
+    },
+    "errors": {
+      "failedToLoad": "Không tải được tài liệu",
+      "failedToUpdate": "Không cập nhật được tài liệu",
+      "tryAgain": "Vui lòng thử lại"
+    },
+    "customInstructions": {
+      "title": "Hướng dẫn Tùy chỉnh",
+      "optional": "(Tùy chọn)",
+      "placeholder": "Thêm hướng dẫn cụ thể về các chủ đề cần tập trung hoặc các lĩnh vực bạn muốn khám phá chi tiết hơn (ví dụ: 'Tập trung vào các khái niệm toán học', 'Nhấn mạnh các lý thuyết chính')",
+      "characters": "ký tự",
+      "priorityNote": "Hướng dẫn của bạn sẽ được ưu tiên trong quá trình tạo",
+      "customLanguage": {
+        "show": "Hiện Ngôn ngữ Tùy chỉnh",
+        "hide": "Ẩn Ngôn ngữ Tùy chỉnh",
+        "placeholder": "Nhập ngôn ngữ tùy chỉnh, ví dụ: 'Tiếng Hàn'. (tùy chọn)",
+        "defaultNote": "Nếu không được chỉ định, ngôn ngữ được chọn trong cài đặt 'Hồ sơ' sẽ được sử dụng"
+      }
+    },
+    "testSets": {
+      "title": "Bộ Bài kiểm tra của Bạn",
+      "of": "trong số",
+      "sets": "bộ",
+      "testSet": "Bài kiểm tra",
+      "questions": "câu hỏi"
+    },
+    "chat": {
+      "placeholder": {
+        "default": "Đặt câu hỏi về tài liệu của bạn...",
+        "selectedArea": "Hỏi về khu vực đã chọn...",
+        "selectedText": "Hỏi về văn bản đã chọn..."
+      },
+      "empty": {
+        "title": "Hãy hỏi tôi bất cứ điều gì về tài liệu của bạn!",
+        "subtitle": "Tôi sẽ giúp bạn hiểu rõ hơn nội dung."
+      },
+      "replyingTo": {
+        "selection": "Trả lời",
+        "selectedArea": "khu vực đã chọn",
+        "selectedText": "văn bản đã chọn"
+      },
+      "errors": {
+        "characterLimit": "Vượt quá giới hạn ký tự. Tối đa {{limit}} ký tự được phép.",
+        "messageLimit": "Bạn có thể mua thêm tin nhắn hoặc nâng cấp gói để tiếp tục.",
+        "purchaseMore": "Mua Thêm Tin nhắn",
+        "allServicesFailed": "Tất cả các dịch vụ AI hiện không khả dụng. Vui lòng thử lại sau.",
+        "imageAnalysis": "Xin lỗi, đã xảy ra lỗi khi phân tích hình ảnh. Vui lòng thử lại.",
+        "eduPlusArea": "Edu+ không hỗ trợ chọn khu vực."
+      },
+      "imageSelection": {
+        "pdfArea": "Khu vực đã chọn từ PDF"
+      },
+      "buttons": {
+        "scrollToBottom": "Cuộn xuống dưới cùng"
+      },
+      "explain": {
+        "default": "Vui lòng giải thích chi tiết toàn bộ nội dung tài liệu."
+      }
+    }
+  },
+  "liveLecture": {
+    "title": "Máy Ghi âm Bài giảng Trực tiếp",
+    "record": {
+      "button": "Ghi âm Bài giảng",
+      "description": "Ghi âm và phiên âm trong thời gian thực"
+    },
+    "upload": {
+      "button": "Tải lên Bản ghi Bài giảng",
+      "description": "Tải lên tệp .txt"
+    },
+    "error": {
+      "title": "Lỗi",
+      "fileType": "Vui lòng tải lên tệp .txt",
+      "maxLength": "Nội dung tệp vượt quá độ dài tối đa {{length}} ký tự",
+      "readError": "Không đọc được tệp. Vui lòng thử lại",
+      "micPermission": "Quyền truy cập micro bị từ chối. Vui lòng cấp quyền và thử lại",
+      "noMic": "Không tìm thấy micro. Vui lòng kết nối micro và thử lại",
+      "micBusy": "Micro đang bận hoặc không hoạt động bình thường. Vui lòng kiểm tra cài đặt thiết bị",
+      "micAccess": "Lỗi truy cập micro. Vui lòng kiểm tra cài đặt thiết bị",
+      "startRecord": "Không bắt đầu được ghi âm. Vui lòng thử lại",
+      "noTranscript": "Không có bản ghi nào để lưu",
+      "loginRequired": "Vui lòng đăng nhập để lưu bản ghi",
+      "saveFailed": "Không lưu được bản ghi"
+    },
+    "timeWarning": {
+      "title": "Cảnh báo Thời gian",
+      "message": "Ghi âm sẽ tự động dừng sau {{seconds}} giây"
+    },
+    "recording": {
+      "status": "Đang ghi âm...",
+      "paused": "Đã tạm dừng",
+      "live": "Trực tiếp"
+    },
+    "transcript": {
+      "title": "Bản ghi",
+      "empty": "Bắt đầu ghi âm để xem bản ghi thời gian thực",
+      "transcribing": "Đang phiên âm..."
+    },
+    "actions": {
+      "reviewEdit": "Xem lại và Chỉnh sửa",
+      "saveDirect": "Lưu",
+      "downloadAudio": "Tải xuống Âm thanh",
+      "reset": "Đặt lại"
+    },
+    "limits": {
+      "title": "Giới hạn",
+      "maxRecording": "Thời gian ghi âm tối đa: {{minutes}} phút",
+      "maxTranscript": "Độ dài bản ghi tối đa: {{length}} ký tự"
+    },
+    "processing": "Đang xử lý tệp của bạn...",
+    "languageSelect": {
+      "label": "Ngôn ngữ Phiên âm",
+      "languages": {
+        "ar": "Tiếng Ả Rập",
+        "da": "Tiếng Đan Mạch",
+        "de": "Tiếng Đức",
+        "en": "Tiếng Anh",
+        "es": "Tiếng Tây Ban Nha",
+        "fil": "Tiếng Filipino",
+        "fr": "Tiếng Pháp",
+        "hi": "Tiếng Hindi",
+        "id": "Tiếng Indonesia",
+        "it": "Tiếng Ý",
+        "lt": "Tiếng Litva",
+        "ms": "Tiếng Mã Lai",
+        "nl": "Tiếng Hà Lan",
+        "pl": "Tiếng Ba Lan",
+        "pt": "Tiếng Bồ Đào Nha",
+        "ru": "Tiếng Nga",
+        "sv": "Tiếng Thụy Điển",
+        "tr": "Tiếng Thổ Nhĩ Kỳ",
+        "uk": "Tiếng Ukraina",
+        "ur": "Tiếng Urdu",
+        "zh": "Tiếng Trung"
+      }
+    },
+    "reviewEdit": {
+      "title": "Xem lại & Chỉnh sửa Bản ghi",
+      "uploadedTitle": "Chỉnh sửa Bản ghi đã Tải lên",
+      "audio": {
+        "play": "Phát",
+        "pause": "Tạm dừng"
+      },
+      "transcript": {
+        "placeholder": "Chỉnh sửa bản ghi của bạn ở đây..."
+      },
+      "actions": {
+        "cancel": "Hủy",
+        "save": "Lưu Thay đổi",
+        "saving": "Đang lưu..."
+      },
+      "savingOverlay": {
+        "title": "Đang lưu bản ghi...",
+        "message": "Vui lòng đợi trong khi chúng tôi lưu các thay đổi của bạn"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Chọn Hành trình Học tập của Bạn",
+    "subtitle": "Mở khóa toàn bộ tiềm năng học tập được hỗ trợ bởi AI với các gói linh hoạt của chúng tôi",
+    "billing": {
+      "monthly": "Hàng tháng",
+      "yearly": "Hàng năm",
+      "savePercent": "Tiết kiệm 40%",
+      "yearlyDiscount": "Tiết kiệm £{{amount}} hàng năm",
+      "pricePerMonth": "/tháng"
+    },
+    "messages": {
+      "needMore": "Cần thêm tin nhắn?",
+      "purchase": "Mua thêm tín dụng tin nhắn"
+    },
+    "plans": {
+      "popular": "Phổ biến nhất",
+      "features": {
+        "documentProcessing": "Xử lý Tài liệu",
+        "aiFeatures": "Tính năng AI",
+        "chatAnalysis": "Trò chuyện & Phân tích"
+      }
+    },
+    "planNames": {
+      "cooked": "Cooked",
+      "committed": "Committed",
+      "lockedIn": "Locked In"
+    },
+    "buttons": {
+      "currentPlan": "Gói Hiện tại",
+      "freePlan": "Gói Miễn phí",
+      "freeTier": "Gói Miễn phí",
+      "upgradeNow": "Nâng cấp Ngay",
+      "switchPlan": "Chuyển đổi Gói"
+    },
+    "features": {
+      "cooked": {
+        "docs": [
+          "2 PDF/video YouTube mỗi tuần",
+          "Kích thước tệp tối đa 20MB",
+          "1 lần ghi âm bài giảng mỗi tháng"
+        ],
+        "ai": [
+          "Tóm tắt thông minh, thẻ ghi nhớ, ghi chú & bài kiểm tra"
+        ],
+        "chat": [
+          "3 tin nhắn/ngày (£0.02/tin nhắn thêm)",
+          "1 lần chọn khu vực/tuần (£0.05/lần thêm)",
+          "1 lần tạo giọng nói tiêu chuẩn/tháng"
+        ]
+      },
+      "committed": {
+        "docs": [
+          "10 PDF/video YouTube mỗi tuần",
+          "Kích thước tệp tối đa 30MB",
+          "10 lần ghi âm bài giảng mỗi tháng"
+        ],
+        "ai": [
+          "Mọi thứ từ Cooked + Kiểu giọng nói Pro"
+        ],
+        "chat": [
+          "30 tin nhắn/ngày (£0.02/tin nhắn thêm)",
+          "15 lần chọn khu vực/tuần (£0.05/lần thêm)",
+          "5 lần tạo giọng nói tiêu chuẩn + 2 lần tạo giọng nói pro/tháng"
+        ]
+      },
+      "lockedIn": {
+        "docs": [
+          "Không giới hạn PDF/video YouTube",
+          "Kích thước tệp tối đa 40MB",
+          "45 lần ghi âm bài giảng mỗi tháng"
+        ],
+        "ai": [
+          "Mọi thứ từ Committed + quyền truy cập ưu tiên"
+        ],
+        "chat": [
+          "Không giới hạn tin nhắn",
+          "50 lần chọn khu vực/tuần (£0.05/lần thêm)",
+          "15 lần tạo giọng nói tiêu chuẩn + 7 lần tạo giọng nói pro/tháng"
+        ]
+      }
+    },
+    "errors": {
+      "invalidPlan": "Gói đã chọn không hợp lệ",
+      "checkoutFailed": "Không tạo được phiên thanh toán",
+      "planChangeFailed": "Không xử lý được thay đổi gói"
+    }
+  },
+  "support": {
+    "title": "Chúng tôi có thể giúp gì?",
+    "subtitle": "Nhận trợ giúp bạn cần với các tài nguyên hỗ trợ toàn diện của chúng tôi",
+    "emailSupport": {
+      "title": "Hỗ trợ Email",
+      "description": "Cần giúp đỡ? Gửi email cho chúng tôi và chúng tôi sẽ liên hệ lại với bạn trong vòng 24 giờ.",
+      "button": "Liên hệ Hỗ trợ"
+    },
+    "featureRequests": {
+      "title": "Yêu cầu Tính năng",
+      "description": "Có ý tưởng cải thiện nền tảng của chúng tôi? Chúng tôi rất muốn nghe ý kiến của bạn!",
+      "button": "Gửi Yêu cầu"
+    },
+    "feedback": {
+      "title": "Gửi Phản hồi",
+      "description": "Chia sẻ suy nghĩ của bạn và giúp chúng tôi cải thiện trải nghiệm của bạn.",
+      "button": "Gửi Phản hồi"
+    },
+    "faq": {
+      "title": "Câu hỏi Thường gặp",
+      "questions": {
+        "upload": {
+          "question": "Làm cách nào để tải lên tài liệu?",
+          "answer": "Bạn có thể tải lên tài liệu PDF bằng cách nhấp vào nút 'Tải lên' trên bảng điều khiển của bạn hoặc chỉ cần kéo và thả tệp vào khu vực tải lên."
+        },
+        "formats": {
+          "question": "Định dạng tệp nào được hỗ trợ?",
+          "answer": "Hiện tại, chúng tôi hỗ trợ tệp PDF để phân tích tài liệu và video YouTube để tạo bản ghi."
+        },
+        "aiAnalysis": {
+          "question": "Phân tích AI hoạt động như thế nào?",
+          "answer": "AI tiên tiến của chúng tôi phân tích tài liệu của bạn để tạo tóm tắt, thẻ ghi nhớ và tài liệu học tập tương tác trong khi vẫn duy trì ngữ cảnh và độ chính xác."
+        },
+        "chat": {
+          "question": "Làm cách nào tôi có thể sử dụng AI chat để học tập?",
+          "answer": "AI chat của chúng tôi cho phép bạn đặt câu hỏi về tài liệu đã tải lên, nhận giải thích về các khái niệm phức tạp và thậm chí phân tích các khu vực đã chọn trong PDF. Chỉ cần đánh dấu văn bản hoặc chọn một khu vực và đặt câu hỏi của bạn."
+        }
+      }
+    }
+  },
+  "header": {
+    "tagline": "Thay đổi Hành trình Học tập của Bạn",
+    "buttons": {
+      "pricing": "Giá",
+      "signIn": "Đăng nhập",
+      "getStarted": "Bắt đầu",
+      "help": "Trợ giúp",
+      "dashboard": "Bảng điều khiển",
+      "upgradeNow": "Nâng cấp Ngay",
+      "pro": "Pro"
+    }
+  },
+  "userMenu": {
+    "profile": "Hồ sơ",
+    "upgradePlan": "Nâng cấp Gói",
+    "support": "Hỗ trợ",
+    "feedback": "Phản hồi",
+    "featureRequest": "Yêu cầu Tính năng",
+    "adminPortal": "Cổng thông tin Quản trị",
+    "logout": "Đăng xuất",
+    "updates": "Cập nhật Mới nhất",
+    "lightMode": "Chế độ Sáng",
+    "darkMode": "Chế độ Tối",
+    "planStatus": {
+      "cookedMember": "Thành viên Cooked",
+      "committedMember": "Thành viên Committed",
+      "lockedInMember": "Thành viên Locked In"
+    }
+  },
+  "languageModal": {
+    "title": "Chọn Ngôn ngữ của Bạn",
+    "description": "Chọn ngôn ngữ ưa thích của bạn để có trải nghiệm tốt nhất",
+    "confirm": "Xác nhận Lựa chọn"
+  },
+  "common": {
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "save": "Lưu"
+  }
+
+}

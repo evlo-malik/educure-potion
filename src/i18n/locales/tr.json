@@ -1,0 +1,707 @@
+{
+  "profile": {
+    "title": "Hesap Bilgileri",
+    "error": "Hata",
+    "success": "Başarılı",
+    "sections": {
+      "name": {
+        "label": "İsim",
+        "edit": "Düzenle",
+        "save": "Kaydet"
+      },
+      "email": {
+        "label": "E-posta"
+      },
+      "password": {
+        "label": "Şifre",
+        "change": "Değiştir",
+        "save": "Kaydet",
+        "current": "Mevcut şifre",
+        "new": "Yeni şifre",
+        "confirm": "Yeni şifreyi onayla"
+      },
+      "subscription": {
+        "label": "Abonelik Planı",
+        "upgrade": "Planı Yükselt",
+        "manage": "Aboneliği Yönet",
+        "new": "Yeni!"
+      },
+      "messages": {
+        "label": "Mesaj Kullanımı",
+        "description": "Günlük ve haftalık mesaj limitlerini takip et",
+        "textMessages": "Metin Mesajları",
+        "areaSelection": "Alan Seçimi Mesajları",
+        "planUsageDaily": "Plan Kullanımı (Günlük)",
+        "planUsageWeekly": "Plan Kullanımı (Haftalık)",
+        "purchasedMessages": "Satın Alınan Mesajlar",
+        "buyMore": "Daha Fazla Al",
+        "infinity": "∞"
+      },
+      "account": {
+        "title": "Hesap Detayları",
+        "memberSince": "Üyelik Tarihi",
+        "lastLogin": "Son Giriş",
+        "never": "Hiç"
+      },
+      "language": {
+        "label": "Dil"
+      },
+      "danger": {
+        "title": "Tehlikeli Bölge",
+        "warning": "Hesabınızı sildikten sonra geri dönüş yok. Lütfen emin olun.",
+        "delete": "Hesabı Sil",
+        "confirm": "Silmeyi Onayla",
+        "cancel": "İptal",
+        "deleting": "Hesap siliniyor..."
+      }
+    },
+    "subscription": {
+      "cancel": {
+        "title": "İptal etmek istediğinizden emin misiniz?",
+        "processing": "Abonelik iptal ediliyor...",
+        "description": "Mevcut fatura döneminin sonunda premium özelliklere erişiminizi kaybedeceksiniz.",
+        "wait": "Lütfen isteğinizi işlerken bekleyin.",
+        "keep": "Aboneliği Koru",
+        "confirm": "İptali Onayla"
+      }
+    }
+  },
+  "dashboard": {
+    "computerRecommended": {
+      "title": "Bilgisayar Önerilir",
+      "description": "En iyi öğrenme deneyimi ve tüm özelliklere erişim için EduCure AI'yı masaüstü veya dizüstü bilgisayarda kullanmanızı şiddetle öneririz."
+    },
+    "upload": {
+      "title": "Belge Yükle",
+      "youtube": {
+        "placeholder": "YouTube video URL'sini yapıştırın...",
+        "import": "İçe Aktar"
+      },
+      "pdf": {
+        "button": "PDF Seç",
+        "dragDrop": "veya sürükleyip bırakın",
+        "maxSize": "Maksimum dosya boyutu: {{size}}MB",
+        "processing": "İşleniyor...",
+        "readingPdf": "PDF içeriği okunuyor...",
+        "saving": "Belge kaydediliyor..."
+      }
+    },
+    "record": {
+      "title": "Canlı Ders Kaydet",
+      "start": "Kayıt Başlat",
+      "description": "Derslerinizi gerçek zamanlı olarak kaydedin ve yazıya dökün"
+    },
+    "limits": {
+      "documents": {
+        "title": "Haftalık Belge Yüklemeleri",
+        "unlimited": "Sınırsız"
+      },
+      "lectures": {
+        "title": "Aylık Ders Kayıtları"
+      }
+    },
+    "documents": {
+      "title": "Belgeleriniz",
+      "sections": {
+        "pdf": "PDF ve Ders Belgeleri",
+        "youtube": "YouTube Videoları"
+      },
+      "empty": {
+        "title": "Henüz belge yok",
+        "description": "Başlamak için ilk belgenizi yükleyin"
+      },
+      "actions": {
+        "edit": "Düzenle",
+        "delete": "Sil",
+        "save": "Kaydet"
+      }
+    },
+    "errors": {
+      "login": "Belge yüklemek için lütfen giriş yapın",
+      "youtube": {
+        "url": "Lütfen bir YouTube URL'si girin",
+        "invalid": "Lütfen geçerli bir YouTube URL'si girin",
+        "import": "Video transkripti içe aktarılamadı. Lütfen tekrar deneyin.",
+        "noTranscript": "Bu videonun kullanılabilir bir transkripti yok. Lütfen transkripti etkinleştirilmiş başka bir video deneyin.",
+        "networkError": "İnternet bağlantı sorunu tespit edildi. Lütfen bağlantınızı kontrol edin ve tekrar deneyin.",
+        "unexpectedError": "Videonuz işlenirken beklenmeyen bir hata oluştu. Lütfen tekrar deneyin."
+      },
+      "pdf": {
+        "invalid": "Lütfen geçerli bir PDF dosyası yükleyin. Diğer dosya türleri desteklenmemektedir.",
+        "size": "Dosya boyutu planınızın {{size}}MB sınırını aşıyor. Lütfen PDF'i sıkıştırın veya daha büyük yüklemeler için planınızı yükseltin.",
+        "upload": "Belge yüklenemedi. Lütfen tekrar deneyin.",
+        "password": "Bu PDF parola korumalı. Lütfen parola korumasını kaldırın ve tekrar deneyin.",
+        "corrupt": "Bu PDF dosyası bozuk veya geçersiz görünüyor. Lütfen geçerli bir PDF olduğundan emin olun ve tekrar deneyin.",
+        "storage": "Depolama kotası aşıldı. Lütfen alan açın veya planınızı yükseltin.",
+        "networkError": "İnternet bağlantı sorunu tespit edildi. Lütfen bağlantınızı kontrol edin ve tekrar deneyin.",
+        "unexpectedError": "PDF'iniz işlenirken beklenmeyen bir hata oluştu. Lütfen tekrar deneyin."
+      },
+      "document": {
+        "deleteFailed": "Belge silinemedi"
+      },
+      "limit": "Yükleme limitinize ulaştınız",
+      "upgrade": "Planınızı yükseltin"
+    },
+    "subjects": {
+      "title": "Dersler",
+      "add": "Ders Ekle",
+      "delete": {
+        "title": "Dersi Sil",
+        "message": "Bu dersi silmek istediğinizden emin misiniz? Tüm belgeler Kontrol Paneline taşınacak.",
+        "confirm": "Sil",
+        "cancel": "İptal"
+      },
+      "manage": "{{subject}} için belgeleri ve dersleri yönet",
+      "dashboard": "Kontrol Paneli"
+    }
+  },
+  "documentView": {
+    "tabs": {
+      "chat": "Sohbet",
+      "notes": "Notlar",
+      "flashcards": "Flash Kartlar",
+      "test": "Test"
+    },
+    "selectionMode": {
+      "textActive": "Metin Seçim Modu Aktif",
+      "areaActive": "Alan Seçim Modu Aktif"
+    },
+    "actions": {
+      "download": "İndir",
+      "hideDocument": "Belgeyi Gizle",
+      "showDocument": "Belgeyi Göster"
+    },
+    "notes": {
+      "generate": "Oluştur",
+      "generating": "Oluşturuluyor...",
+      "description": "Ana noktalar ve detaylı açıklamalarla ayrıntılı çalışma notları oluşturun"
+    },
+    "flashcards": {
+      "generate": "Oluştur",
+      "generating": "Oluşturuluyor...",
+      "description": "Temel kavramları hatırlamak için belgenizden AI destekli kartlar oluşturun",
+      "navigation": {
+        "previous": "Önceki Kart",
+        "next": "Sonraki Kart"
+      },
+      "labels": {
+        "question": "Soru",
+        "answer": "Cevap"
+      },
+      "clickToFlip": "Çevirmek için tıklayın",
+      "placeholders": {
+        "question": "Sorunuzu buraya yazın...",
+        "answer": "Cevabınızı buraya yazın..."
+      },
+      "deleteConfirm": {
+        "title": "Kartı Sil",
+        "message": "Bu kartı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+      },
+      "actions": {
+        "export": "Dışa Aktar",
+        "new": "Kart Ekle"
+      },
+      "export": {
+        "toCsv": "CSV'ye Aktar",
+        "toClipboard": "Metni Kopyala"
+      },
+      "copySuccess": "Kartlar panoya kopyalandı",
+      "copyError": "Kartlar panoya kopyalanamadı",
+      "exportError": "Kartlar CSV'ye aktarılamadı"
+    },
+    "test": {
+      "generate": "Oluştur",
+      "generating": "Oluşturuluyor...",
+      "description": "Anlayışınızı kontrol etmek için çoktan seçmeli ve doğru/yanlış sorularla interaktif testler oluşturun",
+      "results": {
+        "score": {
+          "perfect": "Sen GOAT'sun 🐐",
+          "excellent": "Canavar modu aktif 💪",
+          "great": "Muhteşemsin 😤",
+          "good": "Böyle devam et 🚶",
+          "fair": "Odaklanman gerek 🔒",
+          "poor": "Bu sefer olmadı kardeş 💀"
+        },
+        "yourAnswer": "Senin Cevabın",
+        "correctAnswer": "Doğru Cevap"
+      },
+      "buttons": {
+        "submit": "Testi Gönder",
+        "tryAgain": "Tekrar Dene",
+        "generateNew": "Yeni Test Oluştur"
+      },
+      "options": {
+        "true": "Doğru",
+        "false": "Yanlış"
+      },
+      "previousTests": {
+        "title": "Önceki Testler",
+        "number": "Test #{{number}}"
+      }
+    },
+    "vocalize": {
+      "beta": "BETA",
+      "generate": "Oluştur",
+      "generating": "Oluşturuluyor...",
+      "description": "Metni doğal sese dönüştürün",
+      "voiceStyle": "Ses Stili",
+      "styleOptions": {
+        "lecture": {
+          "label": "Ders",
+          "description": "Net açıklamalar için profesyonel akademik ses"
+        },
+        "news": {
+          "label": "Haber Spikeri",
+          "description": "Profesyonel yayın stili ses"
+        },
+        "soft": {
+          "label": "Yumuşak Ses",
+          "description": "Rahat öğrenme için nazik, sakinleştirici ses"
+        },
+        "asmr": {
+          "label": "ASMR",
+          "description": "Rahatlatıcı öğrenme için yumuşak, samimi ses",
+          "pro": "PRO"
+        },
+        "motivational": {
+          "label": "Motive Edici",
+          "description": "İlham vermek ve motive etmek için enerjik ses",
+          "pro": "PRO"
+        },
+        "storytelling": {
+          "label": "Hikaye Anlatımı",
+          "description": "Anlatı içeriği için ifade dolu ses",
+          "pro": "PRO"
+        }
+      },
+      "usage": {
+        "standard": "Standart Seslendirme",
+        "pro": "PRO Seslendirme"
+      },
+      "errors": {
+        "limitReached": "Oluşturma limiti aşıldı",
+        "upgradeRequired": "Planınızı yükseltin",
+        "maxAudioLimit": "Maksimum Ses Limitine Ulaşıldı",
+        "deleteExisting": "Yeni bir tane oluşturmak için mevcut bir ses versiyonunu silin",
+        "generatingAudio": "Ses Deneyimi Oluşturuluyor...",
+        "creatingStyle": "Stil revizyonunuz oluşturuluyor",
+        "noAudioYet": "Henüz ses versiyonu oluşturulmadı",
+        "generateFirst": "İlk ses versiyonunuzu yukarıda oluşturun!"
+      },
+      "buttons": {
+        "generateNew": "Yeni Ses Oluştur:",
+        "savedVersions": "Kaydedilmiş Ses Versiyonları"
+      },
+      "languageAvailability": {
+        "english": "İngilizce olarak mevcut",
+        "languages29": "29 dilde mevcut",
+        "languages60": "60+ dilde mevcut"
+      },
+      "voiceLanguage": "Ses Dili",
+      "searchLanguage": "Dil ara...",
+      "noLanguagesFound": "Dil bulunamadı",
+      "languages": {
+        "Afrikaans": "Afrikaanca",
+        "Albanian": "Arnavutça",
+        "Arabic": "Arapça",
+        "Armenian": "Ermenice",
+        "Azerbaijani": "Azerice",
+        "Bahasa Indonesian": "Endonezce",
+        "Bengali": "Bengalce",
+        "Bosnian": "Boşnakça",
+        "Bulgarian": "Bulgarca",
+        "Catalan": "Katalanca",
+        "Chinese Cantonese": "Çince (Kantonca)",
+        "Chinese Mandarin": "Çince (Mandarin)",
+        "Croatian": "Hırvatça",
+        "Czech": "Çekçe",
+        "Danish": "Danca",
+        "Dutch": "Hollandaca",
+        "English": "İngilizce",
+        "Estonian": "Estonca",
+        "Filipino": "Filipince",
+        "Finnish": "Fince",
+        "French": "Fransızca",
+        "Galician": "Galiçyaca",
+        "Georgian": "Gürcüce",
+        "German": "Almanca",
+        "Greek": "Yunanca",
+        "Hebrew": "İbranice",
+        "Hindi": "Hintçe",
+        "Hungarian": "Macarca",
+        "Icelandic": "İzlandaca",
+        "Irish": "İrlandaca",
+        "Italian": "İtalyanca",
+        "Japanese": "Japonca",
+        "Javanese": "Cavaca",
+        "Kannada": "Kannada",
+        "Kazakh": "Kazakça",
+        "Korean": "Korece",
+        "Latvian": "Letonca",
+        "Lithuanian": "Litvanca",
+        "Macedonian": "Makedonca",
+        "Malay": "Malayca",
+        "Maltese": "Maltaca",
+        "Marathi": "Maratice",
+        "Mongolian": "Moğolca",
+        "Nepali": "Nepalce",
+        "Norwegian Bokmål": "Norveççe (Bokmål)",
+        "Pashto": "Peştuca",
+        "Persian": "Farsça",
+        "Polish": "Lehçe",
+        "Portuguese": "Portekizce",
+        "Romanian": "Romence",
+        "Russian": "Rusça",
+        "Serbian": "Sırpça",
+        "Sinhala": "Seylanca",
+        "Slovak": "Slovakça",
+        "Slovene": "Slovence",
+        "Somali": "Somalice",
+        "Spanish": "İspanyolca",
+        "Swahili": "Svahili",
+        "Swedish": "İsveççe",
+        "Tamil": "Tamilce",
+        "Telugu": "Telugu",
+        "Thai": "Tayca",
+        "Turkish": "Türkçe",
+        "Ukrainian": "Ukraynaca",
+        "Urdu": "Urduca",
+        "Uzbek": "Özbekçe",
+        "Vietnamese": "Vietnamca",
+        "Welsh": "Galce",
+        "Zulu": "Zuluca"
+      }
+    },
+    "errors": {
+      "failedToLoad": "Belge yüklenemedi",
+      "failedToUpdate": "Belge güncellenemedi",
+      "tryAgain": "Lütfen tekrar deneyin"
+    },
+    "customInstructions": {
+      "title": "Özel Talimatlar",
+      "optional": "(İsteğe bağlı)",
+      "placeholder": "Odaklanmak istediğiniz konular veya daha detaylı keşfetmek istediğiniz alanlar hakkında özel talimatlar ekleyin (örn. 'Matematik kavramlarına odaklan', 'Ana teorileri vurgula')",
+      "characters": "karakter",
+      "priorityNote": "Talimatlarınıza oluşturma sırasında öncelik verilecektir",
+      "customLanguage": {
+        "show": "Özel Dili Göster",
+        "hide": "Özel Dili Gizle",
+        "placeholder": "Özel dil girin (isteğe bağlı)",
+        "defaultNote": "Belirtilmezse, profil ayarlarında seçilen dil kullanılacaktır"
+      }
+    },
+    "testSets": {
+      "title": "Test Setleriniz",
+      "of": "/",
+      "sets": "set",
+      "testSet": "Test",
+      "questions": "soru"
+    },
+    "chat": {
+      "placeholder": {
+        "default": "Belgeniz hakkında bir soru sorun...",
+        "selectedArea": "Seçili alan hakkında sorun...",
+        "selectedText": "Seçili metin hakkında sorun..."
+      },
+      "empty": {
+        "title": "Belgenizle ilgili her şeyi bana sorabilirsiniz!",
+        "subtitle": "İçeriği daha iyi anlamanıza yardımcı olacağım."
+      },
+      "replyingTo": {
+        "selection": "Yanıtlanıyor",
+        "selectedArea": "seçili alan",
+        "selectedText": "seçili metin"
+      },
+      "errors": {
+        "characterLimit": "Karakter sınırı aşıldı. Maksimum {{limit}} karakter kullanılabilir.",
+        "messageLimit": "Devam etmek için ek mesaj satın alabilir veya planınızı yükseltebilirsiniz.",
+        "purchaseMore": "Ek mesaj satın al",
+        "allServicesFailed": "Şu anda tüm yapay zeka servisleri kullanılamıyor. Lütfen daha sonra tekrar deneyin.",
+        "imageAnalysis": "Üzgünüz, görüntü analizi sırasında bir hata oluştu. Lütfen tekrar deneyin.",
+        "eduPlusArea": "Edu+ alan seçimini desteklemiyor."
+      },
+      "imageSelection": {
+        "pdfArea": "PDF'den seçili alan"
+      },
+      "buttons": {
+        "scrollToBottom": "Aşağı kaydır"
+      },
+      "explain": {
+        "default": "Lütfen tüm belgenin içeriğini detaylı olarak açıklayın."
+      }
+    }
+  },
+  "liveLecture": {
+    "title": "Canlı Ders Kaydedici",
+    "record": {
+      "button": "Dersi Kaydet",
+      "description": "Gerçek zamanlı kayıt ve transkripsiyon"
+    },
+    "upload": {
+      "button": "Ders Transkriptini Yükle",
+      "description": ".txt dosyası yükle"
+    },
+    "error": {
+      "title": "Hata",
+      "fileType": "Lütfen .txt dosyası yükleyin",
+      "maxLength": "Dosya içeriği maksimum {{length}} karakter sınırını aşıyor",
+      "readError": "Dosya okunamadı. Lütfen tekrar deneyin",
+      "micPermission": "Mikrofon erişimi reddedildi. Lütfen izin verin ve tekrar deneyin",
+      "noMic": "Mikrofon bulunamadı. Lütfen bir mikrofon bağlayın ve tekrar deneyin",
+      "micBusy": "Mikrofon meşgul veya düzgün çalışmıyor. Lütfen cihaz ayarlarını kontrol edin",
+      "micAccess": "Mikrofona erişim hatası. Lütfen cihaz ayarlarını kontrol edin",
+      "startRecord": "Kayıt başlatılamadı. Lütfen tekrar deneyin",
+      "noTranscript": "Kaydedilecek transkript yok",
+      "loginRequired": "Kayıtları kaydetmek için lütfen giriş yapın",
+      "saveFailed": "Kayıt kaydedilemedi"
+    },
+    "timeWarning": {
+      "title": "Zaman Uyarısı",
+      "message": "Kayıt {{seconds}} saniye içinde otomatik olarak duracak"
+    },
+    "recording": {
+      "status": "Kaydediliyor...",
+      "paused": "Duraklatıldı",
+      "live": "Canlı"
+    },
+    "transcript": {
+      "title": "Transkript",
+      "empty": "Gerçek zamanlı transkripti görmek için kaydı başlatın",
+      "transcribing": "Transkript ediliyor..."
+    },
+    "actions": {
+      "reviewEdit": "İncele ve Düzenle",
+      "saveDirect": "Kaydet",
+      "downloadAudio": "Ses Dosyasını İndir",
+      "reset": "Sıfırla"
+    },
+    "limits": {
+      "title": "Sınırlar",
+      "maxRecording": "Maksimum kayıt süresi: {{minutes}} dakika",
+      "maxTranscript": "Maksimum transkript uzunluğu: {{length}} karakter"
+    },
+    "processing": "Dosyanız işleniyor...",
+    "languageSelect": {
+      "label": "Transkripsiyon Dili",
+      "languages": {
+        "ar": "Arapça",
+        "da": "Danca",
+        "de": "Almanca",
+        "en": "İngilizce",
+        "es": "İspanyolca",
+        "fil": "Filipince",
+        "fr": "Fransızca",
+        "hi": "Hintçe",
+        "id": "Endonezce",
+        "it": "İtalyanca",
+        "lt": "Litvanca",
+        "ms": "Malayca",
+        "nl": "Hollandaca",
+        "pl": "Lehçe",
+        "pt": "Portekizce",
+        "ru": "Rusça",
+        "sv": "İsveççe",
+        "tr": "Türkçe",
+        "uk": "Ukraynaca",
+        "ur": "Urduca",
+        "zh": "Çince"
+      }
+    },
+    "reviewEdit": {
+      "title": "Transkripti İncele ve Düzenle",
+      "uploadedTitle": "Yüklenen Transkripti Düzenle",
+      "audio": {
+        "play": "Oynat",
+        "pause": "Duraklat"
+      },
+      "transcript": {
+        "placeholder": "Transkriptinizi burada düzenleyin..."
+      },
+      "actions": {
+        "cancel": "İptal",
+        "save": "Değişiklikleri Kaydet",
+        "saving": "Kaydediliyor..."
+      },
+      "savingOverlay": {
+        "title": "Transkript kaydediliyor...",
+        "message": "Değişikliklerinizi kaydederken lütfen bekleyin"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Öğrenme Yolculuğunuzu Seçin",
+    "subtitle": "Esnek planlarımızla yapay zeka destekli öğrenmenin tüm potansiyelini açığa çıkarın",
+    "billing": {
+      "monthly": "Aylık",
+      "yearly": "Yıllık",
+      "savePercent": "%40 Tasarruf",
+      "yearlyDiscount": "Yılda £{{amount}} tasarruf edin",
+      "pricePerMonth": "/ay"
+    },
+    "messages": {
+      "needMore": "Daha fazla mesaja mı ihtiyacınız var?",
+      "purchase": "Ek mesaj kredisi satın alın"
+    },
+    "plans": {
+      "popular": "En Popüler",
+      "features": {
+        "documentProcessing": "Belge İşleme",
+        "aiFeatures": "Yapay Zeka Özellikleri",
+        "chatAnalysis": "Sohbet ve Analiz"
+      }
+    },
+    "planNames": {
+      "cooked": "Cooked",
+      "committed": "Committed",
+      "lockedIn": "Locked In"
+    },
+    "buttons": {
+      "currentPlan": "Mevcut Plan",
+      "freePlan": "Ücretsiz Plan",
+      "freeTier": "Ücretsiz Seviye",
+      "upgradeNow": "Şimdi Yükselt",
+      "switchPlan": "Plan Değiştir"
+    },
+    "features": {
+      "cooked": {
+        "docs": [
+          "Haftada 2 PDF/YouTube videosu",
+          "Maksimum dosya boyutu 20MB",
+          "Ayda 1 ders kaydı"
+        ],
+        "ai": [
+          "Akıllı özetler, flash kartlar, notlar ve testler"
+        ],
+        "chat": [
+          "3 mesaj/gün (£0.02/ek)",
+          "1 alan seçimi/hafta (£0.05/ek)",
+          "1 standart ses üretimi/ay"
+        ]
+      },
+      "committed": {
+        "docs": [
+          "Haftada 10 PDF/YouTube videosu",
+          "Maksimum dosya boyutu 30MB",
+          "Ayda 10 ders kaydı"
+        ],
+        "ai": [
+          "Cooked'ın tümü + Pro ses stilleri"
+        ],
+        "chat": [
+          "30 mesaj/gün (£0.02/ek)",
+          "15 alan seçimi/hafta (£0.05/ek)",
+          "5 standart + 2 pro ses üretimi/ay"
+        ]
+      },
+      "lockedIn": {
+        "docs": [
+          "Sınırsız PDF/YouTube videosu",
+          "Maksimum dosya boyutu 40MB",
+          "Ayda 45 ders kaydı"
+        ],
+        "ai": [
+          "Committed'ın tümü + öncelikli erişim"
+        ],
+        "chat": [
+          "Sınırsız mesaj",
+          "50 alan seçimi/hafta (£0.05/ek)",
+          "15 standart + 7 pro ses üretimi/ay"
+        ]
+      }
+    },
+    "errors": {
+      "invalidPlan": "Geçersiz plan seçildi",
+      "checkoutFailed": "Ödeme oturumu oluşturulamadı",
+      "planChangeFailed": "Plan değişikliği işlenemedi"
+    }
+  },
+  "support": {
+    "title": "Size Nasıl Yardımcı Olabiliriz?",
+    "subtitle": "Kapsamlı destek kaynaklarımızla ihtiyacınız olan yardımı alın",
+    "emailSupport": {
+      "title": "E-posta Desteği",
+      "description": "Yardıma mı ihtiyacınız var? Bize e-posta gönderin, 24 saat içinde yanıt verelim.",
+      "button": "Destekle İletişime Geç"
+    },
+    "featureRequests": {
+      "title": "Özellik İstekleri",
+      "description": "Platformumuzu geliştirmek için bir fikriniz mi var? Duymak isteriz!",
+      "button": "İstek Gönder"
+    },
+    "feedback": {
+      "title": "Geri Bildirim Gönder",
+      "description": "Düşüncelerinizi paylaşın ve deneyiminizi iyileştirmemize yardımcı olun.",
+      "button": "Geri Bildirim Gönder"
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "questions": {
+        "upload": {
+          "question": "Belgeleri nasıl yüklerim?",
+          "answer": "PDF belgelerini kontrol panelinizde 'Yükle' düğmesine tıklayarak veya dosyaları yükleme alanına sürükleyip bırakarak yükleyebilirsiniz."
+        },
+        "formats": {
+          "question": "Hangi dosya formatları destekleniyor?",
+          "answer": "Şu anda belge analizi için PDF dosyalarını ve transkript oluşturma için YouTube videolarını destekliyoruz."
+        },
+        "aiAnalysis": {
+          "question": "AI analizi nasıl çalışır?",
+          "answer": "Gelişmiş AI'mız, belgelerinizi analiz ederek özetler, flash kartlar ve etkileşimli çalışma materyalleri oluşturur, bağlamı ve doğruluğu korur."
+        },
+        "chat": {
+          "question": "AI sohbetini öğrenmek için nasıl kullanabilirim?",
+          "answer": "AI sohbetimiz, yüklediğiniz belgeler hakkında sorular sormanıza, karmaşık kavramların açıklamalarını almanıza ve hatta PDF'lerde seçili alanları analiz etmenize olanak tanır. Sadece metni vurgulayın veya bir alan seçin ve sorunuzu sorun."
+        }
+      }
+    }
+  },
+  "header": {
+    "tagline": "Öğrenme Yolculuğunuzu Dönüştürün",
+    "buttons": {
+      "pricing": "Fiyatlandırma",
+      "signIn": "Giriş Yap",
+      "getStarted": "Başla",
+      "help": "Yardım",
+      "dashboard": "Kontrol Paneli",
+      "upgradeNow": "Şimdi Yükselt",
+      "pro": "Pro"
+    }
+  },
+  "userMenu": {
+    "profile": "Profil",
+    "upgradePlan": "Planı Yükselt",
+    "support": "Destek",
+    "feedback": "Geri Bildirim",
+    "featureRequest": "Özellik İsteği",
+    "adminPortal": "Yönetici Portalı",
+    "logout": "Çıkış Yap",
+    "planStatus": {
+      "cookedMember": "Cooked üye",
+      "committedMember": "Committed üye",
+      "lockedInMember": "Locked In üye"
+    },
+    "updates": "Son güncellemeler",
+    "lightMode": "Açık mod",
+    "darkMode": "Koyu mod"
+  },
+  "settings": {
+    "lightMode": "Açık Mod",
+    "darkMode": "Koyu Mod",
+    "updates": "Son Güncellemeler",
+    "planStatus": {
+      "cookedMember": "Cooked Üye",
+      "committedMember": "Committed Üye",
+      "lockedInMember": "Locked In Üye"
+    }
+  },
+  "languageModal": {
+    "title": "Dilinizi Seçin",
+    "description": "En iyi deneyim için tercih ettiğiniz dili seçin",
+    "confirm": "Seçimi Onayla"
+  },
+  "common": {
+    "cancel": "İptal",
+    "delete": "Sil",
+    "save": "Kaydet"
+  }
+} 

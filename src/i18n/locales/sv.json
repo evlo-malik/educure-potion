@@ -1,0 +1,708 @@
+{
+  "profile": {
+    "title": "Kontoinformation",
+    "error": "Fel",
+    "success": "Lyckades",
+    "sections": {
+      "name": {
+        "label": "Namn",
+        "edit": "Redigera",
+        "save": "Spara"
+      },
+      "email": {
+        "label": "E-post"
+      },
+      "password": {
+        "label": "Lösenord",
+        "change": "Ändra",
+        "save": "Spara",
+        "current": "Nuvarande lösenord",
+        "new": "Nytt lösenord",
+        "confirm": "Bekräfta nytt lösenord"
+      },
+      "subscription": {
+        "label": "Prenumerationsplan",
+        "upgrade": "Uppgradera Plan",
+        "manage": "Hantera Prenumeration",
+        "new": "Ny!"
+      },
+      "messages": {
+        "label": "Meddelandeanvändning",
+        "description": "Spåra dina dagliga och veckovisa meddelandegränser",
+        "textMessages": "Textmeddelanden",
+        "areaSelection": "Områdesval Meddelanden",
+        "planUsageDaily": "Plananvändning (Daglig)",
+        "planUsageWeekly": "Plananvändning (Veckovis)",
+        "purchasedMessages": "Köpta Meddelanden",
+        "buyMore": "Köp Mer",
+        "infinity": "∞"
+      },
+      "account": {
+        "title": "Kontodetaljer",
+        "memberSince": "Medlem Sedan",
+        "lastLogin": "Senaste Inloggning",
+        "never": "Aldrig"
+      },
+      "language": {
+        "label": "Språk"
+      },
+      "danger": {
+        "title": "Farozon",
+        "warning": "När du raderar ditt konto finns det ingen återvändo. Var säker.",
+        "delete": "Radera Konto",
+        "confirm": "Bekräfta Radering",
+        "cancel": "Avbryt",
+        "deleting": "Raderar konto..."
+      }
+    },
+    "subscription": {
+      "cancel": {
+        "title": "Är du säker på att du vill avbryta?",
+        "processing": "Avbryter prenumeration...",
+        "description": "Du förlorar tillgång till premiumfunktioner i slutet av din nuvarande faktureringsperiod.",
+        "wait": "Vänta medan vi behandlar din begäran.",
+        "keep": "Behåll Prenumeration",
+        "confirm": "Bekräfta Avbrytning"
+      }
+    }
+  },
+  "dashboard": {
+    "computerRecommended": {
+      "title": "Dator Rekommenderas",
+      "description": "För bästa möjliga inlärningsupplevelse och tillgång till alla funktioner rekommenderar vi starkt att du använder EduCure AI på en stationär eller bärbar dator."
+    },
+    "upload": {
+      "title": "Ladda upp Dokument",
+      "youtube": {
+        "placeholder": "Klistra in YouTube video URL...",
+        "import": "Importera"
+      },
+      "pdf": {
+        "button": "Välj PDF",
+        "dragDrop": "eller dra och släpp",
+        "maxSize": "Maximal filstorlek: {{size}}MB",
+        "processing": "Bearbetar...",
+        "readingPdf": "Läser PDF-innehåll...",
+        "saving": "Sparar dokument..."
+      }
+    },
+    "record": {
+      "title": "Spela in Live Föreläsning",
+      "start": "Starta Inspelning",
+      "description": "Spela in och transkribera dina föreläsningar i realtid"
+    },
+    "limits": {
+      "documents": {
+        "title": "Veckovisa Dokumentuppladdningar",
+        "unlimited": "Obegränsat"
+      },
+      "lectures": {
+        "title": "Månatliga Föreläsningsinspelningar"
+      }
+    },
+    "documents": {
+      "title": "Dina Dokument",
+      "sections": {
+        "pdf": "PDF och Föreläsningsdokument",
+        "youtube": "YouTube Videos"
+      },
+      "empty": {
+        "title": "Inga dokument än",
+        "description": "Ladda upp ditt första dokument för att komma igång"
+      },
+      "actions": {
+        "edit": "Redigera",
+        "delete": "Radera",
+        "save": "Spara"
+      }
+    },
+    "errors": {
+      "login": "Logga in för att ladda upp dokument",
+      "youtube": {
+        "url": "Ange en YouTube-URL",
+        "invalid": "Ange en giltig YouTube-URL",
+        "import": "Det gick inte att importera videotranskriptionen. Försök igen.",
+        "noTranscript": "Den här videon har ingen tillgänglig transkription. Prova en annan video med aktiverad transkription.",
+        "networkError": "Internetanslutningsproblem upptäckt. Kontrollera din anslutning och försök igen.",
+        "unexpectedError": "Ett oväntat fel uppstod vid bearbetning av din video. Försök igen."
+      },
+      "pdf": {
+        "invalid": "Ladda upp en giltig PDF-fil. Andra filtyper stöds inte.",
+        "size": "Filstorleken överskrider {{size}}MB-gränsen för din plan. Komprimera PDF:en eller uppgradera din plan för större uppladdningar.",
+        "upload": "Det gick inte att ladda upp dokumentet. Försök igen.",
+        "password": "Denna PDF är lösenordsskyddad. Ta bort lösenordsskyddet och försök igen.",
+        "corrupt": "Denna PDF-fil verkar vara skadad eller ogiltig. Se till att det är en giltig PDF och försök igen.",
+        "storage": "Lagringsutrymmet är överskridet. Frigör utrymme eller uppgradera din plan.",
+        "networkError": "Internetanslutningsproblem upptäckt. Kontrollera din anslutning och försök igen.",
+        "unexpectedError": "Ett oväntat fel uppstod vid bearbetning av din PDF. Försök igen."
+      },
+      "document": {
+        "deleteFailed": "Det gick inte att ta bort dokumentet"
+      },
+      "limit": "Du har nått din uppladdningsgräns",
+      "upgrade": "Uppgradera din plan"
+    },
+    "subjects": {
+      "title": "Ämnen",
+      "add": "Lägg till ämne",
+      "delete": {
+        "title": "Ta bort ämne",
+        "message": "Är du säker på att du vill ta bort detta ämne? Alla dokument kommer att flyttas till Instrumentpanelen.",
+        "confirm": "Ta bort",
+        "cancel": "Avbryt"
+      },
+      "manage": "Hantera dokument och föreläsningar för {{subject}}",
+      "dashboard": "Instrumentpanel"
+    }
+  },
+  "documentView": {
+    "tabs": {
+      "chat": "Chatt",
+      "notes": "Anteckningar",
+      "flashcards": "Flashkort",
+      "test": "Test",
+      "vocalize": "Röst"
+    },
+    "selectionMode": {
+      "textActive": "Textmarkeringsläge aktivt",
+      "areaActive": "Områdesmarkeringsläge aktivt"
+    },
+    "actions": {
+      "download": "Ladda ner",
+      "hideDocument": "Dölj Dokument",
+      "showDocument": "Visa Dokument"
+    },
+    "notes": {
+      "generate": "Generera",
+      "generating": "Genererar...",
+      "description": "Skapa detaljerade studieanteckningar med nyckelpunkter och djupgående förklaringar"
+    },
+    "flashcards": {
+      "generate": "Generera",
+      "generating": "Genererar...",
+      "description": "Skapa AI-drivna flashkort från ditt dokument för att memorera nyckelkoncept",
+      "navigation": {
+        "previous": "Föregående Kort",
+        "next": "Nästa Kort"
+      },
+      "labels": {
+        "question": "Fråga",
+        "answer": "Svar"
+      },
+      "clickToFlip": "Klicka för att vända",
+      "placeholders": {
+        "question": "Skriv din fråga här...",
+        "answer": "Skriv ditt svar här..."
+      },
+      "deleteConfirm": {
+        "title": "Ta bort kort",
+        "message": "Är du säker på att du vill ta bort detta kort? Denna åtgärd kan inte ångras."
+      },
+      "actions": {
+        "export": "Exportera",
+        "new": "Lägg till kort"
+      },
+      "export": {
+        "toCsv": "Exportera till CSV",
+        "toClipboard": "Kopiera text"
+      },
+      "copySuccess": "Korten har kopierats till urklipp",
+      "copyError": "Det gick inte att kopiera korten till urklipp",
+      "exportError": "Det gick inte att exportera korten till CSV"
+    },
+    "test": {
+      "generate": "Generera",
+      "generating": "Genererar...",
+      "description": "Skapa interaktiva tester med flervalsfrågor och sant/falskt för att kontrollera din förståelse",
+      "results": {
+        "score": {
+          "perfect": "Du är GOAT 🐐",
+          "excellent": "Beast Mode aktiverat 💪",
+          "great": "Du är fantastisk 😤",
+          "good": "Fortsätt så 🚶",
+          "fair": "Du behöver fokusera 🔒",
+          "poor": "Det gick inte så bra den här gången 💀"
+        },
+        "yourAnswer": "Ditt Svar",
+        "correctAnswer": "Rätt Svar"
+      },
+      "buttons": {
+        "submit": "Lämna in Test",
+        "tryAgain": "Försök Igen",
+        "generateNew": "Generera Nytt Test"
+      },
+      "options": {
+        "true": "Sant",
+        "false": "Falskt"
+      },
+      "previousTests": {
+        "title": "Tidigare Tester",
+        "number": "Test #{{number}}"
+      }
+    },
+    "vocalize": {
+      "beta": "BETA",
+      "generate": "Generera",
+      "generating": "Genererar...",
+      "description": "Konvertera text till naturligt tal",
+      "voiceStyle": "Röststil",
+      "styleOptions": {
+        "lecture": {
+          "label": "Föreläsning",
+          "description": "Professionell akademisk röst för tydliga förklaringar"
+        },
+        "news": {
+          "label": "Nyhetsuppläsare",
+          "description": "Professionell sändningsröst"
+        },
+        "soft": {
+          "label": "Mjuk Röst",
+          "description": "Mild, lugnande röst för bekvämt lärande"
+        },
+        "asmr": {
+          "label": "ASMR",
+          "description": "Mjuk, intim röst för avslappnat lärande",
+          "pro": "PRO"
+        },
+        "motivational": {
+          "label": "Motiverande",
+          "description": "Energisk röst för att inspirera och engagera",
+          "pro": "PRO"
+        },
+        "storytelling": {
+          "label": "Berättande",
+          "description": "Uttrycksfull röst för berättande innehåll",
+          "pro": "PRO"
+        }
+      },
+      "usage": {
+        "standard": "Standard Röst",
+        "pro": "PRO Röst"
+      },
+      "errors": {
+        "limitReached": "Genereringsgräns nådd",
+        "upgradeRequired": "Uppgradera din plan",
+        "maxAudioLimit": "Maximal Ljudgräns Nådd",
+        "deleteExisting": "Radera en befintlig ljudversion för att generera en ny",
+        "generatingAudio": "Genererar Ljudupplevelse...",
+        "creatingStyle": "Skapar din stilrevision",
+        "noAudioYet": "Inga ljudversioner genererade ännu",
+        "generateFirst": "Generera din första ljudversion ovan!"
+      },
+      "buttons": {
+        "generateNew": "Generera Nytt Ljud i",
+        "savedVersions": "Sparade Ljudversioner"
+      },
+      "languageAvailability": {
+        "english": "Tillgänglig på engelska",
+        "languages29": "Tillgänglig på 29 språk",
+        "languages60": "Tillgänglig på över 60 språk"
+      },
+      "voiceLanguage": "Röstspråk",
+      "searchLanguage": "Sök språk...",
+      "noLanguagesFound": "Inga språk hittades",
+      "languages": {
+        "Afrikaans": "Afrikaans",
+        "Albanian": "Albanska",
+        "Arabic": "Arabiska",
+        "Armenian": "Armeniska",
+        "Azerbaijani": "Azerbajdzjanska",
+        "Bahasa Indonesian": "Indonesiska",
+        "Bengali": "Bengali",
+        "Bosnian": "Bosniska",
+        "Bulgarian": "Bulgariska",
+        "Catalan": "Katalanska",
+        "Chinese Cantonese": "Kantonesiska",
+        "Chinese Mandarin": "Mandarin",
+        "Croatian": "Kroatiska",
+        "Czech": "Tjeckiska",
+        "Danish": "Danska",
+        "Dutch": "Nederländska",
+        "English": "Engelska",
+        "Estonian": "Estniska",
+        "Filipino": "Filippinska",
+        "Finnish": "Finska",
+        "French": "Franska",
+        "Galician": "Galiciska",
+        "Georgian": "Georgiska",
+        "German": "Tyska",
+        "Greek": "Grekiska",
+        "Hebrew": "Hebreiska",
+        "Hindi": "Hindi",
+        "Hungarian": "Ungerska",
+        "Icelandic": "Isländska",
+        "Irish": "Irländska",
+        "Italian": "Italienska",
+        "Japanese": "Japanska",
+        "Javanese": "Javanesiska",
+        "Kannada": "Kannada",
+        "Kazakh": "Kazakiska",
+        "Korean": "Koreanska",
+        "Latvian": "Lettiska",
+        "Lithuanian": "Litauiska",
+        "Macedonian": "Makedonska",
+        "Malay": "Malajiska",
+        "Maltese": "Maltesiska",
+        "Marathi": "Marathi",
+        "Mongolian": "Mongoliska",
+        "Nepali": "Nepalesiska",
+        "Norwegian Bokmål": "Norska (Bokmål)",
+        "Pashto": "Pashto",
+        "Persian": "Persiska",
+        "Polish": "Polska",
+        "Portuguese": "Portugisiska",
+        "Romanian": "Rumänska",
+        "Russian": "Ryska",
+        "Serbian": "Serbiska",
+        "Sinhala": "Singalesiska",
+        "Slovak": "Slovakiska",
+        "Slovene": "Slovenska",
+        "Somali": "Somaliska",
+        "Spanish": "Spanska",
+        "Swahili": "Swahili",
+        "Swedish": "Svenska",
+        "Tamil": "Tamil",
+        "Telugu": "Telugu",
+        "Thai": "Thailändska",
+        "Turkish": "Turkiska",
+        "Ukrainian": "Ukrainska",
+        "Urdu": "Urdu",
+        "Uzbek": "Uzbekiska",
+        "Vietnamese": "Vietnamesiska",
+        "Welsh": "Walesiska",
+        "Zulu": "Zulu"
+      }
+    },
+    "errors": {
+      "failedToLoad": "Kunde inte ladda dokument",
+      "failedToUpdate": "Kunde inte uppdatera dokument",
+      "tryAgain": "Försök igen"
+    },
+    "customInstructions": {
+      "title": "Anpassade Instruktioner",
+      "optional": "(Valfritt)",
+      "placeholder": "Lägg till specifika instruktioner om ämnen att fokusera på eller områden du vill utforska mer detaljerat (t.ex. 'Fokus på matematiska koncept', 'Betona huvudteorier')",
+      "characters": "tecken",
+      "priorityNote": "Dina instruktioner kommer att prioriteras under genereringen",
+      "customLanguage": {
+        "show": "Visa Anpassat Språk",
+        "hide": "Dölj Anpassat Språk",
+        "placeholder": "Ange anpassat språk (valfritt)",
+        "defaultNote": "Om inget anges används språket som valts i profilinställningarna"
+      }
+    },
+    "testSets": {
+      "title": "Dina Testuppsättningar",
+      "of": "av",
+      "sets": "uppsättningar",
+      "testSet": "Test",
+      "questions": "frågor"
+    },
+    "chat": {
+      "placeholder": {
+        "default": "Ställ en fråga om ditt dokument...",
+        "selectedArea": "Fråga om det markerade området...",
+        "selectedText": "Fråga om den markerade texten..."
+      },
+      "empty": {
+        "title": "Fråga mig vad som helst om ditt dokument!",
+        "subtitle": "Jag hjälper dig att förstå innehållet bättre."
+      },
+      "replyingTo": {
+        "selection": "Svarar på",
+        "selectedArea": "markerat område",
+        "selectedText": "markerad text"
+      },
+      "errors": {
+        "characterLimit": "Teckengränsen överskriden. Maximalt {{limit}} tecken tillåtna.",
+        "messageLimit": "Du kan köpa fler meddelanden eller uppgradera din plan för att fortsätta.",
+        "purchaseMore": "Köp fler meddelanden",
+        "allServicesFailed": "Alla AI-tjänster är för närvarande otillgängliga. Försök igen senare.",
+        "imageAnalysis": "Tyvärr uppstod ett fel vid bildanalysen. Försök igen.",
+        "eduPlusArea": "Edu+ stöder inte områdesval."
+      },
+      "imageSelection": {
+        "pdfArea": "Markerat område från PDF"
+      },
+      "buttons": {
+        "scrollToBottom": "Scrolla ner"
+      },
+      "explain": {
+        "default": "Förklara hela dokumentets innehåll i detalj."
+      }
+    }
+  },
+  "liveLecture": {
+    "title": "Live Föreläsningsinspelare",
+    "record": {
+      "button": "Spela in föreläsning",
+      "description": "Spela in och transkribera i realtid"
+    },
+    "upload": {
+      "button": "Ladda upp föreläsningstranskript",
+      "description": "Ladda upp .txt fil"
+    },
+    "error": {
+      "title": "Fel",
+      "fileType": "Vänligen ladda upp en .txt fil",
+      "maxLength": "Filinnehållet överskrider maxgränsen på {{length}} tecken",
+      "readError": "Kunde inte läsa filen. Försök igen",
+      "micPermission": "Mikrofonåtkomst nekad. Vänligen ge tillstånd och försök igen",
+      "noMic": "Ingen mikrofon hittad. Vänligen anslut en mikrofon och försök igen",
+      "micBusy": "Mikrofonen är upptagen eller fungerar inte korrekt. Kontrollera enhetsinställningarna",
+      "micAccess": "Fel vid mikrofonåtkomst. Kontrollera enhetsinställningarna",
+      "startRecord": "Kunde inte starta inspelningen. Försök igen",
+      "noTranscript": "Inget transkript tillgängligt att spara",
+      "loginRequired": "Vänligen logga in för att spara inspelningar",
+      "saveFailed": "Kunde inte spara inspelningen"
+    },
+    "timeWarning": {
+      "title": "Tidsvarning",
+      "message": "Inspelningen kommer att stoppas automatiskt om {{seconds}} sekunder"
+    },
+    "recording": {
+      "status": "Spelar in...",
+      "paused": "Pausad",
+      "live": "Live"
+    },
+    "transcript": {
+      "title": "Transkript",
+      "empty": "Starta inspelning för att se realtidstranskript",
+      "transcribing": "Transkriberar..."
+    },
+    "actions": {
+      "reviewEdit": "Granska och redigera",
+      "saveDirect": "Spara",
+      "downloadAudio": "Ladda ner ljud",
+      "reset": "Återställ"
+    },
+    "limits": {
+      "title": "Begränsningar",
+      "maxRecording": "Maximal inspelningstid: {{minutes}} minuter",
+      "maxTranscript": "Maximal transkriptlängd: {{length}} tecken"
+    },
+    "processing": "Bearbetar din fil...",
+    "languageSelect": {
+      "label": "Transkriptionsspråk",
+      "languages": {
+        "ar": "Arabiska",
+        "da": "Danska",
+        "de": "Tyska",
+        "en": "Engelska",
+        "es": "Spanska",
+        "fil": "Filippinska",
+        "fr": "Franska",
+        "hi": "Hindi",
+        "id": "Indonesiska",
+        "it": "Italienska",
+        "lt": "Litauiska",
+        "ms": "Malaysiska",
+        "nl": "Nederländska",
+        "pl": "Polska",
+        "pt": "Portugisiska",
+        "ru": "Ryska",
+        "sv": "Svenska",
+        "tr": "Turkiska",
+        "uk": "Ukrainska",
+        "ur": "Urdu",
+        "zh": "Kinesiska"
+      }
+    },
+    "reviewEdit": {
+      "title": "Granska och Redigera Transkription",
+      "uploadedTitle": "Redigera Uppladdad Transkription",
+      "audio": {
+        "play": "Spela",
+        "pause": "Pausa"
+      },
+      "transcript": {
+        "placeholder": "Redigera din transkription här..."
+      },
+      "actions": {
+        "cancel": "Avbryt",
+        "save": "Spara Ändringar",
+        "saving": "Sparar..."
+      },
+      "savingOverlay": {
+        "title": "Sparar transkription...",
+        "message": "Vänta medan vi sparar dina ändringar"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Välj Din Inlärningsresa",
+    "subtitle": "Lås upp den fulla potentialen av AI-driven inlärning med våra flexibla planer",
+    "billing": {
+      "monthly": "Månadsvis",
+      "yearly": "Årsvis",
+      "savePercent": "Spara 40%",
+      "yearlyDiscount": "Spara £{{amount}} per år",
+      "pricePerMonth": "/månad"
+    },
+    "messages": {
+      "needMore": "Behöver du fler meddelanden?",
+      "purchase": "Köp extra meddelandekrediter"
+    },
+    "plans": {
+      "popular": "Mest Populär",
+      "features": {
+        "documentProcessing": "Dokumenthantering",
+        "aiFeatures": "AI-funktioner",
+        "chatAnalysis": "Chatt och Analys"
+      }
+    },
+    "planNames": {
+      "cooked": "Cooked",
+      "committed": "Committed",
+      "lockedIn": "Locked In"
+    },
+    "buttons": {
+      "currentPlan": "Nuvarande Plan",
+      "freePlan": "Gratis Plan",
+      "freeTier": "Gratis Nivå",
+      "upgradeNow": "Uppgradera Nu",
+      "switchPlan": "Byt Plan"
+    },
+    "features": {
+      "cooked": {
+        "docs": [
+          "2 PDF/YouTube-videor per vecka",
+          "Maximal filstorlek 20MB",
+          "1 föreläsningsinspelning per månad"
+        ],
+        "ai": [
+          "Intelligenta sammanfattningar, flashcards, anteckningar och tester"
+        ],
+        "chat": [
+          "3 meddelanden/dag (£0.02/extra)",
+          "1 områdesval/vecka (£0.05/extra)",
+          "1 standard röstgenerering/månad"
+        ]
+      },
+      "committed": {
+        "docs": [
+          "10 PDF/YouTube-videor per vecka",
+          "Maximal filstorlek 30MB",
+          "10 föreläsningsinspelningar per månad"
+        ],
+        "ai": [
+          "Allt från Cooked + Pro röststilar"
+        ],
+        "chat": [
+          "30 meddelanden/dag (£0.02/extra)",
+          "15 områdesval/vecka (£0.05/extra)",
+          "5 standard + 2 pro röstgenereringar/månad"
+        ]
+      },
+      "lockedIn": {
+        "docs": [
+          "Obegränsade PDF/YouTube-videor",
+          "Maximal filstorlek 40MB",
+          "45 föreläsningsinspelningar per månad"
+        ],
+        "ai": [
+          "Allt från Committed + prioriterad åtkomst"
+        ],
+        "chat": [
+          "Obegränsade meddelanden",
+          "50 områdesval/vecka (£0.05/extra)",
+          "15 standard + 7 pro röstgenereringar/månad"
+        ]
+      }
+    },
+    "errors": {
+      "invalidPlan": "Ogiltig plan vald",
+      "checkoutFailed": "Kunde inte skapa betalningssession",
+      "planChangeFailed": "Kunde inte behandla planändring"
+    }
+  },
+  "support": {
+    "title": "Hur kan vi hjälpa dig?",
+    "subtitle": "Få den hjälp du behöver med våra omfattande supportresurser",
+    "emailSupport": {
+      "title": "E-postsupport",
+      "description": "Behöver du hjälp? Skicka ett e-postmeddelande till oss så svarar vi inom 24 timmar.",
+      "button": "Kontakta Support"
+    },
+    "featureRequests": {
+      "title": "Funktionsförfrågningar",
+      "description": "Har du en idé för att förbättra vår plattform? Vi vill gärna höra den!",
+      "button": "Skicka Förfrågan"
+    },
+    "feedback": {
+      "title": "Skicka Feedback",
+      "description": "Dela dina tankar och hjälp oss förbättra din upplevelse.",
+      "button": "Skicka Feedback"
+    },
+    "faq": {
+      "title": "Vanliga Frågor",
+      "questions": {
+        "upload": {
+          "question": "Hur laddar jag upp dokument?",
+          "answer": "Du kan ladda upp PDF-dokument genom att klicka på 'Ladda upp'-knappen i din kontrollpanel eller genom att helt enkelt dra och släppa filer i uppladdningsområdet."
+        },
+        "formats": {
+          "question": "Vilka filformat stöds?",
+          "answer": "För närvarande stöder vi PDF-filer för dokumentanalys och YouTube-videor för transkriptgenerering."
+        },
+        "aiAnalysis": {
+          "question": "Hur fungerar AI-analysen?",
+          "answer": "Vår avancerade AI analyserar dina dokument för att skapa sammanfattningar, flashkort och interaktivt studiematerial samtidigt som kontext och noggrannhet bevaras."
+        },
+        "chat": {
+          "question": "Hur kan jag använda AI-chatten för att lära mig?",
+          "answer": "Vår AI-chatt låter dig ställa frågor om dina uppladdade dokument, få förklaringar av komplexa koncept och till och med analysera valda områden i PDF:er. Markera bara text eller välj ett område och ställ din fråga."
+        }
+      }
+    }
+  },
+  "header": {
+    "tagline": "Förvandla Din Inlärningsresa",
+    "buttons": {
+      "pricing": "Priser",
+      "signIn": "Logga in",
+      "getStarted": "Kom igång",
+      "help": "Hjälp",
+      "dashboard": "Dashboard",
+      "upgradeNow": "Uppgradera nu",
+      "pro": "Pro"
+    }
+  },
+  "userMenu": {
+    "profile": "Profil",
+    "upgradePlan": "Uppgradera plan",
+    "support": "Support",
+    "feedback": "Feedback",
+    "featureRequest": "Funktionsförfrågan",
+    "adminPortal": "Adminportal",
+    "logout": "Logga ut",
+    "planStatus": {
+      "cookedMember": "Cooked medlem",
+      "committedMember": "Committed medlem",
+      "lockedInMember": "Locked In medlem"
+    },
+    "updates": "Senaste uppdateringar",
+    "lightMode": "Ljust läge",
+    "darkMode": "Mörkt läge"
+  },
+  "settings": {
+    "lightMode": "Ljust läge",
+    "darkMode": "Mörkt läge",
+    "updates": "Senaste uppdateringar",
+    "planStatus": {
+      "cookedMember": "Cooked medlem",
+      "committedMember": "Committed medlem",
+      "lockedInMember": "Locked In medlem"
+    }
+  },
+  "languageModal": {
+    "title": "Välj ditt språk",
+    "description": "Välj ditt föredragna språk för bästa upplevelse",
+    "confirm": "Bekräfta val"
+  },
+  "common": {
+    "cancel": "Avbryt",
+    "delete": "Ta bort",
+    "save": "Spara"
+  }
+} 

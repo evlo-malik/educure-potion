@@ -1,0 +1,706 @@
+{
+  "profile": {
+    "title": "Kontoinformasjon",
+    "error": "Feil",
+    "success": "Suksess",
+    "sections": {
+      "name": {
+        "label": "Navn",
+        "edit": "Rediger",
+        "save": "Lagre"
+      },
+      "email": {
+        "label": "E-post"
+      },
+      "password": {
+        "label": "Passord",
+        "change": "Endre",
+        "save": "Lagre",
+        "current": "Nåværende passord",
+        "new": "Nytt passord",
+        "confirm": "Bekreft nytt passord"
+      },
+      "subscription": {
+        "label": "Abonnementsplan",
+        "upgrade": "Oppgrader plan",
+        "manage": "Administrer abonnement",
+        "new": "Nytt!"
+      },
+      "messages": {
+        "label": "Meldingsbruk",
+        "description": "Spor dine daglige og ukentlige meldingsgrenser",
+        "textMessages": "Tekstmeldinger",
+        "areaSelection": "Områdevalgmeldinger",
+        "planUsageDaily": "Planbruk (Daglig)",
+        "planUsageWeekly": "Planbruk (Ukentlig)",
+        "purchasedMessages": "Kjøpte meldinger",
+        "buyMore": "Kjøp mer",
+        "infinity": "∞"
+      },
+      "account": {
+        "title": "Kontodetaljer",
+        "memberSince": "Medlem siden",
+        "lastLogin": "Sist pålogging",
+        "never": "Aldri"
+      },
+      "language": {
+        "label": "Språk"
+      },
+      "danger": {
+        "title": "Faresone",
+        "warning": "Når du sletter kontoen din, er det ingen vei tilbake. Vær sikker.",
+        "delete": "Slett konto",
+        "confirm": "Bekreft sletting",
+        "cancel": "Avbryt",
+        "deleting": "Sletter konto..."
+      }
+    },
+    "subscription": {
+      "cancel": {
+        "title": "Er du sikker på at du vil avbryte?",
+        "processing": "Avbryter abonnement...",
+        "description": "Du mister tilgangen til premiumfunksjoner ved slutten av din nåværende faktureringsperiode.",
+        "wait": "Vennligst vent mens vi behandler forespørselen din.",
+        "keep": "Behold abonnement",
+        "confirm": "Avbryt abonnement"
+      }
+    }
+  },
+  "dashboard": {
+    "computerRecommended": {
+      "title": "Datamaskin anbefales",
+      "description": "For den beste læringsopplevelsen og tilgang til alle funksjoner, anbefaler vi sterkt å bruke EduCure AI på en stasjonær eller bærbar datamaskin."
+    },
+    "upload": {
+      "title": "Last opp dokument",
+      "youtube": {
+        "placeholder": "Lim inn YouTube video URL...",
+        "import": "Importer"
+      },
+      "pdf": {
+        "button": "Velg PDF",
+        "dragDrop": "eller dra og slipp",
+        "maxSize": "Maksimal filstørrelse: {{size}}MB",
+        "processing": "Behandler...",
+        "readingPdf": "Leser PDF-innhold...",
+        "saving": "Lagrer dokument..."
+      }
+    },
+    "record": {
+      "title": "Ta opp live-forelesning",
+      "start": "Start opptak",
+      "description": "Ta opp og transkriber forelesningene dine i sanntid"
+    },
+    "limits": {
+      "documents": {
+        "title": "Ukentlige dokumentopplastinger",
+        "unlimited": "Ubegrenset"
+      },
+      "lectures": {
+        "title": "Månedlige forelesningsopptak"
+      }
+    },
+    "documents": {
+      "title": "Dine dokumenter",
+      "empty": {
+        "title": "Dokument uten tittel"
+      },
+      "actions": {
+        "delete": "Slett",
+        "more": "Flere handlinger",
+        "rename": "Gi nytt navn",
+        "moveToSubject": "Flytt til fag"
+      },
+      "sections": {
+        "pdf": "PDF- og forelesningsdokumenter",
+        "youtube": "YouTube-videoer"
+      },
+      "errors": {
+        "moveDocument": "Klarte ikke å flytte dokumentet til fag"
+      }
+    },
+    "errors": {
+      "login": "Vennligst logg inn for å laste opp dokumenter",
+      "youtube": {
+        "url": "Vennligst skriv inn en YouTube URL",
+        "invalid": "Vennligst skriv inn en gyldig YouTube URL",
+        "import": "Klarte ikke å importere videotranskript. Vennligst prøv igjen.",
+        "noTranscript": "Denne videoen har ikke transkript tilgjengelig. Vennligst prøv en annen video med transkript aktivert.",
+        "networkError": "Internett-tilkoblingsproblem oppdaget. Vennligst sjekk tilkoblingen din og prøv igjen.",
+        "unexpectedError": "En uventet feil oppstod under behandling av videoen din. Vennligst prøv igjen."
+      },
+      "pdf": {
+        "invalid": "Vennligst last opp en gyldig PDF-fil. Andre filtyper støttes ikke.",
+        "size": "Filstørrelsen overskrider {{size}}MB-grensen for din plan. Vennligst komprimer PDF-en eller oppgrader planen din for større opplastinger.",
+        "upload": "Klarte ikke å laste opp dokument. Vennligst prøv igjen.",
+        "password": "Denne PDF-en er passordbeskyttet. Vennligst fjern passordbeskyttelsen og prøv igjen.",
+        "corrupt": "Denne PDF-filen ser ut til å være korrupt eller ugyldig. Vennligst sørg for at det er en gyldig PDF og prøv igjen.",
+        "storage": "Lagringskvote overskredet. Vennligst frigjør litt plass eller oppgrader planen din.",
+        "networkError": "Internett-tilkoblingsproblem oppdaget. Vennligst sjekk tilkoblingen din og prøv igjen.",
+        "unexpectedError": "En uventet feil oppstod under behandling av PDF-en din. Vennligst prøv igjen.",
+        "empty": "Denne PDF-en ser ut til å være tom eller inneholder ingen uttrekkbar tekst. Vennligst sørg for at PDF-en har tekstinnhold."
+      },
+      "document": {
+        "deleteFailed": "Klarte ikke å slette dokument"
+      },
+      "limit": "Opplastingsgrense nådd",
+      "upgrade": "Oppgrader planen din"
+    },
+    "subjects": {
+      "title": "Fag",
+      "add": "Legg til fag",
+      "rename": "Gi nytt navn til fag",
+      "dashboard": "Dashboard",
+      "newPlaceholder": "Skriv inn fagnavn...",
+      "delete": {
+        "title": "Slett fag",
+        "message": "Er du sikker på at du vil slette dette faget? Alle dokumenter vil bli flyttet til Dashboard.",
+        "confirm": "Slett",
+        "cancel": "Avbryt"
+      },
+      "manage": "Administrer dine {{subject}} dokumenter og forelesninger"
+    }
+  },
+  "documentView": {
+    "tabs": {
+      "chat": "Chat",
+      "notes": "Notater",
+      "flashcards": "Flashcards",
+      "test": "Test",
+      "vocalize": "Vokaliser"
+    },
+    "selectionMode": {
+      "textActive": "Tekstvalgmodus aktiv",
+      "areaActive": "Områdevalgmodus aktiv"
+    },
+    "actions": {
+      "download": "Last ned",
+      "hideDocument": "Skjul dokument",
+      "showDocument": "Vis dokument"
+    },
+    "notes": {
+      "generate": "Generer",
+      "generating": "Genererer...",
+      "description": "Lag detaljerte studienotater med nøkkelpunkter og dybdegående forklaringer"
+    },
+    "flashcards": {
+      "generate": "Generer",
+      "generating": "Genererer...",
+      "description": "Lag AI-drevne flashcards fra dokumentet ditt for å memorere nøkkelkonsepter",
+      "navigation": {
+        "previous": "Forrige kort",
+        "next": "Neste kort"
+      },
+      "labels": {
+        "question": "Spørsmål",
+        "answer": "Svar"
+      },
+      "placeholders": {
+        "question": "Skriv inn spørsmålet ditt her...",
+        "answer": "Skriv inn svaret ditt her..."
+      },
+      "deleteConfirm": {
+        "title": "Slett Flashcard",
+        "message": "Er du sikker på at du vil slette dette flashcardet? Denne handlingen kan ikke angres.",
+        "confirm": "Slett",
+        "cancel": "Avbryt"
+      },
+      "clickToFlip": "Klikk for å snu",
+      "actions": {
+        "export": "Eksporter",
+        "new": "Legg til Flashcard"
+      },
+      "export": {
+        "toCsv": "Eksporter til CSV",
+        "toClipboard": "Kopier tekst"
+      },
+      "copySuccess": "Flashcards kopiert til utklippstavlen",
+      "copyError": "Klarte ikke å kopiere flashcards til utklippstavlen",
+      "exportError": "Klarte ikke å eksportere flashcards til CSV"
+    },
+    "test": {
+      "generate": "Generer",
+      "generating": "Genererer...",
+      "description": "Lag interaktive tester med flervalg og sant/usant spørsmål for å sjekke forståelsen din",
+      "results": {
+        "score": {
+          "perfect": "Den beste 🐐",
+          "excellent": "Absolutt dyremodus 💪",
+          "great": "Du er han fr 😤",
+          "good": "Middelmådig, men vi beveger oss 🚶",
+          "fair": "Må fokusere 🔒",
+          "poor": "Du er ferdig lil bro 💀"
+        },
+        "yourAnswer": "Ditt svar",
+        "correctAnswer": "Rett svar"
+      },
+      "buttons": {
+        "submit": "Send inn test",
+        "tryAgain": "Prøv igjen",
+        "generateNew": "Generer ny test"
+      },
+      "options": {
+        "true": "Sant",
+        "false": "Usant"
+      },
+      "previousTests": {
+        "title": "Tidligere tester",
+        "number": "Test #{{number}}"
+      }
+    },
+    "vocalize": {
+      "beta": "BETA",
+      "generate": "Generer",
+      "generating": "Genererer...",
+      "description": "Konverter tekst til naturlig tale",
+      "voiceStyle": "Stemmestil",
+      "styleOptions": {
+        "lecture": {
+          "label": "Forelesning",
+          "description": "Profesjonell akademisk stemme for klare forklaringer"
+        },
+        "news": {
+          "label": "Nyhetsanker",
+          "description": "Profesjonell kringkastingsstemme"
+        },
+        "soft": {
+          "label": "Myk stemme",
+          "description": "Mild, beroligende stemme for komfortabel læring"
+        },
+        "asmr": {
+          "label": "ASMR",
+          "description": "Myk, intim stemme for avslappet læring",
+          "pro": "PRO"
+        },
+        "motivational": {
+          "label": "Motiverende",
+          "description": "Energisk stemme for å inspirere og engasjere",
+          "pro": "PRO"
+        },
+        "storytelling": {
+          "label": "Fortellerstemme",
+          "description": "Uttrykksfull stemme for narrativt innhold",
+          "pro": "PRO"
+        }
+      },
+      "usage": {
+        "standard": "Standard vokaliser",
+        "pro": "PRO vokaliser"
+      },
+      "errors": {
+        "limitReached": "Genereringsgrense nådd",
+        "upgradeRequired": "Oppgrader planen din",
+        "maxAudioLimit": "Maksimal lydgrense nådd",
+        "deleteExisting": "Slett en eksisterende lydversjon for å generere en ny",
+        "generatingAudio": "Genererer lydopplevelse...",
+        "creatingStyle": "Oppretter stilrevisjonen din",
+        "noAudioYet": "Ingen lydversjoner generert ennå",
+        "generateFirst": "Generer din første lydversjon ovenfor!"
+      },
+      "buttons": {
+        "generateNew": "Generer ny lyd om",
+        "savedVersions": "Lagrede lydversjoner"
+      },
+      "languageAvailability": {
+        "english": "Tilgjengelig på engelsk",
+        "languages29": "Tilgjengelig på 29 språk",
+        "languages60": "Tilgjengelig på 60+ språk"
+      },
+      "voiceLanguage": "Stemmespråk",
+      "searchLanguage": "Søk språk...",
+      "noLanguagesFound": "Ingen språk funnet",
+      "languages": {
+        "Afrikaans": "Afrikaans",
+        "Albanian": "Albansk",
+        "Arabic": "Arabisk",
+        "Armenian": "Armensk",
+        "Azerbaijani": "Aserbajdsjansk",
+        "Bahasa Indonesian": "Bahasa Indonesia",
+        "Bengali": "Bengali",
+        "Bosnian": "Bosnisk",
+        "Bulgarian": "Bulgarsk",
+        "Catalan": "Katalansk",
+        "Chinese Cantonese": "Kinesisk (Kantonesisk)",
+        "Chinese Mandarin": "Kinesisk (Mandarin)",
+        "Croatian": "Kroatisk",
+        "Czech": "Tsjekkisk",
+        "Danish": "Dansk",
+        "Dutch": "Nederlandsk",
+        "English": "Engelsk",
+        "Estonian": "Estisk",
+        "Filipino": "Filippinsk",
+        "Finnish": "Finsk",
+        "French": "Fransk",
+        "Galician": "Galicisk",
+        "Georgian": "Georgisk",
+        "German": "Tysk",
+        "Greek": "Gresk",
+        "Hebrew": "Hebraisk",
+        "Hindi": "Hindi",
+        "Hungarian": "Ungarsk",
+        "Icelandic": "Islandsk",
+        "Irish": "Irsk",
+        "Italian": "Italiensk",
+        "Japanese": "Japansk",
+        "Javanese": "Javanesisk",
+        "Kannada": "Kannada",
+        "Kazakh": "Kasakhisk",
+        "Korean": "Koreansk",
+        "Latvian": "Latvisk",
+        "Lithuanian": "Litauisk",
+        "Macedonian": "Makedonsk",
+        "Malay": "Malayisk",
+        "Maltese": "Maltesisk",
+        "Marathi": "Marathi",
+        "Mongolian": "Mongolsk",
+        "Nepali": "Nepali",
+        "Norwegian Bokmål": "Norsk Bokmål",
+        "Pashto": "Pashto",
+        "Persian": "Persisk",
+        "Polish": "Polsk",
+        "Portuguese": "Portugisisk",
+        "Romanian": "Rumensk",
+        "Russian": "Russisk",
+        "Serbian": "Serbisk",
+        "Sinhala": "Sinhala",
+        "Slovak": "Slovakisk",
+        "Slovene": "Slovensk",
+        "Somali": "Somali",
+        "Spanish": "Spansk",
+        "Swahili": "Swahili",
+        "Swedish": "Svensk",
+        "Tamil": "Tamil",
+        "Telugu": "Telugu",
+        "Thai": "Thai",
+        "Turkish": "Tyrkisk",
+        "Ukrainian": "Ukrainsk",
+        "Urdu": "Urdu",
+        "Uzbek": "Usbekisk",
+        "Vietnamese": "Vietnamesisk",
+        "Welsh": "Welsk",
+        "Zulu": "Zulu"
+      }
+    },
+    "errors": {
+      "failedToLoad": "Klarte ikke å laste dokument",
+      "failedToUpdate": "Klarte ikke å oppdatere dokument",
+      "tryAgain": "Vennligst prøv igjen"
+    },
+    "customInstructions": {
+      "title": "Tilpassede instruksjoner",
+      "optional": "(Valgfritt)",
+      "placeholder": "Legg til spesifikke instruksjoner om emner å fokusere på eller områder du vil utforske mer detaljert (f.eks. 'Fokuser på matematiske konsepter', 'Fremhev nøkkelteorier')",
+      "characters": "tegn",
+      "priorityNote": "Dine instruksjoner vil bli prioritert under generering",
+      "customLanguage": {
+        "show": "Vis tilpasset språk",
+        "hide": "Skjul tilpasset språk",
+        "placeholder": "Skriv inn tilpasset språk, f.eks. 'Koreansk'. (valgfritt)",
+        "defaultNote": "Hvis ikke spesifisert, vil språket valgt i 'Profil'-innstillinger bli brukt"
+      }
+    },
+    "testSets": {
+      "title": "Dine testsett",
+      "of": "av",
+      "sets": "sett",
+      "testSet": "Test",
+      "questions": "spørsmål"
+    },
+    "chat": {
+      "placeholder": {
+        "default": "Still et spørsmål om dokumentet ditt...",
+        "selectedArea": "Spør om det valgte området...",
+        "selectedText": "Spør om den valgte teksten..."
+      },
+      "empty": {
+        "title": "Spør meg om hva som helst om dokumentet ditt!",
+        "subtitle": "Jeg hjelper deg med å forstå innholdet bedre."
+      },
+      "replyingTo": {
+        "selection": "Svarer på",
+        "selectedArea": "valgt område",
+        "selectedText": "valgt tekst"
+      },
+      "errors": {
+        "characterLimit": "Tegngrense overskredet. Maksimalt {{limit}} tegn tillatt.",
+        "messageLimit": "Du kan kjøpe flere meldinger eller oppgradere planen din for å fortsette.",
+        "purchaseMore": "Kjøp flere meldinger",
+        "allServicesFailed": "Alle AI-tjenester er for tiden utilgjengelige. Vennligst prøv igjen senere.",
+        "imageAnalysis": "Beklager, en feil oppstod under analysen av bildet. Vennligst prøv igjen.",
+        "eduPlusArea": "Edu+ støtter ikke områdevalg."
+      },
+      "imageSelection": {
+        "pdfArea": "Valgt område fra PDF"
+      },
+      "buttons": {
+        "scrollToBottom": "Scroll til bunnen"
+      },
+      "explain": {
+        "default": "Vennligst forklar hele dokumentets innhold i detalj."
+      }
+    }
+  },
+  "liveLecture": {
+    "title": "Live forelesningsopptaker",
+    "record": {
+      "button": "Ta opp forelesning",
+      "description": "Ta opp og transkriber i sanntid"
+    },
+    "upload": {
+      "button": "Last opp forelesningstranskript",
+      "description": "Last opp .txt-fil"
+    },
+    "error": {
+      "title": "Feil",
+      "fileType": "Vennligst last opp en .txt-fil",
+      "maxLength": "Filinnholdet overskrider maksimal lengde på {{length}} tegn",
+      "readError": "Klarte ikke å lese fil. Vennligst prøv igjen",
+      "micPermission": "Mikrofontilgang nektet. Vennligst gi tillatelse og prøv igjen",
+      "noMic": "Ingen mikrofon funnet. Vennligst koble til en mikrofon og prøv igjen",
+      "micBusy": "Mikrofonen er opptatt eller fungerer ikke ordentlig. Vennligst sjekk enhetsinnstillingene",
+      "micAccess": "Feil ved tilgang til mikrofon. Vennligst sjekk enhetsinnstillingene",
+      "startRecord": "Klarte ikke å starte opptak. Vennligst prøv igjen",
+      "noTranscript": "Ingen transkript tilgjengelig for å lagre",
+      "loginRequired": "Vennligst logg inn for å lagre opptak",
+      "saveFailed": "Klarte ikke å lagre opptak"
+    },
+    "timeWarning": {
+      "title": "Tidsvarsel",
+      "message": "Opptaket stopper automatisk om {{seconds}} sekunder"
+    },
+    "recording": {
+      "status": "Tar opp...",
+      "paused": "Pauset",
+      "live": "Live"
+    },
+    "transcript": {
+      "title": "Transkript",
+      "empty": "Start opptak for å se sanntidstranskript",
+      "transcribing": "Transkriberer..."
+    },
+    "actions": {
+      "reviewEdit": "Gjennomgå og rediger",
+      "saveDirect": "Lagre",
+      "downloadAudio": "Last ned lyd",
+      "reset": "Tilbakestill"
+    },
+    "limits": {
+      "title": "Grenser",
+      "maxRecording": "Maksimal opptakstid: {{minutes}} minutter",
+      "maxTranscript": "Maksimal transkriptlengde: {{length}} tegn"
+    },
+    "processing": "Behandler filen din...",
+    "languageSelect": {
+      "label": "Transkripsjonsspråk",
+      "languages": {
+        "ar": "Arabisk",
+        "da": "Dansk",
+        "de": "Tysk",
+        "en": "Engelsk",
+        "es": "Spansk",
+        "fil": "Filippinsk",
+        "fr": "Fransk",
+        "hi": "Hindi",
+        "id": "Indonesisk",
+        "it": "Italiensk",
+        "lt": "Litauisk",
+        "ms": "Malayisk",
+        "nl": "Nederlandsk",
+        "pl": "Polsk",
+        "pt": "Portugisisk",
+        "ru": "Russisk",
+        "sv": "Svensk",
+        "tr": "Tyrkisk",
+        "uk": "Ukrainsk",
+        "ur": "Urdu",
+        "zh": "Kinesisk"
+      }
+    },
+    "reviewEdit": {
+      "title": "Gjennomgå og rediger transkript",
+      "uploadedTitle": "Rediger opplastet transkript",
+      "audio": {
+        "play": "Spill av",
+        "pause": "Pause"
+      },
+      "transcript": {
+        "placeholder": "Rediger transkriptet ditt her..."
+      },
+      "actions": {
+        "cancel": "Avbryt",
+        "save": "Lagre endringer",
+        "saving": "Lagrer..."
+      },
+      "savingOverlay": {
+        "title": "Lagrer transkript...",
+        "message": "Vennligst vent mens vi lagrer endringene dine"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Velg din læringsreise",
+    "subtitle": "Lås opp det fulle potensialet av AI-drevet læring med våre fleksible planer",
+    "billing": {
+      "monthly": "Månedlig",
+      "yearly": "Årlig",
+      "savePercent": "Spar 40%",
+      "yearlyDiscount": "Spar £{{amount}} årlig",
+      "pricePerMonth": "/måned"
+    },
+    "messages": {
+      "needMore": "Trenger du flere meldinger?",
+      "purchase": "Kjøp ekstra meldingskreditter"
+    },
+    "plans": {
+      "popular": "Mest populær",
+      "features": {
+        "documentProcessing": "Dokumentbehandling",
+        "aiFeatures": "AI-funksjoner",
+        "chatAnalysis": "Chat og analyse"
+      }
+    },
+    "planNames": {
+      "cooked": "Cooked",
+      "committed": "Committed",
+      "lockedIn": "Locked In"
+    },
+    "buttons": {
+      "currentPlan": "Nåværende plan",
+      "freePlan": "Gratis plan",
+      "freeTier": "Gratis nivå",
+      "upgradeNow": "Oppgrader nå",
+      "switchPlan": "Bytt plan"
+    },
+    "features": {
+      "cooked": {
+        "docs": [
+          "2 PDF-er/YouTube-videoer per uke",
+          "20MB maks filstørrelse",
+          "1 forelesningsopptak per måned"
+        ],
+        "ai": [
+          "Smarte sammendrag, flashcards, notater og tester"
+        ],
+        "chat": [
+          "3 meldinger/dag (£0.02/ekstra)",
+          "1 områdevalg/uke (£0.05/ekstra)",
+          "1 standard stemmegenerering/måned"
+        ]
+      },
+      "committed": {
+        "docs": [
+          "10 PDF-er/YouTube-videoer per uke",
+          "30MB maks filstørrelse",
+          "10 forelesningsopptak per måned"
+        ],
+        "ai": [
+          "Alt fra Cooked + Pro stemmestiler"
+        ],
+        "chat": [
+          "30 meldinger/dag (£0.02/ekstra)",
+          "15 områdevalg/uke (£0.05/ekstra)",
+          "5 standard + 2 pro stemmegenereringer/måned"
+        ]
+      },
+      "lockedIn": {
+        "docs": [
+          "Ubegrenset PDF-er/YouTube-videoer",
+          "40MB maks filstørrelse",
+          "45 forelesningsopptak per måned"
+        ],
+        "ai": [
+          "Alt fra Committed + prioritert tilgang"
+        ],
+        "chat": [
+          "Ubegrenset meldinger",
+          "50 områdevalg/uke (£0.05/ekstra)",
+          "15 standard + 7 pro stemmegenereringer/måned"
+        ]
+      }
+    },
+    "errors": {
+      "invalidPlan": "Ugyldig plan valgt",
+      "checkoutFailed": "Klarte ikke å opprette betalingssesjon",
+      "planChangeFailed": "Klarte ikke å behandle planendring"
+    }
+  },
+  "support": {
+    "title": "Hvordan kan vi hjelpe?",
+    "subtitle": "Få hjelpen du trenger med våre omfattende støtteressurser",
+    "emailSupport": {
+      "title": "E-poststøtte",
+      "description": "Trenger du hjelp? Send oss en e-post, så kommer vi tilbake til deg innen 24 timer.",
+      "button": "Kontakt support"
+    },
+    "featureRequests": {
+      "title": "Funksjonsforespørsler",
+      "description": "Har du en idé for å forbedre plattformen vår? Vi vil gjerne høre den!",
+      "button": "Send inn forespørsel"
+    },
+    "feedback": {
+      "title": "Send tilbakemelding",
+      "description": "Del tankene dine og hjelp oss med å forbedre opplevelsen din.",
+      "button": "Send inn tilbakemelding"
+    },
+    "faq": {
+      "title": "Ofte stilte spørsmål",
+      "questions": {
+        "upload": {
+          "question": "Hvordan laster jeg opp dokumenter?",
+          "answer": "Du kan laste opp PDF-dokumenter ved å klikke på 'Last opp'-knappen på dashboardet ditt eller bare dra og slippe filer inn i opplastingsområdet."
+        },
+        "formats": {
+          "question": "Hvilke filformater støttes?",
+          "answer": "For øyeblikket støtter vi PDF-filer for dokumentanalyse og YouTube-videoer for transkriptgenerering."
+        },
+        "aiAnalysis": {
+          "question": "Hvordan fungerer AI-analysen?",
+          "answer": "Vår avanserte AI analyserer dokumentene dine for å lage sammendrag, flashcards og interaktive studiematerialer samtidig som kontekst og nøyaktighet opprettholdes."
+        },
+        "chat": {
+          "question": "Hvordan kan jeg bruke AI-chat for læring?",
+          "answer": "Vår AI-chat lar deg stille spørsmål om de opplastede dokumentene dine, få forklaringer på komplekse konsepter, og til og med analysere valgte områder i PDF-er. Bare marker tekst eller velg et område og still spørsmålet ditt."
+        }
+      }
+    }
+  },
+  "header": {
+    "tagline": "Transformer din læringsreise",
+    "buttons": {
+      "pricing": "Priser",
+      "signIn": "Logg inn",
+      "getStarted": "Kom i gang",
+      "help": "Hjelp",
+      "dashboard": "Dashboard",
+      "upgradeNow": "Oppgrader nå",
+      "pro": "Pro"
+    }
+  },
+  "userMenu": {
+    "profile": "Profil",
+    "upgradePlan": "Oppgrader plan",
+    "support": "Support",
+    "feedback": "Tilbakemelding",
+    "featureRequest": "Funksjonsforespørsel",
+    "adminPortal": "Adminportal",
+    "logout": "Logg ut",
+    "updates": "Siste oppdateringer",
+    "lightMode": "Lys modus",
+    "darkMode": "Mørk modus",
+    "planStatus": {
+      "cookedMember": "Cooked medlem",
+      "committedMember": "Committed medlem",
+      "lockedInMember": "Locked In medlem"
+    }
+  },
+  "languageModal": {
+    "title": "Velg ditt språk",
+    "description": "Velg ditt foretrukne språk for den beste opplevelsen",
+    "confirm": "Bekreft valg"
+  },
+  "common": {
+    "cancel": "Avbryt",
+    "delete": "Slett",
+    "save": "Lagre"
+  }
+}

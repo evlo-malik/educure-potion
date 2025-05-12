@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://educure.io/sitemap.xml
+
+# Optimize crawling
+Crawl-delay: 1
+
+# Disallow admin and private routes
+Disallow: /api/
+Disallow: /admin/
+Disallow: /dashboard/private/ 
