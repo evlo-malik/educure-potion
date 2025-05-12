@@ -16,7 +16,6 @@ import TermsOfService from './components/TermsOfService';
 import CookiePolicy from './components/CookiePolicy';
 import ForgotPassword from './components/ForgotPassword';
 import ResetPassword from './components/ResetPassword';
-import Profile from './components/Profile';
 import FeatureTourModal from './components/FeatureTourModal';
 import LiveLectureRecorder from './components/LiveLectureRecorder';
 import LecturePage from './components/LecturePage';
@@ -28,13 +27,10 @@ import { ToastProvider } from './contexts/ToastContext';
 import { LoadingProvider } from './contexts/LoadingContext';
 import { SubscriptionProvider } from './contexts/SubscriptionContext';
 import CookieConsent from './components/CookieConsent';
-import Pricing from './components/Pricing';
-import CheckoutSuccess from './components/CheckoutSuccess';
 import Support from './components/Support';
 import EmailVerification from './components/EmailVerification';
 import EmailVerified from './components/EmailVerified';
 import AuthAction from './components/AuthAction';
-import MessagePurchase from './components/MessagePurchase';
 import Admin from './pages/admin';
 import { auth } from './lib/firebase';
 import Updates from './components/Updates';
@@ -133,32 +129,10 @@ function Layout({ children }: LayoutProps) {
                 </button>
 
                 {/* Only show upgrade button when plan is loaded and is 'cooked' */}
-                {!isPlanLoading && plan === 'cooked' && (
-                  <Link 
-                    to="/pricing" 
-                    className="group relative flex items-center gap-1 md:gap-2 px-2 md:px-4 py-1.5 md:py-2 bg-gradient-to-r from-violet-500 via-fuchsia-500 to-pink-500 bg-[length:200%_auto] animate-gradient-x text-white rounded-lg md:rounded-xl overflow-hidden shadow-[0_0_0_2px_rgba(139,92,246,0.2)] hover:shadow-[0_0_0_2px_rgba(139,92,246,0.4)] transition-all duration-300"
-                  > 
-                    {/* Glow effect */}
-                    <div className="absolute inset-0 bg-gradient-to-r from-violet-500 via-fuchsia-500 to-pink-500 rounded-xl opacity-0 group-hover:opacity-30 blur-xl transition-opacity duration-300" />
-                    
-                    {/* Shine effect */}
-                    <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
-                    </div>
-                    
-                    {/* Content */}
-                    <div className="relative flex items-center gap-2">
-                      <span className="text-xs md:text-sm font-medium whitespace-nowrap">
-                        <span className="hidden sm:inline"></span>
-                        {t('header.buttons.upgradeNow')}
-                      </span>
-                      <div className="flex items-center gap-1 px-2 py-0.5 bg-white/10 rounded-full text-xs font-medium">
-                        <Sparkles className="w-2.5 h-2.5 md:w-3 md:h-3 animate-pulse" />
-                        <span>{t('header.buttons.pro')}</span>
-                      </div>
-                    </div>
-                  </Link>
-                )}
+                {/* {!isPlanLoading && plan === 'cooked' && (
+                   // Removed upgrade button related to /pricing
+                 )}
+                */}
 
                 {/* Show loading placeholder when subscription status is loading */}
                 {isPlanLoading && (
@@ -182,12 +156,7 @@ function Layout({ children }: LayoutProps) {
               </div>
             ) : (
               <div className="flex items-center gap-2 md:gap-4">
-                <Link
-                  to="/pricing"
-                  className="text-sm md:text-base px-3 md:px-4 py-1.5 md:py-2 text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300 transition-colors"
-                >
-                  {t('header.buttons.pricing')}
-                </Link>
+                {/* Removed pricing link */}
                 <Link
                   to="/signup"
                   className="text-sm md:text-base px-3 md:px-4 py-1.5 md:py-2 text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300 transition-colors"
@@ -247,8 +216,6 @@ function App() {
                   <Route path="/reset-password" element={<ResetPassword />} />
                   <Route path="/feedback" element={<Layout><Feedback /></Layout>} />
                   <Route path="/feature-request" element={<Layout><FeatureRequest /></Layout>} />
-                  <Route path="/pricing" element={<Layout><Pricing /></Layout>} />
-                  <Route path="/checkout/success" element={<CheckoutSuccess />} />
                   <Route path="/support" element={<Layout><Support /></Layout>} />
                   <Route path="/verify-email" element={<EmailVerification />} />
                   <Route path="/email-verified" element={<EmailVerified />} />
@@ -272,14 +239,6 @@ function App() {
                     }
                   />
                   <Route
-                    path="/purchase-messages"
-                    element={
-                      <ProtectedRoute>
-                        <Layout><MessagePurchase /></Layout>
-                      </ProtectedRoute>
-                    }
-                  />
-                  <Route
                     path="/record"
                     element={
                       <ProtectedRoute>
@@ -294,14 +253,6 @@ function App() {
                         <Layout>
                           {(props) => <LecturePage {...props} />}
                         </Layout>
-                      </ProtectedRoute>
-                    }
-                  />
-                  <Route
-                    path="/profile"
-                    element={
-                      <ProtectedRoute>
-                        <Layout><Profile /></Layout>
                       </ProtectedRoute>
                     }
                   />

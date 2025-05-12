@@ -115,23 +115,23 @@ export default function UserMenu({ userName, onLogout }: UserMenuProps) {
               {t('userMenu.updates')}
             </Link>
 
-            <Link
+            {/* <Link
               to="/profile"
               onClick={() => setShowDropdown(false)}
               className="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
             >
               <User className="h-4 w-4" />
               {t('userMenu.profile')}
-            </Link>
+            </Link> */}
 
-            <Link
+            {/* <Link
               to="/pricing"
               onClick={() => setShowDropdown(false)}
               className="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
             >
               <Star className="h-4 w-4" />
               {t('userMenu.upgradePlan')}
-            </Link>
+            </Link> */}
 
             <Link
               to="/support"
