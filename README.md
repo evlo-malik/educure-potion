@@ -3,7 +3,7 @@
 **Set up environment variables:**
 *   Copy the `.env.example` file to a new file named `.env`:
 *   Open the `.env` file.
-*   Replace the placeholder values (e.g., `your-firebase-api-key`) with the test api keys. 
+*   Replace the placeholder values (e.g., `your-key`) with the test api keys. 
 
 ---
 
