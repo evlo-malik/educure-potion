@@ -22,19 +22,15 @@ import {
 } from "@udecode/plate/react";
 
 import { cn } from "@/lib/utils";
-
 import { Toolbar } from "./toolbar";
 
-export function FloatingToolbar({
-  children,
-  ref: refProp,
-  state,
-  ...props
-}: React.PropsWithChildren<{
-  ref?: React.Ref<HTMLDivElement>;
-  state?: FloatingToolbarState;
-}> &
-  React.ComponentProps<typeof Toolbar>) {
+export const FloatingToolbar = React.forwardRef<
+  HTMLDivElement,
+  React.PropsWithChildren<{
+    state?: FloatingToolbarState;
+  }> &
+    React.ComponentProps<typeof Toolbar>
+>(function FloatingToolbar({ children, state, ...props }, ref) {
   const editor = useEditorRef();
   const focusedEditorId = useEventEditorValue("focus");
   const isFloatingLinkOpen = !!usePluginOption(LinkPlugin, "mode");
@@ -78,14 +74,14 @@ export function FloatingToolbar({
     ref: floatingRef,
   } = useFloatingToolbar(floatingToolbarState);
 
-  const ref = useComposedRef<HTMLDivElement>(refProp, floatingRef);
+  const composedRef = useComposedRef<HTMLDivElement>(floatingRef, ref);
 
   if (hidden) return null;
 
   return (
     <div ref={clickOutsideRef}>
       <Toolbar
-        ref={ref}
+        ref={composedRef}
         className={cn(
           "absolute z-50 animate-zoom rounded-lg bg-popover p-1 whitespace-nowrap opacity-100 shadow-toolbar print:hidden",
           "scrollbar-hide max-w-[80vw] overflow-x-auto"
@@ -97,4 +93,4 @@ export function FloatingToolbar({
       </Toolbar>
     </div>
   );
-}
+});
