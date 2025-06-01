@@ -109,13 +109,14 @@ export function MenuTrigger({
   label?: React.ReactNode;
 }) {
   return (
-    <Ariakit.MenuButton render={(children as any) ?? <MenuItem />} {...props}>
+    <Ariakit.MenuButton {...props}>
       {icon}
       {label && <span>{label}</span>}
       <Ariakit.MenuButtonArrow className="ml-auto text-muted-foreground/80" />
     </Ariakit.MenuButton>
   );
 }
+
 
 const menuVariants = cva(
   cn(

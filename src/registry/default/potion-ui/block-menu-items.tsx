@@ -183,7 +183,7 @@ export const blockMenuItems = {
   [GROUP.COLOR]: {
     component: ColorMenuItem,
     filterItems: true,
-    icon: <PaintRoller />,
+    icon: <PaintRoller className="w-4 h-4 ml-2 mr-2" />,
     items: [
       { group: GROUP.COLOR, items: textColorItems, label: "Text color" },
       {
@@ -199,7 +199,7 @@ export const blockMenuItems = {
   [GROUP.TURN_INTO]: {
     component: TurnIntoMenuItem,
     filterItems: true,
-    icon: <RefreshCwIcon />,
+    icon: <RefreshCwIcon className="w-4 h-4 ml-2 mr-2" />,
     items: turnIntoItems,
     label: "Turn into",
     value: GROUP.TURN_INTO,
@@ -352,6 +352,7 @@ function ColorMenuItem() {
       placement="right"
       trigger={
         <MenuTrigger
+          className="flex w-full items-center justify-between px-2 py-1.5 text-left text-sm hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
           label={blockMenuItems[GROUP.COLOR].label}
           icon={blockMenuItems[GROUP.COLOR].icon}
         />
@@ -403,6 +404,7 @@ function AlignMenuItem() {
       placement="right"
       trigger={
         <MenuTrigger
+          className="flex w-full items-center justify-between px-2 py-1.5 text-left text-sm hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
           label={blockMenuItems[GROUP.ALIGN].label}
           icon={blockMenuItems[GROUP.ALIGN].icon}
         />
@@ -447,7 +449,7 @@ function TurnIntoMenuItem() {
           onClick={() => handleTurnInto(item.value!)}
           label={item.label}
           icon={
-            <div className="flex size-5 items-center justify-center rounded-sm border border-foreground/15 bg-white p-0.5 text-subtle-foreground [&_svg]:size-3">
+            <div className="flex size-5 items-center justify-center rounded-sm border border-foreground/15 bg-white p-0.5 text-muted-foreground [&_svg]:size-3">
               {item.icon}
             </div>
           }
@@ -468,6 +470,7 @@ function TurnIntoMenuItem() {
       placement="right"
       trigger={
         <MenuTrigger
+          className="flex w-full items-center justify-between px-2 py-1.5 text-left text-sm hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
           label={blockMenuItems[GROUP.TURN_INTO].label}
           icon={blockMenuItems[GROUP.TURN_INTO].icon}
         />

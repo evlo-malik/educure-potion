@@ -1,7 +1,7 @@
 "use client";
 
-import { useRef } from "react";
-import { TElement, getNodeString } from "@udecode/plate-common";
+import { useEffect, useRef, useState } from "react";
+import { TElement } from "@udecode/plate-common";
 import { useDebouncedCallback } from "use-debounce";
 import { Plate } from "@udecode/plate/react";
 import { editorPlugins } from "@/registry/default/components/editor/plugins/editor-plugins";
@@ -22,26 +22,36 @@ const deserializePlainText = (text: string): TElement[] => [
   },
 ];
 
+const parseContent = (content: string): TElement[] => {
+  try {
+    const parsed = JSON.parse(content);
+    if (Array.isArray(parsed)) return parsed;
+  } catch (e) {
+    console.log("Error", e);
+  }
+  return deserializePlainText(content);
+};
+
 export default function RichTextEditor({
   content,
   onSave,
 }: RichEditorNoteProps) {
-  const editor = useCreateEditor({
-    plugins: [...editorPlugins],
-  });
-
-  const initialValue = deserializePlainText(content);
-  editor.children = initialValue;
+  const [initialValue] = useState(() => parseContent(content));
+  const editor = useCreateEditor({ plugins: [...editorPlugins] });
 
   const lastSaved = useRef(content);
 
   const debouncedSave = useDebouncedCallback(() => {
-    const plainText = editor.children.map(getNodeString).join("\n").trim();
+    const plainText = JSON.stringify(editor.children);
     if (plainText !== lastSaved.current) {
       onSave(plainText);
       lastSaved.current = plainText;
     }
   }, 2000);
+
+  useEffect(() => {
+    editor.children = initialValue;
+  }, [editor, initialValue]);
 
   return (
     <DndProvider backend={HTML5Backend}>
