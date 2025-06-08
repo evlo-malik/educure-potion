@@ -43,6 +43,22 @@ export default function UserMenu({ userName, onLogout }: UserMenuProps) {
     return auth.onAuthStateChanged(checkAdminStatus);
   }, []);
 
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setShowDropdown(false);
+      }
+    };
+
+    if (showDropdown) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [showDropdown]);
+
   const renderPlanIcon = () => {
     switch (plan) {
       case 'commited':
