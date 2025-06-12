@@ -92,51 +92,66 @@ type TooltipProps<T extends React.ElementType> = {
   tooltip?: React.ReactNode;
   tooltipContentProps?: Omit<
     React.ComponentPropsWithoutRef<typeof TooltipPrimitive.Content>,
-    'children'
+    "children"
   >;
   tooltipProps?: Omit<
     React.ComponentPropsWithoutRef<typeof TooltipPrimitive.Root>,
-    'children'
+    "children"
   >;
   tooltipTriggerProps?: React.ComponentPropsWithoutRef<
     typeof TooltipPrimitive.Trigger
   >;
-} & React.ComponentProps<T>;
+} & React.ComponentPropsWithoutRef<T>;
 
-export function withTooltip<T extends React.ElementType>(Component: T) {
-  return function ExtendComponent({
-    shortcut,
-    tooltip,
-    tooltipContentProps,
-    tooltipProps,
-    tooltipTriggerProps,
-    ...props
-  }: TooltipProps<T>) {
+export function withTooltip<
+  T extends React.ComponentType<any> | keyof React.JSX.IntrinsicElements
+>(Component: T) {
+  type Props = TooltipProps<T>;
+
+  const WrappedComponent = React.forwardRef<any, Props>((props, ref) => {
+    const {
+      shortcut,
+      tooltip,
+      tooltipContentProps,
+      tooltipProps,
+      tooltipTriggerProps,
+      ...restProps
+    } = props;
+
     const isMounted = useMounted();
 
-    const component = <Component {...(props as React.ComponentProps<T>)} />;
+    // Type assert Component as any for JSX usage
+    const ComponentToRender = Component as any;
+    const component = <ComponentToRender ref={ref} {...(restProps as any)} />;
 
     if (tooltip && isMounted) {
       return (
-        <TooltipProvider>
-          <Tooltip {...tooltipProps}>
-            <TooltipTrigger asChild {...tooltipTriggerProps}>
+        <TooltipPrimitive.Provider>
+          <TooltipPrimitive.Root {...tooltipProps}>
+            <TooltipPrimitive.Trigger asChild {...tooltipTriggerProps}>
               {component}
-            </TooltipTrigger>
-
-            <TooltipPortal>
-              <TooltipContent {...tooltipContentProps}>
+            </TooltipPrimitive.Trigger>
+            <TooltipPrimitive.Portal>
+              <TooltipPrimitive.Content {...tooltipContentProps}>
                 {tooltip}
                 {shortcut && (
                   <div className="mt-px text-gray-400">{shortcut}</div>
                 )}
-              </TooltipContent>
-            </TooltipPortal>
-          </Tooltip>
-        </TooltipProvider>
+              </TooltipPrimitive.Content>
+            </TooltipPrimitive.Portal>
+          </TooltipPrimitive.Root>
+        </TooltipPrimitive.Provider>
       );
     }
 
     return component;
+  });
+  const getDisplayName = (comp: any): string => {
+    if (typeof comp === "string") return comp;
+    return comp?.displayName || comp?.name || "Component";
   };
+
+  WrappedComponent.displayName = `WithTooltip(${getDisplayName(Component)})`;
+
+  return WrappedComponent;
 }

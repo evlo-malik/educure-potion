@@ -119,18 +119,18 @@ export function DropdownMenuSubContent({
   );
 }
 
-export function DropdownMenuContent({
-  className,
-  portal,
-  ...props
-}: React.ComponentProps<typeof DropdownMenuPrimitive.Content> & {
-  portal?: boolean;
-}) {
+export const DropdownMenuContent = React.forwardRef<
+  React.ElementRef<typeof DropdownMenuPrimitive.Content>,
+  React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.Content> & {
+    portal?: boolean;
+  }
+>(({ className, portal, ...props }, ref) => {
   const content = (
     <DropdownMenuPrimitive.Content
+      ref={ref}
       className={cn(
-        'z-50 max-w-[100vw] min-w-32 overflow-hidden rounded-lg bg-popover p-0 text-sm text-popover-foreground shadow-floating no-focus-ring',
-        'data-[side=bottom]:origin-top data-[side=left]:origin-right data-[side=right]:origin-left data-[side=top]:origin-bottom data-[state=closed]:hidden data-[state=open]:animate-zoom',
+        "z-50 max-w-[100vw] min-w-32 overflow-hidden rounded-lg bg-popover p-0 text-sm text-popover-foreground shadow-floating no-focus-ring",
+        "data-[side=bottom]:origin-top data-[side=left]:origin-right data-[side=right]:origin-left data-[side=top]:origin-bottom data-[state=closed]:hidden data-[state=open]:animate-zoom",
         className
       )}
       onCloseAutoFocus={(e) => {
@@ -148,20 +148,21 @@ export function DropdownMenuContent({
   }
 
   return content;
-}
+});
 
-export function DropdownMenuItem({
-  className,
-  ...props
-}: React.ComponentProps<typeof DropdownMenuPrimitive.Item> &
-  VariantProps<typeof dropdownMenuItemVariants>) {
+export const DropdownMenuItem = React.forwardRef<
+  React.ElementRef<typeof DropdownMenuPrimitive.Item>,
+  React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.Item> &
+    VariantProps<typeof dropdownMenuItemVariants>
+>(({ className, size, variant, ...props }, ref) => {
   return (
     <DropdownMenuPrimitive.Item
-      className={cn(dropdownMenuItemVariants(), className)}
+      ref={ref}
+      className={cn(dropdownMenuItemVariants({ size, variant }), className)}
       {...props}
     />
   );
-}
+});
 
 export function DropdownMenuCheckboxItem({
   children,

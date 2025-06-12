@@ -97,52 +97,61 @@ export type ButtonExtendedProps = {
 
 export type ButtonProps = ComponentProps<typeof Button>;
 
-export const Button = withTooltip(function Button({
-  active,
-  asChild = false,
-  children,
-  className,
-  focused,
-  icon,
-  iconPlacement = "left",
-  isMenu,
-  isPending,
-  label,
-  loading,
-  loadingClassName,
-  size,
-  truncate,
-  variant,
-  onToggleClick,
-  ...props
-}: ButtonExtendedProps & React.ComponentProps<"button">) {
-  const Comp = asChild ? Slot : "button";
+export const Button = withTooltip(
+  React.forwardRef<
+    HTMLButtonElement,
+    ButtonExtendedProps & React.ComponentProps<"button">
+  >(function Button(
+    {
+      active,
+      asChild = false,
+      children,
+      className,
+      focused,
+      icon,
+      iconPlacement = "left",
+      isMenu,
+      isPending,
+      label,
+      loading,
+      loadingClassName,
+      size,
+      truncate,
+      variant,
+      onToggleClick,
+      ...props
+    },
+    ref
+  ) {
+    const Comp = asChild ? Slot : "button";
 
-  return (
-    <Comp
-      className={cn(
-        buttonVariants({
-          disabled: props.disabled,
-          focused,
-          isMenu,
-          size,
-          truncate,
-          variant,
-        }),
-        active && "border-2 border-primary",
-        className
-      )}
-      aria-label={label && label.length > 0 ? label : undefined}
-      type={Comp === "button" ? "button" : undefined}
-      {...props}
-    >
-      {icon && iconPlacement === "left" && icon}
-      {loading && <Spinner className={loadingClassName} />}
-      {children}
-      {icon && iconPlacement === "right" && icon}
-    </Comp>
-  );
-});
+    return (
+      <Comp
+        ref={ref}
+        className={cn(
+          buttonVariants({
+            disabled: props.disabled,
+            focused,
+            isMenu,
+            size,
+            truncate,
+            variant,
+          }),
+          active && "border-2 border-primary",
+          className
+        )}
+        aria-label={label && label.length > 0 ? label : undefined}
+        type={Comp === "button" ? "button" : undefined}
+        {...props}
+      >
+        {icon && iconPlacement === "left" && icon}
+        {loading && <Spinner className={loadingClassName} />}
+        {children}
+        {icon && iconPlacement === "right" && icon}
+      </Comp>
+    );
+  })
+);
 
 export type LinkButtonProps = ComponentProps<typeof LinkButton>;
 
